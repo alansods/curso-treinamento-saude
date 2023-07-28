@@ -116,4 +116,8 @@ hr {
   border: none;
   margin: 30px 0
 }
+
+.cursor-pointer {
+  cursor: pointer;
+}
 </style>

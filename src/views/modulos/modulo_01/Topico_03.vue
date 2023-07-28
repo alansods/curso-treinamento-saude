@@ -3,7 +3,6 @@
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
   >
-
     <Card topico="Tópico 3 - Assédio no Ambiente de Trabalho">
       <p>
         Neste tópico, trataremos de um assunto de extrema importância: o assédio
@@ -58,23 +57,23 @@
             e indiretas (propagação de boatos, isolamento, recusa na
             comunicação, fofocas e exclusão social).
           </p>
-
-          <p>
-            A humilhação repetitiva e de longa duração interfere na vida do
-            profissional, comprometendo a identidade, a dignidade e as relações
-            afetivas e sociais. Isso resulta em danos à saúde física e mental,
-            que podem evoluir para a incapacidade de trabalhar, para o
-            desemprego ou mesmo para a morte.
-          </p>
-
-          <p>
-            Você sabia que existem leis que abordam especificamente o assédio
-            moral no ambiente de trabalho? A seguir, vamos conhecer a legislação
-            pertinente sobre esse tema, que visa proteger os trabalhadores
-            contra essa forma de violência.
-          </p>
         </v-col>
       </v-row>
+
+      <p>
+        A humilhação repetitiva e de longa duração interfere na vida do
+        profissional, comprometendo a identidade, a dignidade e as relações
+        afetivas e sociais. Isso resulta em danos à saúde física e mental, que
+        podem evoluir para a incapacidade de trabalhar, para o desemprego ou
+        mesmo para a morte.
+      </p>
+
+      <p>
+        Você sabia que existem leis que abordam especificamente o assédio moral
+        no ambiente de trabalho? A seguir, vamos conhecer a legislação
+        pertinente sobre esse tema, que visa proteger os trabalhadores contra
+        essa forma de violência.
+      </p>
     </Card>
 
     <Subtopico
@@ -196,7 +195,7 @@
       </p>
     </Card>
 
-    <v-card class="rounded-lg">
+    <v-card class="rounded-lg elevation-0" style="border: solid 1px #ddd">
       <v-card-title class="text-center justify-center py-4 primary white--text">
         <h1 class="font-weight-bold text-uppercase text-h6 basil--text">
           Consequências do assédio moral
@@ -296,7 +295,10 @@
       </p>
     </Card>
 
-    <v-card class="mb-4 rounded-lg">
+    <v-card
+      class="mb-4 rounded-lg rounded-lg elevation-0"
+      style="border: solid 1px #ddd"
+    >
       <v-card-title class="text-center justify-center py-4 primary white--text">
         <h1 class="font-weight-bold text-uppercase text-h6 basil--text">
           Classificação de assédio sexual
@@ -339,21 +341,49 @@
       </v-tabs-items>
     </v-card>
 
-    <BoxIcon tipo="voce_sabia">
+    <!-- TIRAR O D-NONE -->
+    <BoxIcon tipo="voce_sabia" class="d-none">
       Você sabia que o Código Penal art. 216-A dispõe sobre a criminalização da
       prática de assédio sexual no ambiente de trabalho?
       <strong>A pena prevista é de detenção de um a dois anos.</strong>
     </BoxIcon>
 
-    <Card>
-      <p>
-        É essencial compreendermos as implicações do assédio sexual para a
-        vítima, para o agressor e para a empresa, a fim de combater esse crime
-        no ambiente de trabalho, garantindo um ambiente saudável, respeitoso e
-        livre de abusos. Vejamos a seguir as possíveis consequências para esse
-        ato:
-      </p>
-    </Card>
+    <v-row align="center">
+      <v-col cols="10">
+        <Card>
+          <p>
+            É essencial compreendermos as implicações do assédio sexual para a
+            vítima, para o agressor e para a empresa, a fim de combater esse
+            crime no ambiente de trabalho, garantindo um ambiente saudável,
+            respeitoso e livre de abusos. Vejamos a seguir as possíveis
+            consequências para esse ato:
+          </p>
+        </Card>
+      </v-col>
+
+      <v-spacer></v-spacer>
+
+      <v-col cols="auto" @click="dialogTeste = true" >
+        <div class="teste-container elevation-1">
+          <v-icon size="70" color="white">mdi-help-circle-outline</v-icon>
+          <!-- <div>Você Sabia</div> -->
+        </div>
+      </v-col>
+    </v-row>
+
+    <v-dialog v-model="dialogTeste" width="400">
+      <v-card class="rounded-lg">
+        <div class="px-6 py-5 voce_sabia white--text">
+          <p class="font-weight-bold text-h5 mb-5">Você Sabia?</p>
+
+          <p>
+            Você sabia que o Código Penal art. 216-A dispõe sobre a
+            criminalização da prática de assédio sexual no ambiente de trabalho?
+            <strong>A pena prevista é de detenção de um a dois anos.</strong>
+          </p>
+        </div>
+      </v-card>
+    </v-dialog>
 
     <v-row justify="space-between">
       <v-col cols="12"
@@ -405,10 +435,10 @@
     </v-row>
 
     <BoxIcon tipo="recapitulando"
-      >Neste tópico, abordamos o assédio moral e sexual no ambiente de
-        trabalho, discutindo suas definições, causas e consequências. No próximo
-        tópico, iremos explorar algumas políticas de saúde mental no trabalho,
-        visando promover um ambiente saudável e acolhedor para os colaboradores.
+      >Neste tópico, abordamos o assédio moral e sexual no ambiente de trabalho,
+      discutindo suas definições, causas e consequências. No próximo tópico,
+      iremos explorar algumas políticas de saúde mental no trabalho, visando
+      promover um ambiente saudável e acolhedor para os colaboradores.
     </BoxIcon>
 
     <NavFooter
@@ -447,6 +477,7 @@ export default {
   data() {
     return {
       modelTranstornos: 0,
+      dialogTeste: false,
 
       itemsConsequencias: {
         tab: 0,
@@ -497,4 +528,41 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.teste-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  gap: 10px;
+  background: #f07e27;
+  color: #fff;
+  font-weight: bold;
+  width: 120px;
+  padding: 20px 0;
+  cursor: pointer;
+  animation: tilt-shaking 1.5s ease infinite;
+}
+
+@keyframes tilt-shaking {
+  0% {
+    transform: translateX(0px);
+  }
+  15% {
+    transform: translateX(3px);
+  }
+  30% {
+    transform: translateX(0px);
+  }
+  45% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+</style>

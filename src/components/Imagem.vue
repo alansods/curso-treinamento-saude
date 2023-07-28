@@ -1,6 +1,6 @@
 <template>
-  <div :class="left ? 'text-left' : 'text-center'">
-    <div class="pa-0 ma-0 elevation-0 mb-1">
+  <div class="mb-5" :class="left ? 'text-left' : 'text-center'">
+    <div class="pa-0 ma-0 elevation-0">
       <v-skeleton-loader
         v-show="loading"
         class="pa-0 ma-0"
@@ -11,7 +11,7 @@
         v-show="!loading"
         :src="require(`../assets/${src}`)"
         @load="handleImageLoad"
-        class="rounded-lg my-5"
+        class="rounded-lg"
       />
     </div>
     <small v-if="!loading">{{ legenda }}</small>

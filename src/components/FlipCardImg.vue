@@ -1,6 +1,6 @@
 <template>
   <v-card
-    class="flip-card"
+    class="flip-card my-5"
     @click="flipCard"
     @mouseenter="startLottieAnimation"
     @mouseleave="resetLottieAnimation"

@@ -28,7 +28,7 @@ export default {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
   max-width: 1200px;
 }
 </style>

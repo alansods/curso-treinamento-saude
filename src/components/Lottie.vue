@@ -25,7 +25,7 @@ export default {
           container: container,
           animationData: this.animation,
           loop: true,
-          autoplay: false, // Set autoplay to false initially
+          autoplay: true,
         };
 
         this.anim = lottie.loadAnimation(animationOptions); // Save the animation instance

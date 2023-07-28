@@ -14,13 +14,31 @@
 
       <p>
         No Brasil, segundo o boletim epidemiológico de transtornos mentais
-        relacionados ao trabalho, no período de 2006 a 2017, as doenças
-        psíquicas foram a terceira maior causa de afastamento do trabalho, sendo
+        relacionados ao trabalho, no período de 2006 a 2017, as
+        <span
+          class="font-weight-bold voce_sabia cursor-pointer"
+          @click="glossario1 = !glossario1"
+          >doenças psíquicas</span
+        >
+        foram a terceira maior causa de afastamento do trabalho, sendo
         responsáveis por uma redução significativa do potencial de oferta de
         trabalho e aumento do absenteísmo, ocasionando custos significativos,
         que envolvem desde o salário do colaborador, até gastos com afastamento
         e reabilitação.
       </p>
+
+      <v-bottom-sheet inset v-model="glossario1">
+        <v-sheet class="text-center rounded-t-lg pt-5" height="180px">
+          <div class="py-3 px-5">
+            <div class="text-h5 font-weight-bold mb-2 voce_sabia--text">
+              Glossário
+            </div>
+            <strong>Doenças psíquicas</strong> é um termo usado como sinônimo
+            para doenças psicológicas, que engloba problemas e fenômenos
+            psicológicos que afetam a mente e/ou o funcionamento psicológico.
+          </div>
+        </v-sheet>
+      </v-bottom-sheet>
 
       <p>
         Estimativas globais indicam que a economia perde cerca de 4% do Produto
@@ -52,17 +70,17 @@
       </p>
     </Card>
 
-    <v-row justify="center">
-      <v-col cols="12" sm="6">
-        <Imagem
-          src="modulo_01/imagem1.jpg"
-          legenda="Imagem 1: Transtornos mentais relacionados ao trabalho"
-          fonte="freepik.com"
-        />
-      </v-col>
-    </v-row>
-
     <Card>
+      <v-row justify="center">
+        <v-col cols="12" sm="6">
+          <Imagem
+            src="modulo_01/imagem1.jpg"
+            legenda="Imagem 1: Transtornos mentais relacionados ao trabalho"
+            fonte="freepik.com"
+          />
+        </v-col>
+      </v-row>
+
       <p>
         Partindo do princípio de que a identificação dos fatores de risco
         ambiental nos processos de trabalho é uma ação para promover a saúde do
@@ -241,6 +259,7 @@ export default {
   data() {
     return {
       modelTranstornos: 0,
+      glossario1: false,
 
       itemsConsequencias: {
         tab: 0,

@@ -14,7 +14,7 @@
         <v-card class="flip-card" @click="flipCard(card.id)">
           <div class="flip-card-inner" :class="{ 'flipped': card.isFlipped }">
             <v-card-text class="flip-card-front">
-              <v-icon size="60" color="white">mdi-help-circle</v-icon>
+              <v-icon size="50" color="white">mdi-help-circle</v-icon>
               <span>{{ card.front }}</span>
             </v-card-text>
 
