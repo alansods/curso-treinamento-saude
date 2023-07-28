@@ -16,9 +16,10 @@
         No Brasil, segundo o boletim epidemiológico de transtornos mentais
         relacionados ao trabalho, no período de 2006 a 2017, as
         <span
-          class="font-weight-bold voce_sabia cursor-pointer"
+          class="font-weight-bold voce_sabia cursor-pointer px-1 rounded"
+          style="white-space: nowrap;"
           @click="glossario1 = !glossario1"
-          >doenças psíquicas</span
+          ><v-icon class="mr-1" size="20" color="white">mdi-help-circle</v-icon>doenças psíquicas</span
         >
         foram a terceira maior causa de afastamento do trabalho, sendo
         responsáveis por uma redução significativa do potencial de oferta de
