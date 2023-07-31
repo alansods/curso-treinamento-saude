@@ -35,20 +35,16 @@
       </p>
     </BoxIcon>
 
-    <v-row>
-      <v-col cols="10" sm="6">
-        <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
-          <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
-            <youtube
-              ref="videoPlayer"
-              video-id="BTBPdA3FjrA"
-              style="border: solid 3px white"
-              fitParent
-            />
-          </v-responsive>
-        </v-dialog>
-      </v-col>
-    </v-row>
+    <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
+      <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
+        <youtube
+          ref="videoPlayer"
+          video-id="BTBPdA3FjrA"
+          style="border: solid 3px white"
+          fitParent
+        />
+      </v-responsive>
+    </v-dialog>
 
     <BoxIcon tipo="voce_sabia">
       Você sabia que os investimentos em saúde mental podem ter um impacto
