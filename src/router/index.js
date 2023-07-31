@@ -88,14 +88,14 @@ router.afterEach(() => {
 
 //salvar ultima pagina visitada ao reabrir o site
 router.afterEach((to) => {
-  localStorage.setItem("lastPageSesi", to.name);
+  localStorage.setItem("last_Page_Treinamento_Saude", to.name);
 });
 
 let isFirstTransition = true;
 
 router.beforeEach((to, from, next) => {
 
-  const lastRouteName = localStorage.getItem("lastPageSesi");
+  const lastRouteName = localStorage.getItem("last_Page_Treinamento_Saude");
   const shouldRedirect = Boolean(
     to.name === "Home" && lastRouteName && isFirstTransition
   );

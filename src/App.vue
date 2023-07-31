@@ -35,7 +35,7 @@ export default {
   }),
 
   created() {
-    const progresso = localStorage.getItem("progresso_treinamento_saude");
+    const progresso = localStorage.getItem("progresso_treinamento_saudeV2");
 
     if (progresso) {
       this.$store.commit("CARREGAR_PROGRESSO");
@@ -43,7 +43,7 @@ export default {
   },
 
   beforeCreate() {
-    const lastRouteName = localStorage.getItem("lastPageSesi");
+    const lastRouteName = localStorage.getItem("last_Page_Treinamento_Saude");
     console.log(lastRouteName)
 
     if (lastRouteName != "Home") {

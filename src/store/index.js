@@ -29,7 +29,7 @@ export default new Vuex.Store({
     },
 
     SALVAR_PROGRESSO(state) {
-      localStorage.setItem("progresso_treinamento_saude", JSON.stringify(state));
+      localStorage.setItem("progresso_treinamento_saudeV2", JSON.stringify(state));
     },
 
     CARREGAR_PROGRESSO(state, payload) {
