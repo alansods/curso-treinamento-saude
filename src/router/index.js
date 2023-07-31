@@ -29,37 +29,37 @@ const routes = [
   },
   {
     path: "/modulo-01/topico-01",
-    name: "Tópico 01",
+    name: "Módulo 01 - Tópico 01",
     component: Topico_01,
   },
   {
     path: "/modulo-01/topico-02",
-    name: "Tópico 02",
+    name: "Módulo 01 - Tópico 02",
     component: Topico_02,
   },
   {
     path: "/modulo-01/topico-03",
-    name: "Tópico 03",
+    name: "Módulo 01 - Tópico 03",
     component: Topico_03,
   },
   {
     path: "/modulo-01/topico-04",
-    name: "Tópico 04",
+    name: "Módulo 01 - Tópico 04",
     component: Topico_04,
   },
   {
     path: "/modulo-01/topico-05",
-    name: "Tópico 05",
+    name: "Módulo 01 - Tópico 05",
     component: Topico_05,
   },
   {
     path: "/modulo-01/referencias",
-    name: "Referências",
+    name: "Módulo 01 - Referências",
     component: Referencias,
   },
   {
     path: "/modulo-01/atividade",
-    name: "Atividade",
+    name: "Módulo 01 - Atividade",
     component: Atividade,
   },
 

@@ -4,11 +4,11 @@
       <v-card-text class="text-center d-flex flex-column" style="gap: 40px">
         <div>
           <h3 class="mb-2 primary--text">Olá,</h3>
-          <h3 class="primary--text">Seja bem vindo de volta!</h3>
+          <h3 class="primary--text mt-5">Bem vindo de volta!</h3>
         </div>
 
         <div>
-          <p>Clique em continuar para seguir seus estudos.</p>
+          <p>Você parou aqui: <strong>{{ currentRouteName }}</strong></p>
         </div>
 
         <NavButton
@@ -34,6 +34,13 @@ export default {
       dialog: false,
     };
   },
+
+  computed: {
+    currentRouteName() {
+      return this.$route.name; // Acessa o nome da rota atual
+    },
+  },
+
 };
 </script>
 
