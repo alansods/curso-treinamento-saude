@@ -17,9 +17,21 @@
             :key="modulo.numero"
             @click="$router.push(`/${modulo.items[0].link}`)"
           >
-            <div class="numero-modulo primary white--text">{{ modulo.numero }}</div>
+            <div class="numero-modulo primary white--text">
+              {{ modulo.numero }}
+            </div>
+
             <div class="titulo-modulo textColor--text">{{ modulo.titulo }}</div>
-            <div class="progresso-modulo success"></div>
+
+            <div
+              v-if="$store.state.progresso_modulo_1.atividade"
+              class="progresso-modulo success"
+            ></div>
+
+            <div
+              v-if="!$store.state.progresso_modulo_1.atividade"
+              class="progresso-modulo disabled"
+            ></div>
           </div>
         </v-col>
       </v-row>
@@ -35,6 +47,13 @@ export default {
     return {
       modulos: modulos,
     };
+  },
+
+  computed: {
+    modulo_01_completo() {
+      const completed = this.$store.state.progresso_modulo_1.atividade && this.$store.state.progresso_modulo_1.video
+      return completed
+    }
   },
 };
 </script>

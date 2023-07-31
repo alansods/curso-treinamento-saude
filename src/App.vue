@@ -34,6 +34,14 @@ export default {
     //
   }),
 
+  created() {
+    const progresso = localStorage.getItem("progresso_treinamento_saude");
+
+    if (progresso) {
+      this.$store.commit("CARREGAR_PROGRESSO");
+    }
+  },
+
   beforeCreate() {
     const lastRouteName = localStorage.getItem("lastPageSesi");
     console.log(lastRouteName)
@@ -90,6 +98,11 @@ p:last-of-type {
 
 .v-expansion-panel--active > .v-expansion-panel-header--active .v-expansion-panel-header__icon:not(.v-expansion-panel-header__icon--disable-rotate) .v-icon {
   color: #ffffff !important
+}
+
+.v-application--is-ltr .v-expansion-panel-header {
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /* ROUTE TRANSITION */

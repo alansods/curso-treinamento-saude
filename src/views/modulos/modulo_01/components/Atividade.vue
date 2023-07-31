@@ -130,17 +130,18 @@ export default {
     checkAnswer() {
       this.answerChecked = true;
       this.optionSelected = false;
+
+      // Se acertou a respota da questão
       if (this.selectedOption === this.questions[this.questionIndex].answer) {
         this.score++;
         this.$set(this.questions[this.questionIndex], "correct", true);
-      } else {
-        this.$set(this.questions[this.questionIndex], "correct", false);
       }
+
+      // Se for a última pergunta, mostrar tela de conclusão
       if (this.questionIndex === this.questions.length - 1) {
-        // Se for a última pergunta, mostrar tela de conclusão
         this.completed = true;
-        this.$store.state.atividade_1_modulo_1_finalizada = true;
-        this.$store.commit("SALVAR");
+        this.$store.state.progresso_modulo_1.atividade = true;
+        this.$store.commit("SALVAR_PROGRESSO");
       } else {
         // Se não for a última pergunta, avançar para a próxima automaticamente após o usuário selecionar uma resposta
         this.nextQuestion();

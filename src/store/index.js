@@ -10,17 +10,10 @@ export default new Vuex.Store({
     modulos: Modulos,
     menuDrawer: false,
     welcomeBack: false,
-    progress: {
-      modulo_1: 0,
-      modulo_2: 0,
-      modulo_3: 0,
-      modulo_4: 0,
-      modulo_5: 0,
-      modulo_6: 0,
-      modulo_7: 0,
-      modulo_8: 0,
-      modulo_9: 0,
-    }
+    progresso_modulo_1: {
+      atividade: false,
+      video: false,
+    },
   },
   mutations: {
     togglemenuDrawer(state) {
@@ -32,8 +25,16 @@ export default new Vuex.Store({
     },
 
     initialiseStore() {
-      console.log('teste')
-    }
+      console.log("teste");
+    },
+
+    SALVAR_PROGRESSO(state) {
+      localStorage.setItem("progresso_treinamento_saude", JSON.stringify(state));
+    },
+
+    CARREGAR_PROGRESSO(state, payload) {
+      state = payload
+    },
   },
   actions: {},
   modules: {},
