@@ -103,9 +103,9 @@
       fonte="Fonte: (BRASIL, 2005; 2008)."
     >
       <thead>
-        <tr class="primary">
-          <th>CID-10</th>
-          <th>Doenças</th>
+        <tr >
+          <th class="primary white--text" style="border-radius: 8px 0 0 0">CID-10</th>
+          <th class="primary white--text" style="border-radius: 0 8px 0 0">Doenças</th>
         </tr>
       </thead>
       <tbody>

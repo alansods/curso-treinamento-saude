@@ -1,12 +1,10 @@
 <template>
   <div>
-    <v-card class="rounded-lg pt-2 pb-1 my-1">
-      <v-simple-table fixed-header height="auto">
-        <template v-slot:default>
-          <slot></slot>
-        </template>
-      </v-simple-table>
-    </v-card>
+    <v-simple-table fixed-header height="auto" class="custom-table">
+      <template v-slot:default>
+        <slot></slot>
+      </template>
+    </v-simple-table>
     <small>Quadro 1: Lista de Doenças Relacionadas ao Trabalho.</small>
     <small>Fonte: (BRASIL, 2005; 2008).</small>
   </div>
@@ -14,8 +12,14 @@
 
 <script>
 export default {
-  props: ["legenda", "fonte"]
+  props: ["legenda", "fonte"],
 };
 </script>
 
-<style></style>
+<style>
+.custom-table {
+  border: solid 1px #eee;
+  border-radius: 8px;
+  margin-bottom: 5px;
+}
+</style>
