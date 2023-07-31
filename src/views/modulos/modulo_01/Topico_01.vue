@@ -16,7 +16,7 @@
         No Brasil, segundo o boletim epidemiológico de transtornos mentais
         relacionados ao trabalho, no período de 2006 a 2017, as
         <span
-          class="font-weight-bold voce_sabia cursor-pointer px-1 rounded"
+          class="font-weight-bold voce_sabia cursor-pointer px-1"
           style="white-space: nowrap;"
           @click="glossario1 = !glossario1"
           ><v-icon class="mr-1" size="20" color="white">mdi-help-circle</v-icon>doenças psíquicas</span
@@ -29,7 +29,7 @@
       </p>
 
       <v-bottom-sheet inset v-model="glossario1">
-        <v-sheet class="text-center rounded-t-lg pt-5" height="180px">
+        <v-sheet class="text-center rounded-t-lg py-5" height="auto">
           <div class="py-3 px-5">
             <div class="text-h5 font-weight-bold mb-2 voce_sabia--text">
               Glossário

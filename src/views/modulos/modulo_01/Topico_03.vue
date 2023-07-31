@@ -363,7 +363,7 @@
 
       <v-spacer></v-spacer>
 
-      <v-col cols="auto" @click="dialogTeste = true" >
+      <v-col cols="auto" @click="dialogTeste = true">
         <div class="teste-container elevation-1">
           <v-icon size="70" color="white">mdi-help-circle-outline</v-icon>
           <!-- <div>Você Sabia</div> -->
@@ -371,16 +371,24 @@
       </v-col>
     </v-row>
 
-    <v-dialog v-model="dialogTeste" width="400">
+    <v-dialog v-model="dialogTeste" width="600">
       <v-card class="rounded-lg">
         <div class="px-6 py-5 voce_sabia white--text">
-          <p class="font-weight-bold text-h5 mb-5">Você Sabia?</p>
+          <v-row align="center">
+            <v-col cols="2">
+            <v-icon size="70" color="white">mdi-help-circle-outline</v-icon>
+          </v-col>
+          <v-col cols="10">
+            <p class="font-weight-bold text-h5 mb-5">Você Sabia?</p>
 
-          <p>
-            Você sabia que o Código Penal art. 216-A dispõe sobre a
-            criminalização da prática de assédio sexual no ambiente de trabalho?
-            <strong>A pena prevista é de detenção de um a dois anos.</strong>
-          </p>
+            <p>
+              Você sabia que o Código Penal art. 216-A dispõe sobre a
+              criminalização da prática de assédio sexual no ambiente de
+              trabalho?
+              <strong>A pena prevista é de detenção de um a dois anos.</strong>
+            </p>
+          </v-col>
+          </v-row>
         </div>
       </v-card>
     </v-dialog>
@@ -539,8 +547,8 @@ export default {
   background: #f07e27;
   color: #fff;
   font-weight: bold;
-  width: 120px;
-  padding: 20px 0;
+  width: 100px;
+  padding: 10px 0;
   cursor: pointer;
   animation: tilt-shaking 1.5s ease infinite;
 }
