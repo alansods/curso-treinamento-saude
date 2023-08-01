@@ -31,7 +31,7 @@
       <v-bottom-sheet inset v-model="glossario1">
         <v-sheet class="text-center rounded-t-lg py-5" height="auto">
           <div class="py-3 px-5">
-            <div class="text-h5 font-weight-bold mb-2 voce_sabia--text">
+            <div class="text-h5 font-weight-bold mb-2 orange--text">
               Glossário
             </div>
             <strong>Doenças psíquicas</strong> é um termo usado como sinônimo
