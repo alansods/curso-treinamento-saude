@@ -38,16 +38,16 @@
         <v-icon>mdi-home</v-icon>
       </v-btn> -->
 
-      <v-btn icon @click="toggleMenu">
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
-
       <v-btn icon @click="toggleDarkMode">
         <v-icon>{{
           isDarkMode === "#fff"
             ? "mdi-white-balance-sunny"
             : "mdi-weather-night"
         }}</v-icon>
+      </v-btn>
+
+      <v-btn icon @click="toggleMenu">
+        <v-icon>mdi-menu</v-icon>
       </v-btn>
     </div>
   </v-app-bar>
