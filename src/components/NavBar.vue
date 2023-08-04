@@ -31,7 +31,7 @@
 
     <AccessibilityButtons></AccessibilityButtons>
 
-    <span class="grey--text mx-3">|</span>
+    <span class="grey--text mx-3" v-if="$vuetify.breakpoint.smAndUp">|</span>
 
     <div>
       <!-- <v-btn icon @click="$router.push('/')">
