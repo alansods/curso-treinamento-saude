@@ -5,20 +5,20 @@
   >
 
     <Card topico="Tópico 4 - Políticas de Saúde Mental no Trabalho">
-      <p>
+      <Paragraph>
         Neste tópico, abordamos o assédio moral e sexual no ambiente de
         trabalho, discutindo suas definições, causas e consequências. No próximo
         tópico, iremos explorar algumas políticas de saúde mental no trabalho,
         visando promover um ambiente saudável e acolhedor para os colaboradores.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         O trabalho ocupa posição central na sociedade e na vida das pessoas, tem
         grande importância para o trabalhador, podendo ser fonte de realizações
         e lazer. No entanto, a depender das condições de trabalho, ele pode
         causar estresse emocional, levando ao desenvolvimento de medo, tensão e
         ansiedade.
-      </p>
+      </Paragraph>
     </Card>
 
     <BoxIcon tipo="voce_sabia">
@@ -35,7 +35,7 @@
     </BoxIcon>
 
     <Card>
-      <p>
+      <Paragraph>
         A identificação de rede de Atenção à Saúde local é essencial para a
         articulação de ações de prevenção e de intervenção, envolvendo diversos
         atores institucionais e cuidados integrais ao sujeito. Nessa
@@ -45,24 +45,24 @@
         a coleta de informações sobre o histórico de adoecimento, a
         caracterização clínica realizada por profissionais competentes e exames
         complementares na rede assistencial.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         Posteriormente, admite-se a investigação institucional, por intermédio
         da atuação de diversos setores em busca da coleta de informações sobre o
         ambiente de trabalho e psicossocial do trabalhador, as condições de
         trabalho e os agravos que podem contribuir para o adoecimento. Essa
         investigação considera a percepção do próprio trabalhador, bem como as
         avaliações realizadas pelas equipes de saúde e segurança da instituição.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         É importante ressaltar que a instituição de trabalho deve acolher a
         demanda, a notificação e o registro do adoecimento, orientando o
         trabalhador acerca dos procedimentos cabíveis e dos encaminhamentos
         necessários. Logo, pode-se sugerir um fluxo que compreenda as seguintes
         etapas:
-      </p>
+      </Paragraph>
     </Card>
 
     <Imagem
@@ -96,6 +96,7 @@ import Card from "@/components/Card.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Imagem from "@/components/Imagem.vue";
 import NavFooter from "@/components/NavFooter.vue";
+import Paragraph from "@/components/Paragraph.vue";
 
 export default {
   components: {
@@ -104,6 +105,7 @@ export default {
     BoxIcon,
     Imagem,
     NavFooter,
+    Paragraph,
   },
   data() {
     return {

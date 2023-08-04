@@ -14,14 +14,21 @@
         class="rounded-lg"
       />
     </div>
-    <small v-if="!loading">{{ legenda }}</small>
-    <small v-if="!loading">Fonte: {{ fonte }}</small>
+    <SmallText v-if="!loading">{{ legenda }}</SmallText>
+    <SmallText v-if="!loading">Fonte: {{ fonte }}</SmallText>
   </div>
 </template>
 
 <script>
+import SmallText from "@/components/SmallText.vue";
+
 export default {
   props: ["src", "fonte", "legenda", "left"],
+
+  components: {
+    SmallText,
+  },
+
   data() {
     return {
       loading: true,

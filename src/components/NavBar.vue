@@ -2,12 +2,12 @@
   <v-app-bar color="white" app>
     <div class="d-flex gap-5 align-center" style="gap: 10px">
       <v-img
-      v-if="!$vuetify.theme.dark"
-      :src="require('../assets/logo-sesi-light.svg')"
-      height="30"
-      width="90"
-      @click="$router.push('/')"
-      style="cursor: pointer;"
+        v-if="!$vuetify.theme.dark"
+        :src="require('../assets/logo-sesi-light.svg')"
+        height="30"
+        width="90"
+        @click="$router.push('/')"
+        style="cursor: pointer"
       />
 
       <v-img
@@ -16,7 +16,7 @@
         height="30"
         width="90"
         @click="$router.push('/')"
-        style="cursor: pointer;"
+        style="cursor: pointer"
       />
 
       <span
@@ -29,10 +29,14 @@
 
     <v-spacer />
 
+    <AccessibilityButtons></AccessibilityButtons>
+
+    <span class="grey--text mx-3">|</span>
+
     <div>
-      <v-btn icon @click="$router.push('/')">
+      <!-- <v-btn icon @click="$router.push('/')">
         <v-icon>mdi-home</v-icon>
-      </v-btn>
+      </v-btn> -->
 
       <v-btn icon @click="toggleMenu">
         <v-icon>mdi-menu</v-icon>
@@ -50,9 +54,11 @@
 </template>
 
 <script>
+import AccessibilityButtons from "@/components/AccessibilityButtons.vue";
 
 export default {
   components: {
+    AccessibilityButtons,
   },
 
   data() {

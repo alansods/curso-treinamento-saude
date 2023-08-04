@@ -6,13 +6,13 @@
     <Card
       topico="Tópico 1 - As Principais Causas de Afastamento e os Custos Diretos e Indiretos Relacionados a Transtornos Mentais"
     >
-      <p>
+      <Paragraph>
         Neste tópico, vamos abordar a importância dos cuidados com a saúde
         mental dos colaboradores e como essa falta de atenção pode afetar a
         saúde financeira de uma organização.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         No Brasil, segundo o boletim epidemiológico de transtornos mentais
         relacionados ao trabalho, no período de 2006 a 2017, as
         <span
@@ -26,7 +26,7 @@
         trabalho e aumento do absenteísmo, ocasionando custos significativos,
         que envolvem desde o salário do colaborador, até gastos com afastamento
         e reabilitação.
-      </p>
+      </Paragraph>
 
       <v-bottom-sheet inset v-model="glossario1">
         <v-sheet class="text-center rounded-t-lg py-5" height="auto">
@@ -41,13 +41,13 @@
         </v-sheet>
       </v-bottom-sheet>
 
-      <p>
+      <Paragraph>
         Estimativas globais indicam que a economia perde cerca de 4% do Produto
         Interno Bruto (PIB) anualmente em razão de doenças e acidentes de
         trabalho. Entre os anos de 2007 a 2020, foram notificados no Brasil
         12.969 casos de transtornos mentais, conforme dados do observatório de
         segurança e saúde no trabalho do Ministério do Trabalho (2021).
-      </p>
+      </Paragraph>
     </Card>
 
     <BoxIcon tipo="voce_sabia">
@@ -60,7 +60,7 @@
     </BoxIcon>
 
     <Card>
-      <p>
+      <Paragraph>
         De acordo com os dados da Secretaria de Atenção à Saúde, em 2019, o
         perfil dos colaboradores afastados por transtornos mentais é composto,
         em sua grande maioria, por trabalhadores da produção de bens e serviços
@@ -68,7 +68,7 @@
         principais causas do desenvolvimento do transtorno estão relacionadas à
         reação ao estresse grave, episódios depressivos e transtorno de
         adaptação.
-      </p>
+      </Paragraph>
     </Card>
 
     <Card>
@@ -82,20 +82,20 @@
         </v-col>
       </v-row>
 
-      <p>
+      <Paragraph>
         Partindo do princípio de que a identificação dos fatores de risco
         ambiental nos processos de trabalho é uma ação para promover a saúde do
         trabalhador, as empresas necessitam entender o perfil de seus liderados
         para então promover a saúde adequada aos seus trabalhadores. Nesse
         contexto, reflita: quais as principais causas de afastamento
         relacionadas a transtornos mentais e quais os custos para uma empresa?
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         Veja no quadro a seguir os principais transtornos mentais e do
         comportamento relacionados ao trabalho, juntamente com seus respectivos
         códigos da Classificação Internacional de Doenças (CID).
-      </p>
+      </Paragraph>
     </Card>
 
     <Table
@@ -140,13 +140,13 @@
     </Table>
 
     <Card>
-      <p>
+      <Paragraph>
         Além das informações apresentadas no quadro 1, temos ainda diversos
         modelos explicativos para o desenvolvimento de transtornos mentais em
         ambientes de trabalho, e compreender esses modelos pode ajudar as
         empresas a implementar medidas de prevenção e promoção da saúde mental
         dos colaboradores. Entre os modelos mais conhecidos, estão:
-      </p>
+      </Paragraph>
     </Card>
 
     <v-row justify="space-between">
@@ -209,14 +209,14 @@
     </v-row>
 
     <Card>
-      <p>
+      <Paragraph>
         Ao compreender os modelos explicativos dos transtornos mentais nas
         empresas, as organizações podem adotar medidas preventivas e estratégias
         de gestão que contribuam para a promoção da saúde mental dos
         colaboradores e o bem-estar do ambiente de trabalho. As ações de
         prevenção ou a implementação de medidas devem ser baseadas na
         multiplicidade de fatores envolvidos.
-      </p>
+      </Paragraph>
     </Card>
 
     <BoxIcon tipo="recapitulando"
@@ -241,6 +241,7 @@
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
 import Card from "@/components/Card.vue";
+import Paragraph from "@/components/Paragraph.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Imagem from "@/components/Imagem.vue";
 import Table from "@/components/Table.vue";
@@ -251,6 +252,7 @@ export default {
   components: {
     AulaTemplate,
     Card,
+    Paragraph,
     BoxIcon,
     Imagem,
     Table,

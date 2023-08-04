@@ -7,7 +7,7 @@
     :width="$vuetify.breakpoint.smAndUp ? '30%' : '100%'"
   >
     <div class="d-flex align-center justify-space-between pa-4">
-      <div class="titulo">Sumário</div>
+      <div class="primary--text text-h4 font-weight-bold">Sumário</div>
 
       <v-btn icon @click="$store.commit('togglemenuDrawer')">
         <v-icon size="25">mdi-close</v-icon>
@@ -15,22 +15,28 @@
     </div>
 
     <v-list>
+      <v-list-item @click="$router.push('/')">
+        <v-list-item-icon>
+          <v-icon>mdi-home</v-icon>
+        </v-list-item-icon>
+        <v-list-item-content>
+          <v-list-item-title>Início</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
       <v-list-group
         v-for="modulo in $store.state.modulos"
         :key="modulo.numero"
-        prepend-icon="mdi-bookmark"
+        prepend-icon="mdi-bookshelf"
       >
         <template v-slot:activator>
           <v-list-item-content>
             <v-tooltip top>
               <template v-slot:activator="{ on }">
                 <v-list-item-title v-on="on">
-                  <strong class="text--body-2">{{
-                  modulo.numero
-                }}. </strong>
-                {{
-                  modulo.titulo
-                }}</v-list-item-title>
+                  <strong class="text--body-2">{{ modulo.numero }}. </strong>
+                  {{ modulo.titulo }}</v-list-item-title
+                >
               </template>
               <span>{{ modulo.titulo }}</span>
             </v-tooltip>
@@ -61,7 +67,9 @@
       </v-list-group>
     </v-list>
 
-    <v-btn block class="mt-5" @click="$router.push('/meu-progresso')"> Meu Progresso </v-btn>
+    <v-btn block class="mt-5" @click="$router.push('/meu-progresso')">
+      Meu Progresso
+    </v-btn>
   </v-navigation-drawer>
 </template>
 
@@ -87,11 +95,5 @@ export default {
 
 .btn-topico:hover {
   background: rgba(0, 0, 0, 0.03);
-}
-
-.titulo {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #1565ac;
 }
 </style>

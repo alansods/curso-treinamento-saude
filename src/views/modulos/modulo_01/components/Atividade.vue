@@ -4,11 +4,11 @@
     :numero="$store.state.modulos[0].numero"
   >
     <div v-if="!completed" class="question-container">
-      <small class="mb-2">Questão {{ number }} de 10</small>
+      <SmallText class="mb-2">Questão {{ number }} de 10</SmallText>
       <h2>{{ number }}. <span v-html="question"></span></h2>
 
       <div class="my-6">
-        <div v-for="(option, index) in options" :key="index" class="my-2">
+        <div v-for="(option, index) in options" :key="index" class="my-2 text-body-1">
           <input
             type="radio"
             :name="questionIndex"
@@ -47,11 +47,11 @@
           <h2 class="completed-title error--text">Tente de novo!</h2>
         </div>
 
-        <p class="completed-score mb-5">
+        <Paragraph class="completed-score mb-5">
           Você acertou <span v-if="score < 7">apenas</span> <strong><u>{{ score }}</u></strong
           >
           de {{ questions.length }} questões.
-        </p>
+        </Paragraph>
 
         <NavButton
           v-if="score < 7"
@@ -78,6 +78,8 @@
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
 import Questoes from "@/data/questoes/modulo_01.json";
+import SmallText from "@/components/SmallText.vue";
+import Paragraph from "@/components/Paragraph.vue";
 
 import NavButton from "@/components/NavButton.vue";
 import Lottie from "@/components/Lottie";
@@ -87,6 +89,8 @@ export default {
     AulaTemplate,
     NavButton,
     Lottie,
+    SmallText,
+    Paragraph,
   },
 
   data() {

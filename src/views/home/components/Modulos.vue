@@ -17,11 +17,11 @@
             :key="modulo.numero"
             @click="$router.push(`/${modulo.items[0].link}`)"
           >
-            <div class="numero-modulo primary white--text">
+            <div class="numero-modulo primary white--text text-h6">
               {{ modulo.numero }}
             </div>
 
-            <div class="titulo-modulo textColor--text">{{ modulo.titulo }}</div>
+            <div class="titulo-modulo textColor--text text-body-1">{{ modulo.titulo }}</div>
 
             <div
               v-if="$store.state.progresso_modulo_1.atividade"
@@ -76,7 +76,6 @@ export default {
   transform: scale(1.025);
 }
 .numero-modulo {
-  font-size: 20px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -94,7 +93,6 @@ export default {
   margin-right: 10px;
   flex: 1;
   padding: 8px 0;
-  font-size: 18px;
 }
 
 .progresso-modulo {

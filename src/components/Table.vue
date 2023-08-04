@@ -5,13 +5,20 @@
         <slot></slot>
       </template>
     </v-simple-table>
-    <small>Quadro 1: Lista de Doenças Relacionadas ao Trabalho.</small>
-    <small>Fonte: (BRASIL, 2005; 2008).</small>
+
+    <SmallText>Quadro 1: Lista de Doenças Relacionadas ao Trabalho.</SmallText>
+    <SmallText>Fonte: (BRASIL, 2005; 2008).</SmallText>
   </div>
 </template>
 
 <script>
+import SmallText from "@/components/SmallText.vue";
+
 export default {
+  components: {
+    SmallText,
+  },
+
   props: ["legenda", "fonte"],
 };
 </script>

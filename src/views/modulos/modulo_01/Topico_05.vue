@@ -6,15 +6,15 @@
     <Card
       topico="Tópico 5 - A Importância dos Investimentos de Saúde Mental nas Empresas"
     >
-      <p>
+      <Paragraph>
         Você sabia que a saúde mental dos colaboradores tem um impacto direto na
         produtividade das empresas e na economia como um todo? Quando os
         colaboradores enfrentam transtornos mentais, eles têm dificuldade em
         manter a rotina e executar as tarefas, tanto na vida pessoal quanto no
         trabalho.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         Consequentemente, quando alguém precisa se afastar ou mesmo sair da
         empresa por motivos de saúde mental, uma reação em cadeia se inicia. Um
         colaborador que deixa de trabalhar precisa ser substituído ou o time é
@@ -22,17 +22,17 @@
         para lidar com a saúde mental dos colaboradores não é luxo, mas uma
         necessidade estratégica. Afinal, o bem-estar das pessoas é um recurso
         tão precioso quanto a tecnologia, o patrimônio ou os métodos de gestão.
-      </p>
+      </Paragraph>
     </Card>
 
     <BoxIcon tipo="video_aula">
-      <p>
+      <Paragraph>
         Neste video abordaremos sobre o assunto tal e tal.
         <strong style="cursor: pointer" @click="dialog = true"
           ><u>Clique aqui</u></strong
         >
         para iniciar o assistir.
-      </p>
+      </Paragraph>
     </BoxIcon>
 
     <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
@@ -133,21 +133,21 @@
         </v-col>
 
         <v-col cols="12" sm="8">
-          <p>
+          <Paragraph>
             Ambientes com altos níveis de estresse são propícios ao surgimento
             de ansiedade, depressão e outros transtornos, que afetam também a
             saúde física dos indivíduos. Por isso, é importante que as empresas
             ofereçam um ambiente acolhedor e produtivo, no qual a conversa seja
             incentivada em todos os níveis hierárquicos, especialmente na
             liderança.
-          </p>
+          </Paragraph>
 
-          <p>
+          <Paragraph>
             Desta forma, cuidar da saúde mental dos colaboradores não deve ser
             apenas uma frase de efeito, mas uma prática cotidiana. Cuidar do
             bem-estar emocional é um investimento para qualquer negócio que
             almeja ter sucesso hoje e no futuro.
-          </p>
+          </Paragraph>
         </v-col>
       </v-row>
     </Card>
@@ -184,6 +184,7 @@ import Imagem from "@/components/Imagem.vue";
 import Accordion from "@/components/Accordion.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Subtopico from "@/components/Subtopico.vue";
+import Paragraph from "@/components/Paragraph.vue";
 
 export default {
   components: {
@@ -194,6 +195,7 @@ export default {
     Accordion,
     NavFooter,
     Subtopico,
+    Paragraph,
   },
   data() {
     return {

@@ -4,21 +4,21 @@
     :numero="$store.state.modulos[0].numero"
   >
     <Card topico="Tópico 3 - Assédio no Ambiente de Trabalho">
-      <p>
+      <Paragraph>
         Neste tópico, trataremos de um assunto de extrema importância: o assédio
         moral e sexual no ambiente de trabalho. Essas situações constrangedoras
         são mais comuns do que se imagina e, na maioria das vezes, são
         praticadas pelos chefes diretos das vítimas, por pessoas que possuem
         cargos mais altos dentro da hierarquia das empresas ou até mesmo por
         colegas de trabalho.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         Diante do exposto, discutir a violência no local de trabalho necessita
         compreender todo o contexto e cenário em que esse ato ocorre. Ao
         explorar esse tema, buscamos identificar as causas e desenvolver
         estratégias de prevenção e combate.
-      </p>
+      </Paragraph>
     </Card>
 
     <Card subTopico="3.1 Assédio Moral">
@@ -33,47 +33,47 @@
         </v-col>
 
         <v-col cols="12" sm="8">
-          <p>
+          <Paragraph>
             Assédio moral é a exposição de pessoas a situações humilhantes e
             constrangedoras no ambiente de trabalho, de forma repetitiva e
             prolongada, durante o exercício de suas atividades. É uma conduta
             que traz danos à dignidade e à integridade do indivíduo, colocando a
             saúde em risco e prejudicando o ambiente de trabalho.
-          </p>
+          </Paragraph>
 
-          <p>
+          <Paragraph>
             É também conceituado como toda e qualquer conduta abusiva,
             manifestando-se por comportamentos, palavras, atos, gestos ou
             escritos que possam trazer danos à personalidade, à dignidade ou à
             integridade física e psíquica de uma pessoa, pondo em perigo o seu
             emprego ou degradando o ambiente de trabalho.(DE ALMEIDA, 2016;
             CODO, 2002).
-          </p>
+          </Paragraph>
 
-          <p>
+          <Paragraph>
             É uma forma de violência que tem como objetivo desestabilizar
             emocional e profissionalmente o indivíduo, podendo ocorrer por meio
             de ações diretas (acusações, insultos, gritos, humilhações públicas)
             e indiretas (propagação de boatos, isolamento, recusa na
             comunicação, fofocas e exclusão social).
-          </p>
+          </Paragraph>
         </v-col>
       </v-row>
 
-      <p>
+      <Paragraph>
         A humilhação repetitiva e de longa duração interfere na vida do
         profissional, comprometendo a identidade, a dignidade e as relações
         afetivas e sociais. Isso resulta em danos à saúde física e mental, que
         podem evoluir para a incapacidade de trabalhar, para o desemprego ou
         mesmo para a morte.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         Você sabia que existem leis que abordam especificamente o assédio moral
         no ambiente de trabalho? A seguir, vamos conhecer a legislação
         pertinente sobre esse tema, que visa proteger os trabalhadores contra
         essa forma de violência.
-      </p>
+      </Paragraph>
     </Card>
 
     <Subtopico
@@ -126,10 +126,10 @@
     </Accordion>
 
     <Card>
-      <p>
+      <Paragraph>
         Além da legislação, vamos identificar como se classificam os diferentes
         tipos de comportamentos abusivos presentes nessa prática.
-      </p>
+      </Paragraph>
     </Card>
 
     <Accordion>
@@ -176,23 +176,23 @@
     </Accordion>
 
     <Card>
-      <p>
+      <Paragraph>
         Você já parou para refletir sobre as atitudes que caracterizam o assédio
         moral no ambiente de trabalho? É fundamental estarmos cientes dessas
         condutas que são prejudiciais e inaceitáveis. No entanto, tão importante
         quanto identificar o assédio moral é compreender o que não se enquadra
         nessa categoria. Vejamos a seguir:
-      </p>
+      </Paragraph>
     </Card>
 
     <FlipCardRandom />
 
     <Card>
-      <p>
+      <Paragraph>
         O assédio moral no ambiente de trabalho traz consigo uma série de
         consequências, que afetam tanto o indivíduo que sofre quanto a empresa
         como um todo. Vejamos a seguir:
-      </p>
+      </Paragraph>
     </Card>
 
     <v-card class="rounded-lg elevation-0" style="border: solid 1px #ddd">
@@ -227,7 +227,7 @@
                   <v-list-item-icon>
                     <v-icon color="success">mdi-check</v-icon>
                   </v-list-item-icon>
-                  <v-list-item-content>
+                  <v-list-item-content class="text-body-1">
                     {{ item }}
                   </v-list-item-content>
                 </v-list-item>
@@ -261,16 +261,16 @@
     </v-card>
 
     <Card subTopico="3.2 Assédio Sexual">
-      <p>
+      <Paragraph>
         Assédio sexual é toda conduta indesejada de natureza sexual que
         restrinja a liberdade sexual da vítima.
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         A reiteração da conduta não é imprescindível para a caracterização do
         assédio sexual. Um único ato pode ser suficientemente grave para atingir
         a honra, a dignidade e a moral da vítima.
-      </p>
+      </Paragraph>
     </Card>
 
     <BoxIcon tipo="atencao">
@@ -285,14 +285,14 @@
     </BoxIcon>
 
     <Card>
-      <p>
+      <Paragraph>
         Outro ponto importante a ser destacado é a classificação do assédio
         sexual, que nos permite compreender as diferentes formas em que esse
         comportamento abusivo pode se manifestar. Neste texto, vamos explorar
         duas categorias específicas: o assédio vertical e o assédio horizontal.
         Essas classificações nos ajudam a entender melhor as dinâmicas e os
         impactos dessas condutas no ambiente de trabalho. Vejamos a seguir:
-      </p>
+      </Paragraph>
     </Card>
 
     <v-card
@@ -341,37 +341,37 @@
       </v-tabs-items>
     </v-card>
 
-    <!-- TIRAR O D-NONE -->
-    <BoxIcon tipo="voce_sabia" class="d-none">
-      Você sabia que o Código Penal art. 216-A dispõe sobre a criminalização da
+    <BoxIcon tipo="voce_sabia">
+      <Paragraph>Você sabia que o Código Penal art. 216-A dispõe sobre a criminalização da
       prática de assédio sexual no ambiente de trabalho?
       <strong>A pena prevista é de detenção de um a dois anos.</strong>
+      </Paragraph>
     </BoxIcon>
 
     <v-row align="center">
       <v-col cols="10">
         <Card>
-          <p>
+          <Paragraph>
             É essencial compreendermos as implicações do assédio sexual para a
             vítima, para o agressor e para a empresa, a fim de combater esse
             crime no ambiente de trabalho, garantindo um ambiente saudável,
             respeitoso e livre de abusos. Vejamos a seguir as possíveis
             consequências para esse ato:
-          </p>
+          </Paragraph>
         </Card>
       </v-col>
 
-      <v-spacer></v-spacer>
+      <!-- <v-spacer></v-spacer> -->
 
-      <v-col cols="auto" @click="dialogTeste = true">
+      <!-- <v-col cols="auto" @click="dialogTeste = true">
         <div class="teste-container elevation-1">
           <v-icon size="70" color="white">mdi-help-circle-outline</v-icon>
-          <!-- <div>Você Sabia</div> -->
         </div>
-      </v-col>
+      </v-col>-->
+
     </v-row>
 
-    <v-dialog v-model="dialogTeste" width="600">
+    <!-- <v-dialog v-model="dialogTeste" width="600">
       <v-card class="rounded-lg">
         <div class="px-6 py-5 voce_sabia white--text">
           <v-row align="center">
@@ -379,19 +379,19 @@
             <v-icon size="70" color="white">mdi-help-circle-outline</v-icon>
           </v-col>
           <v-col cols="10">
-            <p class="font-weight-bold text-h5 mb-5">Você Sabia?</p>
+            <Paragraph class="font-weight-bold text-h5 mb-5">Você Sabia?</Paragraph>
 
-            <p>
+            <Paragraph>
               Você sabia que o Código Penal art. 216-A dispõe sobre a
               criminalização da prática de assédio sexual no ambiente de
               trabalho?
               <strong>A pena prevista é de detenção de um a dois anos.</strong>
-            </p>
+            </Paragraph>
           </v-col>
           </v-row>
         </div>
       </v-card>
-    </v-dialog>
+    </v-dialog> -->
 
     <v-row justify="space-between">
       <v-col cols="12"
@@ -469,6 +469,7 @@ import FlipCardRandom from "@/components/FlipCardRandom.vue";
 import Subtopico from "@/components/Subtopico.vue";
 import Accordion from "@/components/Accordion.vue";
 import NavFooter from "@/components/NavFooter.vue";
+import Paragraph from "@/components/Paragraph.vue";
 
 export default {
   components: {
@@ -481,6 +482,7 @@ export default {
     Subtopico,
     Accordion,
     NavFooter,
+    Paragraph,
   },
   data() {
     return {

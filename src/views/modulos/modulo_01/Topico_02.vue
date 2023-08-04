@@ -6,7 +6,7 @@
     <Card
       topico="Tópico 2 - Transtornos Mentais Mais Comuns no Ambiente de Trabalho"
     >
-      <p>
+      <Paragraph>
         Neste tópico, abordaremos os transtornos mentais mais comuns no ambiente
         de trabalho. Você sabia que a partir de 2010, observou-se um aumento
         considerável nos transtornos mentais relacionados ao trabalho? Estima-se
@@ -20,11 +20,11 @@
         do desenvolvimento desses transtornos estão relacionadas à reação ao
         estresse grave, episódios depressivos e transtorno de adaptação. Vejamos
         a seguir os transtornos mentais mais comuns no ambiente de trabalho:
-      </p>
+      </Paragraph>
     </Card>
 
     <Card subTopico="Síndrome de Burnout">
-      <p>
+      <Paragraph>
         Dentre os fatores relacionados à organização, podemos citar o excesso de
         normas, mudanças organizacionais frequentes, comunicação ineficiente,
         impossibilidade de ascender na carreira. Os fatores individuais podem
@@ -32,7 +32,7 @@
         fator organizacional. Indivíduos pessimistas, perfeccionistas,
         controladores e passivos estão associados a índices mais elevados da
         síndrome de Burnout.
-      </p>
+      </Paragraph>
 
       <v-row justify="center">
         <v-col cols="12" sm="8">
@@ -44,7 +44,7 @@
         </v-col>
       </v-row>
 
-      <p>
+      <Paragraph>
         Dentre os fatores relacionados à organização, podemos citar o excesso de
         normas, mudanças organizacionais frequentes, comunicação ineficiente,
         impossibilidade de ascender na carreira. Os fatores individuais podem
@@ -52,7 +52,7 @@
         fator organizacional. Indivíduos pessimistas, perfeccionistas,
         controladores e passivos estão associados a índices mais elevados da
         síndrome de Burnout.
-      </p>
+      </Paragraph>
 
       <v-row justify="center">
         <v-col cols="12" sm="8">
@@ -64,7 +64,7 @@
         </v-col>
       </v-row>
 
-      <p>
+      <Paragraph>
         Os fatores laborais também podem estar associados à síndrome de Burnout.
         O Trabalho por turnos ou noturno, a sobrecarga, os sentimentos de
         injustiça e de iniquidade nas relações laborais, e a ambiguidade de
@@ -75,9 +75,9 @@
         fatores que podem agravar a síndrome. Além disso, a presença de
         indivíduos competitivos, distantes, excessivamente críticos ou
         desmotivados contribui para a intensificação desses problemas
-      </p>
+      </Paragraph>
 
-      <p>
+      <Paragraph>
         Em relação aos fatores sociais, pode-se destacar a falta de suporte
         social e familiar, bem como a necessidade da manutenção do prestígio
         social em oposição à baixa salarial de determinada profissão. O
@@ -85,7 +85,7 @@
         e, consequentemente, pouco tempo para descanso, lazer e atualização
         profissional, levando à insatisfação e insegurança em relação às
         atividades desempenhadas.
-      </p>
+      </Paragraph>
 
       <BoxIcon tipo="voce_sabia" class="my-10">
         Acredita-se que a síndrome de Burnout tenha uma associação significativa
@@ -96,7 +96,7 @@
         preditores significantes para subsequente depressão.
       </BoxIcon>
 
-      <p>
+      <Paragraph>
         Quanto maior for o nível de estresse associado ao limitado apoio da
         organização ao funcionário, maior a probabilidade de desenvolver
         síndrome de Burnout. Quanto mais forte for o suporte da organização,
@@ -104,7 +104,7 @@
         ocupando cargos de alto nível recebiam menor apoio organizacional e
         estavam mais severamente deprimidos quando comparados a oficiais em
         cargos hierárquicamente mais baixos.
-      </p>
+      </Paragraph>
     </Card>
 
     <Card subTopico="Ansiedade">
@@ -118,7 +118,7 @@
         </v-col>
 
         <v-col cols="12" sm="8">
-          <p>
+          <Paragraph>
             A ansiedade ocasiona emoções desagradáveis de aflição, com o corpo
             em sinal de alerta. O indivíduo pode apresentar fadiga constante e
             progressiva, dores musculares, distúrbios do sono, cefaleia,
@@ -126,7 +126,7 @@
             lentificação do pensamento. Os três últimos sintomas têm um impacto
             significativo na organização e comprometem a qualidade do trabalho,
             a comunicação e a colaboração entre os colaboradores.
-          </p>
+          </Paragraph>
         </v-col>
       </v-row>
     </Card>
@@ -142,7 +142,7 @@
         </v-col>
 
         <v-col cols="12" sm="8">
-          <p>
+          <Paragraph>
             Indivíduos que sofrem com esse transtorno mental estão mais sujeitos
             a deixar o emprego, levando a altas taxas de absenteísmo e
             rotatividade de funcionários. Com isso, a instituição aumenta os
@@ -152,7 +152,7 @@
             produtividade, aumenta a probabilidade de erros e acidentes. Além
             disso, pode haver uma exposição negativa da marca e multas
             administrativas.
-          </p>
+          </Paragraph>
         </v-col>
       </v-row>
     </Card>
@@ -178,6 +178,7 @@ import Card from "@/components/Card.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Imagem from "@/components/Imagem.vue";
 import NavFooter from "@/components/NavFooter.vue";
+import Paragraph from "@/components/Paragraph.vue";
 
 export default {
   components: {
@@ -186,6 +187,7 @@ export default {
     BoxIcon,
     Imagem,
     NavFooter,
+    Paragraph,
   },
   data() {
     return {

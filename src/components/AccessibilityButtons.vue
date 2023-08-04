@@ -1,8 +1,16 @@
 <template>
-  <div style="display: none">
-    <v-btn @click="decreaseFont">A-</v-btn>
-    <v-btn @click="resetFont">A</v-btn>
-    <v-btn @click="increaseFont">A+</v-btn>
+  <div>
+    <v-btn icon>
+      <v-icon @click="decreaseFont">mdi-format-font-size-decrease</v-icon>
+    </v-btn>
+
+    <v-btn icon>
+      <v-icon @click="resetFont">mdi-format-text-variant</v-icon>
+    </v-btn>
+
+    <v-btn icon>
+      <v-icon @click="increaseFont">mdi-format-font-size-increase</v-icon>
+    </v-btn>
   </div>
 </template>
 
@@ -11,8 +19,8 @@ export default {
   data() {
     return {
       fontSize: 18, // Tamanho inicial da fonte
-      maxFontSize: 24, // Limite máximo do tamanho da fonte
-      minFontSize: 12, // Limite mínimo do tamanho da fonte
+      maxFontSize: 22, // Limite máximo do tamanho da fonte
+      minFontSize: 14, // Limite mínimo do tamanho da fonte
     };
   },
   methods: {
@@ -30,7 +38,13 @@ export default {
     },
     updateFontSize() {
       document.documentElement.style.fontSize = this.fontSize + "px";
+      this.$emit("font-size-changed", this.fontSize);
     },
   },
 };
 </script>
+
+<style scoped>
+.font-button {
+}
+</style>

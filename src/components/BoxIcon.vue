@@ -1,16 +1,14 @@
 <template>
     <v-card class="elevation-0 rounded-lg px-2 py-3" :class="tipoToClass[tipo]">
-      <v-card-text class="box-icon" :class="{'text-center': !$vuetify.breakpoint.smAndUp}">
+      <v-card-text class="box-icon text" :class="{'text-center': !$vuetify.breakpoint.smAndUp}">
         <v-row align="center" justify="center">
 
           <v-col cols="12" sm="1" class="d-flex justify-center">
             <v-icon size="60" color="white">{{ tipoIcon }}</v-icon>
-
           </v-col>
 
           <v-col cols="12" sm="11" class="white--text d-flex justify-center flex-column">
             <h5 class="text-h5 font-weight-bold mb-2">{{ tipoTitle }}</h5>
-
             <slot></slot>
           </v-col>
 

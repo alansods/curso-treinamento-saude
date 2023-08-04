@@ -1,7 +1,7 @@
 <template>
   <v-app class="app">
     <WelcomeBackDialog />
-    <NavBar />
+    <NavBar @font-size-changed="updateFontSize"  />
     <MenuDrawer />
 
     <v-main>
@@ -34,6 +34,12 @@ export default {
     //
   }),
 
+  methods: {
+    updateFontSize(fontSize) {
+      document.documentElement.style.fontSize = fontSize + "px";
+    },
+  },
+
   created() {
     const progresso = localStorage.getItem("progresso_treinamento_saudeV2");
 
@@ -44,7 +50,7 @@ export default {
 
   beforeCreate() {
     const lastRouteName = localStorage.getItem("last_Page_Treinamento_Saude");
-    console.log(lastRouteName)
+    console.log(lastRouteName);
 
     if (lastRouteName != "Home") {
       this.$store.commit("toggleWelcomeBack");
@@ -55,14 +61,19 @@ export default {
 
 <style lang="scss">
 
-.v-application--wrap {
-  background: #F2F2F2;
+
+body {
+  font-size: 18px;
 }
 
-body, #app {
+.v-application--wrap {
+  background: #f2f2f2;
+}
+
+
+#app {
   min-height: 100vh;
   max-width: 100vw;
-  font-size: 18px;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -80,11 +91,17 @@ p:last-of-type {
   margin-bottom: 0 !important;
 }
 
-.v-data-table > .v-data-table__wrapper > table > tbody > tr > td, .v-data-table > .v-data-table__wrapper > table > tbody > tr > th, .v-data-table > .v-data-table__wrapper > table > thead > tr > td, .v-data-table > .v-data-table__wrapper > table > thead > tr > th, .v-data-table > .v-data-table__wrapper > table > tfoot > tr > td, .v-data-table > .v-data-table__wrapper > table > tfoot > tr > th {
-  padding: 0 28px !important
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
+.v-data-table > .v-data-table__wrapper > table > tbody > tr > th,
+.v-data-table > .v-data-table__wrapper > table > thead > tr > td,
+.v-data-table > .v-data-table__wrapper > table > thead > tr > th,
+.v-data-table > .v-data-table__wrapper > table > tfoot > tr > td,
+.v-data-table > .v-data-table__wrapper > table > tfoot > tr > th {
+  padding: 0 28px !important;
 }
 
-.v-application--is-ltr .v-list-item__action:first-child, .v-application--is-ltr .v-list-item__icon:first-child {
+.v-application--is-ltr .v-list-item__action:first-child,
+.v-application--is-ltr .v-list-item__icon:first-child {
   margin-right: 12px !important;
 }
 
@@ -92,12 +109,17 @@ p:last-of-type {
 .v-expansion-panel--active > .v-expansion-panel-header {
   font-weight: bold;
   color: #ffffff;
-  background: #1565AC;
-  margin-bottom: 20px
+  background: #1565ac;
+  margin-bottom: 20px;
 }
 
-.v-expansion-panel--active > .v-expansion-panel-header--active .v-expansion-panel-header__icon:not(.v-expansion-panel-header__icon--disable-rotate) .v-icon {
-  color: #ffffff !important
+.v-expansion-panel--active
+  > .v-expansion-panel-header--active
+  .v-expansion-panel-header__icon:not(
+    .v-expansion-panel-header__icon--disable-rotate
+  )
+  .v-icon {
+  color: #ffffff !important;
 }
 
 .v-application--is-ltr .v-expansion-panel-header {
@@ -127,7 +149,7 @@ hr {
   background: #ccc;
   height: 1px;
   border: none;
-  margin: 30px 0
+  margin: 30px 0;
 }
 
 .cursor-pointer {

@@ -9,62 +9,62 @@
       <hr/>
 
       <Card topico="Apresentação">
-        <p>
+        <Paragraph>
           O manejo das situações de transtornos mentais e de adoecimento no
           ambiente de trabalho exige o conhecimento e a operacionalização de
           ferramentas que possam ser úteis no âmbito institucional.
-        </p>
+        </Paragraph>
 
-        <p>
+        <Paragraph>
           Neste módulo, serão disponibilizadas informações que auxiliam líderes
           e suas equipes no enfrentamento dos crescentes índices de adoecimento
           relacionados ao trabalho, as quais possibilitam ampliar o acolhimento
           e os encaminhamentos necessários ao cuidado biopsicossocial.
-        </p>
+        </Paragraph>
 
-        <p>
+        <Paragraph>
           Dessa forma, ao adquirir conhecimento sobre os processos de
           adoecimento, é possível desenvolver ações de apoio ao trabalhador,
           orientando a prevenção e a intervenção no ambiente de trabalho.
-        </p>
+        </Paragraph>
       </Card>
 
       <hr/>
 
       <Card topico="Introdução">
-        <p>Caro (a) cursista,</p>
+        <Paragraph>Caro (a) cursista,</Paragraph>
 
-        <p>
+        <Paragraph>
           Certamente, você sabe que a maior parte do nosso tempo é dedicada ao
           ofício. No entanto, quando uma pessoa precisa lidar com transtornos
           mentais no ambiente profissional, torna-se extremamente desafiador
           executar suas funções de maneira eficiente durante o horário de
           trabalho.
-        </p>
+        </Paragraph>
 
-        <p>
+        <Paragraph>
           As frustrações no ambiente de trabalho são comuns e ocorrem
           frequentemente, seja devido à ameaça de perda do emprego, falta de
           reconhecimento pelo desempenho, falhas cotidianas, relacionamentos
           complicados, insatisfação com o serviço ou pressões de produtividade.
-        </p>
+        </Paragraph>
 
-        <p>
+        <Paragraph>
           Embora o trabalho em si possa ser benéfico para a saúde mental, um
           ambiente de trabalho negativo pode levar a sérias complicações.
           Portanto, é importante que a empresa ofereça um ambiente acolhedor e
           produtivo, no qual a comunicação seja incentivada em todos os níveis
           hierárquicos, especialmente na liderança.
-        </p>
+        </Paragraph>
 
-        <p>
+        <Paragraph>
           Assim, cuidar da saúde mental dos colaboradores não deve ser apenas
           uma frase de efeito, mas uma prática cotidiana. Cuidar do bem-estar
           emocional é um investimento para qualquer negócio que almeja ter
           sucesso, tanto no presente quanto no futuro.
-        </p>
+        </Paragraph>
 
-        <p>Então, vamos lá? Preparado (a)?</p>
+        <Paragraph>Então, vamos lá? Preparado (a)?</Paragraph>
       </Card>
 
       <v-row justify="center" class="mt-5">
@@ -88,12 +88,14 @@ import AulaTemplate from "@/components/AulaTemplate.vue";
 import Card from "@/components/Card.vue";
 import NavButton from "@/components/NavButton.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
+import Paragraph from "@/components/Paragraph.vue";
 
 
 export default {
   components: {
     AulaTemplate,
     Card,
+    Paragraph,
     NavButton,
     BoxIcon,
   },

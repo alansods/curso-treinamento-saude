@@ -5,6 +5,7 @@
         v-if="item.text === 'Início'"
         :to="{ path: '/' }"
         exact-path
+        class="text-body-2"
       >
         {{ item.text }}
       </v-breadcrumbs-item>
@@ -13,6 +14,7 @@
         v-else
         :to="{ path: item.href }"
         exact-path
+        class="text-body-2"
       >
         {{ item.text }}
       </v-breadcrumbs-item>
