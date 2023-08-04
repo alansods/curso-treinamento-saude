@@ -38,17 +38,27 @@
         <v-icon>mdi-home</v-icon>
       </v-btn> -->
 
-      <v-btn icon @click="toggleDarkMode">
-        <v-icon>{{
-          isDarkMode === "#fff"
-            ? "mdi-white-balance-sunny"
-            : "mdi-weather-night"
-        }}</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on }">
+          <v-btn icon @click="toggleDarkMode" v-on="on">
+            <v-icon>{{
+              isDarkMode === "#fff"
+                ? "mdi-white-balance-sunny"
+                : "mdi-weather-night"
+            }}</v-icon>
+          </v-btn>
+        </template>
+        <span>Modo claro/escuro</span>
+      </v-tooltip>
 
-      <v-btn icon @click="toggleMenu">
-        <v-icon>mdi-menu</v-icon>
-      </v-btn>
+      <v-tooltip bottom>
+        <template v-slot:activator="{ on }">
+          <v-btn icon @click="toggleMenu" v-on="on">
+            <v-icon>mdi-menu</v-icon>
+          </v-btn>
+        </template>
+        <span>Menu</span>
+      </v-tooltip>
     </div>
   </v-app-bar>
 </template>

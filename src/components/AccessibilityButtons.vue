@@ -1,16 +1,31 @@
 <template>
   <div>
-    <v-btn icon>
-      <v-icon @click="decreaseFont">mdi-format-font-size-decrease</v-icon>
-    </v-btn>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-btn icon v-on="on">
+          <v-icon @click="decreaseFont">mdi-format-font-size-decrease</v-icon>
+        </v-btn>
+      </template>
+      <span>Reduzir tamanho da fonte</span>
+    </v-tooltip>
 
-    <v-btn icon>
-      <v-icon @click="resetFont">mdi-format-text-variant</v-icon>
-    </v-btn>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-btn icon v-on="on">
+          <v-icon @click="resetFont">mdi-format-text-variant</v-icon>
+        </v-btn>
+      </template>
+      <span>Resetar tamanho da fonte</span>
+    </v-tooltip>
 
-    <v-btn icon>
-      <v-icon @click="increaseFont">mdi-format-font-size-increase</v-icon>
-    </v-btn>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <v-btn icon v-on="on">
+          <v-icon @click="increaseFont">mdi-format-font-size-increase</v-icon>
+        </v-btn>
+      </template>
+      <span>Aumentar tamanho da fonte</span>
+    </v-tooltip>
   </div>
 </template>
 

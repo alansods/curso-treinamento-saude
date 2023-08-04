@@ -15,14 +15,19 @@
     </div>
 
     <v-list>
-      <v-list-item @click="$router.push('/')">
-        <v-list-item-icon>
-          <v-icon>mdi-home</v-icon>
-        </v-list-item-icon>
-        <v-list-item-content>
-          <v-list-item-title>Início</v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
+      <v-tooltip top>
+        <template v-slot:activator="{ on }">
+          <v-list-item @click="$router.push('/')" v-on="on">
+            <v-list-item-icon>
+              <v-icon>mdi-home</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+              <v-list-item-title>Página Inicial</v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </template>
+        <span>Página Inicial</span>
+      </v-tooltip>
 
       <v-list-group
         v-for="modulo in $store.state.modulos"
@@ -30,17 +35,17 @@
         prepend-icon="mdi-bookshelf"
       >
         <template v-slot:activator>
-          <v-list-item-content>
-            <v-tooltip top>
-              <template v-slot:activator="{ on }">
+          <v-tooltip top>
+            <template v-slot:activator="{ on }">
+              <v-list-item-content>
                 <v-list-item-title v-on="on">
                   <strong class="text--body-2">{{ modulo.numero }}. </strong>
                   {{ modulo.titulo }}</v-list-item-title
                 >
-              </template>
-              <span>{{ modulo.titulo }}</span>
-            </v-tooltip>
-          </v-list-item-content>
+              </v-list-item-content>
+            </template>
+            <span>{{ modulo.titulo }}</span>
+          </v-tooltip>
         </template>
 
         <v-list-item v-for="item in modulo.items" :key="item.titulo">
