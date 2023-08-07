@@ -4,7 +4,7 @@
     :numero="$store.state.modulos[0].numero"
   >
     <Card
-      topico="Tópico 1 - As Principais Causas de Afastamento e os Custos Diretos e Indiretos Relacionados a Transtornos Mentais"
+      topico="Tópico 01 - As Principais Causas de Afastamento e os Custos Diretos e Indiretos Relacionados a Transtornos Mentais"
     >
       <Paragraph>
         Neste tópico, vamos abordar a importância dos cuidados com a saúde

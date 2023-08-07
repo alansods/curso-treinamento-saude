@@ -4,7 +4,7 @@
     :numero="$store.state.modulos[0].numero"
   >
     <Card
-      topico="Tópico 2 - Transtornos Mentais Mais Comuns no Ambiente de Trabalho"
+      topico="Tópico 02 - Transtornos Mentais Mais Comuns no Ambiente de Trabalho"
     >
       <Paragraph>
         Neste tópico, abordaremos os transtornos mentais mais comuns no ambiente

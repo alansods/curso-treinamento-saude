@@ -3,7 +3,7 @@
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
   >
-    <Card topico="Tópico 3 - Assédio no Ambiente de Trabalho">
+    <Card topico="Tópico 03 - Assédio no Ambiente de Trabalho">
       <Paragraph>
         Neste tópico, trataremos de um assunto de extrema importância: o assédio
         moral e sexual no ambiente de trabalho. Essas situações constrangedoras

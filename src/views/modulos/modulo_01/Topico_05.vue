@@ -4,7 +4,7 @@
     :numero="$store.state.modulos[0].numero"
   >
     <Card
-      topico="Tópico 5 - A Importância dos Investimentos de Saúde Mental nas Empresas"
+      topico="Tópico 05 - A Importância dos Investimentos de Saúde Mental nas Empresas"
     >
       <Paragraph>
         Você sabia que a saúde mental dos colaboradores tem um impacto direto na

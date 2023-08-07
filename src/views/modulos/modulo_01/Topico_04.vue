@@ -4,7 +4,7 @@
     :numero="$store.state.modulos[0].numero"
   >
 
-    <Card topico="Tópico 4 - Políticas de Saúde Mental no Trabalho">
+    <Card topico="Tópico 04 - Políticas de Saúde Mental no Trabalho">
       <Paragraph>
         Neste tópico, abordamos o assédio moral e sexual no ambiente de
         trabalho, discutindo suas definições, causas e consequências. No próximo
