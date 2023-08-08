@@ -4,7 +4,6 @@
     :class="left ? 'text-left' : 'text-center'"
     data-aos="zoom-in"
     data-aos-easing="ease"
-    data-aos-offset="250"
     data-aos-duration="500"
     data-aos-once="true"
   >

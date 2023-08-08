@@ -2,6 +2,10 @@
   <v-card
     class="elevation-0 rounded-lg px-2 py-3"
     :class="tipoToClass[tipo]"
+    data-aos="zoom-in"
+    data-aos-easing="ease"
+    data-aos-duration="500"
+    data-aos-once="true"
   >
     <v-card-text
       class="box-icon text"
@@ -14,7 +18,7 @@
             :src="`https://cdn.lordicon.com/${tipoIcon}.json`"
             trigger="loop"
             delay="1500"
-            colors="primary:#fff"
+            :colors="$vuetify.theme.dark ? 'primary:#000' : 'primary:#fff'"
             style="width: 65px; height: 65px"
           >
           </lord-icon>
