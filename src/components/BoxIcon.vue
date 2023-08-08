@@ -17,7 +17,7 @@
           <lord-icon
             :src="`https://cdn.lordicon.com/${tipoIcon}.json`"
             trigger="loop"
-            delay="1500"
+            delay="1300"
             :colors="$vuetify.theme.dark ? 'primary:#000' : 'primary:#fff'"
             style="width: 65px; height: 65px"
           >
