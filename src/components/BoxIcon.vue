@@ -1,6 +1,10 @@
 <template>
   <v-card
     class="elevation-0 rounded-lg px-2 py-3"
+    data-aos="fade-right"
+    data-aos-easing="ease"
+    data-aos-offset="100"
+    data-aos-duration="600"
     :class="tipoToClass[tipo]"
   >
     <v-card-text

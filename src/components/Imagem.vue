@@ -1,5 +1,12 @@
 <template>
-  <div class="mb-5" :class="left ? 'text-left' : 'text-center'">
+  <div
+    class="mb-5"
+    :class="left ? 'text-left' : 'text-center'"
+    data-aos="pop-in"
+    data-aos-easing="ease"
+    data-aos-offset="500"
+    data-aos-duration="500"
+  >
     <div class="pa-0 ma-0 elevation-0">
       <v-skeleton-loader
         v-show="loading"
