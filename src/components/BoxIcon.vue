@@ -2,7 +2,7 @@
   <v-card
     class="elevation-0 rounded-lg px-2 py-3"
     :class="tipoToClass[tipo]"
-    data-aos="fade-right"
+    :data-aos="!$vuetify.theme.dark ? 'fade-right' : ''"
     data-aos-easing="ease"
     data-aos-duration="500"
     data-aos-once="true"
@@ -82,9 +82,11 @@ export default {
         video_aula: "video_aula",
       };
     },
+
     tipoTitle() {
       return tipoToIconAndTitle[this.tipo]?.title;
     },
+
     tipoIcon() {
       return tipoToIconAndTitle[this.tipo]?.icon;
     },
