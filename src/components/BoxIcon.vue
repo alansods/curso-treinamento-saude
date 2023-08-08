@@ -2,7 +2,7 @@
   <v-card
     class="elevation-0 rounded-lg px-2 py-3"
     :class="tipoToClass[tipo]"
-    data-aos="zoom-in"
+    data-aos="fade-right"
     data-aos-easing="ease"
     data-aos-duration="500"
     data-aos-once="true"
