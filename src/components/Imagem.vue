@@ -4,8 +4,9 @@
     :class="left ? 'text-left' : 'text-center'"
     data-aos="zoom-in"
     data-aos-easing="ease"
-    data-aos-offset="200"
+    data-aos-offset="250"
     data-aos-duration="500"
+    data-aos-once="true"
   >
     <div class="pa-0 ma-0 elevation-0">
       <v-skeleton-loader

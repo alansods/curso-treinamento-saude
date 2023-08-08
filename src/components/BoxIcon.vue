@@ -1,10 +1,6 @@
 <template>
   <v-card
     class="elevation-0 rounded-lg px-2 py-3"
-    data-aos="fade-right"
-    data-aos-easing="ease"
-    data-aos-offset="100"
-    data-aos-duration="500"
     :class="tipoToClass[tipo]"
   >
     <v-card-text
@@ -19,7 +15,7 @@
             trigger="loop"
             delay="1500"
             colors="primary:#fff"
-            style="width: 60px; height: 60px"
+            style="width: 65px; height: 65px"
           >
           </lord-icon>
         </v-col>
