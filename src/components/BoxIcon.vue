@@ -4,7 +4,7 @@
     data-aos="fade-right"
     data-aos-easing="ease"
     data-aos-offset="100"
-    data-aos-duration="600"
+    data-aos-duration="500"
     :class="tipoToClass[tipo]"
   >
     <v-card-text
