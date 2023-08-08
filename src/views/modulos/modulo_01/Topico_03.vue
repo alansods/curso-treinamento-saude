@@ -21,6 +21,27 @@
       </Paragraph>
     </Card>
 
+    <BoxIcon tipo="video_aula">
+      <Paragraph>
+        Neste video abordaremos sobre o assunto tal.
+        <strong style="cursor: pointer" @click="dialog = true"
+          ><u>Clique aqui</u></strong
+        >
+        para iniciar o assistir.
+      </Paragraph>
+    </BoxIcon>
+
+    <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
+      <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
+        <youtube
+          ref="videoPlayer"
+          video-id="MwTTEtIbJ-U"
+          style="border: solid 3px white"
+          fitParent
+        />
+      </v-responsive>
+    </v-dialog>
+
     <Card subTopico="3.1 Assédio Moral">
       <v-row>
         <v-col cols="12" sm="4">
@@ -486,8 +507,8 @@ export default {
   },
   data() {
     return {
-      modelTranstornos: 0,
       dialogTeste: false,
+      dialog: false,
 
       itemsConsequencias: {
         tab: 0,
@@ -534,7 +555,22 @@ export default {
     };
   },
 
-  methods: {},
+  methods: {
+    dialogInput(value) {
+      if (!value) {
+        // Acessa o player do vídeo através da referência ref
+        const player = this.$refs.videoPlayer.player;
+
+        if (player && typeof player.pauseVideo === "function") {
+          player.pauseVideo();
+        }
+      }
+    },
+  },
+
+  created() {
+    this.$store.state.progresso_modulo_01.items.topico_03 = true
+  }
 };
 </script>
 

@@ -144,7 +144,7 @@ export default {
       // Se for a última pergunta, mostrar tela de conclusão
       if (this.questionIndex === this.questions.length - 1) {
         this.completed = true;
-        this.$store.state.progresso_modulo_1.atividade = true;
+        this.$store.state.progresso_modulo_01.items.atividade = true;
         this.$store.commit("SALVAR_PROGRESSO");
       } else {
         // Se não for a última pergunta, avançar para a próxima automaticamente após o usuário selecionar uma resposta

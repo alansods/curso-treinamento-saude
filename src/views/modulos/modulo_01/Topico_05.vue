@@ -27,7 +27,7 @@
 
     <BoxIcon tipo="video_aula">
       <Paragraph>
-        Neste video abordaremos sobre o assunto tal e tal.
+        Neste video abordaremos sobre o assunto tal.
         <strong style="cursor: pointer" @click="dialog = true"
           ><u>Clique aqui</u></strong
         >
@@ -39,7 +39,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="BTBPdA3FjrA"
+          video-id="mLnhP8sRht4"
           style="border: solid 3px white"
           fitParent
         />
@@ -217,6 +217,10 @@ export default {
   },
 
   watch: {},
+
+  created() {
+    this.$store.state.progresso_modulo_01.items.topico_05 = true
+  }
 };
 </script>
 

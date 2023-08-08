@@ -10,9 +10,20 @@ export default new Vuex.Store({
     modulos: Modulos,
     menuDrawer: false,
     welcomeBack: false,
-    progresso_modulo_1: {
-      atividade: false,
-      video: false,
+
+    progresso_modulo_01: {
+      porcentagem: 0,
+      items: {
+        video1: false,
+        video2: false,
+        video3: false,
+        atividade: false,
+        topico_01: false,
+        topico_02: false,
+        topico_03: false,
+        topico_04: false,
+        topico_05: false,
+      },
     },
   },
   mutations: {
@@ -29,11 +40,14 @@ export default new Vuex.Store({
     },
 
     SALVAR_PROGRESSO(state) {
-      localStorage.setItem("progresso_treinamento_saudeV2", JSON.stringify(state));
+      localStorage.setItem(
+        "progresso_treinamento_saudeV2",
+        JSON.stringify(state)
+      );
     },
 
     CARREGAR_PROGRESSO(state, payload) {
-      state = payload
+      state = payload;
     },
   },
   actions: {},

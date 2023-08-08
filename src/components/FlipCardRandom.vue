@@ -152,7 +152,7 @@ export default {
 <style scoped>
 .flip-card {
   width: 275px;
-  height: 240px;
+  height: 275px;
   perspective: 1000px;
   border-radius: 8px;
   transition: transform 200ms ease;

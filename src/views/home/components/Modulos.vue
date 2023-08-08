@@ -24,13 +24,7 @@
             <div class="titulo-modulo textColor--text text-body-1">{{ modulo.titulo }}</div>
 
             <div
-              v-if="$store.state.progresso_modulo_1.atividade"
-              class="progresso-modulo success"
-            ></div>
-
-            <div
-              v-if="!$store.state.progresso_modulo_1.atividade"
-              class="progresso-modulo disabled"
+              :class="$store.state[`progresso_modulo_${modulo.numero}`]?.items.atividade ? 'progresso-modulo success' : 'progresso-modulo disabled'"
             ></div>
           </div>
         </v-col>

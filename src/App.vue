@@ -44,7 +44,7 @@ export default {
     const progresso = localStorage.getItem("progresso_treinamento_saudeV2");
 
     if (progresso) {
-      this.$store.commit("CARREGAR_PROGRESSO");
+      this.$store.commit("CARREGAR_PROGRESSO", progresso);
     }
   },
 
@@ -154,5 +154,30 @@ hr {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.animated-box {
+  animation: shake 1.5s ease-in infinite ;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0px);
+  }
+  15% {
+    transform: translateX(3px);
+  }
+  30% {
+    transform: translateX(0px);
+  }
+  45% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 </style>

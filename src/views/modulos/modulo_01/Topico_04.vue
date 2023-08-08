@@ -157,6 +157,10 @@ export default {
   },
 
   methods: {},
+
+  created() {
+    this.$store.state.progresso_modulo_01.items.topico_04 = true
+  }
 };
 </script>
 

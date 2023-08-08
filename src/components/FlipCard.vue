@@ -11,7 +11,7 @@
         <slot name="front"></slot>
       </div>
 
-      <div class="flip-card-back">
+      <div class="flip-card-back text-body-2">
         <slot name="back"></slot>
       </div>
     </div>
@@ -72,7 +72,7 @@ export default {
 <style scoped>
 .flip-card {
   width: 275px;
-  height: 275px;
+  height: 300px;
   perspective: 1000px;
   border-radius: 8px;
   transition: transform 200ms ease;
