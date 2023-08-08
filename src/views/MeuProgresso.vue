@@ -4,7 +4,7 @@
     :numero="$store.state.modulos[0].numero"
   >
     <Card topico="Meu Progresso">
-      <h3>Módulo 01</h3>
+      <h3 class="text-h6 font-weight-bold">Módulo 01</h3>
       <v-progress-linear
         :value="porcentagem_modulo_01"
         height="25"
@@ -14,7 +14,7 @@
         <strong>{{ porcentagem_modulo_01 }}%</strong>
       </v-progress-linear>
 
-      <h3 class="mt-10">Módulo 02</h3>
+      <h3 class="text-h6 font-weight-bold mt-8">Módulo 02</h3>
       <v-progress-linear value="0" height="25" color="success" class="rounded">
         <strong>0%</strong>
       </v-progress-linear>
