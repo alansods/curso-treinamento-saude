@@ -47,8 +47,18 @@ export default new Vuex.Store({
       );
     },
 
-    CARREGAR_PROGRESSO(state, payload) {
-      state = payload;
+    CARREGAR_PROGRESSO(state) {
+      const progressoLocalStorage = localStorage.getItem("progresso_treinamento_saudeV2")
+
+      if (progressoLocalStorage) {
+        // Replace the state object with the stored item
+        this.replaceState(
+          Object.assign(
+            state,
+            JSON.parse(localStorage.getItem("progresso_treinamento_saudeV2"))
+          )
+        );
+      }
     },
   },
   actions: {},

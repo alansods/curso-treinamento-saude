@@ -1,7 +1,7 @@
 <template>
   <v-app class="app">
     <WelcomeBackDialog />
-    <NavBar @font-size-changed="updateFontSize"  />
+    <NavBar @font-size-changed="updateFontSize" />
     <MenuDrawer />
 
     <v-main>
@@ -40,15 +40,9 @@ export default {
     },
   },
 
-  created() {
-    const progresso = localStorage.getItem("progresso_treinamento_saudeV2");
-
-    if (progresso) {
-      this.$store.commit("CARREGAR_PROGRESSO", progresso);
-    }
-  },
-
   beforeCreate() {
+    this.$store.commit("CARREGAR_PROGRESSO");
+
     const lastRouteName = localStorage.getItem("last_Page_Treinamento_Saude");
     console.log(lastRouteName);
 
@@ -60,8 +54,6 @@ export default {
 </script>
 
 <style lang="scss">
-
-
 body {
   font-size: 18px;
 }
@@ -69,7 +61,6 @@ body {
 .v-application--wrap {
   background: #f2f2f2;
 }
-
 
 #app {
   min-height: 100vh;
@@ -157,7 +148,7 @@ hr {
 }
 
 .animated-box {
-  animation: shake 1.5s ease-in infinite ;
+  animation: shake 1.5s ease-in infinite;
 }
 
 @keyframes shake {
