@@ -218,7 +218,7 @@
 
     <v-card class="rounded-lg elevation-0" style="border: solid 1px #ddd">
       <v-card-title class="text-center justify-center py-4 primary white--text">
-        <h1 class="font-weight-bold text-uppercase text-h6 basil--text">
+        <h1 class="font-weight-bold text-uppercase text-h6 basil--text" style="word-break: break-word">
           Consequências do assédio moral
         </h1>
       </v-card-title>
@@ -321,7 +321,7 @@
       style="border: solid 1px #ddd"
     >
       <v-card-title class="text-center justify-center py-4 primary white--text">
-        <h1 class="font-weight-bold text-uppercase text-h6 basil--text">
+        <h1 class="font-weight-bold text-uppercase text-h6 basil--text" style="word-break: break-word">
           Classificação de assédio sexual
         </h1>
       </v-card-title>

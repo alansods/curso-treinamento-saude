@@ -1,7 +1,7 @@
 <template>
   <AulaTemplate :titulo="$store.state.modulos[0].titulo" :numero="$store.state.modulos[0].numero">
     <Card topico="Referêcias">
-      <v-row>
+      <v-row style="word-break: break-word">
         <v-col cols="12" sm="6">
           <Paragraph>
             ALMEIDA, Hugo et al. MODELOS DE STRESS OCUPACIONAL: SISTEMATIZAÇÃO,
