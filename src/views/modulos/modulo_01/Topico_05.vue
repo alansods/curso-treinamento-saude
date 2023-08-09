@@ -205,6 +205,7 @@ export default {
 
   methods: {
     dialogInput(value) {
+      this.$store.state.progresso_modulo_01.items.video_03 = true;
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;

@@ -8,7 +8,11 @@
       <h2>{{ number }}. <span v-html="question"></span></h2>
 
       <div class="my-6">
-        <div v-for="(option, index) in options" :key="index" class="my-2 text-body-1">
+        <div
+          v-for="(option, index) in options"
+          :key="index"
+          class="my-2 text-body-1"
+        >
           <input
             type="radio"
             :name="questionIndex"
@@ -48,7 +52,9 @@
         </div>
 
         <Paragraph class="completed-score mb-5">
-          Você acertou <span v-if="score < 7">apenas</span> <strong><u>{{ score }}</u></strong
+          Você acertou <span v-if="score < 7">apenas</span>
+          <strong
+            ><u>{{ score }}</u></strong
           >
           de {{ questions.length }} questões.
         </Paragraph>
@@ -138,14 +144,15 @@ export default {
       // Se acertou a respota da questão
       if (this.selectedOption === this.questions[this.questionIndex].answer) {
         this.score++;
-        this.$set(this.questions[this.questionIndex], "correct", true);
       }
 
       // Se for a última pergunta, mostrar tela de conclusão
       if (this.questionIndex === this.questions.length - 1) {
         this.completed = true;
-        this.$store.state.progresso_modulo_01.items.atividade = true;
-        this.$store.commit("SALVAR_PROGRESSO");
+        if (this.score >= 7) {
+          this.$store.state.progresso_modulo_01.items.atividade = true;
+          this.$store.commit("SALVAR_PROGRESSO");
+        }
       } else {
         // Se não for a última pergunta, avançar para a próxima automaticamente após o usuário selecionar uma resposta
         this.nextQuestion();

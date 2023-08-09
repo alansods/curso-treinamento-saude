@@ -105,6 +105,10 @@ export default {
   },
 
   methods: {},
+
+  created() {
+    this.$store.state.progresso_modulo_01.items.apresentacao = true;
+  },
 };
 </script>
 

@@ -24,7 +24,7 @@
             <div class="titulo-modulo textColor--text text-body-1">{{ modulo.titulo }}</div>
 
             <div
-              :class="$store.state[`progresso_modulo_${modulo.numero}`]?.items.atividade ? 'progresso-modulo success' : 'progresso-modulo disabled'"
+              :class="$store.state[`progresso_modulo_${modulo.numero}`]?.porcentagem === 100 ? 'progresso-modulo success' : 'progresso-modulo disabled'"
             ></div>
           </div>
         </v-col>

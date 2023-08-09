@@ -14,10 +14,11 @@ export default new Vuex.Store({
     progresso_modulo_01: {
       porcentagem: 0,
       items: {
-        video1: false,
-        video2: false,
-        video3: false,
+        video_01: false,
+        video_02: false,
+        video_03: false,
         atividade: false,
+        apresentacao: false,
         topico_01: false,
         topico_02: false,
         topico_03: false,
