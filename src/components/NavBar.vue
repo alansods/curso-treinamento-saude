@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="white" app>
+  <v-app-bar color="white" app style="width: 100vw">
     <div class="d-flex gap-5 align-center" style="gap: 10px">
       <v-img
         v-if="!$vuetify.theme.dark"

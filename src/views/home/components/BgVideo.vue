@@ -1,12 +1,18 @@
 <template>
-  <div class="background" :class="{'dark': $vuetify.theme.dark}">
-    <div class="text-center" style="color: white;">
-      <h4 class="font-weight-light text-sm-h5">Treinamento para Líderes</h4>
+  <div class="background-container" :class="{ dark: $vuetify.theme.dark }">
+    <div
+      class="text-center d-flex flex-column justify-space-around"
+      style="color: white; height: 100%"
+    >
+      <div>
+        <div class="mb-3">
+        <h4 class="font-weight-light text-h6 text-sm-h5">Treinamento para Líderes</h4>
 
-      <h3 class="font-weight-bold text-sm-h4">
-        Impacto dos Custos de Saúde <br />
-        e Segurança para sua Empresa
-      </h3>
+        <h3 class="font-weight-bold text-h5 text-sm-h4">
+          Impacto dos Custos de Saúde <br />
+          e Segurança para sua Empresa
+        </h3>
+      </div>
 
       <div class="youtube-container">
         <youtube
@@ -16,6 +22,9 @@
           fitParent
         />
       </div>
+      </div>
+
+      <v-icon size="60" color="white" class="go-down">mdi-chevron-down</v-icon>
     </div>
   </div>
 </template>
@@ -25,17 +34,14 @@ export default {};
 </script>
 
 <style scoped>
-.background {
+.background-container {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100vw;
   height: calc(100vh - 64px);
-  padding: 0 10px;
-  margin: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("../../../assets/bg-light.png");
+  padding: 30px 10px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
+    url("../../../assets/bg-light.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -48,8 +54,32 @@ export default {};
   background-repeat: no-repeat;
 }
 
+.youtube-container {
+  margin: 0 auto;
+}
+
+.go-down {
+  cursor: pointer;
+  width: 60px;
+  margin: 0 auto;
+  animation: bounce 2s ease infinite;
+  margin-top: 5px;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-8px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
+}
+
 @media (max-width: 600px) {
-  .background {
+  .background-container {
     height: calc(100vh - 56px);
   }
 
@@ -69,5 +99,4 @@ export default {};
     width: 820px;
   }
 }
-
 </style>
