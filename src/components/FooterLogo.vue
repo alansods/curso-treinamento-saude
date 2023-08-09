@@ -1,6 +1,7 @@
 <template>
   <v-footer class="footer white">
-    <v-img :src="require('../assets/logo-footer-light.svg')" class="footer-img"/>
+    <v-img v-if="!$vuetify.theme.dark" :src="require('../assets/logo-footer-light.png')" class="footer-img"/>
+    <v-img v-else :src="require('../assets/logo-footer-dark.png')" class="footer-img"/>
   </v-footer>
 </template>
 
@@ -23,8 +24,7 @@ export default {
   user-select: none;
 }
 
-.footer-img {
+.v-image {
   max-width: 236px;
-  height: 103px;
 }
 </style>

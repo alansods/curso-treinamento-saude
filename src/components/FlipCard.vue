@@ -11,7 +11,7 @@
         <slot name="front"></slot>
       </div>
 
-      <div class="flip-card-back text-body-2">
+      <div class="flip-card-back text-body-1">
         <slot name="back"></slot>
       </div>
     </div>
