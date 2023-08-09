@@ -29,7 +29,7 @@
           sm="11"
           class="white--text d-flex justify-center flex-column"
         >
-          <h5 class="text-h5 font-weight-bold mb-2">{{ tipoTitle }}</h5>
+          <h5 class="text-h5 font-weight-bold mb-2">{{ tipoTitle }} {{numero && numero}}</h5>
           <slot></slot>
         </v-col>
       </v-row>
@@ -62,7 +62,7 @@ const tipoToIconAndTitle = {
 };
 
 export default {
-  props: ["tipo"],
+  props: ["tipo", "numero"],
 
   data() {
     return {

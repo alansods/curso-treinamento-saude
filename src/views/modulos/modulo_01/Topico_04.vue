@@ -160,6 +160,7 @@ export default {
 
   created() {
     this.$store.state.progresso_modulo_01.items.topico_04 = true
+    this.$store.commit("SALVAR_PROGRESSO");
   }
 };
 </script>

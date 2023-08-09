@@ -21,13 +21,19 @@
       </Paragraph>
     </Card>
 
-    <BoxIcon tipo="video_aula">
+    <BoxIcon tipo="video_aula" numero="2">
       <Paragraph>
-        Neste video abordaremos sobre o assunto tal.
+        Nessa vídeoaula nós iremos explicar como assédio moral e sexual no
+        ambiente de trabalho pode desenvolver adoecimento mental do trabalhador.
+        Discutir a violência no local de trabalho necessita compreender todo o
+        contexto e cenário que se ocorre
+      </Paragraph>
+
+      <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
           ><u>Clique aqui</u></strong
         >
-        para iniciar o assistir.
+        para iniciar o vídeo.
       </Paragraph>
     </BoxIcon>
 
@@ -218,7 +224,10 @@
 
     <v-card class="rounded-lg elevation-0" style="border: solid 1px #ddd">
       <v-card-title class="text-center justify-center py-4 primary white--text">
-        <h1 class="font-weight-bold text-uppercase text-h6 basil--text" style="word-break: break-word">
+        <h1
+          class="font-weight-bold text-uppercase text-h6 basil--text"
+          style="word-break: break-word"
+        >
           Consequências do assédio moral
         </h1>
       </v-card-title>
@@ -321,7 +330,10 @@
       style="border: solid 1px #ddd"
     >
       <v-card-title class="text-center justify-center py-4 primary white--text">
-        <h1 class="font-weight-bold text-uppercase text-h6 basil--text" style="word-break: break-word">
+        <h1
+          class="font-weight-bold text-uppercase text-h6 basil--text"
+          style="word-break: break-word"
+        >
           Classificação de assédio sexual
         </h1>
       </v-card-title>
@@ -363,9 +375,10 @@
     </v-card>
 
     <BoxIcon tipo="voce_sabia">
-      <Paragraph>Você sabia que o Código Penal art. 216-A dispõe sobre a criminalização da
-      prática de assédio sexual no ambiente de trabalho?
-      <strong>A pena prevista é de detenção de um a dois anos.</strong>
+      <Paragraph
+        >Você sabia que o Código Penal art. 216-A dispõe sobre a criminalização
+        da prática de assédio sexual no ambiente de trabalho?
+        <strong>A pena prevista é de detenção de um a dois anos.</strong>
       </Paragraph>
     </BoxIcon>
 
@@ -389,7 +402,6 @@
           <v-icon size="70" color="white">mdi-help-circle-outline</v-icon>
         </div>
       </v-col>-->
-
     </v-row>
 
     <!-- <v-dialog v-model="dialogTeste" width="600">
@@ -558,6 +570,8 @@ export default {
   methods: {
     dialogInput(value) {
       this.$store.state.progresso_modulo_01.items.video_02 = true;
+      this.$store.commit("SALVAR_PROGRESSO");
+
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -570,9 +584,9 @@ export default {
   },
 
   created() {
-    this.$store.state.progresso_modulo_01.items.topico_03 = true
+    this.$store.state.progresso_modulo_01.items.topico_03 = true;
     this.$store.commit("SALVAR_PROGRESSO");
-  }
+  },
 };
 </script>
 

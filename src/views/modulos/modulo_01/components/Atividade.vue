@@ -21,7 +21,7 @@
             @change="optionSelected = true"
             :disabled="answerChecked"
           />
-          {{ option }}
+          <span class="pl-4">{{ option }}</span>
         </div>
       </div>
 

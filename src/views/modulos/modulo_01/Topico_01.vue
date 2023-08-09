@@ -95,13 +95,17 @@
       </Paragraph>
     </Card>
 
-    <BoxIcon tipo="video_aula">
+    <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Neste video abordaremos sobre o assunto tal.
+        Nessa vídeoaulas nós iremos disponibilizar informações que auxiliem líderes e suas equipes no enfrentamento dos índices crescentes de adoecimento mental associado ao trabalho, possibilitando, assim, ampliar o acolhimento e os encaminhamentos necessários ao cuidado biopsicossocial dos trabalhadores
+
+      </Paragraph>
+
+      <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
           ><u>Clique aqui</u></strong
         >
-        para iniciar o assistir.
+        para iniciar o vídeo.
       </Paragraph>
     </BoxIcon>
 
@@ -298,6 +302,8 @@ export default {
   methods: {
     dialogInput(value) {
       this.$store.state.progresso_modulo_01.items.video_01 = true;
+      this.$store.commit("SALVAR_PROGRESSO");
+
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -311,6 +317,7 @@ export default {
 
   created() {
     this.$store.state.progresso_modulo_01.items.topico_01 = true;
+    this.$store.commit("SALVAR_PROGRESSO");
   },
 };
 </script>

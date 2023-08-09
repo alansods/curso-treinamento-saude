@@ -4,7 +4,7 @@
     v-model="$store.state.menuDrawer"
     fixed
     temporary
-    :width="$vuetify.breakpoint.smAndUp ? '30%' : '100%'"
+    :width="$vuetify.breakpoint.smAndUp ? '40%' : '100%'"
   >
     <div class="d-flex align-center justify-space-between pa-4">
       <div class="primary--text text-h4 font-weight-bold">Sumário</div>

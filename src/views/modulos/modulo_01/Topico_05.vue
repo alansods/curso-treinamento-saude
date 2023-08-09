@@ -25,13 +25,17 @@
       </Paragraph>
     </Card>
 
-    <BoxIcon tipo="video_aula">
+    <BoxIcon tipo="video_aula" numero="3">
       <Paragraph>
-        Neste video abordaremos sobre o assunto tal.
+        Nesta vídeoaula, nós iremos discorrer sobre a importância dos
+        investimentos de saúde mental nas empresas.
+      </Paragraph>
+
+      <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
           ><u>Clique aqui</u></strong
         >
-        para iniciar o assistir.
+        para iniciar o vídeo.
       </Paragraph>
     </BoxIcon>
 
@@ -206,6 +210,8 @@ export default {
   methods: {
     dialogInput(value) {
       this.$store.state.progresso_modulo_01.items.video_03 = true;
+      this.$store.commit("SALVAR_PROGRESSO");
+
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -220,8 +226,9 @@ export default {
   watch: {},
 
   created() {
-    this.$store.state.progresso_modulo_01.items.topico_05 = true
-  }
+    this.$store.state.progresso_modulo_01.items.topico_05 = true;
+    this.$store.commit("SALVAR_PROGRESSO");
+  },
 };
 </script>
 
