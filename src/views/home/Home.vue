@@ -1,7 +1,7 @@
 <template>
   <div class="home background">
-    <BgVideo />
-    <Modulos />
+    <BgVideo @onGoDown="activateFunction" />
+    <Modulos ref="filhoRef" />
   </div>
 </template>
 
@@ -12,9 +12,13 @@ import Modulos from "./components/Modulos.vue";
 export default {
   name: "Home",
   components: { BgVideo, Modulos },
+
+  methods: {
+    activateFunction() {
+      this.$refs.filhoRef.goto();
+    },
+  },
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10" style="padding-bottom: 80px">
+  <div class="mt-10" style="padding-bottom: 80px" ref="slideHere">
     <v-container style="max-width: 828px">
       <v-row>
         <v-col cols="12">
@@ -21,10 +21,17 @@
               {{ modulo.numero }}
             </div>
 
-            <div class="titulo-modulo textColor--text text-body-1">{{ modulo.titulo }}</div>
+            <div class="titulo-modulo textColor--text text-body-1">
+              {{ modulo.titulo }}
+            </div>
 
             <div
-              :class="$store.state[`progresso_modulo_${modulo.numero}`]?.porcentagem === 100 ? 'progresso-modulo success' : 'progresso-modulo disabled'"
+              :class="
+                $store.state[`progresso_modulo_${modulo.numero}`]
+                  ?.porcentagem === 100
+                  ? 'progresso-modulo success'
+                  : 'progresso-modulo disabled'
+              "
             ></div>
           </div>
         </v-col>
@@ -37,6 +44,10 @@
 import modulos from "@/data/modulos.json";
 
 export default {
+  props: {
+    slideFunction: Function,
+  },
+
   data() {
     return {
       modulos: modulos,
@@ -45,9 +56,22 @@ export default {
 
   computed: {
     modulo_01_completo() {
-      const completed = this.$store.state.progresso_modulo_1.atividade && this.$store.state.progresso_modulo_1.video
-      return completed
-    }
+      const completed =
+        this.$store.state.progresso_modulo_1.atividade &&
+        this.$store.state.progresso_modulo_1.video;
+      return completed;
+    },
+  },
+
+  methods: {
+    goto() {
+      let element = this.$refs["slideHere"];
+      let top = element.offsetTop -30;
+      window.scrollTo({
+        top,
+        behavior: "smooth",
+      });
+    },
   },
 };
 </script>

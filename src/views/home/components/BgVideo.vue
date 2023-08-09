@@ -24,13 +24,19 @@
       </div>
       </div>
 
-      <v-icon size="60" color="white" class="go-down">mdi-chevron-down</v-icon>
+      <v-icon size="60" color="white" class="go-down" @click="goDown">mdi-chevron-down</v-icon>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    goDown(){
+      this.$emit("onGoDown")
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -38,7 +44,7 @@ export default {};
   position: relative;
   width: 100vw;
   height: calc(100vh - 64px);
-  padding: 30px 10px;
+  padding: 30px 10px 10px 10px;
   margin: 0 auto;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)),
     url("../../../assets/bg-light.png");
