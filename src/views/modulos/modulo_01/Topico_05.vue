@@ -3,7 +3,7 @@
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
   >
-    <Card
+    <TextBlock
       topico="Tópico 05 - A Importância dos Investimentos de Saúde Mental nas Empresas"
     >
       <Paragraph>
@@ -23,7 +23,7 @@
         necessidade estratégica. Afinal, o bem-estar das pessoas é um recurso
         tão precioso quanto a tecnologia, o patrimônio ou os métodos de gestão.
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="3">
       <Paragraph>
@@ -124,7 +124,7 @@
       </v-expansion-panel>
     </Accordion>
 
-    <Card>
+    <TextBlock>
       <v-row>
         <v-col cols="12" sm="4">
           <Imagem
@@ -154,7 +154,7 @@
           </Paragraph>
         </v-col>
       </v-row>
-    </Card>
+    </TextBlock>
 
     <BoxIcon tipo="recapitulando"
       >Chegamos ao final do módulo 1. Durante esse percurso foram
@@ -182,7 +182,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Card from "@/components/Card.vue";
+import TextBlock from "@/components/TextBlock.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Imagem from "@/components/Imagem.vue";
 import Accordion from "@/components/Accordion.vue";
@@ -193,7 +193,7 @@ import Paragraph from "@/components/Paragraph.vue";
 export default {
   components: {
     AulaTemplate,
-    Card,
+    TextBlock,
     BoxIcon,
     Imagem,
     Accordion,

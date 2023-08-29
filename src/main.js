@@ -7,6 +7,10 @@ import vuetify from "./plugins/vuetify";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
+import {SCORM} from 'pipwerks-scorm-api-wrapper';
+// Configurar a conexão com a API SCORM
+SCORM.init();
+
 Vue.config.productionTip = false;
 
 import VueYoutube from 'vue-youtube'

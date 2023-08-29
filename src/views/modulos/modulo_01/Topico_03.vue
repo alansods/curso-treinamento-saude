@@ -3,7 +3,7 @@
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
   >
-    <Card topico="Tópico 03 - Assédio no Ambiente de Trabalho">
+    <TextBlock topico="Tópico 03 - Assédio no Ambiente de Trabalho">
       <Paragraph>
         Neste tópico, trataremos de um assunto de extrema importância: o assédio
         moral e sexual no ambiente de trabalho. Essas situações constrangedoras
@@ -19,7 +19,7 @@
         explorar esse tema, buscamos identificar as causas e desenvolver
         estratégias de prevenção e combate.
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
       <Paragraph>
@@ -48,7 +48,7 @@
       </v-responsive>
     </v-dialog>
 
-    <Card subTopico="3.1 Assédio Moral">
+    <TextBlock subTopico="3.1 Assédio Moral">
       <v-row>
         <v-col cols="12" sm="4">
           <Imagem
@@ -101,7 +101,7 @@
         pertinente sobre esse tema, que visa proteger os trabalhadores contra
         essa forma de violência.
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <Subtopico
       titulo="Legislação pertinente sobre assédio moral:"
@@ -152,12 +152,12 @@
       </v-expansion-panel>
     </Accordion>
 
-    <Card>
+    <TextBlock>
       <Paragraph>
         Além da legislação, vamos identificar como se classificam os diferentes
         tipos de comportamentos abusivos presentes nessa prática.
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <Accordion>
       <v-expansion-panel>
@@ -202,7 +202,7 @@
       </v-expansion-panel>
     </Accordion>
 
-    <Card>
+    <TextBlock>
       <Paragraph>
         Você já parou para refletir sobre as atitudes que caracterizam o assédio
         moral no ambiente de trabalho? É fundamental estarmos cientes dessas
@@ -210,17 +210,17 @@
         quanto identificar o assédio moral é compreender o que não se enquadra
         nessa categoria. Vejamos a seguir:
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <FlipCardRandom />
 
-    <Card>
+    <TextBlock>
       <Paragraph>
         O assédio moral no ambiente de trabalho traz consigo uma série de
         consequências, que afetam tanto o indivíduo que sofre quanto a empresa
         como um todo. Vejamos a seguir:
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <v-card class="rounded-lg elevation-0" style="border: solid 1px #ddd">
       <v-card-title class="text-center justify-center py-4 primary white--text">
@@ -290,7 +290,7 @@
       </v-tabs-items>
     </v-card>
 
-    <Card subTopico="3.2 Assédio Sexual">
+    <TextBlock subTopico="3.2 Assédio Sexual">
       <Paragraph>
         Assédio sexual é toda conduta indesejada de natureza sexual que
         restrinja a liberdade sexual da vítima.
@@ -301,7 +301,7 @@
         assédio sexual. Um único ato pode ser suficientemente grave para atingir
         a honra, a dignidade e a moral da vítima.
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <BoxIcon tipo="atencao">
       Fique atento, pois existe uma distição entre o assédio moral e o assédio
@@ -314,7 +314,7 @@
       sexual, um único ato pode ser suficiente para configurá-lo.
     </BoxIcon>
 
-    <Card>
+    <TextBlock>
       <Paragraph>
         Outro ponto importante a ser destacado é a classificação do assédio
         sexual, que nos permite compreender as diferentes formas em que esse
@@ -323,7 +323,7 @@
         Essas classificações nos ajudam a entender melhor as dinâmicas e os
         impactos dessas condutas no ambiente de trabalho. Vejamos a seguir:
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <v-card
       class="mb-4 rounded-lg rounded-lg elevation-0"
@@ -384,7 +384,7 @@
 
     <v-row align="center">
       <v-col cols="10">
-        <Card>
+        <TextBlock>
           <Paragraph>
             É essencial compreendermos as implicações do assédio sexual para a
             vítima, para o agressor e para a empresa, a fim de combater esse
@@ -392,7 +392,7 @@
             respeitoso e livre de abusos. Vejamos a seguir as possíveis
             consequências para esse ato:
           </Paragraph>
-        </Card>
+        </TextBlock>
       </v-col>
 
       <!-- <v-spacer></v-spacer> -->
@@ -494,7 +494,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Card from "@/components/Card.vue";
+import TextBlock from "@/components/TextBlock.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Imagem from "@/components/Imagem.vue";
 import FlipCardImg from "@/components/FlipCardImg.vue";
@@ -507,7 +507,7 @@ import Paragraph from "@/components/Paragraph.vue";
 export default {
   components: {
     AulaTemplate,
-    Card,
+    TextBlock,
     BoxIcon,
     Imagem,
     FlipCardImg,

@@ -8,7 +8,7 @@
 
       <hr/>
 
-      <Card topico="Apresentação">
+      <TextBlock topico="Apresentação">
         <Paragraph>
           O manejo das situações de transtornos mentais e de adoecimento no
           ambiente de trabalho exige o conhecimento e a operacionalização de
@@ -27,11 +27,11 @@
           adoecimento, é possível desenvolver ações de apoio ao trabalhador,
           orientando a prevenção e a intervenção no ambiente de trabalho.
         </Paragraph>
-      </Card>
+      </TextBlock>
 
       <hr/>
 
-      <Card topico="Introdução">
+      <TextBlock topico="Introdução">
         <Paragraph>Caro (a) cursista,</Paragraph>
 
         <Paragraph>
@@ -65,7 +65,7 @@
         </Paragraph>
 
         <Paragraph>Então, vamos lá? Preparado (a)?</Paragraph>
-      </Card>
+      </TextBlock>
 
       <v-row justify="center" class="mt-5">
         <v-col cols="12" sm="6">
@@ -85,7 +85,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Card from "@/components/Card.vue";
+import TextBlock from "@/components/TextBlock.vue";
 import NavButton from "@/components/NavButton.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Paragraph from "@/components/Paragraph.vue";
@@ -94,7 +94,7 @@ import Paragraph from "@/components/Paragraph.vue";
 export default {
   components: {
     AulaTemplate,
-    Card,
+    TextBlock,
     Paragraph,
     NavButton,
     BoxIcon,

@@ -3,7 +3,7 @@
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
   >
-    <Card topico="Meu Progresso">
+    <TextBlock topico="Meu Progresso">
       <h3 class="text-h6 font-weight-bold">Módulo 01</h3>
       <v-progress-linear
         :value="porcentagem_modulo_01"
@@ -18,18 +18,18 @@
       <v-progress-linear value="0" height="25" color="success" class="rounded">
         <strong>0%</strong>
       </v-progress-linear>
-    </Card>
+    </TextBlock>
   </AulaTemplate>
 </template>
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Card from "@/components/Card.vue";
+import TextBlock from "@/components/TextBlock.vue";
 
 export default {
   components: {
     AulaTemplate,
-    Card,
+    TextBlock,
   },
 
   computed: {

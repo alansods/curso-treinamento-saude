@@ -3,7 +3,7 @@
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
   >
-    <Card
+    <TextBlock
       topico="Tópico 02 - Transtornos Mentais Mais Comuns no Ambiente de Trabalho"
     >
       <Paragraph>
@@ -21,9 +21,9 @@
         estresse grave, episódios depressivos e transtorno de adaptação. Vejamos
         a seguir os transtornos mentais mais comuns no ambiente de trabalho:
       </Paragraph>
-    </Card>
+    </TextBlock>
 
-    <Card subTopico="Síndrome de Burnout">
+    <TextBlock subTopico="Síndrome de Burnout">
       <Paragraph>
         Dentre os fatores relacionados à organização, podemos citar o excesso de
         normas, mudanças organizacionais frequentes, comunicação ineficiente,
@@ -105,9 +105,9 @@
         estavam mais severamente deprimidos quando comparados a oficiais em
         cargos hierárquicamente mais baixos.
       </Paragraph>
-    </Card>
+    </TextBlock>
 
-    <Card subTopico="Ansiedade">
+    <TextBlock subTopico="Ansiedade">
       <v-row justify="center" align="center">
         <v-col cols="12" sm="4">
           <Imagem
@@ -129,9 +129,9 @@
           </Paragraph>
         </v-col>
       </v-row>
-    </Card>
+    </TextBlock>
 
-    <Card subTopico="Depressao">
+    <TextBlock subTopico="Depressao">
       <v-row justify="center" align="center">
         <v-col cols="12" sm="4">
           <Imagem
@@ -155,7 +155,7 @@
           </Paragraph>
         </v-col>
       </v-row>
-    </Card>
+    </TextBlock>
 
     <BoxIcon tipo="recapitulando"
       >Chegamos ao final deste tópico. No próximo tópico, abordaremos um tema de
@@ -174,7 +174,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Card from "@/components/Card.vue";
+import TextBlock from "@/components/TextBlock.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Imagem from "@/components/Imagem.vue";
 import NavFooter from "@/components/NavFooter.vue";
@@ -183,7 +183,7 @@ import Paragraph from "@/components/Paragraph.vue";
 export default {
   components: {
     AulaTemplate,
-    Card,
+    TextBlock,
     BoxIcon,
     Imagem,
     NavFooter,

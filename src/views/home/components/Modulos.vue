@@ -7,6 +7,17 @@
             Módulos
           </h4>
         </v-col>
+        <v-col cols="12">
+          <v-col cols="12">
+            <button @click="getStudentName">Obter Nome do Aluno</button>
+          </v-col>
+          <h4
+            class="font-weight-bold text-h4 text-center primary--text"
+            v-if="studentName"
+          >
+            Nome do Aluno: {{ studentName }}
+          </h4>
+        </v-col>
       </v-row>
 
       <v-row>
@@ -42,6 +53,7 @@
 
 <script>
 import modulos from "@/data/modulos.json";
+import {SCORM} from 'pipwerks-scorm-api-wrapper';
 
 export default {
   props: {
@@ -51,6 +63,7 @@ export default {
   data() {
     return {
       modulos: modulos,
+      studentName: null,
     };
   },
 
@@ -66,11 +79,17 @@ export default {
   methods: {
     goto() {
       let element = this.$refs["slideHere"];
-      let top = element.offsetTop -30;
+      let top = element.offsetTop - 30;
       window.scrollTo({
         top,
         behavior: "smooth",
       });
+    },
+
+    getStudentName() {
+      // Obter o nome do aluno usando a API SCORM
+      const studentName = SCORM.get('cmi.core.student_name');;
+      this.studentName = studentName || "Nome do aluno não encontrado";
     },
   },
 };

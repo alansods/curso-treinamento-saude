@@ -4,7 +4,7 @@
     :numero="$store.state.modulos[0].numero"
   >
 
-    <Card topico="Tópico 04 - Políticas de Saúde Mental no Trabalho">
+    <TextBlock topico="Tópico 04 - Políticas de Saúde Mental no Trabalho">
       <Paragraph>
         Neste tópico, abordamos o assédio moral e sexual no ambiente de
         trabalho, discutindo suas definições, causas e consequências. No próximo
@@ -19,7 +19,7 @@
         causar estresse emocional, levando ao desenvolvimento de medo, tensão e
         ansiedade.
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
       A Política Nacional de Saúde do Trabalhador e Trabalhadora (PNSTT), criada
@@ -34,7 +34,7 @@
       ambientes e processos de trabalho quanto em seu entorno.
     </BoxIcon>
 
-    <Card>
+    <TextBlock>
       <Paragraph>
         A identificação de rede de Atenção à Saúde local é essencial para a
         articulação de ações de prevenção e de intervenção, envolvendo diversos
@@ -63,7 +63,7 @@
         necessários. Logo, pode-se sugerir um fluxo que compreenda as seguintes
         etapas:
       </Paragraph>
-    </Card>
+    </TextBlock>
 
     <Imagem
       src="modulo_01/fluxo-adoecimento.svg"
@@ -92,7 +92,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Card from "@/components/Card.vue";
+import TextBlock from "@/components/TextBlock.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import Imagem from "@/components/Imagem.vue";
 import NavFooter from "@/components/NavFooter.vue";
@@ -101,7 +101,7 @@ import Paragraph from "@/components/Paragraph.vue";
 export default {
   components: {
     AulaTemplate,
-    Card,
+    TextBlock,
     BoxIcon,
     Imagem,
     NavFooter,
