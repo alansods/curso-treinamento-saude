@@ -2,6 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
+    titleSize="3"
   >
     <TextBlock
       topico="Tópico 01 - As Principais Causas de Afastamento e os Custos Diretos e Indiretos Relacionados a Transtornos Mentais"

@@ -2,7 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
-    titleSize="3"
+    titleSize="5"
   >
     <TextBlock
       topico="Tópico 02 - Transtornos Mentais Mais Comuns no Ambiente de Trabalho"
@@ -242,8 +242,7 @@ export default {
   methods: {},
 
   created() {
-    this.$store.state.progresso_modulo_01.items.topico_02 = true
-    this.$store.commit("SALVAR_PROGRESSO");
+
   }
 };
 </script>

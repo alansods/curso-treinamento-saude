@@ -2,6 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
+    titleSize="5"
   >
     <div v-if="!completed" class="question-container">
       <SmallText class="mb-2">Questão {{ number }} de 10</SmallText>

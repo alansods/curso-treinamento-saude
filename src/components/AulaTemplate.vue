@@ -1,6 +1,6 @@
 <template>
   <div class="white" style="padding-bottom: 80px">
-    <BannerAula :titulo="titulo" :numero="numero" />
+    <BannerAula :titulo="titulo" :numero="numero" :titleSize="titleSize" />
 
     <v-container class="container px-5">
       <Breadcumbs />
@@ -16,7 +16,7 @@ import Breadcumbs from "@/components/Breadcumbs.vue";
 export default {
   components: { BannerAula, Breadcumbs },
 
-  props: ["titulo", "numero"],
+  props: ["titulo", "numero", "titleSize"],
 
   data() {
     return {};

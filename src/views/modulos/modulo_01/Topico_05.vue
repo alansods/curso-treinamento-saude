@@ -2,6 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
+    titleSize="3"
   >
     <TextBlock
       topico="Tópico 05 - A Importância dos Investimentos de Saúde Mental nas Empresas"

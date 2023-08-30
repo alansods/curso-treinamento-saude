@@ -2,8 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/home/Home";
 
-import modulo_01_Routes from "./modulo_01_routes"; // Import the Module 01 routes
-
+import modulo_01_Routes from "./modulo_01_routes";
+import modulo_07_Routes from "./modulo_07_routes";
 
 import MeuProgresso from "../views/MeuProgresso";
 
@@ -23,6 +23,7 @@ const routes = [
   },
 
   ...modulo_01_Routes,
+  ...modulo_07_Routes,
 
 ];
 

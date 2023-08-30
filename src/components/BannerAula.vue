@@ -1,39 +1,45 @@
 <template>
-  <div class="background" :class="{'dark': $vuetify.theme.dark}">
-    <v-container
-      v-if="$vuetify.breakpoint.smAndUp"
-      fill-height
-      class="d-flex justify-space-between align-center"
-      style="color: white; max-width: 1200px"
-    >
-      <h4 class="font-weight-bold text-h3">{{ titulo }}</h4>
-      <div class="text-center">
-        <h6 class="font-weight-light text-h6">Módulo</h6>
-        <h2 class="font-weight-bold text-h2">{{ numero }}</h2>
-      </div>
+  <div class="background" :class="{ dark: $vuetify.theme.dark }">
+    <v-container v-if="$vuetify.breakpoint.smAndUp" fill-height style="max-width: 1200px">
+      <v-row align="center" class="white--text">
+        <v-col cols="12" sm="9">
+          <h4 class="font-weight-bold" :class="`text-h${titleSize}`">{{ titulo }}</h4>
+        </v-col>
+
+        <v-col
+          cols="12"
+          sm="3"
+          class="text-center d-flex flex-column align-end"
+        >
+          <h6 class="font-weight-light text-h6">Módulo</h6>
+          <h2 class="font-weight-bold text-h2">{{ numero }}</h2>
+        </v-col>
+      </v-row>
     </v-container>
 
-    <v-container
-      v-else
-      fill-height
-      class="d-flex flex-column justify-center align-center white--text"
-    >
-      <h4 class="font-weight-bold text-h4">{{ titulo }}</h4>
-      <h6 class="font-weight-light text-h6 text-center">Módulo {{ numero }}</h6>
+    <v-container v-else fill-height>
+      <v-row>
+        <v-col cols="12" class="text-center white--text">
+          <h4 class="font-weight-bold text-h5">{{ titulo }}</h4>
+          <h6 class="font-weight-light text-h6 text-center">
+            Módulo {{ numero }}
+          </h6>
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
 export default {
-  props: ["titulo", "numero"],
+  props: ["titulo", "numero", "titleSize"],
 };
 </script>
 
 <style scoped>
 .background {
   width: 100%;
-  height: 180px;
+  height: auto;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.2),
@@ -44,6 +50,7 @@ export default {
   background-position: center center;
   background-repeat: no-repeat;
   margin-bottom: 30px;
+  padding: 20px;
 }
 
 .dark {

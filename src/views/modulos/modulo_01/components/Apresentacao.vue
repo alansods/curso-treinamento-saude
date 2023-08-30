@@ -1,5 +1,5 @@
 <template>
-    <AulaTemplate :titulo="$store.state.modulos[0].titulo" :numero="$store.state.modulos[0].numero">
+    <AulaTemplate :titulo="$store.state.modulos[0].titulo" :numero="$store.state.modulos[0].numero" titleSize="3">
       <BoxIcon tipo="objetivos_gerais">
         Proporcionar o desenvolvimento de fundamentos sobre saúde mental para a
         empresa e analisar suas consequências diretas e indiretas para os

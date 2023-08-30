@@ -2,6 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
+    titleSize="3"
   >
     <TextBlock topico="Tópico 03 - Assédio no Ambiente de Trabalho">
       <Paragraph>

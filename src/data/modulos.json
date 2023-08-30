@@ -29,7 +29,7 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-01"
       },
       { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
       { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
@@ -52,7 +52,7 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-01"
       },
       { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
       { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
@@ -75,7 +75,7 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-01"
       },
       { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
       { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
@@ -98,7 +98,7 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-01"
       },
       { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
       { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
@@ -121,7 +121,7 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-01"
       },
       { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
       { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
@@ -144,19 +144,16 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-07"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
-      { "numero": "03", "titulo": "Tópico 03", "link": "modulo-01/topico-03" },
-      { "numero": "04", "titulo": "Tópico 04", "link": "modulo-01/topico-04" },
-      { "numero": "05", "titulo": "Tópico 05", "link": "modulo-01/topico-05" },
+      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-07/topico-01" },
+      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-07/topico-02" },
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-07/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-07/atividade" }
     ]
   },
 
@@ -167,7 +164,7 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-01"
       },
       { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
       { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
@@ -190,7 +187,7 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01/apresentacao"
+        "link": "modulo-01"
       },
       { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
       { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },

@@ -20,7 +20,7 @@
       />
 
       <span
-        class="font-weight-bold primary--text text-body-1 text-uppercase"
+        class="font-weight-medium primary--text text-body-2 text-uppercase"
         v-if="$vuetify.breakpoint.smAndUp && $route.path !== '/'"
         >Treinamento para Líderes: Impacto dos Custos de Saúde e Segurança para
         sua Empresa</span
