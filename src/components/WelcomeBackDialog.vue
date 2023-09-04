@@ -1,5 +1,5 @@
 <template>
-  <v-dialog v-model="$store.state.welcomeBack" max-width="500">
+  <v-dialog v-model="$store.state.showWelcomeBack" max-width="500">
     <v-card class="pa-9 rounded-lg">
       <v-card-text class="text-center d-flex flex-column" style="gap: 40px">
         <div>

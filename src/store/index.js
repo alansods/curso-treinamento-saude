@@ -8,8 +8,8 @@ Vue.use(Vuex);
 export default new Vuex.Store({
   state: {
     modulos: Modulos,
-    menuDrawer: false,
-    welcomeBack: false,
+    showMenuDrawer: false,
+    showWelcomeBack: false,
     showGlossario: false,
 
     progresso_modulo_01: {
@@ -29,12 +29,12 @@ export default new Vuex.Store({
     },
   },
   mutations: {
-    togglemenuDrawer(state) {
-      state.menuDrawer = !state.menuDrawer;
+    toggleshowMenuDrawer(state) {
+      state.showMenuDrawer = !state.showMenuDrawer;
     },
 
     toggleWelcomeBack(state) {
-      state.welcomeBack = !state.welcomeBack;
+      state.showWelcomeBack = !state.showWelcomeBack;
     },
 
     TOGGLE_GLOSSARIO(state) {

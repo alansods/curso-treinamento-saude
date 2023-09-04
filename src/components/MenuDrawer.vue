@@ -1,7 +1,7 @@
 <template>
   <v-navigation-drawer
     class="container"
-    v-model="$store.state.menuDrawer"
+    v-model="$store.state.showMenuDrawer"
     fixed
     temporary
     :width="$vuetify.breakpoint.smAndUp ? '40%' : '100%'"
@@ -9,7 +9,7 @@
     <div class="d-flex align-center justify-space-between pa-4">
       <div class="primary--text text-h4 font-weight-bold">Sumário</div>
 
-      <v-btn icon @click="$store.commit('togglemenuDrawer')">
+      <v-btn icon @click="$store.commit('toggleshowMenuDrawer')">
         <v-icon size="25">mdi-close</v-icon>
       </v-btn>
     </div>
