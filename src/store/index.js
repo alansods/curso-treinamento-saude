@@ -10,6 +10,7 @@ export default new Vuex.Store({
     modulos: Modulos,
     menuDrawer: false,
     welcomeBack: false,
+    showGlossario: false,
 
     progresso_modulo_01: {
       porcentagem: 0,
@@ -34,6 +35,10 @@ export default new Vuex.Store({
 
     toggleWelcomeBack(state) {
       state.welcomeBack = !state.welcomeBack;
+    },
+
+    TOGGLE_GLOSSARIO(state) {
+      state.showGlossario = !state.showGlossario
     },
 
     initialiseStore() {

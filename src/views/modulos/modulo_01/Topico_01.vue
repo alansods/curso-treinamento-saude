@@ -16,34 +16,20 @@
       <Paragraph>
         No Brasil, segundo o boletim epidemiológico de transtornos mentais
         relacionados ao trabalho, no período de 2006 a 2017, as
-        <span
-          class="font-weight-bold voce_sabia cursor-pointer px-1"
-          style="white-space: nowrap"
-          @click="glossario1 = !glossario1"
-          ><v-icon class="mr-1" size="20" color="white">mdi-help-circle</v-icon
-          >doenças psíquicas</span
-        >
-        foram a terceira maior causa de afastamento do trabalho, sendo
+        <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')">doenças psíquicas</GlossarioButton> foram a terceira maior causa de afastamento do trabalho, sendo
         responsáveis por uma redução significativa do potencial de oferta de
         trabalho e aumento do absenteísmo, ocasionando custos significativos,
         que envolvem desde o salário do colaborador, até gastos com afastamento
         e reabilitação.
       </Paragraph>
 
-      <v-bottom-sheet inset v-model="glossario1">
-        <v-sheet class="text-center rounded-t-lg py-5" height="auto">
-          <div class="py-3 px-5">
-            <h5 class="text-h5 font-weight-bold mb-2 orange--text">
-              Glossário
-            </h5>
-            <Paragraph>
+      <GlossarioDialog title="Auxílio-Doença">
+        <Paragraph>
               <strong>Doenças psíquicas</strong> é um termo usado como sinônimo
               para doenças psicológicas, que engloba problemas e fenômenos
               psicológicos que afetam a mente e/ou o funcionamento psicológico.
             </Paragraph>
-          </div>
-        </v-sheet>
-      </v-bottom-sheet>
+      </GlossarioDialog>
 
       <Paragraph>
         Estimativas globais indicam que a economia perde cerca de 4% do Produto
@@ -98,8 +84,11 @@
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Nessa vídeoaulas nós iremos disponibilizar informações que auxiliem líderes e suas equipes no enfrentamento dos índices crescentes de adoecimento mental associado ao trabalho, possibilitando, assim, ampliar o acolhimento e os encaminhamentos necessários ao cuidado biopsicossocial dos trabalhadores
-
+        Nessa vídeoaulas nós iremos disponibilizar informações que auxiliem
+        líderes e suas equipes no enfrentamento dos índices crescentes de
+        adoecimento mental associado ao trabalho, possibilitando, assim, ampliar
+        o acolhimento e os encaminhamentos necessários ao cuidado
+        biopsicossocial dos trabalhadores
       </Paragraph>
 
       <Paragraph>
@@ -121,11 +110,13 @@
       </v-responsive>
     </v-dialog>
 
-    <Paragraph>
-      Veja no quadro a seguir os principais transtornos mentais e do
-      comportamento relacionados ao trabalho, juntamente com seus respectivos
-      códigos da Classificação Internacional de Doenças (CID).
-    </Paragraph>
+    <TextBlock>
+      <Paragraph>
+        Veja no quadro a seguir os principais transtornos mentais e do
+        comportamento relacionados ao trabalho, juntamente com seus respectivos
+        códigos da Classificação Internacional de Doenças (CID).
+      </Paragraph>
+    </TextBlock>
 
     <Table
       legenda="Quadro 1: Lista de Doenças Relacionadas ao Trabalho.Fonte: (BRASIL, 2005; 2008)."
@@ -133,10 +124,10 @@
     >
       <thead>
         <tr>
-          <th class="primary white--text" style="border-radius: 8px 0 0 0">
+          <th class="primary white--text text-body-2 text-uppercase font-weight-bold" style="border-radius: 8px 0 0 0">
             CID-10
           </th>
-          <th class="primary white--text" style="border-radius: 0 8px 0 0">
+          <th class="primary white--text text-body-2 text-uppercase font-weight-bold" style="border-radius: 0 8px 0 0">
             Doenças
           </th>
         </tr>
@@ -280,6 +271,8 @@ import Imagem from "@/components/Imagem.vue";
 import Table from "@/components/Table.vue";
 import FlipCard from "@/components/FlipCard.vue";
 import NavFooter from "@/components/NavFooter.vue";
+import GlossarioButton from "@/components/GlossarioButton.vue";
+import GlossarioDialog from "@/components/GlossarioDialog.vue";
 
 export default {
   components: {
@@ -291,6 +284,8 @@ export default {
     Table,
     FlipCard,
     NavFooter,
+    GlossarioButton,
+    GlossarioDialog,
   },
   data() {
     return {

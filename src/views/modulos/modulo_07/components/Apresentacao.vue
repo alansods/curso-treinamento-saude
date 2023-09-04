@@ -80,7 +80,7 @@
     <v-row justify="center" class="mt-5">
       <v-col cols="12" sm="6">
         <NavButton
-          link="modulo-01/topico-01"
+          link="modulo-07/topico-01"
           name="Iniciar"
           color="primary"
           icon="mdi-arrow-right-bold-circle"
