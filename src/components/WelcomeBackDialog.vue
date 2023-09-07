@@ -14,7 +14,7 @@
         <NavButton
           name="Continuar"
           color="primary"
-          @button-click="$store.commit('toggleWelcomeBack')"
+          @button-click="$store.commit('TOGGLE_WELCOME_BACK')"
         ></NavButton>
       </v-card-text>
     </v-card>

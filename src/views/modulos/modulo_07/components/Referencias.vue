@@ -1,167 +1,131 @@
 <template>
-  <AulaTemplate :titulo="$store.state.modulos[0].titulo" :numero="$store.state.modulos[0].numero" titleSize="5">
+  <AulaTemplate
+    :titulo="$store.state.modulos[6].titulo"
+    :numero="$store.state.modulos[6].numero"
+    titleSize="5"
+  >
     <TextBlock topico="Referêcias">
       <v-row style="word-break: break-word">
         <v-col cols="12" sm="6">
           <Paragraph>
-            ALMEIDA, Hugo et al. MODELOS DE STRESS OCUPACIONAL: SISTEMATIZAÇÃO,
-            ANÁLISE E DESCRIÇÃO. Revista de Psicologia, [s. l.], v. 2, Badajos:
-            ed. 1, p. 435-454, 15 fev. 2016.
+            BATISTA, Aline Aparecida Gava. Absenteísmo: Fatores determinantes e
+            consequências. Assis, 2012. 56 p. Trabalho de Conclusão de Curso
+            (Graduação em Administração) - Instituto Municipal de Ensino
+            Superior de Assis.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Constituição (1988). Constituição da República Federativa do
-            Brasil. Brasília, DF: Senado Federal: Centro Gráfico, 1988.
+            BAPTISTA, M.C. Estudo do Programa de Apoio para o Retorno ao
+            Trabalho e Reabilitação Profissional de uma Grande Instituição
+            Financeira Privada Nacional.In: In book: Os mais relevantes projetos
+            de conclusão dos cursos MBAs 2009. Editora FGV. 2010.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Lei nº 8.112, 11 de dezembro de 1990. Dispõe sobre o regime
-            jurídico dos servidores públicos civis da União, das autarquias e
-            das fundações públicas federais. Diário Oficial da República
-            Federativa do Brasil, Poder Executivo, Brasília, DF, 19 de abr.
-            1991.
+            BAPTISTA, M.C. Estudo do Programa de Apoio para o Retorno ao
+            Trabalho e Reabilitação Profissional de uma Grande Instituição
+            Financeira Privada. In: Os mais relevantes projetos de conclusão dos
+            cursos MBAs 2009. Editora FGV, 2010.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Lei nº 10.406, de 10 de janeiro de 2002. Institui o Código
-            Civil. Diário Oficial da União: seção 1, Brasília, DF, ano 139, n.
-            8, p. 1-74, 11 jan. 2002.
+            BONITA, R.; BEAGLEHOLE, R.KJELLSTRÖM, T. Epidemiologia básica. 2.ed.
+            São Paulo: Santos, 2010.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Previdência Social. Anuário Estatístico de
-            Acidentes de Trabalho. Brasília, 2020.
+            BRASIL. Presidência da República. Decreto No 3.048, de 6 de maio de
+            1999. Aprova o Regulamento da Previdência Social e dá outras
+            providências. Disponível em:
+            http://www.planalto.gov.br/ccivil_03/decreto/D3048.htm. Acesso em:
+            10/06/2023.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Saúde. Portaria nº 1.823, de 23 de agosto de
-            2012. Institui a Política Nacional de Saúde do Trabalhador e da
-            Trabalhadora. Diário Oficial [da] República Federativa do Brasil,
-            Brasília, DF, 24 ago. 2012. Seção I, p. 46-51.
+            BRASIL. Portaria Nº 6.730 de 9 de Março de 2020. Aprova a nova
+            redação da Norma Regulamentadora nº 01 – Disposições Gerais e
+            Gerenciamento de Riscos Ocupacionais. (Processo nº
+            19966.100073/2020-72).
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Saúde do
-            trabalhador e da trabalhadora: Cadernos de Atenção Básica. 1. ed.
-            Brasília: [s. n.], 136 p. 2018.
+            BRASIL. Portaria Nº 6.734 de 9 de Março de 2020. Aprova a nova
+            redação da Norma Regulamentadora nº 07 – Programa de Controle Médico
+            de Saúde Ocupacional – PCMSO. (Processo nº 19966.100069/2020-12).
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Doenças
-            relacionadas ao trabalho: Portaria n.o 1.339/GM, de 18 de novembro
-            de 1999. 2. ed. atual. Brasília: Editora Ministério Saúde, 2008. 140
-            p.
+            BRASIL. Portaria/MTP Nº 423, de 7 de outubro de 2021. Aprova a nova
+            redação da Norma Regulamentadora nº 17 – Ergonomia.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Saúde. Plataforma Renast Online. Boletim
-            Epidemiológico: Transtornos Mentais Relacionados ao Trabalho no
-            Brasil, 2006-2017. In: Boletim epidemiológico: Transtornos Mentais
-            Relacionados ao Trabalho no Brasil, 2006-2017. [S. l.], 2017.
+            CESTARI, Elisabete; CARLOTTO, Mary Sandra. Reabilitação
+            profissional: o que pensa o trabalhador sobre sua reinserção. Estud.
+            pesqui. psicol., Rio de Janeiro, v.12, n.1, p. 93-115, abr. 2012 .
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Saúde. Portaria nº 1.823, de 23 de agosto de
-            2012. Institui a Política Nacional de Saúde do Trabalhador e da
-            Trabalhadora. Diário Oficial [da] República Federativa do Brasil,
-            Brasília, DF, 24 ago. 2012. Seção I, p. 46-51.
-          </Paragraph>
-
-          <Paragraph>
-            BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Saúde do
-            trabalhador e da trabalhadora: Cadernos de Atenção Básica. 1. ed.
-            Brasília: [s. n.], 2018. 136 p.
-          </Paragraph>
-
-          <Paragraph>
-            BRASIL. Ministério da Saúde. Secretaria de Atenção à Saúde. Doenças
-            relacionadas ao trabalho: Portaria n.o 1.339/GM, de 18 de novembro
-            de 1999. 2. ed. atual. Brasília: Editora Ministério Saúde, 2008. 140
-            p.
-          </Paragraph>
-
-          <Paragraph>
-            BRASIL. Ministério da Saúde. Plataforma Renast Online. Boletim
-            Epidemiológico: Transtornos Mentais Relacionados ao Trabalho no
-            Brasil, 2006-2017. In: Boletim epidemiológico: Transtornos Mentais
-            Relacionados ao Trabalho no Brasil, 2006-2017. [S. l.], 2017.
+            DE MIRANDA, Pedro Henrique Moreira. Principais causas do absenteísmo
+            no ambiente de trabalho em Curitiba. Curitiba, 2019. 70 p.
+            Monografia (MBA em Gestão Empresarial) - Universidade Tecnológica
+            Federal do Paraná .
           </Paragraph>
         </v-col>
 
         <v-col cols="12" sm="6">
           <Paragraph>
-            BRASIL. Ministério do Trabalho e Previdência. Observatório de
+            MARQUES, Solange Vianna Dall’Orto. Saúde, trabalho e subjetividade:
+            absenteísmo-doença de trabalhadores em uma universidade pública.
+            CADERNOS EBAPE.BR, Rio de Janeiro, v. 9. 12 p., Julho 2011.
+          </Paragraph>
+
+          <Paragraph>
+            MINISTÉRIO DO TRABALHO E PREVIDÊNCIA (Brasil). Observatório de
             Segurança e Saúde no Trabalho. Perfil Casos Afastamentos. [S. l.],
             2021.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Secretaria de Atenção à Saúde. Departamento de Ações
-            Programáticas e Estratégicas.Área Técnica de Saúde do Trabalhador.
-            Lista de doenças relacionadas ao trabalho:Portaria MS/GM nº 1.339,
-            de 18 de novembro de 1999. Brasília: Ministério da Saúde, 2001.
+            NETO, Alonso Dias Marques. Absenteísmo nas empresas. Brasília, 2006.
+            42 p Monografia (Administração) - Centro Universitário de Brasília.
           </Paragraph>
 
           <Paragraph>
-            CID-10. Classificação dos transtornos mentais e de comportamento da
-            CID-10: descrições clínicas e diretrizes diagnósticas. Organização
-            Mundial da Saúde. Porto Alegre: Artes Médicas, 1993.
+            NOUGA, Nilo de Jesus. Fatores que geram absenteísmo nos
+            colaboradores em laboratórios multidisciplinares de uma IES.
+            Brasília, 2017. 33 p Trabalho de Conclusão de Curso (Administração)
+            - Centro Universitário de Brasília.
           </Paragraph>
 
           <Paragraph>
-            CODO, W. Um diagnóstico integrado do trabalho com ênfase em saúde
-            mental. In: JACQUES, M. G; CODO, W. (Orgs). Saúde mental e trabalho:
-            leituras. Petrópolis: Vozes; 2002. p. 173-90.
+            ORGANIZAÇÃO PARA A COOPERAÇÃO E DESENVOLVIMENTO ECONÔMICO.
+            Relatórios Econômicos da OCDE: Brasil 2018. 2018.
           </Paragraph>
 
           <Paragraph>
-            DEJOURS, C.; ABDOUCHELI, E.; JAYET, C. Psicodinâmica do trabalho:
-            contribuições da Escola Dejouriana à análise da relação prazer,
-            sofrimento e trabalho. São Paulo: Atlas,1994.
+            ORGANIZAÇÃO PAN-AMERICANA DE SAÚDE. Doenças crônicas não
+            transmissíveis: Estratégias de controle e desafios e para os
+            sistemas de saúde. 2011
           </Paragraph>
 
           <Paragraph>
-            LEIRIA, Maria de Lourdes. Assédio Sexual Laboral, agente causador de
-            doenças no trabalho: reflexos na saúde do trabalhador. 2. Ed. São
-            Paulo: LTr, 2019.
+            PENATTI, Izidro; ZAGO, José Sebastião; QUELHAS, Oswaldo.
+            Absenteísmo: As consequências na gestão de pessoas. In: SIMPÓSIO DE
+            EXCELÊNCIA EM GESTÃO E TECNOLOGIA, n. 3. 2006, Rio de Janeiro. 11 p.
           </Paragraph>
 
           <Paragraph>
-            JORGE E SILVA, Manoel. Questões controvertidas sobre o assédio
-            sexual. In: Revista de Curso de Direito da UNIFACS, v.I, Porto
-            Alegre: Síntese, Coleção Acadêmica de Direito, n. 22, 2001.
+            REIS, PAULO; DA SILVA, HELENA PEREIRA. A Gestão Estratégica da
+            Informação de Saúde do Trabalhador no Contexto de Inteligência
+            Organizacional das Empresas. 2005
           </Paragraph>
 
           <Paragraph>
-            PAMPLONA FILHO, Rodolfo. O assédio sexual na relação de emprego. 2.
-            Ed. São Paulo: LTR, 2011.
-          </Paragraph>
-
-          <Paragraph>
-            POLANYI, K. A grande transformação: as origens de nossa época. 2.
-            Ed. - Rio de Janeiro: Campus, 2000.
-          </Paragraph>
-
-          <Paragraph>
-            SEGRE, Marco; FERRAZ, Flávio. O conceito de saúde. Revista de Saúde
-            Pública, [s. l.], São Paulo: v. 31, ed. 5, 1997.
-          </Paragraph>
-
-          <Paragraph>
-            SENADO FEDERAL. Cartilhas. Disponível em:
-            https://www12.senado.leg.br/institucional/procuradoria/proc-publicacoes/cartilha-assedio-moral-e-sexual-no-trabalho.
-            Acesso em 12 de julho de 2022.
-          </Paragraph>
-
-          <Paragraph>
-            TRIBUNAL SUPERIOR DO TRABALHO (TST). Assédio Sexual: O que é, quais
-            são os seus direitos e como previnir? Disponível em:
-            https://www.tst.jus.br/assedio-sexual. TRIGO, Telma Ramos et al.
-            Síndrome de burnout ou estafa profissional e os transtornos
-            psiquiátricos. Revista Psiquiatria Clínica, [s. l.], v. 34, ed. 5,
-            p. 223-233, 17 jan. 2007. WORLD HEALTH ORGANIZATION. WHO. World
-            Mental Health Report: transforming mental health for all. Genebra,
-            2022.
+            SOUZA, André Portela; FIRPO, Sérgio P.; PONCZEK, Vladimir P.;
+            ZYLBERSTAJN, Eduardo; RIBEIRO, Felipe Garcia. Custo do Trabalho no
+            Brasil: proposta de uma nova metodologia de mensuração. Proposta de
+            uma nova metodologia de mensuração. 2012.
           </Paragraph>
         </v-col>
       </v-row>
@@ -170,7 +134,7 @@
     <v-row justify="center" class="mt-5">
       <v-col cols="12" sm="6">
         <NavButton
-          link="modulo-01/topico-05"
+          link="modulo-07/topico-02"
           name="Voltar"
           color="primary"
           icon="mdi-arrow-left-bold-circle"

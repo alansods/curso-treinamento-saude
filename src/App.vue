@@ -47,7 +47,7 @@ export default {
     console.log(lastRouteName);
 
     if (lastRouteName != "Home") {
-      this.$store.commit("toggleWelcomeBack");
+      this.$store.commit("TOGGLE_WELCOME_BACK");
     }
   },
 };

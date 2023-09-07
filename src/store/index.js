@@ -29,11 +29,11 @@ export default new Vuex.Store({
     },
   },
   mutations: {
-    toggleshowMenuDrawer(state) {
+    TOGGLE_SHOW_MENU_DRAWER(state) {
       state.showMenuDrawer = !state.showMenuDrawer;
     },
 
-    toggleWelcomeBack(state) {
+    TOGGLE_WELCOME_BACK(state) {
       state.showWelcomeBack = !state.showWelcomeBack;
     },
 
@@ -41,7 +41,7 @@ export default new Vuex.Store({
       state.showGlossario = !state.showGlossario
     },
 
-    initialiseStore() {
+    INITIALIZE_STORE() {
       console.log("teste");
     },
 

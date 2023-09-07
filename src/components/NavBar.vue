@@ -91,7 +91,7 @@ export default {
     },
 
     toggleMenu() {
-      this.$store.commit("toggleshowMenuDrawer");
+      this.$store.commit("TOGGLE_SHOW_MENU_DRAWER");
     },
   },
 

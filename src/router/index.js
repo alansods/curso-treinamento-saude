@@ -60,7 +60,7 @@ router.beforeEach((to, from, next) => {
     isFirstTransition = false;
     next({ name: lastRouteName });
     console.log("pegou o localstorage");
-    //this.$store.commit("toggleWelcomeBack");
+    //this.$store.commit("TOGGLE_WELCOME_BACK");
   } else {
     next();
     //console.log("Navegou normal sem reabrir a aba");

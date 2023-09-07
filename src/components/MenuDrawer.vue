@@ -9,7 +9,7 @@
     <div class="d-flex align-center justify-space-between pa-4">
       <div class="primary--text text-h4 font-weight-bold">Sumário</div>
 
-      <v-btn icon @click="$store.commit('toggleshowMenuDrawer')">
+      <v-btn icon @click="$store.commit('TOGGLE_SHOW_MENU_DRAWER')">
         <v-icon size="25">mdi-close</v-icon>
       </v-btn>
     </div>
