@@ -21,7 +21,7 @@
       novamente uma habilidade perdida ou reduzida.
     </BoxIcon>
 
-    <BoxIcon tipo="video_aula" numero="1">
+    <BoxIcon tipo="video_aula" numero="2">
       <Paragraph> Não tem texto no roteiro. </Paragraph>
 
       <Paragraph>
@@ -36,7 +36,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="hhw26SJYU_c"
+          video-id="DaYvK-r77yQ"
           style="border: solid 3px white"
           fitParent
         />

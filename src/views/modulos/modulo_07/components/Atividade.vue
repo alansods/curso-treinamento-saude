@@ -5,7 +5,7 @@
     titleSize="5"
   >
     <div v-if="!completed" class="question-container">
-      <SmallText class="mb-2">Questão {{ number }} de 10</SmallText>
+      <SmallText class="mb-2">Questão {{ number }} de {{ questions.length }}</SmallText>
       <h2>{{ number }}. <span v-html="question"></span></h2>
 
       <div class="my-6">
@@ -53,8 +53,7 @@
         </div>
 
         <Paragraph class="completed-score mb-5">
-          Você acertou <span v-if="score < 7">apenas</span>
-          <strong
+          Você acertou <span v-if="score < 7">apenas</span> <strong
             ><u>{{ score }}</u></strong
           >
           de {{ questions.length }} questões.

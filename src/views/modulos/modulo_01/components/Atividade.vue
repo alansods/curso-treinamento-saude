@@ -5,7 +5,7 @@
     titleSize="3"
   >
     <div v-if="!completed" class="question-container">
-      <SmallText class="mb-2">Questão {{ number }} de 10</SmallText>
+      <SmallText class="mb-2">Questão {{ number }} de {{ questions.length }}</SmallText>
       <h2>{{ number }}. <span v-html="question"></span></h2>
 
       <div class="my-6">
