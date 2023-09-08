@@ -1,7 +1,7 @@
 <template>
   <AulaTemplate
-    :titulo="$store.state.modulos[0].titulo"
-    :numero="$store.state.modulos[0].numero"
+    :titulo="$store.state.modulos[6].titulo"
+    :numero="$store.state.modulos[6].numero"
     titleSize="5"
   >
     <div v-if="!completed" class="question-container">
@@ -84,7 +84,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Questoes from "@/data/questoes/modulo_01.json";
+import Questoes from "@/data/questoes/modulo_07.json";
 import SmallText from "@/components/SmallText.vue";
 import Paragraph from "@/components/Paragraph.vue";
 
