@@ -4,6 +4,7 @@ import Home from "../views/home/Home";
 
 import modulo_01_Routes from "./modulo_01_routes";
 import modulo_07_Routes from "./modulo_07_routes";
+import modulo_08_Routes from "./modulo_08_routes";
 
 import MeuProgresso from "../views/MeuProgresso";
 
@@ -24,6 +25,7 @@ const routes = [
 
   ...modulo_01_Routes,
   ...modulo_07_Routes,
+  ...modulo_08_Routes,
 
 ];
 

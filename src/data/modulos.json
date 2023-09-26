@@ -146,8 +146,8 @@
         "titulo": "Apresentação",
         "link": "modulo-07"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-07/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-07/topico-02" },
+      { "numero": "01", "titulo": "Gerenciando o Absenteísmo: Estratégias para Lidar com Afastamentos de Curto e Longo Prazo", "link": "modulo-07/topico-01" },
+      { "numero": "02", "titulo": "A Reabilitação do Trabalhador", "link": "modulo-07/topico-02" },
       {
         "numero": null,
         "titulo": "Referências",
@@ -159,18 +159,17 @@
 
   {
     "numero": "08",
-    "titulo": "ESG (Meio Ambiente, Sustentabilidade e Inclusão)",
+    "titulo": "Introdução ao ESG corporativo",
     "items": [
       {
         "numero": null,
         "titulo": "Apresentação",
         "link": "modulo-01"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
-      { "numero": "03", "titulo": "Tópico 03", "link": "modulo-01/topico-03" },
-      { "numero": "04", "titulo": "Tópico 04", "link": "modulo-01/topico-04" },
-      { "numero": "05", "titulo": "Tópico 05", "link": "modulo-01/topico-05" },
+      { "numero": "01", "titulo": "Contexto Histórico do ESG", "link": "modulo-01/topico-01" },
+      { "numero": "02", "titulo": "A importância do ESG para as empresas", "link": "modulo-01/topico-02" },
+      { "numero": "03", "titulo": "Desafios e Perspectivas do ESG: Impactos nas Empresas", "link": "modulo-01/topico-03" },
+      { "numero": "04", "titulo": "Implementando Práticas ESG em sua empresa", "link": "modulo-01/topico-04" },
       {
         "numero": null,
         "titulo": "Referências",

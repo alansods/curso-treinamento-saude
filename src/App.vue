@@ -5,7 +5,7 @@
     <MenuDrawer />
 
     <v-main>
-      <transition mode="out-in">
+      <transition name="fade" mode="out-in">
         <router-view />
       </transition>
     </v-main>
@@ -127,6 +127,16 @@ p:last-of-type {
 .v-enter-active,
 .v-leave-active {
   transition: all 0.4s;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: 400ms ease all;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 
 small {
