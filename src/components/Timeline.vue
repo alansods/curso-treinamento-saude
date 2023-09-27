@@ -9,7 +9,6 @@
       data-aos="fade-up"
       data-aos-easing="ease"
       data-aos-duration="700"
-      data-aos-once="true"
     >
       <template v-slot:opposite>
         <span

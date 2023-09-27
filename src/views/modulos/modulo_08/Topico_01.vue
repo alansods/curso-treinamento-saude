@@ -73,33 +73,14 @@
     <Timeline :years="years_2" />
 
     <TextBlock>
-      <v-row justify="center">
-        <v-col cols="12" sm="6">
-          <Imagem
-            src="modulo_01/imagem1.jpg"
-            legenda="Imagem 1: Transtornos mentais relacionados ao trabalho"
-            fonte="freepik.com"
-          />
-        </v-col>
-      </v-row>
-
       <Paragraph>
-        Partindo do princípio de que a identificação dos fatores de risco
-        ambiental nos processos de trabalho é uma ação para promover a saúde do
-        trabalhador, as empresas necessitam entender o perfil de seus liderados
-        para então promover a saúde adequada aos seus trabalhadores. Nesse
-        contexto, reflita: quais as principais causas de afastamento
-        relacionadas a transtornos mentais e quais os custos para uma empresa?
+        Essa linha do tempo nos ajuda a entender a interligação histórica entre o capitalismo, a sustentabilidade e o surgimento do ESG como um movimento global.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Nessa vídeoaulas nós iremos disponibilizar informações que auxiliem
-        líderes e suas equipes no enfrentamento dos índices crescentes de
-        adoecimento mental associado ao trabalho, possibilitando, assim, ampliar
-        o acolhimento e os encaminhamentos necessários ao cuidado
-        biopsicossocial dos trabalhadores
+        Falta texto do video
       </Paragraph>
 
       <Paragraph>
@@ -114,166 +95,27 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="hhw26SJYU_c"
+          video-id="MwTTEtIbJ-U"
           style="border: solid 3px white"
           fitParent
         />
       </v-responsive>
     </v-dialog>
 
-    <TextBlock>
-      <Paragraph>
-        Veja no quadro a seguir os principais transtornos mentais e do
-        comportamento relacionados ao trabalho, juntamente com seus respectivos
-        códigos da Classificação Internacional de Doenças (CID).
-      </Paragraph>
-    </TextBlock>
-
-    <Table
-      legenda="Quadro 1: Lista de Doenças Relacionadas ao Trabalho.Fonte: (BRASIL, 2005; 2008)."
-      fonte="Fonte: (BRASIL, 2005; 2008)."
-    >
-      <thead>
-        <tr>
-          <th
-            class="primary white--text text-body-2 text-uppercase font-weight-bold"
-            style="border-radius: 8px 0 0 0"
-          >
-            CID-10
-          </th>
-          <th
-            class="primary white--text text-body-2 text-uppercase font-weight-bold"
-            style="border-radius: 0 8px 0 0"
-          >
-            Doenças
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>F02.8</td>
-          <td>
-            Demência em outras doenças específicas classificadas em outros
-            locais
-          </td>
-        </tr>
-        <tr>
-          <td>159</td>
-          <td>159</td>
-        </tr>
-        <tr>
-          <td>159</td>
-          <td>159</td>
-        </tr>
-        <tr>
-          <td>159</td>
-          <td>159</td>
-        </tr>
-        <tr>
-          <td>159</td>
-          <td>159</td>
-        </tr>
-        <tr>
-          <td>159</td>
-          <td>159</td>
-        </tr>
-      </tbody>
-    </Table>
-
-    <TextBlock>
-      <Paragraph>
-        Além das informações apresentadas no quadro 1, temos ainda diversos
-        modelos explicativos para o desenvolvimento de transtornos mentais em
-        ambientes de trabalho, e compreender esses modelos pode ajudar as
-        empresas a implementar medidas de prevenção e promoção da saúde mental
-        dos colaboradores. Entre os modelos mais conhecidos, estão:
-      </Paragraph>
-    </TextBlock>
-
-    <v-row justify="space-between">
-      <v-col cols="12"
-        ><small class="text-center d-block grey--text"
-          >(Clique nos cards abaixo para ver o conteúdo)</small
-        ></v-col
-      >
-
-      <v-col cols="12" sm="3">
-        <FlipCard>
-          <template #front> Modelo estressor-trabalho </template>
-
-          <template #back>
-            Este modelo sugere que o ambiente de trabalho e as demandas
-            profissionais são fontes de estresse que podem afetar a saúde mental
-            dos colaboradores.
-          </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="12" sm="3">
-        <FlipCard>
-          <template #front> Modelo demanda-controle-suporte </template>
-
-          <template #back>
-            Este modelo destaca a importância da combinação entre altas demandas
-            e baixo controle na geração de estresse ocupacional. Além disso,
-            sugere que o suporte social da empresa pode ajudar a reduzir os
-            efeitos negativos do estresse.
-          </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="12" sm="3">
-        <FlipCard>
-          <template #front>
-            Modelo do desequilíbrio esforço-recompensa
-          </template>
-
-          <template #back>
-            Este modelo considera que a percepção de desequilíbrio entre o
-            esforço investido e as recompensas recebidas podem levar ao
-            desenvolvimento de estresse ocupacional e transtornos mentais.
-          </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="12" sm="3">
-        <FlipCard>
-          <template #front> Modelo de assédio moral </template>
-
-          <template #back>
-            Este modelo sugere que o assédio moral no ambiente de trabalho pode
-            afetar negativamente a saúde mental dos colaboradores, além de gerar
-            outros impactos no ambiente organizacional.
-          </template>
-        </FlipCard>
-      </v-col>
-    </v-row>
-
-    <TextBlock>
-      <Paragraph>
-        Ao compreender os modelos explicativos dos transtornos mentais nas
-        empresas, as organizações podem adotar medidas preventivas e estratégias
-        de gestão que contribuam para a promoção da saúde mental dos
-        colaboradores e o bem-estar do ambiente de trabalho. As ações de
-        prevenção ou a implementação de medidas devem ser baseadas na
-        multiplicidade de fatores envolvidos.
-      </Paragraph>
-    </TextBlock>
-
     <BoxIcon tipo="recapitulando"
-      >Chegamos ao fim deste tópico. Você percebeu que a falta de cuidados com a
-      saúde mental dos colaboradores pode impactar diretamente na saúde
-      financeira de uma organização? Portanto, é fundamental que as organizações
-      adotem medidas preventivas, promovam um ambiente de trabalho saudável e
-      valorizem o bem-estar dos colaboradores. No próximo tópico, conheceremos
-      alguns transtornos mentais relacionados ao trabalho.
+      >
+      <p>
+        Concluindo este percurso histórico, fica evidente a evolução do pensamento econômico e social ao longo dos séculos, culminando no surgimento do "Capitalismo Consciente" e no fortalecimento do ESG como uma abordagem que integra o bem-estar social, a responsabilidade ambiental e a governança corporativa. Essa trajetória demonstra a importância crescente de equilibrar lucratividade com sustentabilidade, refletindo uma mudança fundamental na forma como os negócios são conduzidos na busca por um mundo mais justo e ambientalmente saudável.
+      </p>
+
+      <p>No próximo tópico, exploraremos a importância do ESG para as empresas e como essa abordagem influencia positivamente seu desempenho e reputação.</p>
     </BoxIcon>
 
     <NavFooter
       prevName="Apresentação"
-      prevLink="modulo-01"
+      prevLink="modulo-08"
       nextName="Tópico 02"
-      nextLink="modulo-01/topico-02"
+      nextLink="modulo-08/topico-02"
       :lastTopico="false"
     />
   </AulaTemplate>
@@ -285,9 +127,6 @@ import TextBlock from "@/components/TextBlock.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Subtopico from "@/components/Subtopico.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
-import Imagem from "@/components/Imagem.vue";
-import Table from "@/components/Table.vue";
-import FlipCard from "@/components/FlipCard.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Timeline from "@/components/Timeline.vue";
 
@@ -298,9 +137,6 @@ export default {
     Paragraph,
     Subtopico,
     BoxIcon,
-    Imagem,
-    Table,
-    FlipCard,
     NavFooter,
     Timeline,
   },
