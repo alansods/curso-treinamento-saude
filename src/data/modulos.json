@@ -164,16 +164,16 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01"
+        "link": "modulo-08"
       },
-      { "numero": "01", "titulo": "Contexto Histórico do ESG", "link": "modulo-01/topico-01" },
-      { "numero": "02", "titulo": "A importância do ESG para as empresas", "link": "modulo-01/topico-02" },
-      { "numero": "03", "titulo": "Desafios e Perspectivas do ESG: Impactos nas Empresas", "link": "modulo-01/topico-03" },
-      { "numero": "04", "titulo": "Implementando Práticas ESG em sua empresa", "link": "modulo-01/topico-04" },
+      { "numero": "01", "titulo": "Contexto Histórico do ESG", "link": "modulo-08/topico-01" },
+      { "numero": "02", "titulo": "A importância do ESG para as empresas", "link": "modulo-08/topico-02" },
+      { "numero": "03", "titulo": "Desafios e Perspectivas do ESG: Impactos nas Empresas", "link": "modulo-08/topico-03" },
+      { "numero": "04", "titulo": "Implementando Práticas ESG em sua empresa", "link": "modulo-08/topico-04" },
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-08/referencias"
       },
       { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
     ]

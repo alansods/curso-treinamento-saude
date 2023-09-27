@@ -2,7 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[7].titulo"
     :numero="$store.state.modulos[7].numero"
-    titleSize="5"
+    titleSize="4"
   >
     <TextBlock topico="Referêcias">
       <v-row style="word-break: break-word">

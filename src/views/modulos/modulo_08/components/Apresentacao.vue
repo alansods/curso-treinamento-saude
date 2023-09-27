@@ -2,7 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[7].titulo"
     :numero="$store.state.modulos[7].numero"
-    titleSize="5"
+    titleSize="4"
   >
     <BoxIcon tipo="objetivos_gerais">
       Fornecer aos cursistas uma compreensão sólida dos conceitos fundamentais ligados à abordagem ESG (Ambiental, Social e Governança), e demonstrar como esses princípios estão sendo efetivamente implementados no cenário empresarial.
@@ -35,7 +35,7 @@
     <v-row justify="center" class="mt-5">
       <v-col cols="12" sm="6">
         <NavButton
-          link="modulo-07/topico-01"
+          link="modulo-08/topico-01"
           name="Iniciar"
           color="primary"
           icon="mdi-arrow-right-bold-circle"
