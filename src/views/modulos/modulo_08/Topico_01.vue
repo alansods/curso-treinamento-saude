@@ -74,13 +74,17 @@
 
     <TextBlock>
       <Paragraph>
-        Essa linha do tempo nos ajuda a entender a interligação histórica entre o capitalismo, a sustentabilidade e o surgimento do ESG como um movimento global.
+        Essa linha do tempo nos ajuda a entender a interligação histórica entre
+        o capitalismo, a sustentabilidade e o surgimento do ESG como um
+        movimento global.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Falta texto do video
+        Nesse vídeo, abordaremos o tema da sustentabilidade ESG para os negócios
+        por meio dos conceitos e como inseri-lo no ambiente da empresa causando
+        impacto a médio prazo nas esferas interna e externa. Vamos começar?
       </Paragraph>
 
       <Paragraph>
@@ -102,13 +106,22 @@
       </v-responsive>
     </v-dialog>
 
-    <BoxIcon tipo="recapitulando"
-      >
+    <BoxIcon tipo="recapitulando">
       <p>
-        Concluindo este percurso histórico, fica evidente a evolução do pensamento econômico e social ao longo dos séculos, culminando no surgimento do "Capitalismo Consciente" e no fortalecimento do ESG como uma abordagem que integra o bem-estar social, a responsabilidade ambiental e a governança corporativa. Essa trajetória demonstra a importância crescente de equilibrar lucratividade com sustentabilidade, refletindo uma mudança fundamental na forma como os negócios são conduzidos na busca por um mundo mais justo e ambientalmente saudável.
+        Concluindo este percurso histórico, fica evidente a evolução do
+        pensamento econômico e social ao longo dos séculos, culminando no
+        surgimento do "Capitalismo Consciente" e no fortalecimento do ESG como
+        uma abordagem que integra o bem-estar social, a responsabilidade
+        ambiental e a governança corporativa. Essa trajetória demonstra a
+        importância crescente de equilibrar lucratividade com sustentabilidade,
+        refletindo uma mudança fundamental na forma como os negócios são
+        conduzidos na busca por um mundo mais justo e ambientalmente saudável.
       </p>
 
-      <p>No próximo tópico, exploraremos a importância do ESG para as empresas e como essa abordagem influencia positivamente seu desempenho e reputação.</p>
+      <p>
+        No próximo tópico, exploraremos a importância do ESG para as empresas e
+        como essa abordagem influencia positivamente seu desempenho e reputação.
+      </p>
     </BoxIcon>
 
     <NavFooter
@@ -178,32 +191,32 @@ export default {
         {
           color: "green",
           year: "1939-1945",
-          text: 'A Segunda Guerra Mundial e as primeiras explosões nucleares motivaram o início de movimentos e ações relacionados à sustentabilidade.',
+          text: "A Segunda Guerra Mundial e as primeiras explosões nucleares motivaram o início de movimentos e ações relacionados à sustentabilidade.",
         },
         {
           color: "pink",
           year: "1972",
-          text: 'Conferência da ONU sobre o Meio Ambiente e a Declaração de Estocolmo marcam o início da cooperação global em questões ambientais.',
+          text: "Conferência da ONU sobre o Meio Ambiente e a Declaração de Estocolmo marcam o início da cooperação global em questões ambientais.",
         },
         {
           color: "amber",
           year: "1992",
-          text: 'A ECO-92, a Cúpula da Terra no Rio de Janeiro, reúne líderes globais e destaca questões ambientais em nível mundial.',
+          text: "A ECO-92, a Cúpula da Terra no Rio de Janeiro, reúne líderes globais e destaca questões ambientais em nível mundial.",
         },
         {
           color: "purple",
           year: "1997",
-          text: 'Assinatura do Protocolo de Quioto para redução das emissões de gases poluentes, embora sem a participação dos EUA e Canadá.',
+          text: "Assinatura do Protocolo de Quioto para redução das emissões de gases poluentes, embora sem a participação dos EUA e Canadá.",
         },
         {
           color: "blue",
           year: "2012",
-          text: 'A RIO +20, a Conferência da ONU sobre Desenvolvimento Sustentável, discute desenvolvimento sustentável e economia verde.',
+          text: "A RIO +20, a Conferência da ONU sobre Desenvolvimento Sustentável, discute desenvolvimento sustentável e economia verde.",
         },
         {
           color: "brown",
           year: "Década de 70",
-          text: 'Surge a Economia Circular, baseada no repensar, reduzir, recusar, reutilizar e reciclar para promover o uso inteligente dos recursos naturais.',
+          text: "Surge a Economia Circular, baseada no repensar, reduzir, recusar, reutilizar e reciclar para promover o uso inteligente dos recursos naturais.",
         },
         {
           color: "orange",
@@ -213,12 +226,12 @@ export default {
         {
           color: "teal",
           year: "1988",
-          text: 'A Constituição Brasileira incorpora a preocupação com a função social das empresas e o meio ambiente.',
+          text: "A Constituição Brasileira incorpora a preocupação com a função social das empresas e o meio ambiente.",
         },
         {
           color: "indigo",
           year: "2015-2020",
-          text: 'A participação de investidores estrangeiros no Brasil cai cerca de 19%, refletindo uma crescente preocupação com o socioambiental. O ESG ganha força globalmente, levando as empresas a priorizarem o impacto socioambiental como estratégia para alavancar a competitividade e criar valor compartilhado.',
+          text: "A participação de investidores estrangeiros no Brasil cai cerca de 19%, refletindo uma crescente preocupação com o socioambiental. O ESG ganha força globalmente, levando as empresas a priorizarem o impacto socioambiental como estratégia para alavancar a competitividade e criar valor compartilhado.",
         },
       ],
     };

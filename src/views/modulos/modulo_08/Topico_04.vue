@@ -287,7 +287,8 @@
           <template #front>2º Passo</template>
 
           <template #back>
-            Faça um diagnóstico do tipo <strong>CULTURA ORGANIZACIONAL</strong> instalada na empresa.
+            Faça um diagnóstico do tipo
+            <strong>CULTURA ORGANIZACIONAL</strong> instalada na empresa.
           </template>
         </FlipCard>
       </v-col>
@@ -307,7 +308,8 @@
           <template #front>4º Passo</template>
 
           <template #back>
-            Treinamento e <strong>CAPACITAÇÃO</strong> com foco na introdução do ESG na mentalidade das pessoas, com foco na Alta Gestão.
+            Treinamento e <strong>CAPACITAÇÃO</strong> com foco na introdução do
+            ESG na mentalidade das pessoas, com foco na Alta Gestão.
           </template>
         </FlipCard>
       </v-col>
@@ -317,7 +319,10 @@
           <template #front>5º Passo</template>
 
           <template #back>
-            Faça um <strong>DIAGNÓSTICO</strong> de <strong>MATERIALIDADE</strong> (material é tudo que é substancial para aquela empresa, por exemplo, para uma indústria do agronegócio é material o solo em que a produção acontece).
+            Faça um <strong>DIAGNÓSTICO</strong> de
+            <strong>MATERIALIDADE</strong> (material é tudo que é substancial
+            para aquela empresa, por exemplo, para uma indústria do agronegócio
+            é material o solo em que a produção acontece).
           </template>
         </FlipCard>
       </v-col>
@@ -327,7 +332,9 @@
           <template #front>6º Passo</template>
 
           <template #back>
-            Mapeie os <strong>RISCOS</strong> do negócio (aquilo que poderá fazer com que ele venha a sucumbir ao longo do tempo, fatores internos e externos).
+            Mapeie os <strong>RISCOS</strong> do negócio (aquilo que poderá
+            fazer com que ele venha a sucumbir ao longo do tempo, fatores
+            internos e externos).
           </template>
         </FlipCard>
       </v-col>
@@ -337,7 +344,8 @@
           <template #front>7º Passo</template>
 
           <template #back>
-            Defina o modelo de <strong>COMUNICAÇÃO</strong> com que alcançará todos os níveis da corporação.
+            Defina o modelo de <strong>COMUNICAÇÃO</strong> com que alcançará
+            todos os níveis da corporação.
           </template>
         </FlipCard>
       </v-col>
@@ -347,14 +355,20 @@
           <template #front>8º Passo</template>
 
           <template #back>
-            Faça um <strong>PLANEJAMENTO EXECUTIVO</strong> em apoio ao plano estratégico anual da empresa.
+            Faça um <strong>PLANEJAMENTO EXECUTIVO</strong> em apoio ao plano
+            estratégico anual da empresa.
           </template>
         </FlipCard>
       </v-col>
     </v-row>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph> Falta texto do video </Paragraph>
+      <Paragraph>
+        Nesta segunda vídeo-aula, vamos aproximar a temática ESG do dia a dia
+        dos negócios e como você gestor pode inserir as boas práticas ou
+        estruturar as já existentes de maneira a trazer benefícios reais para a
+        sua gestão.
+      </Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -429,7 +443,7 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
-    FlipCard
+    FlipCard,
   },
   data() {
     return {
