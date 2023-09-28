@@ -51,5 +51,4 @@ export default {
 </script>
 
 <style>
-/* Add any necessary styles for the Lottie container here */
 </style>

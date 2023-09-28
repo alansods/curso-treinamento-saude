@@ -73,7 +73,7 @@
           color="primary"
           icon="mdi-arrow-right-bold-circle"
           :right="true"
-          link="modulo-02"
+          link="modulo-08"
           block="true"
         ></NavButton>
       </v-col>

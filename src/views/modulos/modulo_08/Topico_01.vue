@@ -95,7 +95,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="MwTTEtIbJ-U"
+          video-id="TrwjLbkPSI0"
           style="border: solid 3px white"
           fitParent
         />

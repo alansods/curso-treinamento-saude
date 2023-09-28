@@ -4,170 +4,249 @@
     :numero="$store.state.modulos[7].numero"
     titleSize="4"
   >
-    <TextBlock
-      topico="Tópico 02 - Transtornos Mentais Mais Comuns no Ambiente de Trabalho"
-    >
+    <TextBlock topico="Tópico 02 - A importância do ESG para as empresas">
       <Paragraph>
-        Neste tópico, abordaremos os transtornos mentais mais comuns no ambiente
-        de trabalho. Você sabia que a partir de 2010, observou-se um aumento
-        considerável nos transtornos mentais relacionados ao trabalho? Estima-se
-        que a concessão de benefícios para esse grupo específico de
-        trabalhadores tenha aumentado em 24%. Esses dados são ainda mais
-        evidentes no público feminino, que apresentou um aumento de cerca de
-        650% em um período de cinco anos. O perfil dos colaboradores afastados
-        por transtornos mentais é composto, em sua grande maioria, por
-        trabalhadores da produção de bens e serviços industriais, com idades
-        entre 19 e 39 anos e nível de escolaridade médio. As principais causas
-        do desenvolvimento desses transtornos estão relacionadas à reação ao
-        estresse grave, episódios depressivos e transtorno de adaptação. Vejamos
-        a seguir os transtornos mentais mais comuns no ambiente de trabalho:
+        Neste tópico, vamos mergulhar profundamente no universo ESG e explorar
+        como esses princípios estão moldando a forma como as empresas operam e
+        se relacionam com o mundo. Acompanhe essa jornada, pois entender o ESG é
+        fundamental para navegarmos no mundo dos negócios contemporâneo, onde a
+        responsabilidade social, a sustentabilidade e a transparência se tornam
+        cada vez mais cruciais.
+      </Paragraph>
+
+      <Paragraph>
+        Neste exato momento, líderes empresariais estão ponderando sobre como
+        adaptar suas organizações aos princípios ESG (Ambiental, Social e de
+        Governança). A pandemia da COVID-19 acelerou a necessidade de negócios
+        que possam se adaptar a mudanças inesperadas, sejam elas sociais,
+        políticas, econômicas ou ambientais. Uma clara mensagem que ecoa é que
+        propósito e lucro não podem mais ser separados no mundo dos negócios.
       </Paragraph>
     </TextBlock>
 
-    <TextBlock subTopico="Síndrome de Burnout">
+    <BoxIcon tipo="voce_sabia">
+      Em uma de suas cartas publicadas nas redes sociais em 2020, Larry Fink,
+      CEO da BlackRock, destacou que a pandemia trouxe à tona a vulnerabilidade
+      humana e intensificou o enfrentamento da ameaça global das mudanças
+      climáticas, sugerindo que esse desafio poderá impactar nossas vidas de
+      maneira comparável à pandemia. Além disso, Fink argumenta que os CEOs
+      devem desempenhar um papel ativo na solução de questões sociais quando o
+      governo enfrenta dificuldades em fazê-lo.
+    </BoxIcon>
+
+    <TextBlock>
       <Paragraph>
-        Dentre os fatores relacionados à organização, podemos citar o excesso de
-        normas, mudanças organizacionais frequentes, comunicação ineficiente,
-        impossibilidade de ascender na carreira. Os fatores individuais podem
-        potencializar o risco de desenvolver transtornos quando associados a um
-        fator organizacional. Indivíduos pessimistas, perfeccionistas,
-        controladores e passivos estão associados a índices mais elevados da
-        síndrome de Burnout.
-      </Paragraph>
-
-      <v-row justify="center">
-        <v-col cols="12" sm="8">
-          <Imagem
-            src="modulo_01/imagem2.svg"
-            legenda="Imagem 2: Os fatores de risco para o desenvolvimento do Burnout"
-            fonte="Senai Ceará / freepik.com"
-          />
-        </v-col>
-      </v-row>
-
-      <Paragraph>
-        Dentre os fatores relacionados à organização, podemos citar o excesso de
-        normas, mudanças organizacionais frequentes, comunicação ineficiente,
-        impossibilidade de ascender na carreira. Os fatores individuais podem
-        potencializar o risco de desenvolver transtornos quando associados a um
-        fator organizacional. Indivíduos pessimistas, perfeccionistas,
-        controladores e passivos estão associados a índices mais elevados da
-        síndrome de Burnout.
-      </Paragraph>
-
-      <v-row justify="center">
-        <v-col cols="12" sm="8">
-          <Imagem
-            src="modulo_01/imagem3.jpg"
-            legenda="Imagem 3 : O esgotamento físico é um dos principais sintomas da síndrome de Burnout."
-            fonte="Wikimedia Commons"
-          />
-        </v-col>
-      </v-row>
-
-      <Paragraph>
-        Os fatores laborais também podem estar associados à síndrome de Burnout.
-        O Trabalho por turnos ou noturno, a sobrecarga, os sentimentos de
-        injustiça e de iniquidade nas relações laborais, e a ambiguidade de
-        papel são os mais citados na literatura. O trabalho por turnos ou
-        noturno chega a afetar cerca de 20% dos trabalhadores, acarretando
-        transtornos físicos e psicológicos. O precário suporte organizacional e
-        o relacionamento conflituoso entre colegas também são citados como
-        fatores que podem agravar a síndrome. Além disso, a presença de
-        indivíduos competitivos, distantes, excessivamente críticos ou
-        desmotivados contribui para a intensificação desses problemas
-      </Paragraph>
-
-      <Paragraph>
-        Em relação aos fatores sociais, pode-se destacar a falta de suporte
-        social e familiar, bem como a necessidade da manutenção do prestígio
-        social em oposição à baixa salarial de determinada profissão. O
-        indivíduo busca vários empregos, o que leva a uma sobrecarga de trabalho
-        e, consequentemente, pouco tempo para descanso, lazer e atualização
-        profissional, levando à insatisfação e insegurança em relação às
-        atividades desempenhadas.
-      </Paragraph>
-
-      <BoxIcon tipo="voce_sabia" class="my-10">
-        Acredita-se que a síndrome de Burnout tenha uma associação significativa
-        com transtornos depressivos e de ansiedade. Apesar de poucos estudos
-        sobre a correlação, alguns autores afirmam que altos níveis de exigência
-        psicológica, baixos níveis de liberdade de decisão, baixos níveis de
-        apoio social no trabalho e estresse devido a trabalho inadequado são
-        preditores significantes para subsequente depressão.
-      </BoxIcon>
-
-      <Paragraph>
-        Quanto maior for o nível de estresse associado ao limitado apoio da
-        organização ao funcionário, maior a probabilidade de desenvolver
-        síndrome de Burnout. Quanto mais forte for o suporte da organização,
-        menor a tendência em se desenvolver depressão. Constatou-se que oficiais
-        ocupando cargos de alto nível recebiam menor apoio organizacional e
-        estavam mais severamente deprimidos quando comparados a oficiais em
-        cargos hierárquicamente mais baixos.
+        A falta de maturidade por parte dos líderes para adotar uma abordagem
+        mais responsável na gestão dos negócios não impede que se lhes atribua a
+        responsabilidade social de intervir quando os governos enfrentam
+        desafios na resolução de questões de desenvolvimento social. Outro
+        aspecto a ser considerado, é o aumento significativo do envolvimento de
+        colaboradores e consumidores no papel de acionistas, o que configura um
+        novo poder capaz de pressionar as corporações a mudarem seu
+        comportamento e de desejar um espaço na mesa de negociações, e em alguns
+        casos, até mesmo na tomada de decisões estratégicas do negócio.
       </Paragraph>
     </TextBlock>
 
-    <TextBlock subTopico="Ansiedade">
-      <v-row justify="center" align="center">
-        <v-col cols="12" sm="4">
-          <Imagem
-            src="modulo_01/ansiedade.svg"
-            legenda="Imagem 3 : Ansiedade"
-            fonte="freepik.com"
-          />
-        </v-col>
+    <v-row justify="center">
+      <v-col cols="12" sm="6">
+        <Imagem src="modulo_08/professor_refletindo-01.svg" />
+      </v-col>
+    </v-row>
 
-        <v-col cols="12" sm="8">
-          <Paragraph>
-            A ansiedade ocasiona emoções desagradáveis de aflição, com o corpo
-            em sinal de alerta. O indivíduo pode apresentar fadiga constante e
-            progressiva, dores musculares, distúrbios do sono, cefaleia,
-            enxaquecas, falta de concentração, alterações de memória e
-            lentificação do pensamento. Os três últimos sintomas têm um impacto
-            significativo na organização e comprometem a qualidade do trabalho,
-            a comunicação e a colaboração entre os colaboradores.
-          </Paragraph>
-        </v-col>
-      </v-row>
+    <TextBlock>
+      <Paragraph>
+        É evidente que a vontade por parte dos empresários existe. No entanto,
+        quando chega o momento de passar da fase do planejamento para a ação,
+        muitas vezes falta uma estratégia claramente definida, o que pode fazer
+        com que a empresa diminua sua velocidade e fique estagnada por um longo
+        período. Não basta mais apenas buscar lucro e pagar dividendos aos
+        acionistas. As empresas agora, que estão mais expostas aos princípios
+        ESG, têm a responsabilidade de compartilhar informações de forma
+        transparente, precisa e completa ao divulgar seus balanços contábeis e
+        relatórios, que não devem se concentrar apenas nos investidores diretos,
+        mas também estar acessíveis a toda a sociedade.
+      </Paragraph>
     </TextBlock>
 
-    <TextBlock subTopico="Depressao">
-      <v-row justify="center" align="center">
-        <v-col cols="12" sm="4">
-          <Imagem
-            src="modulo_01/depressao.svg"
-            legenda="Imagem 3 : Depressão"
-            fonte="freepik.com"
-          />
-        </v-col>
+    <BoxIcon tipo="atencao">
+      Uma mudança de perspectiva levanta questões que antes não eram tão comuns
+      no cotidiano da alta gestão. Não se trata de um custo adicional para as
+      empresas, mas sim da própria sobrevivência delas, uma vez que os clientes
+      estão cada vez mais exigentes em relação ao propósito das organizações.
+      Empresas que incorporam ações ESG costumam apresentar melhor desempenho
+      financeiro a longo prazo e suas ações no mercado de capitais tendem a ter
+      um desempenho superior.
+    </BoxIcon>
 
-        <v-col cols="12" sm="8">
-          <Paragraph>
-            Indivíduos que sofrem com esse transtorno mental estão mais sujeitos
-            a deixar o emprego, levando a altas taxas de absenteísmo e
-            rotatividade de funcionários. Com isso, a instituição aumenta os
-            gastos com o tratamento do profissional já acometido pelo
-            transtorno, contratação de novos funcionários e ainda reduz a
-            qualidade do serviço prestado para seus compradores, pois diminui a
-            produtividade, aumenta a probabilidade de erros e acidentes. Além
-            disso, pode haver uma exposição negativa da marca e multas
-            administrativas.
-          </Paragraph>
-        </v-col>
-      </v-row>
+    <TextBlock>
+      <Paragraph>
+        Já nas finanças, reforçamos que o impacto da implementação dos critérios
+        e indicadores de gestão ESG é um importante diferencial competitivo de
+        mercado. Empresas que amadurecem sua gestão administrativo/financeira de
+        maneira orientada ao ESG, apresentam resultados mais favoráveis com
+        relação a:
+      </Paragraph>
+
+      <v-alert border="left" color="blue" dark>
+        <strong>CUSTOS DE CAPITAL</strong> (próprio ou de terceiros);
+      </v-alert>
+
+      <v-alert border="left" color="blue" dark>
+        <strong>ROS</strong> (retorno sobre as vendas);
+      </v-alert>
+
+      <v-alert border="left" color="blue" dark>
+        <strong>CRESCIMENTO DAS VENDAS</strong> (pelo propósito e marketing
+        positivo das ações);
+      </v-alert>
+
+      <v-alert border="left" color="blue" dark>
+        <strong>TAXA de RETORNO</strong> das ações listadas nas bolsas.
+      </v-alert>
+
+      <Paragraph>
+        Essa tendência é evidente, levando os mercados a se organizarem na
+        criação de índices que orientem a tomada de decisão de investidores e
+        acionistas. Um exemplo notável é o ISE (Índice de Sustentabilidade
+        Empresarial) da B3, criado em 2005, que ganha força a cada ano,
+        desempenhando um papel fundamental como balizador reputacional de
+        empresas e conglomerados financeiros.
+      </Paragraph>
+
+      <Paragraph>
+        Além disso, o enfoque em ESG não se restringe apenas à reputação, ele
+        gera benefícios internos e externos. Internamente, contribui para
+        ambientes mais diversos, transparentes, justos e inclusivos, desde que
+        efetivamente implementado em todos os níveis da organização, não apenas
+        na base da pirâmide. Externamente, impacta objetivamente na imagem da
+        empresa, abre novas fontes de financiamento e cultiva uma fidelidade dos
+        consumidores que não pode ser alcançada apenas por meio de marketing e
+        propaganda.
+      </Paragraph>
+
+      <Paragraph>
+        A estratégia de investimentos dos grupos financeiros também evoluiu,
+        incorporando filtros positivos que excluem países, projetos, setores e
+        empresas que não atendem aos critérios ESG, incluindo aqueles
+        relacionados a armas, tabaco e combustíveis fósseis. Esse último setor,
+        embora timidamente devido à nossa dependência, começa a adotar planos de
+        mobilidade sustentável em resposta à pressão dos profissionais que não
+        desejam mais associar sua imagem profissional a empresas que não adotam
+        práticas ESG.
+      </Paragraph>
     </TextBlock>
 
-    <BoxIcon tipo="recapitulando"
-      >Chegamos ao final deste tópico. No próximo tópico, abordaremos um tema de
-      extrema importância e sensibilidade: o assédio no ambiente de trabalho.
+    <BoxIcon tipo="voce_sabia">
+      <p>
+        Em 2015, na COP 21 em Paris, o "Acordo de Paris" marcou um importante
+        ponto de virada ao transformar as mudanças climáticas de uma sugestão em
+        uma ordem global definitiva. Esse acordo reforçou as metas estabelecidas
+        em 2000 nas Nações Unidas, conhecidas como Objetivos de Desenvolvimento
+        do Milênio (ODM), que visavam à erradicação da pobreza, proteção
+        ambiental e a promoção da paz e prosperidade até 2015. No entanto, em
+        2010, ficou claro que essas metas não seriam alcançadas. Isso levou os
+        países membros da ONU a expandir esses objetivos e a concentrar esforços
+        no desenvolvimento sustentável, resultando na elaboração da Agenda 2030
+        e dos Objetivos de Desenvolvimento Sustentável (ODS). Para saber mais
+        sobre o assunto,
+        <a
+          style="color: white; font-weight: bold"
+          target="_blank"
+          href="https://brasil.un.org/pt-br/91863-agenda-2030-para-o-desenvolvimento-sustent%C3%A1vel"
+          >clique aqui</a
+        >:
+      </p>
+    </BoxIcon>
+
+    <TextBlock>
+      <Paragraph>
+        Essa evolução na estratégia de investimentos se alinha com a proposta da
+        ONU, que lança um chamado global para uma nova agenda de desenvolvimento
+        sustentável para os próximos 15 anos até 2030, formada por 17 Objetivos
+        de Desenvolvimento Sustentável (ODS). Os ODS visam garantir os direitos
+        humanos, erradicar a pobreza globalmente, combater desigualdades e
+        promover relações de igualdade de gênero, tudo isso enquanto enfrentam
+        as mudanças climáticas de maneira organizada, sistemática e alinhada com
+        todas as esferas, sejam públicas ou privadas. A colaboração de diversos
+        setores econômicos e sociais é essencial para alcançar essas metas
+        ambiciosas.
+      </Paragraph>
+    </TextBlock>
+
+    <v-row justify="center">
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-1.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-2.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-3.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-4.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-5.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-6.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-7.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-8.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-9.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-10.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-11.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-12.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-13.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-14.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-15.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-16.svg" />
+      </v-col>
+      <v-col cols="6" sm="3">
+        <Imagem src="modulo_08/cards-icones/SDG-17.svg" />
+      </v-col>
+    </v-row>
+
+    <BoxIcon tipo="recapitulando">
+      <p>
+        Neste tópico, exploramos a crescente importância dos princípios ESG nos
+        negócios e investimentos. Observamos como a estratégia das empresas e a
+        abordagem dos investidores estão se adaptando a esses princípios em
+        busca de um mundo mais sustentável. No próximo tópico, exploraremos os
+        riscos e oportunidades ESG para as empresas. Analisaremos como a
+        consideração desses fatores pode impactar tanto positivamente quanto
+        negativamente os negócios, e como as organizações podem navegar nesse
+        cenário em constante evolução para garantir sua sustentabilidade e
+        sucesso a longo prazo.
+      </p>
     </BoxIcon>
 
     <NavFooter
       prevName="Tópico 01"
-      prevLink="modulo-01/topico-01"
+      prevLink="modulo-08/topico-01"
       nextName="Tópico 03"
-      nextLink="modulo-01/topico-03"
+      nextLink="modulo-08/topico-03"
       :lastTopico="false"
     />
   </AulaTemplate>
@@ -177,77 +256,30 @@
 import AulaTemplate from "@/components/AulaTemplate.vue";
 import TextBlock from "@/components/TextBlock.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
-import Imagem from "@/components/Imagem.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
+import Imagem from "@/components/Imagem.vue";
 
 export default {
   components: {
     AulaTemplate,
     TextBlock,
     BoxIcon,
-    Imagem,
     NavFooter,
     Paragraph,
+    Imagem,
   },
   data() {
-    return {
-      modelTranstornos: 0,
-
-      itemsConsequencias: {
-        tab: 0,
-
-        tab1: {
-          titulo: "Para o indivíduo",
-          items: [
-            "Dores generalizadas",
-            "Palpitações",
-            "Distúrbios digestivos",
-            "Dores de cabeça",
-            "Hipertensão arterial",
-            "Alteração do sono",
-            "Irritabilidade",
-            "Crises de choro",
-            "Abandono de relações pessoais",
-            "Problemas familiares",
-            "Isolamento",
-            "Depressão",
-            "Síndrome do pânico",
-            "Estresse",
-            "Suicídio",
-          ],
-        },
-
-        tab2: {
-          titulo: "Para a empresa",
-          items: [
-            "Redução da produtividade",
-            "Rotatividade de pessoal",
-            "Aumento de erros e acidentes",
-            "Absenteísmo (faltas)",
-            "Licenças médicas ",
-            "Exposição negativa da marca",
-            "Indenizações trabalhistas",
-            "Multas administrativas",
-          ],
-        },
-      },
-
-      itemsAssedioSexual: {
-        tab: 0,
-      },
-    };
+    return {};
   },
 
   methods: {},
 
   created() {
-    this.$store.state.progresso_modulo_01.items.topico_02 = true
+    this.$store.state.progresso_modulo_01.items.topico_02 = true;
     this.$store.commit("SALVAR_PROGRESSO");
-  }
+  },
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

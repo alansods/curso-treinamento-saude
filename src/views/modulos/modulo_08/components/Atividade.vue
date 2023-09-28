@@ -73,7 +73,7 @@
           color="primary"
           icon="mdi-arrow-right-bold-circle"
           :right="true"
-          link="modulo-02"
+          link="modulo-09"
           block="true"
         ></NavButton>
       </v-col>
@@ -83,7 +83,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Questoes from "@/data/questoes/modulo_07.json";
+import Questoes from "@/data/questoes/modulo_08.json";
 import SmallText from "@/components/SmallText.vue";
 import Paragraph from "@/components/Paragraph.vue";
 

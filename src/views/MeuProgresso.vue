@@ -2,6 +2,7 @@
   <AulaTemplate
     :titulo="$store.state.modulos[0].titulo"
     :numero="$store.state.modulos[0].numero"
+    titleSize="3"
   >
     <TextBlock topico="Meu Progresso">
       <h3 class="text-h6 font-weight-bold">Módulo 01</h3>

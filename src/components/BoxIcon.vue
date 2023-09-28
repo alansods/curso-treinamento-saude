@@ -98,4 +98,5 @@ export default {
 .box-icon {
   font-size: 1rem;
 }
+
 </style>

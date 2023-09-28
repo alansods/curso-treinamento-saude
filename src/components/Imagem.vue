@@ -21,8 +21,8 @@
         class="rounded-lg"
       />
     </div>
-    <SmallText v-if="!loading">{{ legenda }}</SmallText>
-    <SmallText v-if="!loading">Fonte: {{ fonte }}</SmallText>
+    <SmallText v-if="!loading && legenda">{{ legenda }}</SmallText>
+    <SmallText v-if="!loading && fonte">Fonte: {{ fonte }}</SmallText>
   </div>
 </template>
 
