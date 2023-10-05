@@ -11,7 +11,16 @@ import Topico from "./Topico.vue";
 import Subtopico from "./Subtopico.vue";
 
 export default {
-  props: ["topico", "subTopico"],
+  props: {
+    topico: {
+      type: String,
+      required: false,
+    },
+    subTopico: {
+      type: String,
+      required: false,
+    },
+  },
 
   components: {
     Topico,

@@ -30,7 +30,25 @@
 import SmallText from "@/components/SmallText.vue";
 
 export default {
-  props: ["src", "fonte", "legenda", "left"],
+  props: {
+    src: {
+      type: String,
+      required: true,
+    },
+    fonte: {
+      type: String,
+      required: false,
+    },
+    legenda: {
+      type: String,
+      required: false,
+    },
+    left: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+  },
 
   components: {
     SmallText,

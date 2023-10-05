@@ -50,11 +50,13 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMM</h1>
-
     <v-row justify="center">
       <v-col cols="12" sm="6">
-        <Imagem src="modulo_08/professor_refletindo-01.svg" />
+        <Imagem
+          legenda="Imagem 2: É fundamental investir na QVT para um ambiente corporativo saudável e produtivo"
+          fonte="Fonte: Freepick. com"
+          src="modulo_03/imagem2.jpg"
+        />
       </v-col>
     </v-row>
 
@@ -87,7 +89,41 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>FLIPCARDDD</h1>
+    <v-row>
+      <v-col cols="12"
+        ><small class="text-center d-block grey--text"
+          >(Clique nos cards abaixo para ver o conteúdo)</small
+        ></v-col
+      >
+
+      <v-col cols="12" sm="6">
+        <FlipCard>
+          <template #front>Políticas de Gestão de Pessoas</template>
+
+          <template #back>
+            <p>
+              - Valores voltados para o bem-estar e desenvolvimento saudável das dinâmicas de trabalho.
+            </p>
+
+            <p>
+              - Prevenção de acidentes e doenças.
+            </p>
+          </template>
+        </FlipCard>
+      </v-col>
+
+      <v-col cols="12" sm="6">
+        <FlipCard>
+          <template #front>Programas e Intervenções Específicas</template>
+
+          <template #back>
+            <p>
+              - Promoção da saúde e bem-estar do trabalhador.
+            </p>
+          </template>
+        </FlipCard>
+      </v-col>
+    </v-row>
 
     <TextBlock>
       <Paragraph>
@@ -143,31 +179,48 @@
     </TextBlock>
 
     <BoxIcon tipo="atencao">
-      Mesmo aqueles indivíduos com notas de risco mais baixas podem se beneficiar de serviços como lembretes para exames preventivos, opções de comunicação com profissionais de saúde e incentivos para manter hábitos de vida saudáveis.
+      Mesmo aqueles indivíduos com notas de risco mais baixas podem se
+      beneficiar de serviços como lembretes para exames preventivos, opções de
+      comunicação com profissionais de saúde e incentivos para manter hábitos de
+      vida saudáveis.
     </BoxIcon>
 
     <h1>GLOSSARIO</h1>
 
     <TextBlock>
       <Paragraph>
-        Para efetuar essa tarefa, é fundamental que se disponha de dados clínicos, financeiros e operacionais, permitindo a construção de uma infraestrutura de gestão de cuidados. Essa infraestrutura inclui,  tanto em nível individual quanto em seu impacto na coletividade, os seguintes processos:
+        Para efetuar essa tarefa, é fundamental que se disponha de dados
+        clínicos, financeiros e operacionais, permitindo a construção de uma
+        infraestrutura de gestão de cuidados. Essa infraestrutura inclui, tanto
+        em nível individual quanto em seu impacto na coletividade, os seguintes
+        processos:
       </Paragraph>
     </TextBlock>
 
     <h1>FLIPCARRD</h1>
 
     <BoxIcon tipo="voce_sabia">
-      As métricas de qualidade desempenham um papel central na avaliação de um programa de gestão da saúde da população, mas muitas organizações enfrentam desafios ao identificar quais métricas utilizar, quais dados são necessários e como transformar os dados de desempenho em melhorias práticas.
+      As métricas de qualidade desempenham um papel central na avaliação de um
+      programa de gestão da saúde da população, mas muitas organizações
+      enfrentam desafios ao identificar quais métricas utilizar, quais dados são
+      necessários e como transformar os dados de desempenho em melhorias
+      práticas.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        Essas estratégias e serviços preventivos visam a manter o nível de saúde mais elevado possível em cada indivíduo, prevenindo crises de saúde, reduzindo hospitalizações desnecessárias e aprimorando a qualidade de vida geral. Como resultado, as empresas podem reduzir o absenteísmo, aumentar a satisfação dos funcionários e promover um melhor estado de saúde no geral.
+        Essas estratégias e serviços preventivos visam a manter o nível de saúde
+        mais elevado possível em cada indivíduo, prevenindo crises de saúde,
+        reduzindo hospitalizações desnecessárias e aprimorando a qualidade de
+        vida geral. Como resultado, as empresas podem reduzir o absenteísmo,
+        aumentar a satisfação dos funcionários e promover um melhor estado de
+        saúde no geral.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      No próximo tópico, iremos compreender a importância do uso racional do plano de saúde empresarial.
+      No próximo tópico, iremos compreender a importância do uso racional do
+      plano de saúde empresarial.
     </BoxIcon>
 
     <NavFooter
@@ -187,6 +240,7 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
+import FlipCard from "@/components/FlipCard.vue";
 
 export default {
   components: {
@@ -196,6 +250,7 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
+    FlipCard
   },
   data() {
     return {};

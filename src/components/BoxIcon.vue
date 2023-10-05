@@ -62,7 +62,16 @@ const tipoToIconAndTitle = {
 };
 
 export default {
-  props: ["tipo", "numero"],
+  props: {
+    tipo: {
+      type: String,
+      required: true,
+    },
+    numero: {
+      type: Number,
+      required: false,
+    },
+  },
 
   data() {
     return {
