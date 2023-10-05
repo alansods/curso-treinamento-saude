@@ -1,7 +1,7 @@
 <template>
   <AulaTemplate
-    :titulo="$store.state.modulos[7].titulo"
-    :numero="$store.state.modulos[7].numero"
+    :titulo="$store.state.modulos[2].titulo"
+    :numero="$store.state.modulos[2].numero"
     titleSize="4"
   >
     <div v-if="!completed" class="question-container">
@@ -73,7 +73,7 @@
           color="primary"
           icon="mdi-arrow-right-bold-circle"
           :right="true"
-          link="modulo-09"
+          link="modulo-04"
           block="true"
         ></NavButton>
       </v-col>

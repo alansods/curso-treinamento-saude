@@ -1,6 +1,6 @@
 <template>
   <div>
-    <v-simple-table fixed-header height="auto" class="custom-table">
+    <v-simple-table fixed-header height="auto">
       <template v-slot:default>
         <slot></slot>
       </template>
@@ -24,9 +24,11 @@ export default {
 </script>
 
 <style>
-.custom-table {
-  border: solid 1px #eee;
+
+
+.v-data-table--fixed-header > .v-data-table__wrapper {
   border-radius: 8px;
+  border: solid 1px #eee;
   margin-bottom: 5px;
 }
 </style>

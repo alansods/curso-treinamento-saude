@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/home/Home";
 
 import modulo_01_Routes from "./modulo_01_routes";
+import modulo_03_Routes from "./modulo_03_routes";
 import modulo_07_Routes from "./modulo_07_routes";
 import modulo_08_Routes from "./modulo_08_routes";
 
@@ -24,6 +25,7 @@ const routes = [
   },
 
   ...modulo_01_Routes,
+  ...modulo_03_Routes,
   ...modulo_07_Routes,
   ...modulo_08_Routes,
 

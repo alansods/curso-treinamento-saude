@@ -52,19 +52,17 @@
       {
         "numero": null,
         "titulo": "Apresentação",
-        "link": "modulo-01"
+        "link": "modulo-03"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-01/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-01/topico-02" },
-      { "numero": "03", "titulo": "Tópico 03", "link": "modulo-01/topico-03" },
-      { "numero": "04", "titulo": "Tópico 04", "link": "modulo-01/topico-04" },
-      { "numero": "05", "titulo": "Tópico 05", "link": "modulo-01/topico-05" },
+      { "numero": "01", "titulo": "Doenças Crônicas Não Transmissíveis (DCNT)", "link": "modulo-03/topico-01" },
+      { "numero": "02", "titulo": "Desenvolvimento dos Programas de Qualidade de Vida no Trabalho e de Gerenciamento da Saúde Populacional", "link": "modulo-03/topico-02" },
+      { "numero": "03", "titulo": "Plano de Saúde na Empresa", "link": "modulo-03/topico-03" },
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-03/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-03/atividade" }
     ]
   },
 

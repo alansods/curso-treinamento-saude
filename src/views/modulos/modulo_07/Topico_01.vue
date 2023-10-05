@@ -219,13 +219,11 @@
         <tr>
           <th
             class="primary white--text text-body-2 text-uppercase font-weight-bold"
-            style="border-radius: 8px 0 0 0"
           >
             Causa de afastamentos no período de 2012 a 2021
           </th>
           <th
             class="primary white--text text-body-2 text-uppercase font-weight-bold"
-            style="border-radius: 0 8px 0 0"
           >
             Percentual
           </th>
@@ -380,14 +378,17 @@
         elevados. Nos Estados Unidos, o absenteísmo é responsável por um custo
         de mais de US$40 bilhões para as organizações. No ano de 2021, foram
         perdidos 295,4 milhões de dias de trabalho devido a
-        <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')">auxílio-doença</GlossarioButton> no Brasil, o que
-        resulta em perdas econômicas, em matéria de produtividade para os
-        empregadores e para a economia em geral.
+        <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')"
+          >auxílio-doença</GlossarioButton
+        >
+        no Brasil, o que resulta em perdas econômicas, em matéria de
+        produtividade para os empregadores e para a economia em geral.
       </Paragraph>
 
       <GlossarioDialog title="Auxílio-Doença">
         <Paragraph>
-        O <strong>auxílio-doença</strong> também é chamado de benefício por incapacidade temporária.
+          O <strong>auxílio-doença</strong> também é chamado de benefício por
+          incapacidade temporária.
         </Paragraph>
       </GlossarioDialog>
 

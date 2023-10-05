@@ -124,10 +124,10 @@
     >
       <thead>
         <tr>
-          <th class="primary white--text text-body-2 text-uppercase font-weight-bold" style="border-radius: 8px 0 0 0">
+          <th class="primary white--text text-body-2 text-uppercase font-weight-bold">
             CID-10
           </th>
-          <th class="primary white--text text-body-2 text-uppercase font-weight-bold" style="border-radius: 0 8px 0 0">
+          <th class="primary white--text text-body-2 text-uppercase font-weight-bold">
             Doenças
           </th>
         </tr>
