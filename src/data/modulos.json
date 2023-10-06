@@ -13,12 +13,12 @@
       { "numero": "03", "titulo": "Assédio no Ambiente de Trabalho", "link": "modulo-01/topico-03" },
       { "numero": "04", "titulo": "Políticas de Saúde Mental no Trabalho", "link": "modulo-01/topico-04" },
       { "numero": "05", "titulo": "A Importância dos Investimentos de Saúde Mental nas Empresas", "link": "modulo-01/topico-05" },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" },
       {
         "numero": null,
         "titulo": "Referências",
         "link": "modulo-01/referencias"
-      }
+      },
+      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
     ]
   },
 
@@ -39,9 +39,9 @@
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-02/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-02/atividade" }
     ]
   },
 
@@ -83,9 +83,9 @@
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-04/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-04/atividade" }
     ]
   },
 
@@ -106,9 +106,9 @@
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-05/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-05/atividade" }
     ]
   },
 
@@ -129,9 +129,9 @@
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-06/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-06/atividade" }
     ]
   },
 
@@ -173,7 +173,7 @@
         "titulo": "Referências",
         "link": "modulo-08/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-08/atividade" }
     ]
   },
 
@@ -194,9 +194,9 @@
       {
         "numero": null,
         "titulo": "Referências",
-        "link": "modulo-01/referencias"
+        "link": "modulo-09/referencias"
       },
-      { "numero": null, "titulo": "Atividade", "link": "modulo-01/atividade" }
+      { "numero": null, "titulo": "Atividade", "link": "modulo-09/atividade" }
     ]
   }
 ]
