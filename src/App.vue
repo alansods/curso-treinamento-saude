@@ -84,8 +84,8 @@ p:last-of-type {
 
 .label-radio-input {
   border-radius: 4px;
-  padding: 8px 12px;
-  margin: 10px;
+  padding: 8px 10px;
+  margin: 3px;
   transition: background 200ms ease;
   cursor: pointer;
 }

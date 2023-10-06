@@ -12,7 +12,8 @@
         <div
           v-for="(option, index) in options"
           :key="index"
-          class="my-3 text-body-1"
+          class="text-body-1 d-flex align-center"
+          style="gap: 0 8px;"
         >
           <input
             type="radio"
@@ -20,8 +21,8 @@
             :value="option"
             v-model="selectedOption"
             @change="optionSelected = true"
-            class="cursor-pointer"
             :disabled="answerChecked"
+            class="cursor-pointer"
             :id="index"
           />
           <label :for="index" class="label-radio-input">{{ option }}</label>
