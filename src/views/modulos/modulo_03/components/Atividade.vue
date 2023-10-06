@@ -12,7 +12,7 @@
         <div
           v-for="(option, index) in options"
           :key="index"
-          class="my-2 text-body-1"
+          class="my-3 text-body-1"
         >
           <input
             type="radio"
@@ -20,9 +20,11 @@
             :value="option"
             v-model="selectedOption"
             @change="optionSelected = true"
+            class="cursor-pointer"
             :disabled="answerChecked"
+            :id="index"
           />
-          <span class="pl-4">{{ option }}</span>
+          <label :for="index" class="label-radio-input">{{ option }}</label>
         </div>
       </div>
 
@@ -83,7 +85,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Questoes from "@/data/questoes/modulo_08.json";
+import Questoes from "@/data/questoes/modulo_03.json";
 import SmallText from "@/components/SmallText.vue";
 import Paragraph from "@/components/Paragraph.vue";
 

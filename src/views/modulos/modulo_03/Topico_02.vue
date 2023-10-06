@@ -102,12 +102,11 @@
 
           <template #back>
             <p>
-              - Valores voltados para o bem-estar e desenvolvimento saudável das dinâmicas de trabalho.
+              - Valores voltados para o bem-estar e desenvolvimento saudável das
+              dinâmicas de trabalho.
             </p>
 
-            <p>
-              - Prevenção de acidentes e doenças.
-            </p>
+            <p>- Prevenção de acidentes e doenças.</p>
           </template>
         </FlipCard>
       </v-col>
@@ -117,9 +116,7 @@
           <template #front>Programas e Intervenções Específicas</template>
 
           <template #back>
-            <p>
-              - Promoção da saúde e bem-estar do trabalhador.
-            </p>
+            <p>- Promoção da saúde e bem-estar do trabalhador.</p>
           </template>
         </FlipCard>
       </v-col>
@@ -157,7 +154,60 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>ACCORIONNNN</h1>
+    <Accordion>
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Ambiente físico de trabalho</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Refere-se às questões de segurança no ambiente físico de trabalho
+          (estrutura, ar, equipamentos, produtos, processos de produção,
+          veículos). Cuidar do ambiente físico é o início de tudo, e a prevenção
+          da exposição a agentes que podem trazer prejuízos à saúde do
+          trabalhador se inicia pela identificação desses agentes, os quais
+          devem ser avaliados e controlados.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Ambiente psicossocial de trabalho</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Cultura organizacional como um todo, que refletem as atitudes,
+          valores, crenças e práticas diárias na empresa, afetando o bem-estar
+          físico e mental dos trabalhadores.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Recursos pessoais em saúde no ambiente de
+          trabalho</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Promover um estilo de vida saudável aos colaboradores, incluindo
+          serviços, informações, flexibilidade e ambiente de incentivo às
+          práticas saudáveis. Orientar, por meio de programas de educação e
+          sensibilização, a atividade física, a alimentação saudável, o não
+          tabagismo e a moderação no uso de álcool. As empresas devem buscar
+          oferecer acesso à assistência médica adequada para os trabalhadores,
+          com possibilidade de diagnóstico e tratamento efetivos e de qualidade.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Envolvimento da empresa com a comunidade</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Trabalho da empresa junto à comunidade, engajando e sendo engajada,
+          ofertando recursos e/ou conhecimentos que possibilitam a melhoria da
+          saúde e do bem-estar dos trabalhadores, suas famílias e dos membros da
+          comunidade.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </Accordion>
 
     <TextBlock subTopico="2.2 Gerenciamento da Saúde Populacional">
       <Paragraph>
@@ -179,13 +229,23 @@
     </TextBlock>
 
     <BoxIcon tipo="atencao">
-      Mesmo aqueles indivíduos com notas de risco mais baixas podem se
-      beneficiar de serviços como lembretes para exames preventivos, opções de
-      comunicação com profissionais de saúde e incentivos para manter hábitos de
-      vida saudáveis.
+      Mesmo aqueles indivíduos com
+      <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')"
+        >notas de risco</GlossarioButton
+      >
+      mais baixas podem se beneficiar de serviços como lembretes para exames
+      preventivos, opções de comunicação com profissionais de saúde e incentivos
+      para manter hábitos de vida saudáveis.
     </BoxIcon>
 
-    <h1>GLOSSARIO</h1>
+    <GlossarioDialog title="Notas de Risco">
+      <Paragraph>
+        <strong>Notas de risco:</strong> Classificações usadas para avaliar o
+        risco de doenças ou condições de saúde, indicando a probabilidade de uma
+        pessoa desenvolver certos problemas de saúde com base em fatores como
+        histórico familiar, estilo de vida e outros indicadores.
+      </Paragraph>
+    </GlossarioDialog>
 
     <TextBlock>
       <Paragraph>
@@ -197,7 +257,52 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>FLIPCARRD</h1>
+    <v-row>
+      <v-col cols="12"
+        ><small class="text-center d-block grey--text"
+          >(Clique nos cards abaixo para ver o conteúdo)</small
+        ></v-col
+      >
+
+      <v-col cols="12" sm="4">
+        <FlipCard>
+          <template #front>Estratificação de Risco</template>
+
+          <template #back>
+            A estratificação de risco envolve a categorização de indivíduos com
+            base em fatores de risco para direcionar cuidados e recursos de
+            saúde de forma eficiente, priorizando aqueles com maior
+            probabilidade de desenvolver problemas de saúde.
+          </template>
+        </FlipCard>
+      </v-col>
+
+      <v-col cols="12" sm="4">
+        <FlipCard>
+          <template #front>Prestação de Cuidados</template>
+
+          <template #back>
+            A prestação de cuidados é o processo de oferecer assistência médica
+            e tratamento para promover a saúde e bem-estar dos pacientes,
+            abrangendo desde consultas médicas até educação sobre hábitos
+            saudáveis.
+          </template>
+        </FlipCard>
+      </v-col>
+
+      <v-col cols="12" sm="4">
+        <FlipCard>
+          <template #front>Acompanhamento Contínuo dos Resultados</template>
+
+          <template #back>
+            O acompanhamento contínuo dos resultados envolve a avaliação regular
+            dos efeitos das intervenções de saúde, permitindo ajustes no
+            tratamento com base na evolução do paciente e garantindo a eficácia
+            das ações de saúde.
+          </template>
+        </FlipCard>
+      </v-col>
+    </v-row>
 
     <BoxIcon tipo="voce_sabia">
       As métricas de qualidade desempenham um papel central na avaliação de um
@@ -241,6 +346,9 @@ import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
 import FlipCard from "@/components/FlipCard.vue";
+import Accordion from "@/components/Accordion.vue";
+import GlossarioButton from "@/components/GlossarioButton.vue";
+import GlossarioDialog from "@/components/GlossarioDialog.vue";
 
 export default {
   components: {
@@ -250,7 +358,10 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
-    FlipCard
+    FlipCard,
+    Accordion,
+    GlossarioButton,
+    GlossarioDialog,
   },
   data() {
     return {};

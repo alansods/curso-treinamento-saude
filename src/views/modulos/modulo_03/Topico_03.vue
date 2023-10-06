@@ -83,7 +83,47 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>TABELAAAA</h1>
+    <Table
+      legenda="Quadro 3: Critérios para reajuste de planos de saúde coletivos."
+    >
+      <thead>
+        <tr>
+          <th
+            class="primary white--text text-body-2 text-uppercase font-weight-bold"
+          >
+            Critérios de Reajuste
+          </th>
+          <th
+            class="primary white--text text-body-2 text-uppercase font-weight-bold"
+          >
+            Descrição
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Inflação Médica</td>
+          <td>
+            O reajuste pode ser baseado na inflação médica (Variação de Custos
+            Médico-Hospitalares - VCMH).
+          </td>
+        </tr>
+        <tr>
+          <td>Taxa de Sinistralidade</td>
+          <td>
+            Pode ser determinado com base na taxa de sinistralidade, que avalia
+            as despesas médicas dos segurados.
+          </td>
+        </tr>
+        <tr>
+          <td>Outros Parâmetros</td>
+          <td>
+            Os reajustes também podem ser definidos com base em outros
+            parâmetros acordados entre a operadora e a empresa contratante
+          </td>
+        </tr>
+      </tbody>
+    </Table>
 
     <TextBlock>
       <Paragraph>
@@ -99,7 +139,33 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>ACCODEONN</h1>
+    <Accordion>
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Planos Individuais Regulamentados</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          <ul>
+            <li>Regulados pela ANS (Agência Nacional de Saúde Suplementar).</li>
+            <li>Geralmente, entram em vigor a partir de maio de cada ano.</li>
+            <li>
+              O índice máximo de reajuste é calculado com base em:
+              <ul>
+                <li>80% da variação das despesas assistenciais.</li>
+                <li>20% do Índice de Preços ao Consumidor Amplo (IPCA).</li>
+              </ul>
+            </li>
+          </ul>
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header>Planos Coletivos</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          O reajuste é calculado de acordo com as cláusulas contratuais.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </Accordion>
 
     <TextBlock>
       <Paragraph>
@@ -133,20 +199,68 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>ACCODEONN</h1>
+    <Accordion>
+      <v-expansion-panel>
+        <v-expansion-panel-header>Uso racional</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          A educação com relação à saúde é o primeiro procedimento para eliminar
+          os riscos desnecessários, como a utilização inadequada do plano de
+          saúde.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
 
-    <h1>IMAGEMM</h1>
+      <v-expansion-panel>
+        <v-expansion-panel-header>Prevenção</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          Exames preventivos devem ser incentivados, principalmente para homens
+          e mulheres depois dos 40 anos de idade.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Acompanhamento de pacientes crônicos</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Identificar, apoiar e orientar corretamente sua população de
+          portadores de doenças crônicas.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header>Monitoramento</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          Conhecer, acompanhar e auditar os casos isolados de alto custo
+          garantirá que a melhor relação de custo-benefício esteja sendo
+          praticada.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </Accordion>
 
     <TextBlock>
-      <Paragraph>
-        O bem-estar dos colaboradores deve ser uma das prioridades de qualquer
-        empresa, e o plano de saúde é uma ótima maneira de garanti-lo. É
-        comprovado que colaboradores mais saudáveis são mais produtivos. Quando
-        a empresa oferece um plano de saúde e executa ações preventivas, isso
-        mostra como ela se importa com seus funcionários, consequentemente
-        tornando-os mais fiéis ao propósito da empresa e com maiores chances de
-        permanecerem na corporação por mais tempo.
-      </Paragraph>
+      <v-row>
+        <v-col cols="12" sm="5">
+          <Imagem
+            src="modulo_03/imagem3.jpg"
+            legenda="Imagem 3: O bem-estar dos trabalhadores é fundamental"
+            fonte="freepik.com"
+            left="true"
+          />
+        </v-col>
+
+        <v-col cols="12" sm="7">
+          <Paragraph>
+            O bem-estar dos colaboradores deve ser uma das prioridades de
+            qualquer empresa, e o plano de saúde é uma ótima maneira de
+            garanti-lo. É comprovado que colaboradores mais saudáveis são mais
+            produtivos. Quando a empresa oferece um plano de saúde e executa
+            ações preventivas, isso mostra como ela se importa com seus
+            funcionários, consequentemente tornando-os mais fiéis ao propósito
+            da empresa e com maiores chances de permanecerem na corporação por
+            mais tempo.
+          </Paragraph>
+        </v-col>
+      </v-row>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando"
@@ -180,6 +294,9 @@ import TextBlock from "@/components/TextBlock.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
+import Table from "@/components/Table.vue";
+import Accordion from "@/components/Accordion.vue";
+import Imagem from "@/components/Imagem.vue";
 
 export default {
   components: {
@@ -188,6 +305,9 @@ export default {
     BoxIcon,
     NavFooter,
     Paragraph,
+    Table,
+    Accordion,
+    Imagem
   },
   data() {
     return {};
@@ -202,5 +322,4 @@ export default {
 };
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>

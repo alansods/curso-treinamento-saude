@@ -82,6 +82,22 @@ p:last-of-type {
   margin-bottom: 0 !important;
 }
 
+.label-radio-input {
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin: 10px;
+  transition: background 200ms ease;
+  cursor: pointer;
+}
+
+.label-radio-input:hover {
+  background:  #eee;
+}
+
+input[type="radio"] {
+  transform: scale(1.5)
+}
+
 .v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
 .v-data-table > .v-data-table__wrapper > table > tbody > tr > th,
 .v-data-table > .v-data-table__wrapper > table > thead > tr > td,
