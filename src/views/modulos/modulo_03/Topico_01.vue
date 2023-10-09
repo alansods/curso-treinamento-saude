@@ -94,7 +94,15 @@
     </v-row>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph> Falta o texto </Paragraph>
+      <Paragraph>
+        <p>
+          Nesta aula, nós iremos disponibilizar informações que auxiliem líderes e suas equipes no enfrentamento dos índices crescentes de adoecimento mental associado ao trabalho, possibilitando, assim, ampliar o acolhimento e os encaminhamentos necessários ao cuidado biopsicossocial dos trabalhadores.
+        </p>
+
+        <p>
+          Vamos lá?
+        </p>
+      </Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -108,7 +116,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="TrwjLbkPSI0"
+          video-id="sCraVqQqrwc"
           style="border: solid 3px white"
           fitParent
         />

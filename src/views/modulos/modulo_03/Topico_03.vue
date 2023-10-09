@@ -27,7 +27,11 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="3">
-      <Paragraph> Falta o texto </Paragraph>
+      <Paragraph>
+        <p>
+          Olá, nesta aula nós iremos discorrer sobre a importância dos investimentos de saúde mental nas empresas.
+        </p>
+      </Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -41,7 +45,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="TrwjLbkPSI0"
+          video-id="MCeTz1LFl-o"
           style="border: solid 3px white"
           fitParent
         />
@@ -307,13 +311,29 @@ export default {
     Paragraph,
     Table,
     Accordion,
-    Imagem
+    Imagem,
   },
   data() {
-    return {};
+    return {
+      dialog: false,
+    };
   },
 
-  methods: {},
+  methods: {
+    dialogInput(value) {
+      this.$store.state.progresso_modulo_01.items.video_01 = true;
+      this.$store.commit("SALVAR_PROGRESSO");
+
+      if (!value) {
+        // Acessa o player do vídeo através da referência ref
+        const player = this.$refs.videoPlayer.player;
+
+        if (player && typeof player.pauseVideo === "function") {
+          player.pauseVideo();
+        }
+      }
+    },
+  },
 
   created() {
     this.$store.state.progresso_modulo_01.items.topico_03 = true;
