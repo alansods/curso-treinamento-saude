@@ -25,7 +25,6 @@ export default {
 
 <style>
 
-
 .v-data-table--fixed-header > .v-data-table__wrapper {
   border-radius: 8px;
   border: solid 1px #eee;

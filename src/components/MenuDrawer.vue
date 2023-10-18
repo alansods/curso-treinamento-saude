@@ -17,7 +17,8 @@
     <v-list>
       <v-tooltip top>
         <template v-slot:activator="{ on }">
-          <v-list-item @click="$router.push('/')" v-on="on">
+          <router-link to="/">
+          <v-list-item :class="{ 'menu-ativo': $route.path === `/` }" v-on="on">
             <v-list-item-icon>
               <v-icon>mdi-home</v-icon>
             </v-list-item-icon>
@@ -25,6 +26,7 @@
               <v-list-item-title>Página Inicial</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+        </router-link>
         </template>
         <span>Página Inicial</span>
       </v-tooltip>
@@ -40,34 +42,37 @@
               <v-list-item-content>
                 <v-list-item-title v-on="on">
                   <strong class="text--body-2">{{ modulo.numero }}. </strong>
-                  {{ modulo.titulo }}</v-list-item-title
-                >
+                  {{ modulo.titulo }}
+                </v-list-item-title>
               </v-list-item-content>
             </template>
-            <span>{{ modulo.titulo }}</span>
+            {{ modulo.titulo }}
           </v-tooltip>
         </template>
 
-        <v-list-item v-for="item in modulo.items" :key="item.titulo">
-          <v-list-item-content
-            class="btn-topico"
-            @click="$router.push(`/${item.link}`)"
-          >
-            <v-tooltip top>
-              <template v-slot:activator="{ on }">
-                <v-list-item-title v-if="item.numero" v-on="on">
-                  Tópico {{ item.numero }} - {{ item.titulo }}
-                </v-list-item-title>
-                <v-list-item-title v-else v-on="on">
-                  {{ item.titulo }}
-                </v-list-item-title>
-              </template>
-              <span v-if="item.numero"
-                >Tópico {{ item.numero }} - {{ item.titulo }}</span
-              >
-              <span v-else>{{ item.titulo }}</span>
-            </v-tooltip>
-          </v-list-item-content>
+        <v-list-item
+          v-for="item in modulo.items"
+          :key="item.titulo"
+          :class="{ 'menu-ativo': $route.path === `/${item.link}` }"
+        >
+          <router-link :to="`/${item.link}`">
+            <v-list-item-content class="btn-topico">
+              <v-tooltip top>
+                <template v-slot:activator="{ on }">
+                  <v-list-item-title v-if="item.numero" v-on="on">
+                    Tópico {{ item.numero }} - {{ item.titulo }}
+                  </v-list-item-title>
+                  <v-list-item-title v-else v-on="on">
+                    {{ item.titulo }}
+                  </v-list-item-title>
+                </template>
+                <span v-if="item.numero"
+                  >Tópico {{ item.numero }} - {{ item.titulo }}</span
+                >
+                <span v-else>{{ item.titulo }}</span>
+              </v-tooltip>
+            </v-list-item-content>
+          </router-link>
         </v-list-item>
       </v-list-group>
     </v-list>
@@ -78,7 +83,7 @@
   </v-navigation-drawer>
 </template>
 
-<script>
+<script scoped>
 export default {
   data() {
     return {};
@@ -100,5 +105,16 @@ export default {
 
 .btn-topico:hover {
   background: rgba(0, 0, 0, 0.03);
+}
+
+.menu-ativo {
+  background-color: rgba(0, 0, 0, 0.03);
+  font-weight: bold;
+}
+
+a {
+  width: 100%;
+  color: #333 !important;
+  text-decoration: none;
 }
 </style>

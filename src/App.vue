@@ -41,7 +41,7 @@ export default {
   },
 
   beforeCreate() {
-    this.$store.commit("CARREGAR_PROGRESSO");
+    //this.$store.commit("CARREGAR_PROGRESSO");
 
     const lastRouteName = localStorage.getItem("last_Page_Treinamento_Saude");
     console.log(lastRouteName);
@@ -104,7 +104,7 @@ input[type="radio"] {
 .v-data-table > .v-data-table__wrapper > table > thead > tr > th,
 .v-data-table > .v-data-table__wrapper > table > tfoot > tr > td,
 .v-data-table > .v-data-table__wrapper > table > tfoot > tr > th {
-  padding: 0 28px !important;
+  padding: 10px 28px !important;
 }
 
 .v-application--is-ltr .v-list-item__action:first-child,

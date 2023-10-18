@@ -1,0 +1,97 @@
+[
+  {
+    "number": "1",
+    "question": "Marque a alternativa que contém o conceito correto de absenteísmo:",
+    "options": [
+      "Tem origem nominal portuguesa, no qual está relacionada a quantidade de horas ganhas no trabalho.",
+      "Tem origem nominal inglesa, no qual está relacionada a quantidade de horas perdidas no trabalho.",
+      "Tem origem nominal irlandesa, no qual está relacionada à quantidade de horas ganhas no trabalho.",
+      "Tem origem nominal latina, no qual está relacionada a quantidade de horas perdidas de trabalho."
+    ],
+    "answer": "Tem origem nominal latina, no qual está relacionada a quantidade de horas perdidas de trabalho."
+  },
+
+  {
+    "number": "2",
+    "question": "Sobre o conceito de presenteísmo, marque a alternativa verdadeira:",
+    "options": [
+      "Significa estar presente no trabalho exercendo as atividades de maneira mais produtiva.",
+      "É a ausência física do trabalhador na empresa.",
+      "É a ação do trabalhador realizar as atividades em sua residência.",
+      "Significa estar presente no trabalho  porém exercendo as atividades de maneira improdutiva."
+    ],
+    "answer": "Significa estar presente no trabalho  porém exercendo as atividades de maneira improdutiva."
+  },
+
+  {
+    "number": "3",
+    "question": "Pode-se classificar os tipos de absenteísmo, nos quais são:",
+    "options": [
+      "Voluntário, por doença, por patologia profissional, legal e compulsório.",
+      "Por doença, involuntário, ilegal e compulsório",
+      "Involuntário, por doença e compulsório.",
+      "Voluntário, por patologia pessoal e ilegal."
+    ],
+    "answer": "Voluntário, por doença, por patologia profissional, legal e compulsório."
+  },
+
+  {
+    "number": "4",
+    "question": "Sobre o absenteísmo legal, é correto afirmar:",
+    "options": [
+      "As condições do trabalho não influenciam na incidência de ocorrências desse evento. ",
+      "A substituição de um colega não gera impacto no clima organizacional.",
+      "Trata-se de uma variável significativa para as empresas, pois implica na redução da produtividade e aumento dos custos. ",
+      "O colaborador tem sua falta respaldada pela lei, sendo prejudicada a estabilidade do profissional e a remuneração."
+    ],
+    "answer": "Trata-se de uma variável significativa para as empresas, pois implica na redução da produtividade e aumento dos custos. "
+  },
+
+  {
+    "number": "5",
+    "question": "Em relação aos tipos de absenteísmo, assinale a alternativa correta:",
+    "options": [
+      "No absenteísmo legal, é possível identificar a ausência não justificada do colaborador, por razões particulares. ",
+      "O absenteísmo voluntário é diagnosticado através de um procedimento médico. ",
+      "Óbito de familiar e gestação são exemplos de absenteísmo por doença.",
+      "O tipo compulsório de absenteísmo pode ser exemplificado quando há episódios de suspensão imposta pela chefia."
+    ],
+    "answer": "O tipo compulsório de absenteísmo pode ser exemplificado quando há episódios de suspensão imposta pela chefia."
+  },
+
+  {
+    "number": "6",
+    "question": "Quais são as vantagens de um programa de gestão de absenteísmo:",
+    "options": [
+      "time mais produtivo e engajado.",
+      "redução dos índices de rotatividade e de ausências ao trabalho.",
+      "a Empresa torna-se mais atrativa para novos talentos.",
+      "todas a opções acima"
+    ],
+    "answer": "todas a opções acima"
+  },
+
+  {
+    "number": "7",
+    "question": "Trata-se de ações de promoção da saúde no espaço de trabalho, exceto:",
+    "options": [
+      "direcionar campanhas e atividades para alimentação saudável e exercícios físicos",
+      "boas condições de trabalho",
+      "acompanhamento e realização de exames laborais",
+      "prescrição de medicamentos para hipertensão arterial"
+    ],
+    "answer": "prescrição de medicamentos para hipertensão arterial"
+  },
+
+  {
+    "number": "8",
+    "question": "Qual a principal ferramenta para o acompanhamento da saúde dos trabalhadores:",
+    "options": [
+      "epidemiologia",
+      "realização de exames laborais",
+      "indicadores de gestão",
+      "atestados médicos"
+    ],
+    "answer": "epidemiologia"
+  }
+]
