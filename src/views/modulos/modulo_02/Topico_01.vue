@@ -12,7 +12,7 @@
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        falta texto
+        Nesta aula, nós iremos propiciar o desenvolvimento de fundamentos sobre Ergonomia, além do impacto nos custos para empresa e consequências diretas e indiretas para funcionários e empregadores. Vamos lá?
       </Paragraph>
 
       <Paragraph>

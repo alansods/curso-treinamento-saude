@@ -28,7 +28,7 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph> Falta texto </Paragraph>
+      <Paragraph>Olá, no vídeo passado você aprendeu sobre ergonomia e sobre os sobre os tipos de ergonomia, além de explanar um pouco sobre a Norma Reguladora 17 (NR17). Agora nós iremos explicar um pouco sobre o que é LER/DORT. Vamos lá?</Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -65,38 +65,100 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>FLIPCARDDD</h1>
-
-    <v-row>
+    <v-row justify="start">
       <v-col cols="12"
         ><small class="text-center d-block grey--text"
           >(Clique nos cards abaixo para ver o conteúdo)</small
         ></v-col
       >
-
-      <v-col cols="12" sm="6">
-        <FlipCard>
-          <template #front>Políticas de Gestão de Pessoas</template>
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/Tendinite.jpg">
+          <template #front>Tendinite</template>
 
           <template #back>
-            <p>
-              - Valores voltados para o bem-estar e desenvolvimento saudável das
-              dinâmicas de trabalho.
-            </p>
-
-            <p>- Prevenção de acidentes e doenças.</p>
+            Inflamação de um tendão, muitas vezes causada por movimentos repetitivos.
           </template>
-        </FlipCard>
+        </FlipCardImg>
       </v-col>
 
-      <v-col cols="12" sm="6">
-        <FlipCard>
-          <template #front>Programas e Intervenções Específicas</template>
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/Tenossinovite.jpg">
+          <template #front>Tenossinovite</template>
 
           <template #back>
-            <p>- Promoção da saúde e bem-estar do trabalhador.</p>
+            Inflamação da bainha que envolve um tendão, levando a dor e inchaço.
           </template>
-        </FlipCard>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/bursite.jpg">
+          <template #front>Bursite</template>
+
+          <template #back>
+            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas articulações.
+          </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/epicondilite.jpg">
+          <template #front>Epicondilite</template>
+
+          <template #back>
+            Também conhecida como cotovelo de tenista, é uma lesão nos tendões que se ligam ao epicôndilo do cotovelo.
+          </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/Sindrome_do_tunel_do_carpo.jpg">
+          <template #front>Síndrome do túnel do carpo</template>
+
+          <template #back>
+            Compressão do nervo mediano no pulso, causando formigamento e fraqueza nas mãos.
+          </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/dedo_em_gatilho.jpg">
+          <template #front>Dedo em gatilho</template>
+
+          <template #back>
+            Condição em que um dedo fica preso em uma posição dobrada.
+          </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/sindrome_do_desfiladeiro.jpg">
+          <template #front>Síndrome do desfiladeiro torácico</template>
+
+          <template #back>
+            Compressão dos nervos e vasos sanguíneos na região do pescoço e ombro.
+          </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/bursite.jpg">
+          <template #front>Síndrome do pronador redondo</template>
+
+          <template #back>
+            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas articulações.
+          </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_02/flipcard/mialgias.jpg">
+          <template #front>Mialgias</template>
+
+          <template #back>
+            Dores musculares frequentemente relacionadas à fadiga ou lesões musculares.
+          </template>
+        </FlipCardImg>
       </v-col>
     </v-row>
 
@@ -180,14 +242,12 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMM</h1>
-
     <v-row justify="center">
-      <v-col cols="12" sm="8">
+      <v-col cols="12" sm="12">
         <Imagem
           legenda="Imagem 4:  Programa de Gerenciamento de Riscos (PGR)  NR 17"
-          fonte="Fonte: PINTO (2022)"
-          src="modulo_02/imagem2.png"
+          fonte="Adaptado da NR17."
+          src="modulo_02/imagem4.svg"
         />
       </v-col>
     </v-row>
@@ -329,7 +389,7 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
-import FlipCard from "@/components/FlipCard.vue";
+import FlipCardImg from "@/components/FlipCardImg.vue";
 import Accordion from "@/components/Accordion.vue";
 
 export default {
@@ -340,7 +400,7 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
-    FlipCard,
+    FlipCardImg,
     Accordion,
   },
   data() {
