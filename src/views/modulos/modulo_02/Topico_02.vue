@@ -42,7 +42,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="rrl_vN3ZCRc"
+          video-id="uxhD4CJ_JEY"
           style="border: solid 3px white"
           fitParent
         />
@@ -142,7 +142,7 @@
       </v-col>
 
       <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/bursite.jpg">
+        <FlipCardImg bgImg="modulo_02/flipcard/Sindrome_do_pronador_redondo.jpg">
           <template #front>Síndrome do pronador redondo</template>
 
           <template #back>
