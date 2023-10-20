@@ -7,6 +7,7 @@ import modulo_02_Routes from "./modulo_02_routes";
 import modulo_03_Routes from "./modulo_03_routes";
 import modulo_07_Routes from "./modulo_07_routes";
 import modulo_08_Routes from "./modulo_08_routes";
+import modulo_09_Routes from "./modulo_09_routes";
 
 import MeuProgresso from "../views/MeuProgresso";
 
@@ -30,6 +31,7 @@ const routes = [
   ...modulo_03_Routes,
   ...modulo_07_Routes,
   ...modulo_08_Routes,
+  ...modulo_09_Routes,
 
 ];
 
