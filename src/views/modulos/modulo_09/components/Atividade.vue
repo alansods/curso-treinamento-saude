@@ -1,7 +1,7 @@
 <template>
   <AulaTemplate
-    :titulo="$store.state.modulos[1].titulo"
-    :numero="$store.state.modulos[1].numero"
+    :titulo="$store.state.modulos[8].titulo"
+    :numero="$store.state.modulos[8].numero"
     titleSize="4"
   >
     <div v-if="!completed" class="question-container">
@@ -69,16 +69,6 @@
           @button-click="resetQuiz"
           block="true"
         ></NavButton>
-
-        <NavButton
-          v-if="score >= 7"
-          name="Próxima módulo"
-          color="primary"
-          icon="mdi-arrow-right-bold-circle"
-          :right="true"
-          link="modulo-03"
-          block="true"
-        ></NavButton>
       </v-col>
     </v-row>
   </AulaTemplate>
@@ -86,7 +76,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Questoes from "@/data/questoes/modulo_03.json";
+import Questoes from "@/data/questoes/modulo_09.json";
 import SmallText from "@/components/SmallText.vue";
 import Paragraph from "@/components/Paragraph.vue";
 

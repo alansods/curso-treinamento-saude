@@ -86,7 +86,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Questoes from "@/data/questoes/modulo_03.json";
+import Questoes from "@/data/questoes/modulo_02.json";
 import SmallText from "@/components/SmallText.vue";
 import Paragraph from "@/components/Paragraph.vue";
 

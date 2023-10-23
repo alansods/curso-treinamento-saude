@@ -6,7 +6,11 @@
   >
     <TextBlock topico="Tópico 02 - Valores humanos para instituição da cultura de Segurança e Saúde do Trabalhador ">
       <Paragraph>
-        Neste tópico, continuaremos nossa análise das variáveis relacionadas à cultura de saúde e segurança no ambiente de trabalho, concentrando-nos agora em outros aspectos. Vamos descobrir!
+        Neste tópico, continuaremos nossa análise das variáveis relacionadas à cultura de saúde e segurança no ambiente de trabalho, concentrando-nos agora em outros aspectos.
+      </Paragraph>
+
+      <Paragraph>
+      Vamos descobrir!
       </Paragraph>
     </TextBlock>
 
@@ -32,332 +36,153 @@
       </v-responsive>
     </v-dialog>
 
-    <v-row justify="center">
-      <v-col cols="12" sm="6">
-        <Imagem
-          legenda="Imagem 1: Geralmente as doenças enquadradas em LER/DORT acometem regiões da coluna vertebral e dos membros superiores."
-          fonte="Fonte: Freepick.com"
-          src="modulo_02/imagem1.jpg"
-        />
-      </v-col>
-    </v-row>
+    <TextBlock>
+      <Paragraph>
+        O comportamento humano é o conjunto de ações que o homem executa através de seu contato com o mundo, esse é o fator que pode ser observado, registrado, filmado e até mesmo quantificado. As situações evidenciadas como causa raiz para a ocorrência da grande maioria dos acidentes de trabalho estão diretamente relacionadas com o comportamento humano, sendo o fator mais visível, imediato e superficial (MELO et al, 2001).
+      </Paragraph>
+
+      <Paragraph>
+        Então, como podemos melhorar o comportamento dos trabalhadores? Bem, vejamos três maneiras de se fazer isso (MELO et al, 2001):
+      </Paragraph>
+    </TextBlock>
+
+    <h1>FLIPCARDDDDD</h1>
 
     <TextBlock>
       <Paragraph>
-        Vejamos a seguir alguns exemplos de LER/DORT:
+        Consideremos como as pessoas se desenvolvem ao longo da vida, um processo influenciado pelo aprendizado e pelas experiências vivenciadas nos ambientes em que estão inseridas. Essas experiências desempenham um papel fundamental na definição do que cada indivíduo valoriza e considera importante. Dado que cada pessoa passa por experiências únicas desde a infância, é perfeitamente natural que haja variações nos valores de um indivíduo para outro.
       </Paragraph>
     </TextBlock>
 
-    <v-row justify="start">
-      <v-col cols="12"
-        ><small class="text-center d-block grey--text"
-          >(Clique nos cards abaixo para ver o conteúdo)</small
-        ></v-col
-      >
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/Tendinite.jpg">
-          <template #front>Tendinite</template>
-
-          <template #back>
-            Inflamação de um tendão, muitas vezes causada por movimentos repetitivos.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/Tenossinovite.jpg">
-          <template #front>Tenossinovite</template>
-
-          <template #back>
-            Inflamação da bainha que envolve um tendão, levando a dor e inchaço.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/bursite.jpg">
-          <template #front>Bursite</template>
-
-          <template #back>
-            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas articulações.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/epicondilite.jpg">
-          <template #front>Epicondilite</template>
-
-          <template #back>
-            Também conhecida como cotovelo de tenista, é uma lesão nos tendões que se ligam ao epicôndilo do cotovelo.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/Sindrome_do_tunel_do_carpo.jpg">
-          <template #front>Síndrome do túnel do carpo</template>
-
-          <template #back>
-            Compressão do nervo mediano no pulso, causando formigamento e fraqueza nas mãos.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/dedo_em_gatilho.jpg">
-          <template #front>Dedo em gatilho</template>
-
-          <template #back>
-            Condição em que um dedo fica preso em uma posição dobrada.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/sindrome_do_desfiladeiro.jpg">
-          <template #front>Síndrome do desfiladeiro torácico</template>
-
-          <template #back>
-            Compressão dos nervos e vasos sanguíneos na região do pescoço e ombro.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/Sindrome_do_pronador_redondo.jpg">
-          <template #front>Síndrome do pronador redondo</template>
-
-          <template #back>
-            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas articulações.
-          </template>
-        </FlipCardImg>
-      </v-col>
-
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/mialgias.jpg">
-          <template #front>Mialgias</template>
-
-          <template #back>
-            Dores musculares frequentemente relacionadas à fadiga ou lesões musculares.
-          </template>
-        </FlipCardImg>
-      </v-col>
-    </v-row>
-
-    <TextBlock>
-      <Paragraph>
-        Além dos exemplos mencionados, outras condições de saúde podem estar
-        relacionadas às atividades profissionais, e essas têm o potencial de
-        prejudicar a eficiência de uma organização. Além disso, desempenham um
-        papel crucial nas faltas ao trabalho, resultando em custos
-        significativos relacionados a indenizações, tratamentos médicos e
-        reintegração de funcionários às suas funções (BRASIL, 2015)
-      </Paragraph>
-    </TextBlock>
-
-    <TextBlock
-      subTopico="2.1 Impacto das doenças musculoesqueléticas nos custos de saúde da empresa"
-    >
-      <Paragraph>
-        De acordo com Pinto (2022), observou-se um aumento progressivo nas
-        notificações de LER/DORT durante o período de 2007 a 2017, seguido de
-        uma diminuição até o ano de 2020 e um leve aumento em 2021. Esse
-        fenômeno pode estar relacionado à pandemia de Covid-19, que levou as
-        pessoas a evitar hospitais e locais de trabalho, impactando a capacidade
-        de notificação (PINTO, 2022).
-      </Paragraph>
-    </TextBlock>
-
-    <v-row justify="center">
-      <v-col cols="12" sm="8">
-        <Imagem
-          legenda="Imagem 2:  Casos de  LER/DORT - Brasil 2007-2021"
-          fonte="Fonte: PINTO (2022)"
-          src="modulo_02/imagem2.png"
-        />
-      </v-col>
-    </v-row>
-
-    <BoxIcon tipo="voce_sabia">
-      Os trabalhadores mais afetados pelas doenças muscoesqueléticas são
-      predominantemente do sexo feminino, com idades entre 40 e 49 anos, e
-      níveis de escolaridade até o ensino médio. Eles geralmente desempenham
-      funções na indústria ou no comércio. Quanto aos fatores de risco, as
-      notificações frequentemente mencionam exposição a jornadas de trabalho
-      superiores a 6 horas, falta de pausas adequadas, realização de movimentos
-      repetitivos e ambiente de trabalho estressante (PINTO, 2022).
+    <BoxIcon tipo="atencao">
+      No contexto de uma organização, a maneira mais eficaz de transmitir valores é por meio do exemplo. Portanto, as pessoas que ocupam posições de liderança desempenham um papel crucial na formação desses valores por meio de suas atitudes.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        Os dados indicam que uma grande proporção dos trabalhadores desenvolve
-        incapacidades temporárias, resultando em altos índices de absenteísmo
-        devido a esses distúrbios musculoesqueléticos relacionados ao trabalho.
-        Isso ressalta o impacto econômico e previdenciário desse problema,
-        destacando a importância da colaboração entre empregadores e autoridades
-        públicas na implementação de medidas preventivas e na garantia de
-        condições de trabalho adequadas para os indivíduos (PINTO, 2022).
-      </Paragraph>
-
-      <Paragraph>
-        Existem várias abordagens que podem ser aplicadas para identificar e
-        mitigar problemas no ambiente de trabalho, com o objetivo de reduzir
-        custos unitários. Um exemplo é a Análise Ergonômica do Trabalho (AET),
-        que é utilizada para diagnosticar e corrigir situações reais no local de
-        trabalho. Essa abordagem visa minimizar a fadiga, o estresse, os erros e
-        os acidentes por meio de análises aprofundadas e utiliza diversas
-        ferramentas para avaliar os riscos de desenvolvimento de lesões
-        musculoesqueléticas (BRASIL, 2020).
-      </Paragraph>
-    </TextBlock>
-
-    <TextBlock
-      subTopico="2.2 Análise Ergonômica preliminar e Análise Ergonômica do Trabalho"
-    >
-      <Paragraph>
-        A fase inicial da análise ergonômica pode ser conduzida utilizando
-        abordagens qualitativas, semiquantitativas, quantitativas ou uma
-        combinação delas. O Ministério do Trabalho oferece orientações para
-        essas etapas iniciais por meio do Programa de Gerenciamento de Riscos
-        (PGR) e da NR 17. Um fluxograma detalhado desse processo é descrito a
-        seguir, conforme estabelecido pelas diretrizes de 2020 (BRASIL, 2020).
+        Por outro lado, o comportamento que observamos diariamente nas organizações é resultado de forças objetivas e também de fatores subjetivos. É importante entender que as organizações não são apenas estruturas técnicas e racionais; elas têm aspectos culturais, alguns visíveis e outros invisíveis. As organizações consistem em tarefas que precisam ser gerenciadas, mas são os funcionários que realmente dão vida a essas tarefas. Eles influenciam a forma como a organização opera, pois aspiram incorporar tanto ações racionais quanto intuitivas em seu trabalho, dando significado a ele.
       </Paragraph>
     </TextBlock>
 
     <v-row justify="center">
-      <v-col cols="12" sm="12">
+      <v-col cols="12" sm="6">
         <Imagem
-          legenda="Imagem 4:  Programa de Gerenciamento de Riscos (PGR)  NR 17"
-          fonte="Adaptado da NR17."
-          src="modulo_02/imagem4.svg"
+          legenda="Imagem 2 : A liderança pode transformar a cultura de uma organização."
+          fonte="Fonte: Freepick.com"
+          src="modulo_09/imagem2.jpg"
         />
       </v-col>
     </v-row>
 
     <TextBlock>
       <Paragraph>
-        A tomada de ações ergonômicas geralmente ocorre em resposta a demandas
-        urgentes, com o objetivo de encontrar soluções apropriadas para essas
-        situações. No entanto, é crucial realizar uma análise preliminar para
-        identificar indicadores e circunstâncias de trabalho que requerem
-        adaptações.
-      </Paragraph>
-
-      <Paragraph>
-        Diferentemente da análise preliminar, a Análise Ergonômica do Trabalho
-        (AET) é realizada quando se percebe a necessidade de uma investigação
-        mais profunda da situação, especialmente quando são identificadas
-        inadequações ou deficiências nas ações já implementadas. A AET é
-        responsável por analisar, diagnosticar e intervir nas ações por meio das
-        seguintes etapas: avaliação da demanda e do funcionamento da
-        organização, dos processos de trabalho, das situações laborais e das
-        atividades desempenhadas; descrição e justificação da escolha de
-        métodos, técnicas e ferramentas adequados para a análise e sua
-        aplicação; e apresentação dos resultados, validação e revisão das
-        intervenções realizadas, quando necessário, com a participação dos
-        trabalhadores (BRASIL, 2020).
-      </Paragraph>
-
-      <Paragraph>
-        Existem diversas ferramentas disponíveis para conduzir uma análise
-        ergonômica do trabalho, e a escolha da ferramenta adequada depende do
-        tipo de atividade que está sendo analisada. Duas dessas ferramentas são
-        o método RULA e o Method-Time Measurement (MTM) (DOMBIDAU JUNNIOR,
-        SILVA, CANEDO, 2017; RIBEIRO JÚNIOR, CHAVES, 2012). Vejamos a seguir
-        como essas ferramentas se caracterizam:
+        Portanto, a liderança das organizações desempenha um papel fundamental na condução de mudanças culturais. Eles têm a capacidade e os recursos necessários para incorporar conhecimento e habilidades que podem modificar os princípios culturais, provocando mudanças reais e necessárias.
       </Paragraph>
     </TextBlock>
 
-    <Accordion>
-      <v-expansion-panel>
-        <v-expansion-panel-header
-          >Método Rapid Upper Limb Assessment (RULA)</v-expansion-panel-header
-        >
-        <v-expansion-panel-content>
-          Pode ser traduzido como Avaliação Rápida dos Membros Superiores,
-          permite avaliar a sobrecarga biomecânica dos membros superiores e do
-          pescoço. Utiliza uma planilha específica que atribui escores com base
-          nos membros analisados, levando em consideração os tipos de
-          movimentos, a carga aplicada e a postura. Essa avaliação fornece um
-          indicativo de risco para o desenvolvimento de lesões, sendo que
-          pontuações mais altas indicam um maior risco (DOMBIDAU JUNNIOR, SILVA,
-          CANEDO, 2017).
-        </v-expansion-panel-content>
-      </v-expansion-panel>
+    <TextBlock subTopico="2.1 Variáveis organizacionais envolvidas na implementação da cultura de segurança.">
+      <Paragraph>
+        Na perspectiva da cultura de segurança, a ideia central é que a responsabilidade por manter um ambiente seguro recai sobre todos. Nesse contexto, os trabalhadores compreendem que a segurança vai além das tarefas específicas de seus cargos; eles se comprometem a identificar comportamentos e condições inseguras, colaborando na resolução de quaisquer problemas identificados.
+      </Paragraph>
+    </TextBlock>
 
-      <v-expansion-panel>
-        <v-expansion-panel-header
-          >Method-Time Measurement (MTM)</v-expansion-panel-header
-        >
-        <v-expansion-panel-content>
-          Pode ser traduzido como Medição de Método-Tempo, tem como objetivo
-          identificar o método de trabalho e os movimentos elementares
-          necessários para executar uma tarefa. Essa ferramenta desempenha um
-          papel fundamental na análise ergonômica, pois simplifica movimentos
-          complexos e elimina movimentos desnecessários. O usuário precisa
-          definir completamente o método de trabalho durante a fase de
-          planejamento para obter um tempo padrão (RIBEIRO JÚNIOR, CHAVES,
-          2012).
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-    </Accordion>
+    <BoxIcon tipo="atencao">
+      Em uma cultura de segurança, não podemos tratar a segurança do trabalho como algo que pode ser flexibilizado ou alterado de acordo com a situação. Pelo contrário, a segurança do trabalho é um valor que se sobrepõe a qualquer outra prioridade. Manter esse compromisso é uma missão desafiadora, mas essencial.
+    </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        Essas ferramentas são essenciais para garantir a eficiência e a
-        segurança nas atividades laborais.
-      </Paragraph>
-    </TextBlock>
-
-    <TextBlock
-      subTopico="Importância da implementação de ações preventivas relacionadas a adequações ergonômicas do ambiente de trabalho"
-    >
-      <Paragraph>
-        Versatilidade, disposição e polivalência. Três características de um
-        colaborador ideal para uma organização, capaz de desenvolver diversas
-        atividades e estar disposto a novos desafios. No entanto, a ausência de
-        análise e ações efetivas de ergonomia podem influir negativamente no
-        desenvolvimento dessa versatilidade.
+        A segurança deve ser considerada uma estratégia essencial nas organizações, abrangendo todas as áreas de atuação. Ela está intrinsecamente ligada à qualidade, produtividade, lucratividade e eficiência. Trabalhar com segurança não deve ser apenas um requisito formal, mas sim um valor adotado por todos os membros da organização, independentemente de seus cargos.
       </Paragraph>
 
       <Paragraph>
-        Nesse contexto, para implementar ações preventivas para o
-        desenvolvimento de lesões musculoesqueléticas, é necessário uma análise
-        precisa da ergonomia, dos processos de trabalho, características dos
-        colaboradores e mapeamento correto dos movimentos repetitivos.
+        Existem três fatores fundamentais que moldam a cultura de segurança, conforme ilustrado a seguir:
       </Paragraph>
     </TextBlock>
 
     <v-row justify="center">
-      <v-col cols="12" sm="8">
+      <v-col cols="12" sm="6">
         <Imagem
-          legenda="Imagem 5:  Programa de Gerenciamento de Riscos (PGR)  NR 17"
-          fonte="Fonte: PINTO (2022)"
-          src="modulo_02/imagem4.jpg"
+          legenda="Imagem 3: A cultura de segurança em três pilares."
+          fonte="Fonte: RIBEIRO; HENNEBERG; CATAI, 2015."
+          src="modulo_09/imagem3.png"
         />
       </v-col>
     </v-row>
 
     <TextBlock>
       <Paragraph>
-        Casos de hérnia de disco, transtornos musculoesqueléticos no ombro e distensões musculares, por exemplo, costumam evoluir mal, principalmente quando as empresas não têm postos de trabalho ergonomicamente melhorados. Os colaboradores nessas condições costumam não se integrar bem no ambiente de trabalho quando voltam da Previdência Social. Desta forma, em muitas situações, torna-se mais barato corrigir e evitar novos problemas do que arcar com os custos.
-      </Paragraph>
-
-      <Paragraph>
-        Em suma, pudemos observar que a ergonomia é uma ciência que melhora a relação das máquinas com os seres humanos e os benefícios de sua aplicação impactam tanto as empresas quanto os colaboradores. Ela é garantida aos funcionários por meio da NR 17 e a falta de seu cumprimento pode gerar consequências negativas tanto para os empregados quanto para os empregadores.
+        A imagem fornece uma visão geral sucinta da complexa rede de fatores que moldam a cultura de segurança no ambiente de trabalho. Vamos aprofundar nossa compreensão, detalhando esses pilares.
       </Paragraph>
     </TextBlock>
 
-    <BoxIcon tipo="recapitulando">
-      Passamos rapidamente sobre os tipos de ergonomia, onde entendemos as diferenças e a aplicabilidade de cada um deles, explicamos um pouco sobre o que é LER/DORT enfatizando suas semelhanças e diferenças e os impactos destas doenças nos custos da empresa. Por fim, explicitamos como uma empresa pode analisar, diagnosticar e intervir nas condições de trabalho através da Análise Ergonômica preliminar e Análise Ergonômica do Trabalho.
+    <h1>
+      FLIPCARDDDDD
+    </h1>
+
+    <TextBlock>
+      <Paragraph>
+        É importante notar que todos esses fatores são dinâmicos e estão interconectados. Quando um deles muda, pode afetar os outros dois. Por exemplo, quando os trabalhadores optam por realizar suas atividades com segurança, estão demonstrando uma atitude mental de segurança. Esses comportamentos podem se tornar hábitos e, na maioria das vezes, resultam em mudanças no ambiente de trabalho.
+      </Paragraph>
+
+      <Paragraph>
+        Para concluir, é fundamental destacar que os fatores pessoais e comportamentais desempenham um papel fundamental na prática da segurança no trabalho e na construção de uma cultura de segurança sólida e eficaz. Eles representam os alicerces sobre os quais se baseia a segurança no ambiente de trabalho, moldando atitudes e ações que promovem a proteção de todos os envolvidos. Ao reconhecer a influência desses fatores e trabalhar ativamente para fortalecê-los, as organizações podem alcançar níveis mais elevados de segurança e bem-estar para seus colaboradores.
+      </Paragraph>
+    </TextBlock>
+
+    <TextBlock subTopico="2.2 A influência da cultura como estratégia de controle de custos de segurança e saúde na empresa.">
+      <Paragraph>
+        A gestão de Segurança e Saúde Ocupacional é um aspecto fundamental em qualquer organização, pois perdas, injúrias e danos à propriedade resultantes de suas atividades podem ter várias implicações, como processos de responsabilidade civil devido aos riscos associados aos produtos ou serviços oferecidos, bem como altos índices de absenteísmo e afastamentos devido a acidentes (SANTANA, 2012).
+      </Paragraph>
+    </TextBlock>
+
+    <BoxIcon tipo="voce_sabia">
+      Você sabia que é fundamental que as empresas assegurem ambientes de trabalho livres de riscos inaceitáveis, visando à segurança e ao bem-estar físico, mental e social de seus trabalhadores e partes interessadas? Uma estratégia comumente adotada para atingir esse objetivo é o desenvolvimento e a implementação de uma cultura de segurança e saúde ocupacional (MENDES; WUNSCH, 2007).
+    </BoxIcon>
+
+    <TextBlock>
+      <Paragraph>
+        Portanto, acidentes e incidentes são, frequentemente, eventos que exigem medidas preventivas, envolvendo o planejamento, organização e avaliação do desempenho dos meios de controle implementados. Esses eventos estão, com frequência, relacionados a múltiplas causas, em vez de uma única causa específica.
+      </Paragraph>
+    </TextBlock>
+
+    <v-row justify="center">
+      <v-col cols="12" sm="6">
+        <Imagem
+          legenda="Imagem 4: A prevenção de acidentes envolve planejamento e controle"
+          fonte="Fonte: Freepik.com"
+          src="modulo_09/imagem4.jpg"
+        />
+      </v-col>
+    </v-row>
+
+    <TextBlock>
+      <Paragraph>
+        Embora análises simplificadas e rápidas possam apontar para causas imediatas associadas a fatores humanos ou problemas técnicos, em grande parte, tais eventos resultam de deficiências na gestão responsável pela segurança e saúde ocupacional relacionada a esses fatores. Sendo assim, é essencial que os gestores encarregados de supervisionar os aspectos de segurança e saúde na organização dediquem especial atenção aos fatores humanos e à tecnologia empregada (RIBEIRO; HENNEBERG; CATAI, 2015).
+      </Paragraph>
+
+      <Paragraph>
+        É importante destacar que qualquer acidente gera um prejuízo econômico considerável, uma vez que todos os custos diretos e indiretos são suportados pela empresa e afetam todas as partes envolvidas. Portanto, é crucial que os empresários estejam cientes dos recursos desperdiçados em cada acidente, o que deve servir como motivação para investimentos destinados a reduzir ou eliminá-los.
+      </Paragraph>
+    </TextBlock>
+
+    <BoxIcon tipo="atencao">
+      É importante destacar que os custos totais da falta de segurança podem ser desafiadores de quantificar, uma vez que englobam as consequências dos acidentes e as medidas corretivas que se seguem. Por outro lado, os custos associados à segurança estão relacionados ao planejamento para prevenir acidentes e às ações de controle implementadas no local de trabalho (PORTO; MARTINS, 2019).
+    </BoxIcon>
+
+    <BoxIcon tipo="atencao">
+      <Paragraph>
+        Ao chegarmos ao final deste módulo, é importante enfatizar a influência dos fatores humanos, pessoais e comportamentais na cultura de saúde e segurança das empresas. Portanto, é essencial que os gestores responsáveis pelo controle dos aspectos de segurança e saúde da organização dediquem atenção especial ao fator humano e à tecnologia utilizada.
+
+      </Paragraph>
+      <Paragraph>
+        Vimos que análises rápidas podem sugerir causas imediatas relacionadas a fatores humanos ou problemas técnicos, mas, em grande parte, esses eventos refletem falhas na gestão da segurança e saúde ocupacional. A promoção de uma cultura de segurança sólida é uma missão contínua e crucial para garantir o bem-estar de todos os envolvidos.
+      </Paragraph>
     </BoxIcon>
 
     <NavFooter
       prevName="Tópico 01"
-      prevLink="modulo-02/topico-01"
-      nextName="Módulo 03"
-      nextLink="modulo-03"
+      prevLink="modulo-09/topico-01"
       :lastTopico="true"
       referenciasLink="modulo-02/referencias"
       atividadeLink="modulo-02/atividade"
@@ -372,8 +197,6 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
-import FlipCardImg from "@/components/FlipCardImg.vue";
-import Accordion from "@/components/Accordion.vue";
 
 export default {
   components: {
@@ -383,8 +206,6 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
-    FlipCardImg,
-    Accordion,
   },
   data() {
     return {

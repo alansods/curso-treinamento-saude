@@ -183,11 +183,8 @@
         "titulo": "Apresentação",
         "link": "modulo-09"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-09/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-09/topico-02" },
-      { "numero": "03", "titulo": "Tópico 03", "link": "modulo-09/topico-03" },
-      { "numero": "04", "titulo": "Tópico 04", "link": "modulo-09/topico-04" },
-      { "numero": "05", "titulo": "Tópico 05", "link": "modulo-09/topico-05" },
+      { "numero": "01", "titulo": "A importância de uma cultura de SST e promoção da saúde nas empresas", "link": "modulo-09/topico-01" },
+      { "numero": "02", "titulo": "Valores humanos para instituição da cultura de Segurança e Saúde do Trabalhador", "link": "modulo-09/topico-02" },
       {
         "numero": null,
         "titulo": "Referências",

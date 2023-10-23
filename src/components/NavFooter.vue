@@ -1,9 +1,8 @@
 <template>
   <div class="container">
-
     <NavButton
-    :name="prevName"
-    :link="prevLink"
+      :name="prevName"
+      :link="prevLink"
       color="primary"
       icon="mdi-arrow-left-bold-circle"
       :left="true"
@@ -29,14 +28,15 @@
       ></NavButton>
 
       <NavButton
+        v-if="nextName"
         :name="nextName"
         :link="nextLink"
         color="primary"
         icon="mdi-arrow-right-bold-circle"
         :right="true"
+        :endCourse="endCourse"
       ></NavButton>
     </div>
-
   </div>
 </template>
 
@@ -44,7 +44,43 @@
 import NavButton from "@/components/NavButton.vue";
 
 export default {
-  props: ["prevName", "nextName", "prevLink", "nextLink", "lastTopico", "atividadeLink", "referenciasLink"],
+  props: {
+    prevName: {
+      type: String,
+      required: true,
+    },
+
+    nextName: {
+      type: String,
+      required: false,
+    },
+
+    prevLink: {
+      type: String,
+      required: true,
+    },
+
+    nextLink: {
+      type: String,
+      required: false,
+    },
+
+    lastTopico: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
+
+    atividadeLink: {
+      type: String,
+      required: false,
+    },
+
+    referenciasLink: {
+      type: String,
+      required: false,
+    },
+  },
 
   components: {
     NavButton,
