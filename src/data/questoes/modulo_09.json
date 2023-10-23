@@ -1,0 +1,93 @@
+[
+  {
+    "number": "1",
+    "question": "Qual o conceito de Higiene Ocupacional?",
+    "options": [
+      "Ações de promoção da saúde do trabalhador.",
+      "Condições de promoção, proteção e recuperação da saúde.",
+      "Ciência que trata da avaliação e controle dos riscos que podem prejudicar a saúde do trabalhador.",
+      "Nenhuma das alternativas anteriores."
+    ],
+    "answer": "Ciência que trata da avaliação e controle dos riscos que podem prejudicar a saúde do trabalhador."
+  },
+
+  {
+    "number": "2",
+    "question": "Qual a diferença entre medicina curativa e preventiva?",
+    "options": [
+      "A medicina preventiva trata da avaliação periódica do estado de saúde do trabalhador antes da ocorrência do evento, enquanto a medicina curativa trata patologias já instaladas no trabalhador.",
+      "A medicina curativa trata da avaliação periódica do estado de saúde do trabalhador antes da ocorrência do evento, enquanto a medicina preventiva trata patologias já instaladas no trabalhador.",
+      "As duas tratam da avaliação periódica do estado de saúde do colaborador.",
+      "A medicina preventiva trata da avaliação periódica do estado de saúde do trabalhador depois da ocorrência do evento."
+    ],
+    "answer": "A medicina preventiva trata da avaliação periódica do estado de saúde do trabalhador antes da ocorrência do evento, enquanto a medicina curativa trata patologias já instaladas no trabalhador."
+  },
+
+  {
+    "number": "3",
+    "question": "Quais os benefícios da implementação de uma cultura positiva de SST?",
+    "options": [
+      "Postergação do autocuidado.",
+      "Redução de acidentes e doenças do trabalho (Acrescentaria redução de custos e aumento da satisfação do trabalhador na resposta tb).",
+      "Prejudicam a produtividade do colaborador.",
+      "Impactam negativamente na capacidade cardiorrespiratória e musculoesquelética."
+    ],
+    "answer": "Redução de acidentes e doenças do trabalho (Acrescentaria redução de custos e aumento da satisfação do trabalhador na resposta tb)."
+  },
+
+  {
+    "number": "4",
+    "question": "Sobre os fatores culturais que podem influenciar em hábitos de vida seguros e saudáveis, marque a alternativa correta:",
+    "options": [
+      "Fatores educacionais não têm impacto importante no estilo de vida saudável de um indivíduo.",
+      "Quanto a melhor fase para o estímulo a práticas saudáveis, não há diferença entre as diversas fases da vida.",
+      "Consultas regulares a uma equipe multiprofissional não é um fator para a manutenção da saúde.",
+      "Origem cultural, fatores educacionais e ambientais têm suas responsabilidades no comportamento dos indivíduos sobre hábitos de vida saudáveis."
+    ],
+    "answer": "Origem cultural, fatores educacionais e ambientais têm suas responsabilidades no comportamento dos indivíduos sobre hábitos de vida saudáveis."
+  },
+
+  {
+    "number": "5",
+    "question": "Quais os hábitos de vida considerados saudáveis?",
+    "options": [
+      "Alimentação de acordo com a rotina de um indivíduo, inatividade física e melhor condicionamento físico.",
+      "Alimentação com acompanhamento de profissional específico, atividade física regular e consumo excessivo de bebidas alcoólicas.",
+      "Dietas alimentares com boa nutrição, prática de atividade física para combater o sedentarismo e controle do estresse.",
+      "Dietas alimentares conforme desejo do indivíduo, atividade física regular e acompanhamento de profissionais multidisciplinares."
+    ],
+    "answer": "Dietas alimentares com boa nutrição, prática de atividade física para combater o sedentarismo e controle do estresse."
+  },
+
+  {
+    "number": "6",
+    "question": "Existem 03 (três) fatores fundamentais para a cultura de segurança, são elas: ",
+    "options": [
+      "Organizacional, ambientais e pessoais.",
+      "Ambientais, pessoais e comportamentais.",
+      "Gerencial, organizacional e ambiental",
+      "Estrutural, pessoais e comportamentais."
+    ],
+    "answer": "Ambientais, pessoais e comportamentais."
+  },
+
+  {
+    "number": "7",
+    "question": "Considere esta afirmação: “Qualquer acidente no trabalho gera um prejuízo econômico significativo, pois todos os custos diretos e indiretos resultantes são custeados pela a empresa e conseqüentemente atinge todas as partes relacionadas”. ",
+    "options": [
+      "Certo.",
+      "Errado."
+    ],
+    "answer": "Certo."
+  },
+
+  {
+    "number": "8",
+    "question": "Considere esta afirmação: “A liderança das organizações não deve ser a responsável pela condução do processo de mudança cultural, pois não têm a competência e não possui recursos para isso, a real e necessária mudança é apenas da classe liderada”.  ",
+    "options": [
+      "Certo.",
+      "Errado."
+    ],
+    "answer": "Errado"
+  }
+]

@@ -1,67 +1,83 @@
 <template>
   <AulaTemplate
-    :titulo="$store.state.modulos[1].titulo"
-    :numero="$store.state.modulos[1].numero"
+    :titulo="$store.state.modulos[8].titulo"
+    :numero="$store.state.modulos[8].numero"
     titleSize="4"
   >
     <TextBlock topico="Referêcias">
       <v-row style="word-break: break-word">
         <v-col cols="12" sm="6">
           <Paragraph>
-            ABERGO. Associação Brasileira de Ergonomia.  Disponível em: http://www.abergo.org.br/. Acesso em: 26 ago. 2023.
-
+            BRASIL. Congresso Nacional. Lei n. 8080, de 19 de setembro de 1990.
+            Diário Oficial da União. 1990.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância de Doenças e Agravos não Transmissíveis e Promoção da Saúde. Saúde Brasil 2018: uma análise de situação de saúde e das doenças e agravos crônicos: desafios e perspectivas. Brasília: Ministério da Saúde, 2019.
+            BRASIL. Ministério da Economia. Portaria nº 6.730, de 9 de março de
+            2020. Aprova a nova redação da Norma Regulamentadora nº 01 –
+            Disposições Gerais e Gerenciamento de Riscos Ocupacionais. (Processo
+            nº 19966.100073/2020-72). Diário Oficial da União: seção 1,
+            Brasília, n. 49, p. 17, mar. 2020.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Ministério da Saúde. Secretaria de Vigilância em Saúde. Departamento de Vigilância em Saúde Ambiental e Saúde do Trabalhador. Dor relacionada ao trabalho: lesões por esforços repetitivos (LER): distúrbios osteomusculares relacionados ao trabalho (DORT). Brasília: Ministério da Saúde do Brasil, 2012.
+            GELLER, E. S. Cultura de Segurança Total. Profissional Safety,
+            Setembro, 1994.
           </Paragraph>
 
           <Paragraph>
-            BRASIL; Ministério do Trabalho e Previdência. Norma Regulamentadora 17: NR 17 - Ergonomia. Brasília: Ministério do Trabalho e Previdência, 2021
+            HELMAN, Cecil G. Cultura, saúde e doença. 5 ed. Artmed, 2009.
           </Paragraph>
 
           <Paragraph>
-            BRASIL. Justiça Federal. Orientações ergonômicas. Brasília: Ministério da Justiça, 2015.
-
+            MARTINEZ, M. C.; LATORRE, M. D.R.; FISCHER, F. M. Capacidade para o
+            trabalho: revisão de literatura. Ciência & Saúde Coletiva, v. 15, n.
+            suppl 1, p. 1553–1561, 2010.
           </Paragraph>
 
           <Paragraph>
-            COUTO, H. A. Ergonomia 4.0: dos conceitos básicos à 4ª revolução industrial. Belo Horizonte: Ergo, 2020.
+            MELO, L. A.; SILVA, J. J. F.; GALINDO, J.; QUELHAS, O. L. G. A
+            Cultura de Segurança como resultado de um processo de liderança
+            eficaz. In: Encontro Nacional de Engenharia de Produção, 21, 2001.
+            Anais. Salvador.
           </Paragraph>
         </v-col>
 
         <v-col cols="12" sm="6">
           <Paragraph>
-            DOMBIDAU JUNNIOR, R.C., SILVA, B.C.B., CANEDO, G.R. Aplicação do método RULA (RAPID UPPER LIMB ASSESSMENT) em um laboratório didático. XXXVII Encontro Nacional de Engenharia de Produção.  2017. Disponível em: https://abepro.org.br/biblioteca/tn_sto_241_401_32996.pdf Acesso em 08 ago 2023.
-
+            MENDES, J.M.R; WUNSCH,D.S. Elementos para uma nova cultura em
+            segurança e saúde no trabalho. Revista Brasileira de saúde
+            ocupacional. N.32, v.115. 2007.
           </Paragraph>
 
           <Paragraph>
-            FERREIRA, M. C. Ergonomia da Atividade aplicada à Qualidade de Vida no Trabalho: lugar, importância e contribuição da Análise Ergonômica do Trabalho (AET). Revista Brasileira de Saúde Ocupacional, Brasília, v. 40, n. 131. 11 p, 2014.
+            ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT). Reforçar o diálogo
+            social para uma cultura de segurança e saúde. 2022.
           </Paragraph>
 
           <Paragraph>
-            FILHO, N.F. Tópicos em Ergonomia e Segurança no Trabalho. 1 ed. Belo Horizonte: Poisson, 2017.
+            PORTO, M.F.S.; MARTINS, B.S. Repensando alternativas em Saúde do
+            Trabalhador em uma perspectiva emancipatória. Revista Brasileira de
+            Saúde Ocupacional, 2019.
           </Paragraph>
 
           <Paragraph>
-            MENDONÇA, A. G. Custos diretos da dor lombar em hospitais financiados pelo Sistema Único de Saúde. Revista Pesquisa em Fisioterapia, Salvador, v. 11, n. 1,  2021.
+            RIBEIRO, I. C. M.; HENNEBERG, F. A. CATAI, R. E. Gestão de segurança
+            por meio do emprego de ferramenta para identificação dos riscos
+            contidos no ambiente de trabalho. XXXV Encontro Nacional de
+            Engenharia de Produção. Perspectivas Globais para a Engenharia de
+            Produção. Fortaleza, 2015.
           </Paragraph>
 
-          <Paragraph>
-            MULLER, M.M. Nova NR17 - ERGONOMIA. 2021.
-          </Paragraph>
+          <Paragraph
+            >SANTANA, D.S. A importância da implantação de um sistema de gestão
+            de saúde e segurança no trabalho nas universidades públicas. 15 f.
+            Trabalho de conclusão de curso (Graduação em Administração),
+            Universidade Estadual da Paraíba, Campina Grande, 2012.</Paragraph
+          >
 
           <Paragraph>
-            PAIM, C., PERAÇA, D., SAPPER,F., MOREITA,I. Análise Ergonômica: Métodos Rula e Owas aplicados em uma Instituição de ensino superior. Revista Espacios. V.38,n.11, 2017.
-          </Paragraph>
-
-          <Paragraph>
-            PINTO, Fernando Prietto. Notificações de LER/DORT no Brasil entre 2007 e 2021: um estudo descritivo. Florianópolis, 2022. Disponível em: https://repositorio.ufsc.br/bitstream/handle/123456789/236134/TCC.pdf?sequence=1&isAllowed=y Acesso em: 08 ago 2023
+            SOUSA, L.M.M. Saúde Ocupacional. 1 ed. Saraiva, 2014.
           </Paragraph>
         </v-col>
       </v-row>
@@ -70,7 +86,7 @@
     <v-row justify="center" class="mt-5">
       <v-col cols="12" sm="6">
         <NavButton
-          link="modulo-02/topico-02"
+          link="modulo-09/topico-02"
           name="Voltar"
           color="primary"
           icon="mdi-arrow-left-bold-circle"

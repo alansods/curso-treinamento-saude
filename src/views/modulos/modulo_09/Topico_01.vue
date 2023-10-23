@@ -163,9 +163,9 @@
 
     <NavFooter
       prevName="Apresentação"
-      prevLink="modulo-02"
+      prevLink="modulo-09"
       nextName="Tópico 02"
-      nextLink="modulo-02/topico-02"
+      nextLink="modulo-09/topico-02"
       :lastTopico="false"
     />
   </AulaTemplate>

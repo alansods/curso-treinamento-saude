@@ -1,29 +1,12 @@
 <template>
   <AulaTemplate
-    :titulo="$store.state.modulos[1].titulo"
-    :numero="$store.state.modulos[1].numero"
+    :titulo="$store.state.modulos[8].titulo"
+    :numero="$store.state.modulos[8].numero"
     titleSize="4"
   >
-    <TextBlock topico="Tópico 02 - LER/DORT">
+    <TextBlock topico="Tópico 02 - Valores humanos para instituição da cultura de Segurança e Saúde do Trabalhador ">
       <Paragraph>
-        Neste tópico, vamos explorar e explicar de forma mais detalhada o que
-        são as condições conhecidas como LER (Lesões por Esforços Repetitivos) e
-        DORT (Distúrbios Osteomusculares Relacionados ao Trabalho). Embora esses
-        termos possam parecer sinônimos, é fundamental compreender que eles
-        apresentam diferenças significativas. Uma LER pode ou não se configurar
-        como uma DORT, dependendo da presença ou ausência de uma relação de
-        causa e efeito com a atividade laboral.
-      </Paragraph>
-
-      <Paragraph>
-        Tanto a LER quanto o DORT resultam da sobrecarga no sistema responsável
-        pelos movimentos do esqueleto humano, aliada à insuficiente oportunidade
-        de recuperação. Eles se manifestam por meio de uma variedade de
-        sintomas, tipicamente em estágios avançados, e tendem a afetar
-        predominantemente os membros superiores, incluindo sintomas como dor,
-        sensação de peso e fadiga. Alguns exemplos comuns destas condições
-        incluem lesões no ombro e inflamação em articulações e nos tecidos que
-        envolvem os tendões (BRASIL, 2015).
+        Neste tópico, continuaremos nossa análise das variáveis relacionadas à cultura de saúde e segurança no ambiente de trabalho, concentrando-nos agora em outros aspectos. Vamos descobrir!
       </Paragraph>
     </TextBlock>
 
