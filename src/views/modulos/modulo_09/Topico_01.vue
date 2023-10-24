@@ -12,7 +12,7 @@
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Nesta aula, nós iremos propiciar o desenvolvimento de fundamentos sobre Ergonomia, além do impacto nos custos para empresa e consequências diretas e indiretas para funcionários e empregadores. Vamos lá?
+        Neste  vídeo, iremos apresentar os benefícios de uma cultura de Segurança e Saúde do Trabalho e Promoção da Saúde nas empresas. Ao final, espera-se que você tenha adquirido conhecimentos teóricos e práticos sobre a importância dessa cultura no ambiente de trabalho. Vamos começar?
       </Paragraph>
 
       <Paragraph>
@@ -27,7 +27,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="Ar-moq4mMx4"
+          video-id="gYddWj89DE4"
           style="border: solid 3px white"
           fitParent
         />
@@ -48,7 +48,14 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMM</h1>
+    <v-row justify="center">
+      <v-col cols="12" sm="7">
+        <Imagem
+          fonte="Fonte: Freepick.com"
+          src="modulo_09/reflexao.svg"
+        />
+      </v-col>
+    </v-row>
 
     <TextBlock>
       <Paragraph>
@@ -60,7 +67,15 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMM</h1>
+    <v-row justify="center">
+      <v-col cols="12" sm="7">
+        <Imagem
+          legenda="Imagem 1: Contribuir com o bem-estar dos trabalhadores ajuda a prevenir problemas de saúde."
+          fonte="Fonte: Freepick.com"
+          src="modulo_09/imagem1.jpeg"
+        />
+      </v-col>
+    </v-row>
 
     <BoxIcon tipo="atencao">
       Uma gestão proativa implica na busca por soluções adequadas, eficazes e sustentáveis em colaboração com os funcionários. Isso encoraja os colaboradores a se sentirem confiantes para questionar possíveis riscos em suas atividades, promovendo uma abordagem direta à segurança do trabalho.
@@ -116,7 +131,14 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMM</h1>
+    <v-row justify="center">
+      <v-col cols="12" sm="7">
+        <Imagem
+          fonte="Fonte: Freepick.com"
+          src="modulo_09/frase_balao.svg"
+        />
+      </v-col>
+    </v-row>
 
     <TextBlock>
       <Paragraph>
@@ -177,6 +199,7 @@ import TextBlock from "@/components/TextBlock.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
+import Imagem from "@/components/Imagem.vue";
 
 export default {
   components: {
@@ -185,6 +208,7 @@ export default {
     Paragraph,
     BoxIcon,
     NavFooter,
+    Imagem
   },
   data() {
     return {

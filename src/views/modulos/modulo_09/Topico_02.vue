@@ -15,7 +15,13 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph>Olá, no vídeo passado você aprendeu sobre ergonomia e sobre os sobre os tipos de ergonomia, além de explanar um pouco sobre a Norma Reguladora 17 (NR17). Agora nós iremos explicar um pouco sobre o que é LER/DORT. Vamos lá?</Paragraph>
+      <Paragraph>
+        Olá! Vimos na aula anterior deste módulo a importância de uma cultura de saúde e segurança no trabalho voltada para ações de promoção da saúde. Iremos continuar discutindo sobre, porém com foco em outras variáveis.
+      </Paragraph>
+
+      <Paragraph>
+        Você sabia que as situações evidenciadas como causa raiz para a ocorrência da grande maioria dos acidentes de trabalho estão diretamente relacionadas com o comportamento humano? Há algum outro fator influenciável para a cultura de segurança? Vamos descobrir!
+      </Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -29,7 +35,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="uxhD4CJ_JEY"
+          video-id="ngixt3suaWg"
           style="border: solid 3px white"
           fitParent
         />
@@ -46,7 +52,43 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>FLIPCARDDDDD</h1>
+    <v-row justify="space-between">
+      <v-col cols="12"
+        ><small class="text-center d-block grey--text"
+          >(Clique nos cards abaixo para ver o conteúdo)</small
+        ></v-col
+      >
+
+      <v-col cols="12" sm="3">
+        <FlipCard>
+          <template #front>Mudar os homens</template>
+
+          <template #back>
+            Adapte a seleção de trabalhadores de acordo com as demandas específicas da tarefa.
+          </template>
+        </FlipCard>
+      </v-col>
+
+      <v-col cols="12" sm="3">
+        <FlipCard>
+          <template #front>Transformar os homens</template>
+
+          <template #back>
+            Invista na capacitação e desenvolvimento dos trabalhadores, proporcionando treinamento técnico e oportunidades de reciclagem.
+          </template>
+        </FlipCard>
+      </v-col>
+
+      <v-col cols="12" sm="3">
+        <FlipCard>
+          <template #front>Exercer pressão sobre os homens</template>
+
+          <template #back>
+            Exercer uma pressão moral constante sobre os trabalhadores, fazendo uso de palavras de ordem, sanções disciplinares e recompensas.
+          </template>
+        </FlipCard>
+      </v-col>
+    </v-row>
 
     <TextBlock>
       <Paragraph>
@@ -116,9 +158,43 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>
-      FLIPCARDDDDD
-    </h1>
+    <v-row justify="space-between">
+      <v-col cols="12"
+        ><small class="text-center d-block grey--text"
+          >(Clique nos cards abaixo para ver o conteúdo)</small
+        ></v-col
+      >
+
+      <v-col cols="12" sm="3">
+        <FlipCard>
+          <template #front>Fatores Ambientais</template>
+
+          <template #back>
+            Inclui equipamentos, ferramentas, o layout do ambiente e a temperatura. Essas condições desempenham um papel essencial na segurança no local de trabalho.
+          </template>
+        </FlipCard>
+      </v-col>
+
+      <v-col cols="12" sm="3">
+        <FlipCard>
+          <template #front>Fatores Pessoais</template>
+
+          <template #back>
+            Aqui, estamos lidando com atitudes, crenças e características de personalidade dos indivíduos. Esses fatores têm um impacto significativo em como as pessoas se comportam no trabalho em termos de segurança.
+          </template>
+        </FlipCard>
+      </v-col>
+
+      <v-col cols="12" sm="3">
+        <FlipCard>
+          <template #front>Fatores Comportamentais</template>
+
+          <template #back>
+            Refere-se às ações dos trabalhadores no que diz respeito à segurança e ao risco no trabalho. Ir além das obrigações para garantir a segurança de outras pessoas é parte desse aspecto.
+          </template>
+        </FlipCard>
+      </v-col>
+    </v-row>
 
     <TextBlock>
       <Paragraph>
@@ -170,11 +246,11 @@
       É importante destacar que os custos totais da falta de segurança podem ser desafiadores de quantificar, uma vez que englobam as consequências dos acidentes e as medidas corretivas que se seguem. Por outro lado, os custos associados à segurança estão relacionados ao planejamento para prevenir acidentes e às ações de controle implementadas no local de trabalho (PORTO; MARTINS, 2019).
     </BoxIcon>
 
-    <BoxIcon tipo="atencao">
+    <BoxIcon tipo="recapitulando">
       <Paragraph>
         Ao chegarmos ao final deste módulo, é importante enfatizar a influência dos fatores humanos, pessoais e comportamentais na cultura de saúde e segurança das empresas. Portanto, é essencial que os gestores responsáveis pelo controle dos aspectos de segurança e saúde da organização dediquem atenção especial ao fator humano e à tecnologia utilizada.
-
       </Paragraph>
+
       <Paragraph>
         Vimos que análises rápidas podem sugerir causas imediatas relacionadas a fatores humanos ou problemas técnicos, mas, em grande parte, esses eventos refletem falhas na gestão da segurança e saúde ocupacional. A promoção de uma cultura de segurança sólida é uma missão contínua e crucial para garantir o bem-estar de todos os envolvidos.
       </Paragraph>
@@ -184,8 +260,8 @@
       prevName="Tópico 01"
       prevLink="modulo-09/topico-01"
       :lastTopico="true"
-      referenciasLink="modulo-02/referencias"
-      atividadeLink="modulo-02/atividade"
+      referenciasLink="modulo-09/referencias"
+      atividadeLink="modulo-09/atividade"
     />
   </AulaTemplate>
 </template>
@@ -197,6 +273,7 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
+import FlipCard from "@/components/FlipCard.vue";
 
 export default {
   components: {
@@ -206,6 +283,7 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
+    FlipCard
   },
   data() {
     return {
