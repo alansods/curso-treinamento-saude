@@ -72,7 +72,7 @@
 
         <NavButton
           v-if="score >= 7"
-          name="Próxima módulo"
+          name="Próximo módulo"
           color="primary"
           icon="mdi-arrow-right-bold-circle"
           :right="true"

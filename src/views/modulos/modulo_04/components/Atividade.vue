@@ -1,8 +1,8 @@
 <template>
   <AulaTemplate
-    :titulo="$store.state.modulos[0].titulo"
-    :numero="$store.state.modulos[0].numero"
-    titleSize="3"
+    :titulo="$store.state.modulos[3].titulo"
+    :numero="$store.state.modulos[3].numero"
+    titleSize="4"
   >
     <div v-if="!completed" class="question-container">
       <SmallText class="mb-2">Questão {{ number }} de {{ questions.length }}</SmallText>
@@ -56,8 +56,7 @@
         </div>
 
         <Paragraph class="completed-score mb-5">
-          Você acertou <span v-if="score < 7">apenas</span>
-          <strong
+          Você acertou <span v-if="score < 7">apenas</span> <strong
             ><u>{{ score }}</u></strong
           >
           de {{ questions.length }} questões.
@@ -77,7 +76,7 @@
           color="primary"
           icon="mdi-arrow-right-bold-circle"
           :right="true"
-          link="modulo-02"
+          link="modulo-05"
           block="true"
         ></NavButton>
       </v-col>
@@ -87,7 +86,7 @@
 
 <script>
 import AulaTemplate from "@/components/AulaTemplate.vue";
-import Questoes from "@/data/questoes/modulo_01.json";
+import Questoes from "@/data/questoes/modulo_04.json";
 import SmallText from "@/components/SmallText.vue";
 import Paragraph from "@/components/Paragraph.vue";
 

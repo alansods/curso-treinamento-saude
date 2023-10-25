@@ -1,0 +1,97 @@
+[
+  {
+    "number": "1",
+    "question": "Sobre as doenças musculoesqueléticas, assinale a alternativa correta:",
+    "options": [
+      "Pessoas mais jovens não são afetadas por distúrbios musculoesqueléticos.",
+      "A artrite reumatoide é uma doença crônica dos ossos.",
+      "Artrite reumatoide é uma causa de hérnia de disco.",
+      "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
+    ],
+    "answer": "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
+  },
+
+  {
+    "number": "2",
+    "question": "Em relação a análise ergonômica do trabalho, é correto afirmar que:",
+    "options": [
+      "Podem ser realizadas através de abordagens qualitativas e semiquantitativas.",
+      "É realizada quando há a necessidade de aprofundamento da situação.",
+      "Podem ser realizadas apenas as abordagens qualitativas.",
+      "Nenhuma das alternativas anteriores."
+    ],
+    "answer": "É realizada quando há a necessidade de aprofundamento da situação."
+  },
+
+  {
+    "number": "3",
+    "question": "Sobre a dor lombar, assinale a alternativa correta:",
+    "options": [
+      "É um sintoma específico da artrite reumatóide.",
+      "Não tem grande impacto nas causas de afastamento.",
+      "É um sintoma da hérnia de disco.",
+      "Não são capazes de causar invalidez."
+    ],
+    "answer": "É um sintoma da hérnia de disco."
+  },
+
+  {
+    "number": "4",
+    "question": "Sobre os custos das doenças musculoesqueléticas no Brasil, marque a alternativa <u>INCORRETA</u>:",
+    "options": [
+      "Os gastos com auxílio-doença na população rural são maiores no sexo masculino.",
+      "Os gastos com auxílio-doença na população urbana, no ano de 2020, corresponderam a mais de 2 bilhões de reais.",
+      "Os custos médicos diretos com a artrite reumatoide correspondem a R$370,36 anualmente por paciente.",
+      "O número de concessões de benefícios envolvendo transtornos dos discos vertebrais foi de 705.518 nos últimos 10 anos."
+    ],
+    "answer": "Os gastos com auxílio-doença na população rural são maiores no sexo masculino."
+  },
+
+  {
+    "number": "5",
+    "question": "Para a implementação de ações de ergonomia, é necessário:",
+    "options": [
+      "Analisar as características dos colaboradores e os processos de trabalho.",
+      "Analisar apenas os processos de trabalho.",
+      "Basta somente realizar o mapeamento correto dos movimentos repetitivos.",
+      "Não é necessário nenhuma ação."
+    ],
+    "answer": "Analisar as características dos colaboradores e os processos de trabalho."
+  },
+
+  {
+    "number": "6",
+    "question": "Sobre as doenças musculoesqueléticas, assinale a alternativa correta:",
+    "options": [
+      "Afetam mais de 1,7 bilhões de pessoas em todo o mundo e a tendência é uma mudança progressiva desse cenário, visto pessoas mais jovens dificilmente podem ser afetadas por distúrbios musculoesqueléticos.",
+      "Afetam mais de 1,7 bilhões de pessoas em todo o mundo, tendo como causa principal de afastamento doenças do tipo osteomuscular e tecido conjuntivo. São o segundo maior impacto na saúde geral da população mundial.",
+      "Artrite reumatoide e dor lombar são sintomas da hérnia de disco. Na Suécia, o custo total direto e indireto estimado do distúrbio foi de 740 milhões de euros em 2011.",
+      "Suas consequências acarretam em limitações de atividades laborais, elevando os custos relacionados às despesas em saúde principalmente por invalidez. Estudos mostram a alta incidência da dor lombar em países de alta renda."
+    ],
+    "answer": "Suas consequências acarretam em limitações de atividades laborais, elevando os custos relacionados às despesas em saúde principalmente por invalidez. Estudos mostram a alta incidência da dor lombar em países de alta renda."
+  },
+
+  {
+    "number": "7",
+    "question": "Em relação as ferramentas para a análise ergonômica do trabalho, é correto afirmar que:",
+    "options": [
+      "O método RULA utiliza-se da análise rápida dos membros superiores e inferiores. É realizado através de uma planilha específica que utiliza escores em função dos membros analisados.",
+      "O Method-Time Measurement (MTM) significa Medição de Métodos-Tempo e tem o objetivo de identificar o método e os movimentos elementares para determinar o tempo necessário para a execução de uma tarefa.",
+      "O método RULA utiliza-se da análise rápida dos membros inferiores. É realizado através de uma planilha específica que utiliza escores em função dos membros analisados.",
+      "O Method-Time Measurement (MTM) é uma ferramenta fundamental na análise ergonômica pois tem como objetivo a amplificação dos movimentos muito complexos e a redução de movimentos úteis."
+    ],
+    "answer": "O Method-Time Measurement (MTM) significa Medição de Métodos-Tempo e tem o objetivo de identificar o método e os movimentos elementares para determinar o tempo necessário para a execução de uma tarefa."
+  },
+
+  {
+    "number": "8",
+    "question": "Leia a afirmação a seguir e marque a alternativa correta.<br/> “Faz-se necessário uma análise ergonômica preliminar para identificar perigos e avaliar a ergonomia. Quando não é possível adotar medidas de controle diretamente, é necessário utilizar-se da Análise Ergonômica do Trabalho.”",
+    "options": [
+      "A primeira afirmativa é falsa e a segunda é verdadeira.",
+      "As duas afirmativas são falsas.",
+      "As duas afirmativas são verdadeiras, mas a segunda não é uma justificativa da primeira.",
+      "A primeira afirmativa é verdadeira e a segunda é falsa."
+    ],
+    "answer": "As duas afirmativas são verdadeiras, mas a segunda não é uma justificativa da primeira."
+  }
+]

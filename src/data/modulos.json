@@ -72,11 +72,8 @@
         "titulo": "Apresentação",
         "link": "modulo-04"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-04/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-04/topico-02" },
-      { "numero": "03", "titulo": "Tópico 03", "link": "modulo-04/topico-03" },
-      { "numero": "04", "titulo": "Tópico 04", "link": "modulo-04/topico-04" },
-      { "numero": "05", "titulo": "Tópico 05", "link": "modulo-04/topico-05" },
+      { "numero": "01", "titulo": "Principais programas e eventos ligados à Saúde e Segurança no Trabalho nas empresas", "link": "modulo-04/topico-01" },
+      { "numero": "02", "titulo": "Acompanhamento da execução dos programas  de SST nas empresas", "link": "modulo-04/topico-02" },
       {
         "numero": null,
         "titulo": "Referências",
