@@ -68,7 +68,7 @@ export default {
       required: true,
     },
     numero: {
-      type: Number,
+      type: String,
       required: false,
     },
   },

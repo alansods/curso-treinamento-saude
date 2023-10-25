@@ -107,11 +107,11 @@
     </TextBlock>
 
     <v-row justify="center">
-      <v-col cols="12" sm="6">
+      <v-col cols="12" sm="7">
         <Imagem
           legenda="Imagem 2 : A liderança pode transformar a cultura de uma organização."
           fonte="Fonte: Freepick.com"
-          src="modulo_09/imagem2.jpg"
+          src="modulo_09/imagem2.jpeg"
         />
       </v-col>
     </v-row>
@@ -143,11 +143,11 @@
     </TextBlock>
 
     <v-row justify="center">
-      <v-col cols="12" sm="6">
+      <v-col cols="12" sm="11">
         <Imagem
           legenda="Imagem 3: A cultura de segurança em três pilares."
           fonte="Fonte: RIBEIRO; HENNEBERG; CATAI, 2015."
-          src="modulo_09/imagem3.png"
+          src="modulo_09/imagem3.svg"
         />
       </v-col>
     </v-row>
@@ -223,11 +223,11 @@
     </TextBlock>
 
     <v-row justify="center">
-      <v-col cols="12" sm="6">
+      <v-col cols="12" sm="7">
         <Imagem
           legenda="Imagem 4: A prevenção de acidentes envolve planejamento e controle"
-          fonte="Fonte: Freepik.com"
-          src="modulo_09/imagem4.jpg"
+          fonte="Fonte: Freepick.com"
+          src="modulo_09/imagem4.jpeg"
         />
       </v-col>
     </v-row>
