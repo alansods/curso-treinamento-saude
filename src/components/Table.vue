@@ -6,8 +6,8 @@
       </template>
     </v-simple-table>
 
-    <SmallText>Quadro 1: Lista de Doenças Relacionadas ao Trabalho.</SmallText>
-    <SmallText>Fonte: (BRASIL, 2005; 2008).</SmallText>
+    <SmallText>{{legenda}}</SmallText>
+    <SmallText>{{fonte}}</SmallText>
   </div>
 </template>
 

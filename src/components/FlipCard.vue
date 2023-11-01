@@ -1,6 +1,7 @@
 <template>
   <v-card
     class="flip-card"
+    :style="{ width: fullWidth ? '100%' : 'auto' }"
     @click="flipCard"
     @mouseenter="startLottieAnimation"
     @mouseleave="resetLottieAnimation"
@@ -29,6 +30,8 @@ export default {
       lottieAnim: null,
     };
   },
+
+  props: ["fullWidth"],
 
   mounted() {
     this.renderLottieAnimation();

@@ -17,7 +17,13 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph>Este vídeo apresenta um conjunto de informações sobre direitos dos trabalhadores e responsabilidades institucionais e empregadores em relação à saúde e segurança de empregados de empresas sob regime da Consolidação das Leis do Trabalho e segurados pela Previdência Social. Vamos lá?</Paragraph>
+      <Paragraph
+        >Este vídeo apresenta um conjunto de informações sobre direitos dos
+        trabalhadores e responsabilidades institucionais e empregadores em
+        relação à saúde e segurança de empregados de empresas sob regime da
+        Consolidação das Leis do Trabalho e segurados pela Previdência Social.
+        Vamos lá?</Paragraph
+      >
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -129,28 +135,32 @@
       </Paragraph>
     </TextBlock>
 
-    <v-row>
+    <v-row justify="center">
       <v-col cols="12"
         ><small class="text-center d-block grey--text"
           >(Clique nos cards abaixo para ver o conteúdo)</small
         ></v-col
       >
 
-      <v-col cols="12" sm="12">
-        <FlipCard>
+      <v-col cols="12" sm="7">
+        <FlipCard :fullWidth="true">
           <template #front>Não precisam elaborar o PGR</template>
 
           <template #back>
             <ul>
-              <li>
-                1.8.1 O Microempreendedor Individual - MEI está dispensado de elaborar o PGR.
+              <li style="margin-bottom: 20px">
+                1.8.1 O Microempreendedor Individual - MEI está dispensado de
+                elaborar o PGR.
               </li>
               <li>
-                1.8.4 As microempresas e empresas de pequeno porte, graus de risco 1 e 2, que no levantamento preliminar de perigos não identificarem exposições ocupacionais a agentes físicos, químicos e biológicos, em conformidade com a NR9, e declararem as informações digitais na forma do subitem 1.6.1, ficam dispensadas da elaboração do PGR (BRASIL,2020).
+                1.8.4 As microempresas e empresas de pequeno porte, graus de
+                risco 1 e 2, que no levantamento preliminar de perigos não
+                identificarem exposições ocupacionais a agentes físicos,
+                químicos e biológicos, em conformidade com a NR9, e declararem
+                as informações digitais na forma do subitem 1.6.1, ficam
+                dispensadas da elaboração do PGR (BRASIL,2020).
               </li>
             </ul>
-
-            <p>- Prevenção de acidentes e doenças.</p>
           </template>
         </FlipCard>
       </v-col>
@@ -184,11 +194,15 @@
         prazo pode ser estendido para até três anos (BRASIL, 2020). A revisão
         deve ocorrer quando se deparar com as situações descritas a seguir:
       </Paragraph>
-    </TextBlock>
 
-    <h1>RECURSO BG AZUL LINHAS</h1>
+      <div class="my-10">
+        <v-alert border="left" color="blue" dark> Após implementação das medidas de prevenção, para avaliação de riscos residuais;</v-alert>
+        <v-alert border="left" color="blue" dark> Após inovações e modificações nas tecnologias, ambientes, processos, condições, procedimentos e organização do trabalho que impliquem em novos riscos ou modifiquem os riscos existentes;</v-alert>
+        <v-alert border="left" color="blue" dark> Quando identificadas inadequações, insuficiências ou ineficácias das medidas de prevenção;</v-alert>
+        <v-alert border="left" color="blue" dark> Na ocorrência de acidentes ou doenças relacionadas ao trabalho;</v-alert>
+        <v-alert border="left" color="blue" dark> Quando houver mudança nos requisitos legais aplicáveis.</v-alert>
+      </div>
 
-    <TextBlock>
       <Paragraph>
         A organização tem a flexibilidade de escolher se deseja manter o
         Relatório do PGR em meio físico ou digital. É fundamental que o
@@ -277,52 +291,91 @@
         especificado na NR 07. São eles (BRASIL,1996):
       </Paragraph>
 
-      <h1>RECURSO BG AZUL LINHAS</h1>
-      <Paragraph>
-        <ul>
-          <li>Admissional;</li>
-          <li>Periódico;</li>
-          <li>De retorno ao trabalho;</li>
-          <li>De mudança de cargo;</li>
-          <li>Demissional.</li>
-        </ul>
-      </Paragraph>
-    </TextBlock>
+      <div class="my-10">
+        <v-alert border="left" color="blue" dark> Admissional; </v-alert>
 
-    <TextBlock>
+        <v-alert border="left" color="blue" dark> Periódico; </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          De retorno ao trabalho;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          De mudança de cargo;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark> Demissional. </v-alert>
+      </div>
+
       <Paragraph>
         Em todos os exames realizados, o médico responsável deverá emitir um
         Atestado de Saúde Ocupacional (ASO) em duas vias. Esse documento precisa
         conter as seguintes informações (BRASIL,1996):
       </Paragraph>
 
-      <h1>RECURSO BG AZUL LINHAS</h1>
-      <Paragraph>
-        <ul>
-          <li>Nome completo do funcionário;</li>
-          <li>Número do RG e função exercida;</li>
-          <li>Riscos ocupacionais ou a ausência deles;</li>
-          <li>Procedimentos médicos pelos quais o funcionário passou;</li>
-          <li>Nome do médico coordenador e seu CRM;</li>
-          <li>Definição de “apto” ou “inapto” para a função que vai exercer, exerce ou exerceu;</li>
-          <li>Nome e contato do médico responsável pelo exame;</li>
-          <li>Data, assinatura e carimbo do médico responsável, com o CRM.</li>
-        </ul>
-      </Paragraph>
+      <div class="mt-10">
+        <v-alert border="left" color="blue" dark>
+          Nome completo do funcionário;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          Número do RG e função exercida;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          Riscos ocupacionais ou a ausência deles;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          Procedimentos médicos pelos quais o funcionário passou;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          Nome do médico coordenador e seu CRM;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          Definição de “apto” ou “inapto” para a função que vai exercer, exerce
+          ou exerceu;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          Nome e contato do médico responsável pelo exame;
+        </v-alert>
+
+        <v-alert border="left" color="blue" dark>
+          Data, assinatura e carimbo do médico responsável, com o CRM.
+        </v-alert>
+      </div>
     </TextBlock>
 
     <BoxIcon tipo="atencao">
-      A responsabilidade pela elaboração do PCMSO é da empresa e quem elabora é o médico do trabalho, que é um membro do setor de saúde ocupacional da empresa (BRASIL,1996).
+      A responsabilidade pela elaboração do PCMSO é da empresa e quem elabora é
+      o médico do trabalho, que é um membro do setor de saúde ocupacional da
+      empresa (BRASIL,1996).
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        É fundamental que as empresas compreendam que o PCMSO é um requisito obrigatório, independentemente do tamanho da organização. Este programa, de caráter preventivo, requer um planejamento que inclua ações destinadas a garantir a saúde dos colaboradores ao longo do ano. Todas essas informações devem ser documentadas em um relatório anual, que deve conter detalhes sobre a quantidade e os tipos de exames obrigatórios e complementares que os funcionários deverão realizar ao longo desse período, bem como as avaliações clínicas (BRASIL, 1996).
+        É fundamental que as empresas compreendam que o PCMSO é um requisito
+        obrigatório, independentemente do tamanho da organização. Este programa,
+        de caráter preventivo, requer um planejamento que inclua ações
+        destinadas a garantir a saúde dos colaboradores ao longo do ano. Todas
+        essas informações devem ser documentadas em um relatório anual, que deve
+        conter detalhes sobre a quantidade e os tipos de exames obrigatórios e
+        complementares que os funcionários deverão realizar ao longo desse
+        período, bem como as avaliações clínicas (BRASIL, 1996).
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      Até este ponto, abordamos dois programas de segurança no trabalho e é importante entender as diferenças entre eles. Enquanto o PCMSO concentra-se na saúde física e mental dos colaboradores, o PGR tem um escopo mais amplo e visa garantir a segurança do ambiente de trabalho como um todo, englobando equipamentos, processos, estruturas e outros fatores que possam representar riscos para os trabalhadores. No próximo tópico, abordaremos outros programas. Até lá!
+      Até este ponto, abordamos dois programas de segurança no trabalho e é
+      importante entender as diferenças entre eles. Enquanto o PCMSO
+      concentra-se na saúde física e mental dos colaboradores, o PGR tem um
+      escopo mais amplo e visa garantir a segurança do ambiente de trabalho como
+      um todo, englobando equipamentos, processos, estruturas e outros fatores
+      que possam representar riscos para os trabalhadores. No próximo tópico,
+      abordaremos outros programas. Até lá!
     </BoxIcon>
 
     <NavFooter
@@ -354,7 +407,7 @@ export default {
     NavFooter,
     Imagem,
     Accordion,
-    FlipCard
+    FlipCard,
   },
   data() {
     return {

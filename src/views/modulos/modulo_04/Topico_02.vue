@@ -17,7 +17,14 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph>Vimos na primeira aula sobre os programas que devem existir nas empresas. No entanto, não basta implementar os programas, é necessário acompanhar a execução dos mesmos. Portanto, nesta segunda aula iremos aprender sobre outras duas ferramentas utilizadas na saúde do trabalhador para o acompanhamento da execução dos programas. Vamos lá?</Paragraph>
+      <Paragraph
+        >Vimos na primeira aula sobre os programas que devem existir nas
+        empresas. No entanto, não basta implementar os programas, é necessário
+        acompanhar a execução dos mesmos. Portanto, nesta segunda aula iremos
+        aprender sobre outras duas ferramentas utilizadas na saúde do
+        trabalhador para o acompanhamento da execução dos programas. Vamos
+        lá?</Paragraph
+      >
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -129,14 +136,9 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMMM</h1>
-
     <v-row justify="center">
-      <v-col cols="12" sm="11">
-        <Imagem
-          fonte="Fonte: RIBEIRO; HENNEBERG; CATAI, 2015."
-          src="modulo_09/imagem3.svg"
-        />
+      <v-col cols="12" sm="6">
+        <Imagem fonte="Fonte: Freepik.com" src="modulo_04/frase_prof.svg" />
       </v-col>
     </v-row>
 
@@ -158,7 +160,7 @@
         <Imagem
           legenda="Imagem 3: LTCAT: Medidas de proteção aprovadas, adequadas e eficazes em foco."
           fonte="Fonte: RIBEIRO; HENNEBERG; CATAI, 2015."
-          src="modulo_04/imagem3.jpg"
+          src="modulo_04/imagem4.jpeg"
         />
       </v-col>
     </v-row>
@@ -217,7 +219,45 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>TABELAAAAA</h1>
+    <Table
+      legenda="Tabela 1. Tipos de agentes insalubres."
+      fonte="Fonte: NR-15,2022."
+    >
+      <thead>
+        <tr>
+          <th
+            class="primary white--text text-body-2 text-uppercase font-weight-bold"
+          >
+            TIPO DE AGENTE
+          </th>
+          <th
+            class="primary white--text text-body-2 text-uppercase font-weight-bold"
+          >
+            EXEMPLO
+          </th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Físico</td>
+          <td>
+            Ruído, calor, radiações ionizantes e não ionizantes, vibrações,
+            frio, umidade.
+          </td>
+        </tr>
+
+        <tr>
+          <td>Químico</td>
+          <td>Poeiras, fumo, névoas, neblina, gases e vapores.</td>
+        </tr>
+
+        <tr>
+          <td>Biológico</td>
+          <td>Bactérias, fungos, parasitas, vírus.</td>
+        </tr>
+      </tbody>
+    </Table>
 
     <TextBlock>
       <Paragraph>
@@ -267,50 +307,66 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>FLIPCARDDDDDD</h1>
-
-    <v-row justify="space-between">
+    <v-row justify="start">
       <v-col cols="12"
         ><small class="text-center d-block grey--text"
           >(Clique nos cards abaixo para ver o conteúdo)</small
         ></v-col
       >
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_04/yellow_icons/explosivos.png">
+          <template #front>Com explosivos; </template>
 
-      <v-col cols="12" sm="3">
-        <FlipCard>
-          <template #front>Fatores Ambientais</template>
-
-          <template #back>
-            Inclui equipamentos, ferramentas, o layout do ambiente e a
-            temperatura. Essas condições desempenham um papel essencial na
-            segurança no local de trabalho.
-          </template>
-        </FlipCard>
+          <template #back> Com explosivos; </template>
+        </FlipCardImg>
       </v-col>
 
-      <v-col cols="12" sm="3">
-        <FlipCard>
-          <template #front>Fatores Pessoais</template>
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_04/yellow_icons/inflamaveis.png">
+          <template #front>Com inflamáveis; </template>
 
-          <template #back>
-            Aqui, estamos lidando com atitudes, crenças e características de
-            personalidade dos indivíduos. Esses fatores têm um impacto
-            significativo em como as pessoas se comportam no trabalho em termos
-            de segurança.
-          </template>
-        </FlipCard>
+          <template #back> Com inflamáveis; </template>
+        </FlipCardImg>
       </v-col>
 
-      <v-col cols="12" sm="3">
-        <FlipCard>
-          <template #front>Fatores Comportamentais</template>
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_04/yellow_icons/radiacao.png">
+          <template #front
+            >Com radiações ionizantes ou substâncias radioativas;
+          </template>
 
           <template #back>
-            Refere-se às ações dos trabalhadores no que diz respeito à segurança
-            e ao risco no trabalho. Ir além das obrigações para garantir a
-            segurança de outras pessoas é parte desse aspecto.
+            Com radiações ionizantes ou substâncias radioativas;
           </template>
-        </FlipCard>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_04/yellow_icons/inflamaveis.png">
+          <template #front
+            >Com exposição a roubos ou outras violências físicas;
+          </template>
+
+          <template #back>
+            Com exposição a roubos ou outras violências físicas;
+          </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_04/yellow_icons/energia_eletrica.png">
+          <template #front>Com energia elétrica; </template>
+
+          <template #back> Com energia elétrica; </template>
+        </FlipCardImg>
+      </v-col>
+
+      <v-col cols="4" sm="auto">
+        <FlipCardImg bgImg="modulo_04/yellow_icons/inflamaveis.png">
+          <template #front>Com motocicleta. </template>
+
+          <template #back> Com motocicleta. </template>
+        </FlipCardImg>
       </v-col>
     </v-row>
 
@@ -442,6 +498,8 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
+import Table from "@/components/Table.vue";
+import FlipCardImg from "@/components/FlipCardImg.vue";
 
 export default {
   components: {
@@ -451,6 +509,8 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
+    Table,
+    FlipCardImg,
   },
   data() {
     return {
