@@ -17,7 +17,7 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph> Falta texto </Paragraph>
+      <Paragraph>Este vídeo apresenta um conjunto de informações sobre direitos dos trabalhadores e responsabilidades institucionais e empregadores em relação à saúde e segurança de empregados de empresas sob regime da Consolidação das Leis do Trabalho e segurados pela Previdência Social. Vamos lá?</Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -31,7 +31,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="gYddWj89DE4"
+          video-id="O2lN8aUr9-E"
           style="border: solid 3px white"
           fitParent
         />
@@ -129,7 +129,32 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>FLIPCARDDDD</h1>
+    <v-row>
+      <v-col cols="12"
+        ><small class="text-center d-block grey--text"
+          >(Clique nos cards abaixo para ver o conteúdo)</small
+        ></v-col
+      >
+
+      <v-col cols="12" sm="12">
+        <FlipCard>
+          <template #front>Não precisam elaborar o PGR</template>
+
+          <template #back>
+            <ul>
+              <li>
+                1.8.1 O Microempreendedor Individual - MEI está dispensado de elaborar o PGR.
+              </li>
+              <li>
+                1.8.4 As microempresas e empresas de pequeno porte, graus de risco 1 e 2, que no levantamento preliminar de perigos não identificarem exposições ocupacionais a agentes físicos, químicos e biológicos, em conformidade com a NR9, e declararem as informações digitais na forma do subitem 1.6.1, ficam dispensadas da elaboração do PGR (BRASIL,2020).
+              </li>
+            </ul>
+
+            <p>- Prevenção de acidentes e doenças.</p>
+          </template>
+        </FlipCard>
+      </v-col>
+    </v-row>
 
     <TextBlock>
       <Paragraph>
@@ -141,14 +166,12 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMM</h1>
-
     <v-row justify="center">
       <v-col cols="12" sm="7">
         <Imagem
           legenda="Imagem 1: O PGR: Acompanhando de perto a segurança no trabalho."
           fonte="Fonte: Freepick.com"
-          src="modulo_09/frase_balao.svg"
+          src="modulo_04/imagem1.jpg"
         />
       </v-col>
     </v-row>
@@ -201,14 +224,12 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMM</h1>
-
     <v-row justify="center">
       <v-col cols="12" sm="7">
         <Imagem
           legenda="Imagem 2: PCMSO: Garantindo a saúde dos colaboradores através de exames médicos e laboratoriais."
           fonte="Fonte: Freepick.com"
-          src="modulo_09/frase_balao.svg"
+          src="modulo_04/imagem2.jpg"
         />
       </v-col>
     </v-row>
@@ -322,6 +343,7 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Imagem from "@/components/Imagem.vue";
 import Accordion from "@/components/Accordion.vue";
+import FlipCard from "@/components/FlipCard.vue";
 
 export default {
   components: {
@@ -332,6 +354,7 @@ export default {
     NavFooter,
     Imagem,
     Accordion,
+    FlipCard
   },
   data() {
     return {

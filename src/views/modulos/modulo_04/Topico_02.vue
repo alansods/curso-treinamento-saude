@@ -17,7 +17,7 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph> Falta o texto </Paragraph>
+      <Paragraph>Vimos na primeira aula sobre os programas que devem existir nas empresas. No entanto, não basta implementar os programas, é necessário acompanhar a execução dos mesmos. Portanto, nesta segunda aula iremos aprender sobre outras duas ferramentas utilizadas na saúde do trabalhador para o acompanhamento da execução dos programas. Vamos lá?</Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -31,7 +31,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="ngixt3suaWg"
+          video-id="ZPPympHHdck"
           style="border: solid 3px white"
           fitParent
         />
@@ -153,14 +153,12 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMMM</h1>
-
     <v-row justify="center">
-      <v-col cols="12" sm="11">
+      <v-col cols="12" sm="8">
         <Imagem
           legenda="Imagem 3: LTCAT: Medidas de proteção aprovadas, adequadas e eficazes em foco."
           fonte="Fonte: RIBEIRO; HENNEBERG; CATAI, 2015."
-          src="modulo_09/imagem3.svg"
+          src="modulo_04/imagem3.jpg"
         />
       </v-col>
     </v-row>
@@ -371,14 +369,12 @@
       </Paragraph>
     </TextBlock>
 
-    <h1>IMAGEMMMMM</h1>
-
     <v-row justify="center">
       <v-col cols="12" sm="7">
         <Imagem
           legenda="Imagem 4: Quadro de Gestão à Vista: Tornando informações acessíveis para todos."
           fonte="Fonte: Freepick.com"
-          src="modulo_09/imagem4.jpeg"
+          src="modulo_04/imagem4.jpeg"
         />
       </v-col>
     </v-row>
