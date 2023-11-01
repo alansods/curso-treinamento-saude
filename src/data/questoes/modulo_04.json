@@ -1,97 +1,117 @@
 [
   {
     "number": "1",
-    "question": "Sobre as doenças musculoesqueléticas, assinale a alternativa correta:",
+    "question": "Considere esta afirmação: “Uma empresa, seja privada ou de ordem pública, é obrigada por lei a adotar um conjunto de medidas de segurança que priorizam a saúde e as condições humanas de trabalho”. ",
     "options": [
-      "Pessoas mais jovens não são afetadas por distúrbios musculoesqueléticos.",
-      "A artrite reumatoide é uma doença crônica dos ossos.",
-      "Artrite reumatoide é uma causa de hérnia de disco.",
-      "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
+      "Certo.",
+      "Errado."
     ],
-    "answer": "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
+    "answer": "Certo."
   },
 
   {
     "number": "2",
-    "question": "Em relação a análise ergonômica do trabalho, é correto afirmar que:",
+    "question": "O Programa de Gerenciamento de Riscos – PGR é realizados de acordo com:",
     "options": [
-      "Podem ser realizadas através de abordagens qualitativas e semiquantitativas.",
-      "É realizada quando há a necessidade de aprofundamento da situação.",
-      "Podem ser realizadas apenas as abordagens qualitativas.",
-      "Nenhuma das alternativas anteriores."
+      "NR 32.",
+      "NR 01.",
+      "NR 07.",
+      "NR 15."
     ],
-    "answer": "É realizada quando há a necessidade de aprofundamento da situação."
+    "answer": "NR 01."
   },
 
   {
     "number": "3",
-    "question": "Sobre a dor lombar, assinale a alternativa correta:",
+    "question": "De uma maneira geral, a avaliação de riscos do PGR  deve ser revista no máximo a cada:",
     "options": [
-      "É um sintoma específico da artrite reumatóide.",
-      "Não tem grande impacto nas causas de afastamento.",
-      "É um sintoma da hérnia de disco.",
-      "Não são capazes de causar invalidez."
+      "10 anos.",
+      "5 anos.",
+      "7 anos.",
+      "2 anos."
     ],
-    "answer": "É um sintoma da hérnia de disco."
+    "answer": "2 anos."
   },
 
   {
     "number": "4",
-    "question": "Sobre os custos das doenças musculoesqueléticas no Brasil, marque a alternativa <u>INCORRETA</u>:",
+    "question": "O Programa de Controle Médico de Saúde Ocupacional - PCMSO tem como objetivo:",
     "options": [
-      "Os gastos com auxílio-doença na população rural são maiores no sexo masculino.",
-      "Os gastos com auxílio-doença na população urbana, no ano de 2020, corresponderam a mais de 2 bilhões de reais.",
-      "Os custos médicos diretos com a artrite reumatoide correspondem a R$370,36 anualmente por paciente.",
-      "O número de concessões de benefícios envolvendo transtornos dos discos vertebrais foi de 705.518 nos últimos 10 anos."
+      "Reduzir o absenteísmo.",
+      "Melhorar o desempenho dos colaboradores.",
+      "A promoção e a preservação da saúde dos trabalhadores, produzindo segurança tanto para o colaborador quanto para a empresa.",
+      "Garantir aos trabalhadores condições e ambientes de trabalho seguros e saudáveis."
     ],
-    "answer": "Os gastos com auxílio-doença na população rural são maiores no sexo masculino."
+    "answer": "A promoção e a preservação da saúde dos trabalhadores, produzindo segurança tanto para o colaborador quanto para a empresa."
   },
 
   {
     "number": "5",
-    "question": "Para a implementação de ações de ergonomia, é necessário:",
+    "question": "Considere esta afirmação: “As organizações de trabalho não têm obrigatoriedade de elaborar o PCMSO (Programa de Controle Médico de Saúde Ocupacional) e colocá-lo em prática”.",
     "options": [
-      "Analisar as características dos colaboradores e os processos de trabalho.",
-      "Analisar apenas os processos de trabalho.",
-      "Basta somente realizar o mapeamento correto dos movimentos repetitivos.",
-      "Não é necessário nenhuma ação."
+      "Certo.",
+      "Errado."
     ],
-    "answer": "Analisar as características dos colaboradores e os processos de trabalho."
+    "answer": "Errado."
   },
 
   {
     "number": "6",
-    "question": "Sobre as doenças musculoesqueléticas, assinale a alternativa correta:",
+    "question": "Qual o documento que atesta sobre a existência de agentes ambientais nocivos para a saúde?",
     "options": [
-      "Afetam mais de 1,7 bilhões de pessoas em todo o mundo e a tendência é uma mudança progressiva desse cenário, visto pessoas mais jovens dificilmente podem ser afetadas por distúrbios musculoesqueléticos.",
-      "Afetam mais de 1,7 bilhões de pessoas em todo o mundo, tendo como causa principal de afastamento doenças do tipo osteomuscular e tecido conjuntivo. São o segundo maior impacto na saúde geral da população mundial.",
-      "Artrite reumatoide e dor lombar são sintomas da hérnia de disco. Na Suécia, o custo total direto e indireto estimado do distúrbio foi de 740 milhões de euros em 2011.",
-      "Suas consequências acarretam em limitações de atividades laborais, elevando os custos relacionados às despesas em saúde principalmente por invalidez. Estudos mostram a alta incidência da dor lombar em países de alta renda."
+      "Perfil  Profissiográfico Previdenciário - PPP.",
+      "Laudo Técnico das Condições de Ambiente de Trabalho - LTCAT.",
+      "Programa de Controle Médico de Saúde Ocupacional - PCMSO.",
+      "Programa de Gerenciamento de Riscos - PGR."
     ],
-    "answer": "Suas consequências acarretam em limitações de atividades laborais, elevando os custos relacionados às despesas em saúde principalmente por invalidez. Estudos mostram a alta incidência da dor lombar em países de alta renda."
+    "answer": "Laudo Técnico das Condições de Ambiente de Trabalho - LTCAT."
   },
 
   {
     "number": "7",
-    "question": "Em relação as ferramentas para a análise ergonômica do trabalho, é correto afirmar que:",
+    "question": "Porque é importante que líderes participem da execução das consultas ocupacionais?",
     "options": [
-      "O método RULA utiliza-se da análise rápida dos membros superiores e inferiores. É realizado através de uma planilha específica que utiliza escores em função dos membros analisados.",
-      "O Method-Time Measurement (MTM) significa Medição de Métodos-Tempo e tem o objetivo de identificar o método e os movimentos elementares para determinar o tempo necessário para a execução de uma tarefa.",
-      "O método RULA utiliza-se da análise rápida dos membros inferiores. É realizado através de uma planilha específica que utiliza escores em função dos membros analisados.",
-      "O Method-Time Measurement (MTM) é uma ferramenta fundamental na análise ergonômica pois tem como objetivo a amplificação dos movimentos muito complexos e a redução de movimentos úteis."
+      "Para mapear o perfil de saúde dos colaboradores.",
+      "Para disponibilizar informações acessíveis.",
+      "Para diminuir os custos.",
+      "Para elaborar laudos."
     ],
-    "answer": "O Method-Time Measurement (MTM) significa Medição de Métodos-Tempo e tem o objetivo de identificar o método e os movimentos elementares para determinar o tempo necessário para a execução de uma tarefa."
+    "answer": "Para mapear o perfil de saúde dos colaboradores."
   },
 
   {
     "number": "8",
-    "question": "Leia a afirmação a seguir e marque a alternativa correta.<br/> “Faz-se necessário uma análise ergonômica preliminar para identificar perigos e avaliar a ergonomia. Quando não é possível adotar medidas de controle diretamente, é necessário utilizar-se da Análise Ergonômica do Trabalho.”",
+    "question": "Quais informações de identificação devem constar no Laudo Técnico das Condições de Ambiente de Trabalho?",
     "options": [
-      "A primeira afirmativa é falsa e a segunda é verdadeira.",
-      "As duas afirmativas são falsas.",
-      "As duas afirmativas são verdadeiras, mas a segunda não é uma justificativa da primeira.",
-      "A primeira afirmativa é verdadeira e a segunda é falsa."
+      "Identificação do médico, apenas.",
+      "Identificação da empresa, setor e função do trabalhador.",
+      "Identificação da empresa, setor, função do trabalhador, identificar se o documento é individual ou coletivo, identificação do agente nocivo e identificação do profissional que realizou a avaliação.",
+      "Identificação da empresa, do médico e do engenheiro de segurança do trabalho."
     ],
-    "answer": "As duas afirmativas são verdadeiras, mas a segunda não é uma justificativa da primeira."
+    "answer": "Identificação da empresa, setor, função do trabalhador, identificar se o documento é individual ou coletivo, identificação do agente nocivo e identificação do profissional que realizou a avaliação."
+  },
+
+  {
+    "number": "9",
+    "question": "O que significa insalubridade e periculosidade, respectivamente?",
+    "options": [
+      "Tudo aquilo que origina doença e tudo o que oferece alto risco de perigo, respectivamente.",
+      "Toda situação que pode originar doenças.",
+      "Tudo o que oferece perigo e origina doença, respectivamente.",
+      "Nenhuma das alternativas anteriores."
+    ],
+    "answer": "Tudo aquilo que origina doença e tudo o que oferece alto risco de perigo, respectivamente."
+  },
+
+  {
+    "number": "10",
+    "question": "O que é o Laudo de Insalubridade e Periculosidade?",
+    "options": [
+      "Documento que atesta as condições insalubres e nível de periculosidade nos ambientes de trabalho.",
+      "Documento que descreve quais os agentes que determinam uma ambiente insalubre.",
+      "Documento que define o valor adicional de insalubridade a ser pago.",
+      "Nenhuma das alternativas anteriores."
+    ],
+    "answer": "Documento que atesta as condições insalubres e nível de periculosidade nos ambientes de trabalho."
   }
 ]

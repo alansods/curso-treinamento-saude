@@ -313,60 +313,80 @@
           >(Clique nos cards abaixo para ver o conteúdo)</small
         ></v-col
       >
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_04/yellow_icons/explosivos.png">
-          <template #front>Com explosivos; </template>
+      <v-col cols="4" sm="4">
+        <FlipCard>
+          <template #front>
+            <v-col cols="10">
+              <Imagem src="modulo_04/yellow_icons/perigos_explosivos.svg"/>
+            </v-col>
+          </template>
 
           <template #back> Com explosivos; </template>
-        </FlipCardImg>
+        </FlipCard>
       </v-col>
 
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_04/yellow_icons/inflamaveis.png">
-          <template #front>Com inflamáveis; </template>
+      <v-col cols="4" sm="4">
+        <FlipCard>
+          <template #front>
+            <v-col cols="10">
+              <Imagem src="modulo_04/yellow_icons/perigos_inflamaveis.svg"/>
+            </v-col>
+          </template>
 
           <template #back> Com inflamáveis; </template>
-        </FlipCardImg>
+        </FlipCard>
       </v-col>
 
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_04/yellow_icons/radiacao.png">
-          <template #front
-            >Com radiações ionizantes ou substâncias radioativas;
+      <v-col cols="4" sm="4">
+        <FlipCard>
+          <template #front>
+            <v-col cols="10" >
+              <Imagem src="modulo_04/yellow_icons/perigos_radiacao.svg"/>
+            </v-col>
           </template>
 
           <template #back>
             Com radiações ionizantes ou substâncias radioativas;
           </template>
-        </FlipCardImg>
+        </FlipCard>
       </v-col>
 
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_04/yellow_icons/inflamaveis.png">
-          <template #front
-            >Com exposição a roubos ou outras violências físicas;
+      <v-col cols="4" sm="4">
+        <FlipCard>
+          <template #front>
+            <v-col cols="10">
+              <Imagem src="modulo_04/yellow_icons/perigos_violencia.svg"/>
+            </v-col>
           </template>
 
           <template #back>
             Com exposição a roubos ou outras violências físicas;
           </template>
-        </FlipCardImg>
+        </FlipCard>
       </v-col>
 
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_04/yellow_icons/energia_eletrica.png">
-          <template #front>Com energia elétrica; </template>
+      <v-col cols="4" sm="4">
+        <FlipCard>
+          <template #front>
+            <v-col cols="10">
+              <Imagem src="modulo_04/yellow_icons/perigos_energia_eletrica.svg"/>
+            </v-col>
+          </template>
 
           <template #back> Com energia elétrica; </template>
-        </FlipCardImg>
+        </FlipCard>
       </v-col>
 
-      <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_04/yellow_icons/inflamaveis.png">
-          <template #front>Com motocicleta. </template>
+      <v-col cols="4" sm="4">
+        <FlipCard>
+          <template #front>
+            <v-col cols="10">
+              <Imagem src="modulo_04/yellow_icons/perigos_motocicleta.svg"/>
+            </v-col>
+          </template>
 
           <template #back> Com motocicleta. </template>
-        </FlipCardImg>
+        </FlipCard>
       </v-col>
     </v-row>
 
@@ -499,7 +519,7 @@ import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
 import Table from "@/components/Table.vue";
-import FlipCardImg from "@/components/FlipCardImg.vue";
+import FlipCard from "@/components/FlipCard.vue";
 
 export default {
   components: {
@@ -510,7 +530,7 @@ export default {
     Paragraph,
     Imagem,
     Table,
-    FlipCardImg,
+    FlipCard,
   },
   data() {
     return {

@@ -8,8 +8,16 @@
       <v-row style="word-break: break-word">
         <v-col cols="12" sm="6">
           <Paragraph>
-            BRASIL. Congresso Nacional. Lei n. 8080, de 19 de setembro de 1990.
-            Diário Oficial da União. 1990.
+            ABRAMO, L. Uma década de promoção do trabalho decente no Brasil: uma
+            estratégia de ação baseada no diálogo social. Organização
+            Internacional do Trabalho - Genebra: OIT, 2015.
+          </Paragraph>
+
+          <Paragraph>
+            BRASIL. Ministério do Trabalho. Portaria nº 8, de 08 de maio de
+            1996- NR 07. Altera Norma Regulamentadora NR-7- Programa de Controle
+            Médico de Saúde Ocupacional. Diário Oficial da República Federativa
+            do Brasil, Brasília, v. 134, n. 91, p. 8202, 13 de mai. 1996.
           </Paragraph>
 
           <Paragraph>
@@ -21,63 +29,117 @@
           </Paragraph>
 
           <Paragraph>
-            GELLER, E. S. Cultura de Segurança Total. Profissional Safety,
-            Setembro, 1994.
+            BRASIL. NR 16 - Atividades e Ações Perigosas. Disponível em:
+            https://www.gov.br/trabalho-e-previdencia/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/ctpp/arquivos/nr-16-atualizada-2023.pdf.
+            Acesso em: 23 abr. 2023.
           </Paragraph>
 
           <Paragraph>
-            HELMAN, Cecil G. Cultura, saúde e doença. 5 ed. Artmed, 2009.
+            BRASIL. NR 15 - ATIVIDADES E OPERAÇÕES INSALUBRES. Disponível em:
+            https://www.gov.br/trabalho-e-previdencia/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/ctpp/arquivos/normas-regulamentadoras/nr-15-atualizada-2022.pdf.
+            Acesso em: 23 abr. 2023.
           </Paragraph>
 
           <Paragraph>
-            MARTINEZ, M. C.; LATORRE, M. D.R.; FISCHER, F. M. Capacidade para o
-            trabalho: revisão de literatura. Ciência & Saúde Coletiva, v. 15, n.
-            suppl 1, p. 1553–1561, 2010.
+            BRASIL. NR 28 - FISCALIZAÇÃO E PENALIDADES. Disponível em:
+            https://www.gov.br/trabalho-e-previdencia/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/ctpp/arquivos/normas-regulamentadoras/nr-28-atualizada-2020.pdf.
+            Acesso em: 24 abr. 2023.
           </Paragraph>
 
           <Paragraph>
-            MELO, L. A.; SILVA, J. J. F.; GALINDO, J.; QUELHAS, O. L. G. A
-            Cultura de Segurança como resultado de um processo de liderança
-            eficaz. In: Encontro Nacional de Engenharia de Produção, 21, 2001.
-            Anais. Salvador.
+            HOLZ, J. C.P. Principais diferenças entre os documentos: PPRA, LTCAT
+            e os Laudos de insalubridade e periculosidade. Florianópolis.
+            Monografia (Engenharia de Segurança do Trabalho) -Universidade do
+            Sul de Santa Catarina. 2018.
+          </Paragraph>
+
+          <Paragraph>
+            LUCENA, G.M.P. A importância do LTCAT (Laudo técnico das condições
+            ambientais do trabalho) para as empresas: documento obrigatório por
+            lei. João Pessoa. Trabalho de Conclusão de Curso - Instituto Federal
+            de Ciência e Tecnologia da Paraíba.2019.
+          </Paragraph>
+
+          <Paragraph>
+            MORAES, M. V.G. Gestão à vista: implementação na área de saúde e
+            segurança do trabalho. Saraiva Educação S.A., 2021.
+          </Paragraph>
+
+          <Paragraph>
+            OLIVEIRA, U.R. Perfil Profissiográfico (PPP), Laudo Técnico (LTCAT)
+            e Aposentadoria Especial. Clube de Autores, 2017.
           </Paragraph>
         </v-col>
 
         <v-col cols="12" sm="6">
           <Paragraph>
-            MENDES, J.M.R; WUNSCH,D.S. Elementos para uma nova cultura em
-            segurança e saúde no trabalho. Revista Brasileira de saúde
-            ocupacional. N.32, v.115. 2007.
-          </Paragraph>
-
-          <Paragraph>
-            ORGANIZAÇÃO INTERNACIONAL DO TRABALHO (OIT). Reforçar o diálogo
-            social para uma cultura de segurança e saúde. 2022.
-          </Paragraph>
-
-          <Paragraph>
-            PORTO, M.F.S.; MARTINS, B.S. Repensando alternativas em Saúde do
-            Trabalhador em uma perspectiva emancipatória. Revista Brasileira de
-            Saúde Ocupacional, 2019.
-          </Paragraph>
-
-          <Paragraph>
-            RIBEIRO, I. C. M.; HENNEBERG, F. A. CATAI, R. E. Gestão de segurança
-            por meio do emprego de ferramenta para identificação dos riscos
-            contidos no ambiente de trabalho. XXXV Encontro Nacional de
-            Engenharia de Produção. Perspectivas Globais para a Engenharia de
-            Produção. Fortaleza, 2015.
-          </Paragraph>
-
-          <Paragraph
-            >SANTANA, D.S. A importância da implantação de um sistema de gestão
-            de saúde e segurança no trabalho nas universidades públicas. 15 f.
-            Trabalho de conclusão de curso (Graduação em Administração),
-            Universidade Estadual da Paraíba, Campina Grande, 2012.</Paragraph
+            ORGANIZAÇÃO PAN AMERICANA DE SAÚDE. Plano de ação sobre a saúde dos
+            trabalhadores 2015-2025. Washington, D.C., EUA, 2015</Paragraph
           >
 
           <Paragraph>
-            SOUSA, L.M.M. Saúde Ocupacional. 1 ed. Saraiva, 2014.
+            ABRAMO, L. Uma década de promoção do trabalho decente no Brasil: uma
+            estratégia de ação baseada no diálogo social. Organização
+            Internacional do Trabalho - Genebra: OIT, 2015.
+          </Paragraph>
+
+          <Paragraph>
+            BRASIL. Ministério do Trabalho. Portaria nº 8, de 08 de maio de 1996
+            - NR 07. Altera Norma Regulamentadora NR-7 - Programa de Controle
+            Médico de Saúde Ocupacional. Diário Oficial da República Federativa
+            do Brasil, Brasília, v. 134, n. 91, p. 8202, 13 de mai. 1996.
+          </Paragraph>
+
+          <Paragraph>
+            BRASIL. Ministério da Economia. Portaria nº 6.730, de 9 de março de
+            2020. Aprova a nova redação da Norma Regulamentadora nº 01 -
+            Disposições Gerais e Gerenciamento de Riscos Ocupacionais. (Processo
+            nº 19966.100073/2020-72). Diário Oficial da União: seção 1,
+            Brasília, n. 49, p. 17, mar. 2020.
+          </Paragraph>
+
+          <Paragraph>
+            BRASIL. NR 16 - ATIVIDADES E OPERAÇÕES PERIGOSAS. Disponível em:
+            &lsaquo;URL&rsaquo;. Acesso em: 23 abr. 2023.
+          </Paragraph>
+
+          <Paragraph>
+            BRASIL. NR 15 - ATIVIDADES E OPERAÇÕES INSALUBRES. Disponível em:
+            &lsaquo;URL&rsaquo;. Acesso em: 23 abr. 2023.
+          </Paragraph>
+
+          <Paragraph>
+            BRASIL. NR 28 - FISCALIZAÇÃO E PENALIDADES. Disponível em:
+            &lsaquo;URL&rsaquo;. Acesso em: 24 abr. 2023.
+          </Paragraph>
+
+          <Paragraph>
+            HOLZ, J. C. P. Principais diferenças entre os documentos: PPRA,
+            LTCAT e os Laudos de insalubridade e periculosidade. Florianópolis.
+            Monografia (Engenharia de Segurança do Trabalho) - Universidade do
+            Sul de Santa Catarina, 2018.
+          </Paragraph>
+
+          <Paragraph>
+            LUCENA, G. M. P. A importância do LTCAT (Laudo técnico das condições
+            ambientais do trabalho) para as empresas: documento obrigatório por
+            lei. João Pessoa. Trabalho de Conclusão de Curso - Instituto Federal
+            de Ciência e Tecnologia da Paraíba, 2019.
+          </Paragraph>
+
+          <Paragraph>
+            MORAES, M. V. G. Gestão à vista: implementação na área de saúde e
+            segurança do trabalho. Saraiva Educação S.A., 2021.
+          </Paragraph>
+
+          <Paragraph>
+            OLIVEIRA, U. R. Perfil Profissiográfico (PPP), Laudo Técnico (LTCAT)
+            e Aposentadoria Especial. Clube de Autores, 2017.
+          </Paragraph>
+
+          <Paragraph>
+            ORGANIZAÇÃO PAN AMERICANA DE SAÚDE. Plano de ação sobre a saúde dos
+            trabalhadores 2015-2025. Washington, D.C., EUA, 2015.
           </Paragraph>
         </v-col>
       </v-row>
