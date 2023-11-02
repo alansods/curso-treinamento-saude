@@ -29,499 +29,258 @@
       </Paragraph>
     </TextBlock>
 
-    <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph
-        >Vimos na primeira aula sobre os programas que devem existir nas
-        empresas. No entanto, não basta implementar os programas, é necessário
-        acompanhar a execução dos mesmos. Portanto, nesta segunda aula iremos
-        aprender sobre outras duas ferramentas utilizadas na saúde do
-        trabalhador para o acompanhamento da execução dos programas. Vamos
-        lá?</Paragraph
-      >
-
+    <TextBlock subTopico="2.1 Análise de custo-efetividade">
       <Paragraph>
-        <strong style="cursor: pointer" @click="dialog = true"
-          ><u>Clique aqui</u></strong
-        >
-        para iniciar o vídeo.
-      </Paragraph>
-    </BoxIcon>
-
-    <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
-      <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
-        <youtube
-          ref="videoPlayer"
-          video-id="ZPPympHHdck"
-          style="border: solid 3px white"
-          fitParent
-        />
-      </v-responsive>
-    </v-dialog>
-
-    <TextBlock
-      subTopico="2.1 Laudo Técnico das Condições de Ambiente de Trabalho (LTCAT)"
-    >
-      <Paragraph>
-        O Laudo Técnico das Condições de Ambiente de Trabalho (LTCAT) é um
-        documento que desempenha um papel essencial ao atestar a presença de
-        agentes ambientais prejudiciais à saúde do trabalhador, determinando
-        assim se ele possui ou não direito à aposentadoria especial (HOLZ,
-        2018). Sua origem remonta à Lei Previdenciária nº 8.213/91, que se
-        tornou necessária quando o Instituto Nacional do Seguro Social (INSS)
-        precisou estabelecer critérios para avaliar as condições de trabalho nas
-        empresas.
+        Trata-se de uma análise com uma abordagem comparativa, na qual
+        diferentes alternativas são avaliadas para atingir um objetivo
+        específico, e a melhor alternativa é selecionada posteriormente. O uso
+        dessa ferramenta como suporte para empresas na implementação de ações
+        voltadas para a saúde dos trabalhadores deriva da necessidade do
+        empregador em implementar uma intervenção ou programa de saúde com
+        máxima eficácia dentro de um custo estabelecido.
       </Paragraph>
 
       <Paragraph>
-        É importante destacar que o Laudo Técnico deve estar bem documentado no
-        Perfil Profissiográfico Previdenciário (PPP), um relatório que reúne
-        todas as informações necessárias para a adoção de medidas preventivas e
-        fiscalização da saúde e segurança dos trabalhadores. Isso ocorre porque
-        o LTCAT está sujeito à legislação previdenciária e pode ser solicitado a
-        qualquer momento por auditores fiscais do INSS para verificar se um
-        colaborador tem direito à aposentadoria especial (HOLZ, 2018). Além
-        disso, o LTCAT deve ser atualizado anualmente ou sempre que ocorrerem
-        alterações estruturais no ambiente de trabalho.
+        Em contraste com a análise de custo-benefício, a análise de
+        custo-efetividade não atribui valores monetários aos impactos das
+        intervenções em saúde. Nesse contexto, os custos são mensurados em
+        unidades monetárias, mas os benefícios são expressos em unidades
+        naturais, como anos de vida ganhos, número de vidas salvas e eventos
+        clínicos evitados, por exemplo.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      A elaboração do LTCAT é uma tarefa que deve ser conduzida exclusivamente
-      por engenheiros de segurança do trabalho ou médicos do trabalho. Ele pode
-      ser desenvolvido de forma coletiva ou individual, com o objetivo de
-      avaliar as condições ambientais de trabalho e a eficácia das medidas de
-      controle, seja em âmbito individual ou coletivo.
+      Enquanto a análise de custo-benefício busca responder à pergunta "vale a
+      pena, financeiramente, investir em um determinado projeto?", a análise de
+      custo-efetividade se concentra em determinar qual estratégia é mais
+      efetiva em termos de custos para alcançar um objetivo específico.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        Para compilar as informações necessárias para a elaboração do LTCAT, é
-        essencial seguir algumas etapas específicas, conforme veremos a seguir
-        (HOLZ, 2018):
-      </Paragraph>
-
-      <Paragraph>
-        <ul>
-          <li>Identificação da empresa, setor e função do trabalhador;</li>
-          <li>
-            Definir se o Laudo é individual ou coletivo, descrevendo as medidas
-            de controle existentes, atividade e localização de possíveis fontes
-            geradoras;
-          </li>
-          <li>Via e periodicidade de exposição ao agente nocivo;</li>
-          <li>Metodologia e procedimentos de avaliação do agente nocivo;</li>
-          <li>
-            Identificação de agente nocivo capaz de causar dano à saúde e
-            integridade física;
-          </li>
-          <li>
-            Procedimentos finais: identificação do médico do trabalho ou
-            engenheiro de segurança com assinatura e data da realização da
-            avaliação ambiental
-          </li>
-        </ul>
-      </Paragraph>
-
-      <Paragraph>
-        O LTCAT deve conter informações cruciais relacionadas à existência de
-        medidas de proteção que tenham o propósito de eliminar ou reduzir a
-        intensidade dos agentes nocivos, conforme os limites de tolerância
-        estabelecidos pela legislação vigente. É importante ressaltar que não
-        basta apenas a existência dessas medidas; elas também devem ser
-        aprovadas, adequadas e eficazes (HOLZ, 2018).
-      </Paragraph>
-    </TextBlock>
-
-    <BoxIcon tipo="atencao">
-      A simples disponibilização de equipamentos de proteção individual ou
-      coletiva não é suficiente. O uso efetivo, a manutenção adequada e a
-      higienização regular desses equipamentos também desempenham um papel
-      crucial (HOLZ, 2018).
-    </BoxIcon>
-
-    <TextBlock>
-      <Paragraph>
-        A aprovação das medidas de proteção é atestada por meio de um
-        Certificado de Aprovação, emitido pelo Ministério do Trabalho e Emprego.
-        Esse certificado assegura que os equipamentos de proteção foram
-        adquiridos mediante uma análise técnica criteriosa, garantindo assim a
-        sua característica "adequada".
+        Para avaliar a relação de custo-efetividade entre duas intervenções de
+        saúde, é necessário realizar um cálculo, conforme vemos a seguir:
       </Paragraph>
     </TextBlock>
 
     <v-row justify="center">
-      <v-col cols="12" sm="6">
-        <Imagem fonte="Fonte: Freepik.com" src="modulo_04/frase_prof.svg" />
+      <v-col cols="12" sm="5">
+        <Imagem src="modulo_05/formulas-01.svg" />
       </v-col>
     </v-row>
 
     <TextBlock>
       <Paragraph>
-        Essa é uma pergunta importante, pois os custos por funcionário podem
-        variar amplamente, dependendo de vários fatores, como a complexidade do
-        trabalho, o número de condições ambientais a serem avaliadas, a
-        localização geográfica, o tamanho da empresa, a empresa contratada para
-        realizar o laudo e outros custos associados. Em organizações com riscos
-        ambientais menos significativos, os custos tendem a ser mais baixos em
-        comparação com empresas que exigem uma avaliação mais abrangente dos
-        riscos ambientais.
+        Para facilitar a compreensão do cálculo, vamos utilizar um exemplo que
+        envolve a escolha entre dois tipos diferentes de equipamento de proteção
+        individual e quantos eventos clínicos podem ser evitados em um período
+        específico de uso. A seguir, apresentaremos um exemplo de comparação
+        entre dois tipos de máscaras faciais usadas por trabalhadores do setor
+        de limpeza e desinfecção de ambientes:
+      </Paragraph>
+    </TextBlock>
+
+    <v-row justify="center">
+      <v-col cols="12" sm="8">
+        <Imagem src="modulo_05/formulas-02.svg" />
+      </v-col>
+    </v-row>
+
+    <TextBlock>
+      <Paragraph>
+        Neste caso, o analista irá determinar qual equipamento tem a capacidade
+        de reduzir o máximo de eventos com o melhor custo.
+      </Paragraph>
+    </TextBlock>
+
+    <BoxIcon tipo="atencao">
+      A principal limitação dessa ferramenta para tomada de decisão é que sua
+      utilização permite comparar apenas tratamentos ou programas sanitários e
+      unidades de medidas iguais. Por exemplo, não é viável comparar o número de
+      eventos clínicos evitados com o número de equipamentos de proteção
+      utilizados no mês.
+    </BoxIcon>
+
+    <TextBlock>
+      <Paragraph>
+        Desta forma, conclui-se que na avaliação de duas intervenções, são
+        calculadas razões que expressam o custo adicional necessário para
+        atingir uma unidade extra de benefício clínico. Podem ser utilizadas
+        intervenções para prevenção, diagnóstico ou tratamento de determinada
+        condição de saúde.
+      </Paragraph>
+    </TextBlock>
+
+    <TextBlock subTopico="Análise de custo-utilidade">
+      <Paragraph>
+        Semelhante à análise de custo-efetividade, a análise custo-utilidade
+        utiliza unidades monetárias para determinar os custos e anos de vida
+        ajustados pela qualidade como unidade de medida. Muitos especialistas
+        consideram essa abordagem uma versão mais refinada da análise de
+        custo-efetividade. No entanto, enquanto a análise de custo-efetividade
+        utiliza anos de vida salvo e complicações como medidas de eficácia, a
+        análise de custo-utilidade recorre aos Anos de Vida Ajustados pela
+        Qualidade (AVAQ).
+      </Paragraph>
+
+      <Paragraph>
+        Para realizar uma análise de custo-utilidade, é essencial, em primeiro
+        lugar, identificar a quantidade de AVAQ correspondente a cada tipo de
+        intervenção ou programa de saúde. Isso requer estudos prévios e cálculos
+        para determinar a expectativa de vida das pessoas afetadas por essa
+        intervenção. Em seguida, esse valor é ponderado com uma estimativa do
+        estado de saúde ou qualidade de vida após a implementação da
+        intervenção.
+      </Paragraph>
+    </TextBlock>
+
+    <BoxIcon tipo="voce_sabia">
+      Para um melhor entendimento sobre a unidade de medida da análise de
+      custo-utilidade, é importante esclarecer a diferença entre expectativa de
+      vida e expectativa de vida ajustada para qualidade. A primeira se refere
+      exclusivamente ao aumento da sobrevida em indivíduos com problemas de
+      saúde, enquanto a segunda aborda a qualidade de vida.
+    </BoxIcon>
+
+    <TextBlock>
+      <Paragraph>
+        Ou seja, o aumento da expectativa de vida por si só pode não estar
+        relacionado a um aumento da expectativa de vida ajustada para qualidade
+        de vida. Algumas intervenções de saúde podem estender a sobrevida com
+        qualidade em certos indivíduos, enquanto outros podem se beneficiar de
+        uma tecnologia de saúde apenas para prolongar a vida, sem melhorar a
+        qualidade.
+      </Paragraph>
+
+      <Paragraph>
+        Em organizações empresariais, essa análise pode ser uma ferramenta
+        valiosa para comparar diferentes programas de saúde e seu impacto na
+        qualidade de vida de pacientes que já enfrentam problemas de saúde
+        específicos. No contexto da ergonomia, é fundamental que os empregadores
+        compreendam a importância dessa análise, pois ela pode permitir a
+        implementação de intervenções para melhorar a postura de trabalhadores
+        com hérnia de disco durante suas atividades laborais, resultando em uma
+        melhoria na qualidade de vida e, por conseguinte, na sobrevida desses
+        pacientes.
       </Paragraph>
     </TextBlock>
 
     <v-row justify="center">
       <v-col cols="12" sm="8">
         <Imagem
-          legenda="Imagem 3: LTCAT: Medidas de proteção aprovadas, adequadas e eficazes em foco."
-          fonte="Fonte: RIBEIRO; HENNEBERG; CATAI, 2015."
-          src="modulo_04/imagem4.jpeg"
+          legenda="Imagem 1: A análise de custo-utilidade atua na melhoria da ergonomia no ambiente de trabalho"
+          fonte="Fonte: Freepik.com"
+          src="modulo_05/imagem1.jpeg"
         />
       </v-col>
     </v-row>
 
     <TextBlock>
       <Paragraph>
-        Apesar de muitas empresas necessitarem de uma avaliação detalhada dos
-        riscos ambientais, o aumento nos custos associados à elaboração do LTCAT
-        é um investimento essencial. Os gestores empresariais precisam
-        compreender a importância de alocar esses recursos para manter a
-        conformidade dos processos. Isso ocorre porque as empresas que não
-        mantêm o LTCAT atualizado podem estar sujeitas a multas e elas podem ser
-        alvo de notificações e diligências solicitadas pelo Perito Médico
-        Previdenciário, o que pode resultar em consequências financeiras e
-        operacionais significativas (HOLZ, 2018). Portanto, a conformidade é
-        fundamental para a saúde financeira e a reputação da empresa.
-      </Paragraph>
-    </TextBlock>
-
-    <TextBlock subTopico="2.2 Laudo de Insalubridade e Periculosidade (LIP)">
-      <Paragraph>
-        O laudo de Insalubridade e Periculosidade (LIP) é um documento técnico
-        que tem a finalidade de atestar as condições insalubres e o nível de
-        periculosidade nos ambientes de trabalho (HOLZ, 2018).
-      </Paragraph>
-    </TextBlock>
-
-    <BoxIcon tipo="voce_sabia">
-      O termo "insalubre" deriva do latim e refere-se a tudo o que pode causar
-      doença. Por outro lado, "periculosidade" diz respeito a situações de
-      trabalho envolvendo atividades consideradas perigosas, que oferecem alto
-      risco ao trabalhador devido à exposição contínua a certas situações.
-    </BoxIcon>
-
-    <TextBlock>
-      <Paragraph>
-        As condições de trabalho que oferecem riscos são regulamentadas pelas
-        Normas Regulamentadoras da Consolidação das Leis Trabalhistas (CLT). O
-        objetivo é proporcionar segurança tanto para os empregados quanto para
-        os empregadores, ao determinar quais atividades são consideradas
-        insalubres e perigosas. Além disso, essas normas estabelecem valores
-        fixos de adicionais a serem pagos ao trabalhador, dependendo do grau de
-        exposição. No entanto, a comprovação da condição insalubre e perigosa
-        fica a cargo do órgão competente regional, e isso é feito por meio do
-        LIP, assinado por um engenheiro de segurança do trabalho ou médico do
-        trabalho regional, devidamente habilitado (HOLZ, 2018). Eles também
-        determinam o valor adicional a ser pago, incidindo sobre o salário
-        mínimo da região, de acordo com o grau de exposição ao risco.
-      </Paragraph>
-
-      <Paragraph>
-        A Norma Regulamentadora Nº15 de 2022 descreve as situações de trabalho
-        que dão direito ao adicional de insalubridade, especificando os agentes
-        que caracterizam um ambiente insalubre. As informações estão descritas
-        na tabela a seguir:
-      </Paragraph>
-    </TextBlock>
-
-    <Table
-      legenda="Tabela 1. Tipos de agentes insalubres."
-      fonte="Fonte: NR-15,2022."
-    >
-      <thead>
-        <tr>
-          <th
-            class="primary white--text text-body-2 text-uppercase font-weight-bold"
-          >
-            TIPO DE AGENTE
-          </th>
-          <th
-            class="primary white--text text-body-2 text-uppercase font-weight-bold"
-          >
-            EXEMPLO
-          </th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td>Físico</td>
-          <td>
-            Ruído, calor, radiações ionizantes e não ionizantes, vibrações,
-            frio, umidade.
-          </td>
-        </tr>
-
-        <tr>
-          <td>Químico</td>
-          <td>Poeiras, fumo, névoas, neblina, gases e vapores.</td>
-        </tr>
-
-        <tr>
-          <td>Biológico</td>
-          <td>Bactérias, fungos, parasitas, vírus.</td>
-        </tr>
-      </tbody>
-    </Table>
-
-    <TextBlock>
-      <Paragraph>
-        Todas as atividades laborais que ultrapassem o limite de tolerância de
-        exposição ao agente de risco são consideradas insalubres, conforme
-        disposto em anexos da NR 15. O limite de tolerância é a concentração ou
-        intensidade máxima ou mínima, relacionada com a natureza e o tempo de
-        exposição ao agente, que não causará dano à saúde do trabalhador,
-        durante a sua vida laboral (NR-15/2022). A partir de avaliações
-        quantitativas e qualitativas é que se pode determinar o grau de
-        exposição e o percentual de adicional a ser pago (10%, 20% ou 40%
-        incidente sobre o salário-mínimo vigente).
-      </Paragraph>
-
-      <Paragraph>
-        É importante compreender que todas as atividades laborais que
-        ultrapassam o limite de tolerância de exposição a agentes de risco são
-        consideradas insalubres, conforme disposto nos anexos da NR 15 (NR-15,
-        2022). O limite de tolerância representa a concentração ou intensidade
-        máxima ou mínima do agente em relação à natureza e ao tempo de
-        exposição, que não causará danos à saúde do trabalhador durante sua vida
-        laboral.
-      </Paragraph>
-    </TextBlock>
-
-    <BoxIcon tipo="atencao">
-      A partir de avaliações quantitativas e qualitativas, é possível determinar
-      o grau de exposição e o percentual do adicional de insalubridade a ser
-      pago ao trabalhador, que pode ser de 10%, 20% ou 40%, incidente sobre o
-      salário mínimo vigente.
-    </BoxIcon>
-
-    <TextBlock>
-      <Paragraph>
-        Para elaboração do Laudo de Periculosidade, tem como base a Norma
-        Regulamentadora Nº 16 (NR 16) de 2023, na qual determina quais
-        atividades são consideradas perigosas, são elas: atividades e operações
-        perigosas com explosivos, inflamáveis, com exposição a roubos ou outra
-        espécie de violência física, operações perigosas com energia elétrica,
-        em motocicleta, radiações ionizantes ou substâncias radioativas.
-      </Paragraph>
-
-      <Paragraph>
-        Para elaborar o Laudo de Periculosidade, devemos nos basear na Norma
-        Regulamentadora Nº 16 (NR 16) de 2023, que determina as atividades
-        consideradas perigosas.
-      </Paragraph>
-    </TextBlock>
-
-    <v-row justify="start">
-      <v-col cols="12"
-        ><small class="text-center d-block grey--text"
-          >(Clique nos cards abaixo para ver o conteúdo)</small
-        ></v-col
-      >
-      <v-col cols="4" sm="4">
-        <FlipCard>
-          <template #front>
-            <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_explosivos.svg" />
-            </v-col>
-          </template>
-
-          <template #back> Com explosivos; </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="4" sm="4">
-        <FlipCard>
-          <template #front>
-            <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_inflamaveis.svg" />
-            </v-col>
-          </template>
-
-          <template #back> Com inflamáveis; </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="4" sm="4">
-        <FlipCard>
-          <template #front>
-            <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_radiacao.svg" />
-            </v-col>
-          </template>
-
-          <template #back>
-            Com radiações ionizantes ou substâncias radioativas;
-          </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="4" sm="4">
-        <FlipCard>
-          <template #front>
-            <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_violencia.svg" />
-            </v-col>
-          </template>
-
-          <template #back>
-            Com exposição a roubos ou outras violências físicas;
-          </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="4" sm="4">
-        <FlipCard>
-          <template #front>
-            <v-col cols="10">
-              <Imagem
-                src="modulo_04/yellow_icons/perigos_energia_eletrica.svg"
-              />
-            </v-col>
-          </template>
-
-          <template #back> Com energia elétrica; </template>
-        </FlipCard>
-      </v-col>
-
-      <v-col cols="4" sm="4">
-        <FlipCard>
-          <template #front>
-            <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_motocicleta.svg" />
-            </v-col>
-          </template>
-
-          <template #back> Com motocicleta. </template>
-        </FlipCard>
-      </v-col>
-    </v-row>
-
-    <TextBlock>
-      <Paragraph>
-        Todos os colaboradores expostos às condições supracitadas têm direito ao
-        adicional de 30% sobre o salário, sem os acréscimos resultantes de
-        gratificações, prêmios ou participações nos lucros da empresa
-        <strong>(NR-16,2023)</strong>.
-      </Paragraph>
-
-      <Paragraph>
-        O LIP deve ser atualizado anualmente ou sempre que houver alterações nas
-        condições laborais e a sua não atualização pode acarretar processos
-        trabalhistas e multas para a empresa. Portanto, é essencial que os
-        líderes empresariais compreendam a importância de manter a conformidade
-        na emissão e atualização do Laudo Técnico, a fim de evitar penalidades
-        previstas na legislação e multas, que podem chegar a R$ 6.304,00.
-      </Paragraph>
-
-      <Paragraph>
-        Além disso, no Laudo Técnico, é crucial definir claramente as medidas de
-        proteção disponibilizadas pela empresa para minimizar os riscos aos
-        trabalhadores, como o fornecimento de equipamentos de proteção
-        individual e coletiva. Os empregadores também devem promover o uso
-        efetivo desses equipamentos para prevenir danos tanto à empresa quanto
-        aos empregados. A segurança no ambiente de trabalho é uma
-        responsabilidade compartilhada que requer o engajamento de todas as
-        partes.
+        A principal limitação da análise de custo-utilidade reside no fato de
+        que ela envolve a avaliação comparativa de tratamentos que podem ser
+        altamente dispendiosos, com impactos qualitativos e quantitativos sobre
+        a sobrevida dos pacientes ainda pouco conhecidos. No entanto, essa
+        abordagem possibilita a comparação entre diferentes estratégias de
+        intervenção em saúde em diversas condições dos indivíduos.
       </Paragraph>
     </TextBlock>
 
     <TextBlock
-      subTopico="2.3 A Importância dos gestores, líderes e coordenadores na execução das consultas ocupacionais e seus impactos financeiros. "
+      subTopico="Retorno Sobre o Investimento (ROI) e Valor sobre o Investimento (VOI)"
     >
       <Paragraph>
-        Dada a importância de manter a periodicidade das consultas ocupacionais,
-        é essencial que líderes e gestores organizacionais estejam envolvidos na
-        supervisão desses processos. Isso permite uma análise mais detalhada e,
-        consequentemente, uma maior agilidade nas ações de melhoria dos
-        procedimentos. A análise gráfica dos indicadores relacionados à saúde
-        ocupacional é uma ferramenta valiosa que pode auxiliar as empresas na
-        elaboração de planos de ação eficazes.
+        O investimento na saúde dos trabalhadores é de suma importância para
+        reconhecer e valorizar uma empresa. No entanto, a implementação e
+        manutenção de um programa de saúde no ambiente de trabalho requer uma
+        sólida gestão, pois a falta de ferramentas adequadas pode acarretar
+        custos de alto impacto. Nesse contexto, duas ferramentas se destacam por
+        seu potencial auxílio: o Retorno Sobre o Investimento (ROI) e o Valor
+        Sobre o Investimento (VOI).
       </Paragraph>
 
       <Paragraph>
-        Após a avaliação dos indicadores, outra ferramenta útil para a
-        comunicação acessível é o quadro de gestão à vista. Seu principal
-        propósito é fornecer informações simples e acessíveis sobre tópicos
-        específicos. No contexto da saúde e segurança no trabalho, os quadros de
-        gestão à vista podem conter dados como o número mensal de exames
-        ocupacionais realizados, taxas de frequência e gravidade de acidentes de
-        trabalho, entre outros. Quando os dados comparativos são apresentados
-        visualmente, os trabalhadores tendem a ficar mais atentos à segurança e
-        ao cumprimento das práticas necessárias.
+        O Retorno Sobre o Investimento é o mais requerido pelos empregadores
+        para aprovação e implementação de um programa de saúde, pois evidencia o
+        quanto a empresa obteve de resultados em relação aos investimentos
+        realizados nela. No entanto, ele se concentra em avaliar indicadores
+        individuais na área de saúde do trabalhador, o que, de acordo com
+        especialistas, torna uma medida insuficiente e inadequada para avaliar o
+        sucesso da promoção da saúde no ambiente de trabalho.
+      </Paragraph>
+
+      <Paragraph>
+        A fórmula para calcular o ROI é a seguinte:
+        <strong class="text-center"
+          >ROI = Lucro Operacional Líquido / Investimentos</strong
+        >
+      </Paragraph>
+
+      <Paragraph>
+        Embora o ROI seja considerado uma métrica simples de retorno de
+        investimento, é importante tomar precauções. A falta de atualização
+        contínua do processo operacional pode ameaçar sua continuidade, gerando
+        benefícios apenas a curto prazo. Além disso, o empate em sua equalização
+        pode indicar que o investimento foi bem-sucedido, desde que o programa
+        também tenha melhorado a saúde de forma mais abrangente.
       </Paragraph>
     </TextBlock>
 
     <v-row justify="center">
       <v-col cols="12" sm="7">
         <Imagem
-          legenda="Imagem 4: Quadro de Gestão à Vista: Tornando informações acessíveis para todos."
+          legenda="Imagem 2: É importante complementar o ROI com outros métodos para resultados mais abrangentes."
           fonte="Fonte: Freepick.com"
-          src="modulo_04/imagem4.jpeg"
+          src="modulo_05/imagem2.jpeg"
         />
       </v-col>
     </v-row>
 
-    <BoxIcon tipo="voce_sabia">
-      Após a análise dos indicadores, uma ferramenta que pode ser utilizada
-      pelos gestores para uma comunicação acessível é o quadro de gestão à
-      vista, no qual tem como principal objetivo disponibilizar informações
-      acessíveis e simples sobre determinado assunto. Os quadros de gestão à
-      vista na área da saúde e segurança do trabalho podem conter informações
-      como: número mensal de exames ocupacionais realizados, taxas de frequência
-      e gravidade de acidentes de trabalho, etc. Quando dados comparativos são
-      colocados em evidência visual, os trabalhadores tendem a melhorar e ficar
-      mais atentos à sua segurança.
+    <TextBlock>
+      <Paragraph>
+        Diante desse cenário, surge o VOI, uma abordagem que oferece uma visão
+        mais sistêmica dos resultados associados a um programa abrangente de
+        promoção da saúde no ambiente de trabalho. Neste modelo, as empresas
+        investem na saúde organizacional como um todo, em vez de focar apenas na
+        saúde individual do trabalhador, redefinindo a ideia de que programas de
+        saúde são introduzidos apenas para reduzir custos.
+      </Paragraph>
+    </TextBlock>
+
+    <BoxIcon tipo="atencao">
+      Para aplicar o VOI, as empresas devem mapear a saúde organizacional,
+      direcionando ações de promoção da saúde e promovendo uma cultura de
+      bem-estar entre os colaboradores. Além disso, o acompanhamento contínuo
+      das ações é fundamental para avaliar o impacto a longo prazo, identificar
+      lacunas e priorizar estratégias de alto impacto.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        À medida que os gestores acompanham a execução das consultas
-        ocupacionais, torna-se possível mapear o perfil de saúde dos
-        colaboradores em uma empresa. Isso, por sua vez, pode reduzir os
-        impactos financeiros do absenteísmo. Identificando os riscos aos quais
-        os trabalhadores estão expostos, a empresa pode reduzir custos com
-        afastamentos, tratamentos médicos, demissões por invalidez e até mesmo
-        processos trabalhistas relacionados a doenças ocupacionais. O
-        envolvimento ativo dos gestores nesse processo é, portanto, fundamental
-        para a saúde dos funcionários e para a saúde financeira da organização.
+        Em resumo, o investimento em tecnologias para promover a saúde dos
+        trabalhadores tem um impacto direto na economia das empresas. Portanto,
+        é essencial escolher a ferramenta de gestão mais adequada para planejar
+        e organizar esse investimento, garantindo a qualidade da saúde e
+        segurança dos trabalhadores. Cada empresa deve analisar qual ferramenta
+        melhor se adapta ao seu contexto.
       </Paragraph>
 
       <Paragraph>
-        Em conclusão, o cumprimento das legislações abordadas neste módulo
-        desempenha um papel fundamental no controle dos fatores de risco
-        presentes em todos os processos de trabalho que envolvem os
-        colaboradores de uma empresa. Além disso, essa conformidade legal
-        contribui para o aumento da produtividade dos funcionários, a redução do
-        risco de doenças ocupacionais e a minimização de encargos trabalhistas.
+        Após a exploração dos tópicos deste módulo, os gestores poderão compreender os aspectos fundamentais na interpretação dos tipos de estudos e familiarizar-se com os conceitos relacionados. Isso permitirá que realizem uma análise crítica da literatura existente e estabeleçam referências para a aplicação dessas informações em seus ambientes de trabalho, desenvolvendo uma visão ampla e aprofundada sobre o assunto.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      Neste módulo, exploramos os principais programas legais relacionados à
-      saúde do trabalhador, todos interligados com as regulamentações
-      trabalhistas. É de suma importância que os gestores empresariais adquiram
-      conhecimento sobre esses programas, pois isso não apenas garante a
-      segurança da empresa, mas também previne possíveis conflitos entre
-      empregados e gestores. O entendimento e a aplicação dessas diretrizes
-      legais são essenciais para manter um ambiente de trabalho saudável, seguro
-      e produtivo.
+      Chegamos ao final deste  módulo. Esperamos que as informações aqui apresentadas tenham sido úteis e enriquecedoras. Vimos que a gestão da saúde e segurança no trabalho é uma parte vital de qualquer organização, e seu impacto se reflete tanto na qualidade de vida dos colaboradores quanto na prosperidade dos negócios. Continue a explorar e aplicar esse conhecimento em seu ambiente de trabalho e, assim, promova um local mais seguro e saudável para todos.
     </BoxIcon>
 
     <NavFooter
       prevName="Tópico 01"
-      prevLink="modulo-04/topico-01"
+      prevLink="modulo-05/topico-01"
       :lastTopico="true"
-      referenciasLink="modulo-04/referencias"
-      atividadeLink="modulo-04/atividade"
+      referenciasLink="modulo-05/referencias"
+      atividadeLink="modulo-05/atividade"
     />
   </AulaTemplate>
 </template>
@@ -533,8 +292,6 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
-import Table from "@/components/Table.vue";
-import FlipCard from "@/components/FlipCard.vue";
 
 export default {
   components: {
@@ -544,8 +301,6 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
-    Table,
-    FlipCard,
   },
   data() {
     return {

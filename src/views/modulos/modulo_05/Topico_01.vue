@@ -63,7 +63,7 @@
       estudo e pela demanda do público-alvo por informações (BRASIL, 2008).
     </BoxIcon>
 
-    <TextBlock subTopico="Roteiro parte 1">
+    <TextBlock>
       <Paragraph>
         Dependendo do tipo de análise realizada, os benefícios em saúde podem
         ser expressos de várias maneiras, como em anos de vida salvos ou
