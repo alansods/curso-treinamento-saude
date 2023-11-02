@@ -85,18 +85,15 @@
 
   {
     "numero": "05",
-    "titulo": "Economia para Saúde e Segurança",
+    "titulo": "Economia para a saúde e segurança no trabalho",
     "items": [
       {
         "numero": null,
         "titulo": "Apresentação",
         "link": "modulo-05"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-05/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-05/topico-02" },
-      { "numero": "03", "titulo": "Tópico 03", "link": "modulo-05/topico-03" },
-      { "numero": "04", "titulo": "Tópico 04", "link": "modulo-05/topico-04" },
-      { "numero": "05", "titulo": "Tópico 05", "link": "modulo-05/topico-05" },
+      { "numero": "01", "titulo": "Elaborando uma análise econômica - Parte 1", "link": "modulo-05/topico-01" },
+      { "numero": "02", "titulo": "Elaborando uma análise econômica - Parte 2", "link": "modulo-05/topico-02" },
       {
         "numero": null,
         "titulo": "Referências",

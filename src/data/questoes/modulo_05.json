@@ -1,0 +1,115 @@
+[
+  {
+    "number": "1",
+    "question": "Considere esta afirmação: “ Eficiência significa que os custos de fazer um pouco mais (o custo marginal) para aumentar a segurança são iguais aos benefícios (os retornos marginais em termos de melhoria da saúde e do bem-estar resultam da redução do risco)”. ",
+    "options": [
+      "Certo.",
+      "Errado."
+    ],
+    "answer": "Certo."
+  },
+
+  {
+    "number": "2",
+    "question": "A análise de decisão apresenta componentes principais, que representam os blocos de construção de análises de prevenção-eficácia, dentre os itens abaixo, qual item NÃO pertence a análise de decisão:",
+    "options": [
+      "Especificação do problema e os objetivos",
+      "Avaliação clínica de saúde",
+      "Estimação das probabilidades",
+      "Avaliação as consequências dos custos"
+    ],
+    "answer": "Avaliação clínica de saúde"
+  },
+
+  {
+    "number": "3",
+    "question": "A análise de custos envolve:",
+    "options": [
+      "Identificação das consequências dos acidentes de trabalho e problemas de saúde nos recursos.",
+      "Medição das consequências dos acidentes de trabalho e problemas de saúde nos recursos.",
+      "Avaliação das consequências dos acidentes de trabalho e problemas de saúde nos recursos.",
+      "Todas as alternativas acima."
+    ],
+    "answer": "Todas as alternativas acima."
+  },
+
+  {
+    "number": "4",
+    "question": "Considere esta afirmação: “Custos intangíveis são os custos associados a uma atividade de prevenção ou saúde para a qual é extremamente difícil atribuir um valor monetário”. ",
+    "options": [
+      "Certo.",
+      "Errado."
+    ],
+    "answer": "Certo."
+  },
+
+  {
+    "number": "5",
+    "question": "Considere esta afirmação: “Os custos financeiros são os custos de oportunidade dos recursos usados para implementar a intervenção (ou seja, o valor dos recursos se tivessem sido utilizados para outra finalidade produtiva)”.",
+    "options": [
+      "Certo.",
+      "Errado."
+    ],
+    "answer": "Errado."
+  },
+
+  {
+    "number": "6",
+    "question": "Por que a análise custo-benefício é um dos métodos mais utilizados em saúde e segurança?",
+    "options": [
+      "Porque determina se uma nova intervenção gera um benefício líquido para a sociedade.",
+      "Porque utiliza a abordagem willingness to pay. ",
+      "Porque utiliza a mesma unidade monetária para os custos e os benefícios.",
+      "Porque é uma análise com uma característica comparativa."
+    ],
+    "answer": "Porque utiliza a mesma unidade monetária para os custos e os benefícios."
+  },
+
+  {
+    "number": "7",
+    "question": "Qual a diferença da análise custo-benefício para a análise custo-efetividade?",
+    "options": [
+      "A unidade de medida do impacto utilizada na custo-benefício é monetária e na custo-efetividade a medição do impacto é em unidades naturais.",
+      "A unidade de medida do impacto utilizada na custo-efetividade é monetária e na custo-benefício a medição do impacto é em unidades naturais.",
+      "Na análise custo-benefício a questão norteadora é: “para alcançar determinado objetivo, qual estratégia é mais custo-efetiva?”.",
+      "Não há diferença entre as duas análises."
+    ],
+    "answer": "A unidade de medida do impacto utilizada na custo-benefício é monetária e na custo-efetividade a medição do impacto é em unidades naturais."
+  },
+
+  {
+    "number": "8",
+    "question": "Qual a unidade de medida utilizada pela análise custo-utilidade para determinar o impacto de uma intervenção em saúde?",
+    "options": [
+      "Valoração contingente.",
+      "Análise conjunta.",
+      "Unidade monetária em reais.",
+      "Anos de Vida Ajustados pela Qualidade (AVAQ)."
+    ],
+    "answer": "Anos de Vida Ajustados pela Qualidade (AVAQ)."
+  },
+
+  {
+    "number": "9",
+    "question": "O que é o Retorno Sobre o Investimento (ROI)?",
+    "options": [
+      "Ferramenta de gestão que evidencia o quanto a empresa obteve de resultados em relação aos investimentos realizados nela.",
+      "Ferramenta de gestão que evidencia qual a alternativa que tem melhor retorno para a empresa.",
+      "É a ferramenta que utiliza o valor investido sobre as empresas.",
+      "Ferramenta de gestão que evidencia o quanto é importante a empresa investir em saúde."
+    ],
+    "answer": "Ferramenta de gestão que evidencia o quanto a empresa obteve de resultados em relação aos investimentos realizados nela."
+  },
+
+  {
+    "number": "10",
+    "question": "O Valor Sobre o Investimento (VOI) possui uma visão mais sistemática dos resultados associados com a existência de um programa abrangente de promoção da saúde no ambiente de trabalho. No entanto, para realizar ações de promoção da saúde mais direcionadas e promover uma cultura de saúde entre os seus colaboradores, é necessário inicialmente que a empresa:",
+    "options": [
+      "Calcule os gastos necessários.",
+      "Realize campanhas de reabilitação em saúde.",
+      "Realize o mapeamento da saúde organizacional.",
+      "Identifique as lacunas."
+    ],
+    "answer": "Realize o mapeamento da saúde organizacional."
+  }
+]
