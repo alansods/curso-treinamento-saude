@@ -112,11 +112,8 @@
         "titulo": "Apresentação",
         "link": "modulo-06"
       },
-      { "numero": "01", "titulo": "Tópico 01", "link": "modulo-06/topico-01" },
-      { "numero": "02", "titulo": "Tópico 02", "link": "modulo-06/topico-02" },
-      { "numero": "03", "titulo": "Tópico 03", "link": "modulo-06/topico-03" },
-      { "numero": "04", "titulo": "Tópico 04", "link": "modulo-06/topico-04" },
-      { "numero": "05", "titulo": "Tópico 05", "link": "modulo-06/topico-05" },
+      { "numero": "01", "titulo": "O impacto financeiro nas empresas dos acidentes de trabalho", "link": "modulo-06/topico-01" },
+      { "numero": "02", "titulo": "Fator Acidentário Previdenciário (FAP)", "link": "modulo-06/topico-02" },
       {
         "numero": null,
         "titulo": "Referências",
