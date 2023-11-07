@@ -13,7 +13,7 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph>falta texto</Paragraph>
+      <Paragraph>Nesta aula iremos abordar sobre os outros três tipos de análise existentes e espera-se que ao final deste módulo, você possa compreender todos os tipos de análise em economia na saúde.</Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -27,7 +27,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="O2lN8aUr9-E"
+          video-id="n30kPVoDRVI"
           style="border: solid 3px white"
           fitParent
         />
@@ -230,15 +230,20 @@
 
     <TextBlock>
       <Paragraph>
-        Ou seja, a indústria X deve pagar no ano subsequente à publicação do FAP o valor de R$ 5 mil mensais (ou R$ 65 mil anuais somados os meses**).
+        Ou seja, a indústria X deve pagar no ano subsequente à publicação do FAP
+        o valor de R$ 5 mil mensais (ou R$ 65 mil anuais somados os meses**).
       </Paragraph>
 
       <SmallText>
-        ** O valor final se refere à soma dos 12 meses do ano mais a folha de pagamento do 13º salário.
+        ** O valor final se refere à soma dos 12 meses do ano mais a folha de
+        pagamento do 13º salário.
       </SmallText>
 
       <Paragraph>
-        Se a mesma empresa, a fictícia indústria X, se encaixa no multiplicador mais alto, determinado de acordo com o grau de risco da atividade econômica, a empresa pagaria R$ 20 mil mensais, e teria custo anual de R$ 260 mil. Vejamos os comparativos:
+        Se a mesma empresa, a fictícia indústria X, se encaixa no multiplicador
+        mais alto, determinado de acordo com o grau de risco da atividade
+        econômica, a empresa pagaria R$ 20 mil mensais, e teria custo anual de
+        R$ 260 mil. Vejamos os comparativos:
       </Paragraph>
     </TextBlock>
 
@@ -250,86 +255,135 @@
 
     <TextBlock>
       <Paragraph>
-        A gestão do Fator Acidentário Previdenciário (FAP) desempenha, sem dúvida, um papel importante na sustentabilidade da própria empresa. No âmbito estratégico, é essencial incluir, no mínimo, uma análise econômico-financeira dos acidentes de trabalho e dos benefícios acidentários. Essa análise gera informações relevantes que embasam decisões relacionadas à prevenção eficaz desses eventos nos níveis táticos e operacionais.
+        A gestão do Fator Acidentário Previdenciário (FAP) desempenha, sem
+        dúvida, um papel importante na sustentabilidade da própria empresa. No
+        âmbito estratégico, é essencial incluir, no mínimo, uma análise
+        econômico-financeira dos acidentes de trabalho e dos benefícios
+        acidentários. Essa análise gera informações relevantes que embasam
+        decisões relacionadas à prevenção eficaz desses eventos nos níveis
+        táticos e operacionais.
       </Paragraph>
 
       <Paragraph>
-        Ter acesso a esses valores é fundamental para a alta administração tomar decisões embasadas. Isso muda a perspectiva de saúde e segurança, fazendo com que essas áreas não sejam vistas apenas como despesas, mas sim como componentes de estratégias bem-sucedidas voltadas para a promoção e prevenção em SST, independentemente de seus custos.
+        Ter acesso a esses valores é fundamental para a alta administração tomar
+        decisões embasadas. Isso muda a perspectiva de saúde e segurança,
+        fazendo com que essas áreas não sejam vistas apenas como despesas, mas
+        sim como componentes de estratégias bem-sucedidas voltadas para a
+        promoção e prevenção em SST, independentemente de seus custos.
       </Paragraph>
     </TextBlock>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <v-row justify="center">
-      <v-col cols="12" sm="7">
-        <Imagem
-          legenda="Imagem 2: É importante complementar o ROI com outros métodos para resultados mais abrangentes."
-          fonte="Fonte: Freepick.com"
-          src="modulo_05/imagem2.jpeg"
-        />
-      </v-col>
-    </v-row>
-
-    <TextBlock>
+    <TextBlock
+      subTopico="2.2 Impacto das ações regressivas e as situações passíveis de ocorrência"
+    >
       <Paragraph>
-        Diante desse cenário, surge o VOI, uma abordagem que oferece uma visão
-        mais sistêmica dos resultados associados a um programa abrangente de
-        promoção da saúde no ambiente de trabalho. Neste modelo, as empresas
-        investem na saúde organizacional como um todo, em vez de focar apenas na
-        saúde individual do trabalhador, redefinindo a ideia de que programas de
-        saúde são introduzidos apenas para reduzir custos.
+        É importante lembrar que, por lei, todas as empresas têm a obrigação de
+        zelar pela saúde de seus funcionários. No entanto, infelizmente, alguns
+        empregadores ainda mantêm uma visão limitada de que os trabalhadores
+        devem apenas cumprir suas tarefas, sem necessidade de qualquer
+        acompanhamento adicional, acreditando que a contribuição previdenciária
+        mensal seja suficiente para assegurar a seguridade deles. É nesse
+        contexto que as <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')"><i>Ações Regressivas</i></GlossarioButton>
+        ganham destaque, evidenciando a responsabilidade do empregador perante a
+        Previdência Social.
       </Paragraph>
+
+      <GlossarioDialog title="Ações Regressivas">
+        <Paragraph>
+          <strong><i>Ações Regressivas:</i></strong> representam instrumentos judiciais utilizados pela Previdência Social para buscar o ressarcimento de despesas previdenciárias relacionadas a atos ilícitos.
+        </Paragraph>
+      </GlossarioDialog>
     </TextBlock>
 
-    <BoxIcon tipo="atencao">
-      Para aplicar o VOI, as empresas devem mapear a saúde organizacional,
-      direcionando ações de promoção da saúde e promovendo uma cultura de
-      bem-estar entre os colaboradores. Além disso, o acompanhamento contínuo
-      das ações é fundamental para avaliar o impacto a longo prazo, identificar
-      lacunas e priorizar estratégias de alto impacto.
+    <BoxIcon tipo="voce_sabia">
+      A Previdência Social busca que as empresas assumam os custos decorrentes
+      de acidentes ou doenças de seus colaboradores quando fica evidente que
+      tais eventos ocorreram devido ao não cumprimento das leis de saúde e
+      segurança do trabalho por parte da empresa.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        Em resumo, o investimento em tecnologias para promover a saúde dos
-        trabalhadores tem um impacto direto na economia das empresas. Portanto,
-        é essencial escolher a ferramenta de gestão mais adequada para planejar
-        e organizar esse investimento, garantindo a qualidade da saúde e
-        segurança dos trabalhadores. Cada empresa deve analisar qual ferramenta
-        melhor se adapta ao seu contexto.
+        Para que seja viável ingressar com uma "ação regressiva" na justiça, é
+        necessário que existam alguns requisitos essenciais:
+      </Paragraph>
+
+      <div class="my-10">
+        <v-alert border="left" color="blue" dark><strong>1. </strong>
+          Ocorrência de acidente de trabalho, como lesões, doenças ou acidentes relacionados à atividade laboral.
+        </v-alert>
+        <v-alert border="left" color="blue" dark><strong>2. </strong>
+          Dano(s) à Previdência Social, ou seja, despesas previdenciárias geradas em decorrência do acidente de trabalho.
+        </v-alert>
+        <v-alert border="left" color="blue" dark><strong>3. </strong>
+          Culpa qualificada, resultante do não cumprimento ou da falta de fiscalização das normas de segurança e higiene do trabalho por parte da empresa.
+        </v-alert>
+        <v-alert border="left" color="blue" dark><strong>4. </strong>
+          Nexo causal, ou seja, a demonstração de que a falta de cumprimento das normas de segurança e higiene no trabalho pela empresa foi a causa direta ou contribuiu significativamente para o acidente de trabalho ou doença ocupacional.
+        </v-alert>
+      </div>
+
+      <Paragraph>
+        Quando esses elementos estão presentes, a Previdência Social pode entrar com uma "ação regressiva" contra a empresa para buscar o ressarcimento das despesas previdenciárias relacionadas aos acidentes de trabalho ou doenças ocupacionais. Isso reforça a importância da observância rigorosa das normas de segurança e higiene no ambiente de trabalho, tanto para a proteção dos trabalhadores quanto para evitar despesas adicionais para as empresas.
+      </Paragraph>
+    </TextBlock>
+
+    <BoxIcon tipo="voce_sabia">
+      Quando ocorre um acidente de trabalho com afastamento do trabalho superior a 15 dias, o segurado dá entrada na Previdência Social para solicitar o benefício denominado "auxílio-doença acidentário". Para fins de direitos do segurado relacionados a acidentes de trabalho, é obrigatório que o benefício seja o "auxílio-doença acidentário". Esse benefício é concedido quando o trabalhador sofre um acidente de trabalho que o impede de realizar suas atividades laborais temporariamente devido a lesões ou doenças relacionadas ao acidente.
+    </BoxIcon>
+
+    <TextBlock>
+      <Paragraph>
+        A Previdência Social cumpre suas obrigações legais no que diz respeito ao salário do acidentado, isentando o empregador dessa responsabilidade inicialmente. Quando o acidentado retorna ao trabalho, ele tem direito a um período de estabilidade de doze meses, garantido pelo recebimento do "auxílio-doença acidentário," e sua remuneração volta a ser paga pela empresa normalmente.
       </Paragraph>
 
       <Paragraph>
-        Após a exploração dos tópicos deste módulo, os gestores poderão
-        compreender os aspectos fundamentais na interpretação dos tipos de
-        estudos e familiarizar-se com os conceitos relacionados. Isso permitirá
-        que realizem uma análise crítica da literatura existente e estabeleçam
-        referências para a aplicação dessas informações em seus ambientes de
-        trabalho, desenvolvendo uma visão ampla e aprofundada sobre o assunto.
+        Em seguida, a Previdência Social busca seus direitos através da "Ação regressiva" nos tribunais. A Advocacia Geral da União (AGU) conduz uma análise minuciosa do acidente, coletando todas as informações e detalhes do ocorrido para entender as circunstâncias que geraram ônus. Se for comprovada a responsabilidade do empregador, a Previdência Social obtém êxito na ação, e a empresa é obrigada a reembolsar o órgão pelos gastos relacionados ao período de afastamento do colaborador.
+      </Paragraph>
+    </TextBlock>
+
+    <TextBlock subTopico="2.3 O papel didático das Ações Regressivas">
+      <Paragraph>
+        As Ações Regressivas desempenham um papel didático importante, não apenas na recuperação de custos para a Previdência Social, mas também na conscientização das empresas em relação à importância da prevenção de acidentes de trabalho e ao cumprimento das normas de segurança e higiene no ambiente laboral. Vejamos a seguir:
+      </Paragraph>
+    </TextBlock>
+
+    <Accordion>
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Aplicação do papel didático</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          O processo de conscientização frisa que o empregador deve estar em dia com as exigências da Legislação de SST.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header>Prevenção de Acidentes</v-expansion-panel-header>
+        <v-expansion-panel-content>
+          A prevenção inicia ainda no exame pré-admissional com avaliações médicas específicas para cada função da empresa, evitando a entrada de funcionários portadores de doenças pré-qualificadas pela Previdência Social, como doença do trabalho para aquela atividade, tornando o processo eficiente e evitando afastamentos futuros.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </Accordion>
+
+    <TextBlock>
+      <Paragraph>
+        Estar em conformidade com a Legislação de SST garante segurança, saúde e bem-estar no ambiente de trabalho tanto para os trabalhadores quanto para a empresa. Afastamentos não são saudáveis para a produção e podem causar multas por meio das Ações Regressivas, prejudicando a imagem da empresa. Além disso, cada ação regressiva resulta em um processo trabalhista contra o empregador ou a empresa. Portanto, cumprir as normas de SST é essencial para manter a segurança no trabalho, evitar penalidades legais e preservar a reputação da empresa.
+      </Paragraph>
+    </TextBlock>
+
+    <BoxIcon tipo="atencao">
+      Os números de causas ganhas pela Previdência Social giram em torno de 80%. Um índice bastante alto, significando que há falha das empresas no que tange à Legislação de SST.
+    </BoxIcon>
+
+    <TextBlock>
+      <Paragraph>
+        As Ações Regressivas afetam o principal ponto de qualquer empresa, <strong>o financeiro</strong>. Essas ações constituem em uma das várias outras consequências que o empregador pode sofrer, se não proporcionar condições dignas de saúde e segurança do trabalho para seus trabalhadores.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      Chegamos ao final deste módulo. Esperamos que as informações aqui
-      apresentadas tenham sido úteis e enriquecedoras. Vimos que a gestão da
-      saúde e segurança no trabalho é uma parte vital de qualquer organização, e
-      seu impacto se reflete tanto na qualidade de vida dos colaboradores quanto
-      na prosperidade dos negócios. Continue a explorar e aplicar esse
-      conhecimento em seu ambiente de trabalho e, assim, promova um local mais
-      seguro e saudável para todos.
+      Em conclusão, mesmo considerando que os acidentes fazem parte da vida humana, cabe aos gestores a responsabilidade de conhecer os riscos, mapear as atividades, analisar os dados, desenvolver estratégias e, sobretudo, promover a conscientização. Este módulo teve como objetivo disseminar informações sobre os impactos financeiros e as obrigações legais relacionadas aos acidentes de trabalho para as empresas, esclarecendo os direitos e deveres no que diz respeito à segurança e saúde no trabalho. A adoção de medidas preventivas e o cumprimento das normas de SST são cruciais para proteger tanto a integridade dos trabalhadores quanto a saúde financeira das empresas.
     </BoxIcon>
 
     <NavFooter
@@ -351,6 +405,9 @@ import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
 import FlipCard from "@/components/FlipCard.vue";
 import SmallText from "@/components/SmallText.vue";
+import GlossarioDialog from "@/components/GlossarioDialog.vue";
+import GlossarioButton from "@/components/GlossarioButton.vue";
+import Accordion from "@/components/Accordion.vue";
 
 export default {
   components: {
@@ -362,6 +419,9 @@ export default {
     Imagem,
     FlipCard,
     SmallText,
+    GlossarioDialog,
+    GlossarioButton,
+    Accordion
   },
   data() {
     return {

@@ -16,7 +16,7 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph>falta texto</Paragraph>
+      <Paragraph>Você sabia que existem ferramentas valiosas que auxiliam as empresas na análise econômica das ações de saúde? Quando falamos em saúde e segurança, é importante considerar a eficácia e os custos das medidas adotadas. Nesta aula, vamos aprender alguns conceitos de economia aplicados à saúde e segurança. Ao final, você entenderá melhor as diferenças entre os diversos tipos de análise e compreenderá suas aplicabilidades. </Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -30,7 +30,7 @@
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
         <youtube
           ref="videoPlayer"
-          video-id="O2lN8aUr9-E"
+          video-id="KaTQ2glcQs4"
           style="border: solid 3px white"
           fitParent
         />
