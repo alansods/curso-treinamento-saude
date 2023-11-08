@@ -104,9 +104,13 @@ export default {
     '$store.state.LMS_Progress'(newValue) {
       if (newValue === 100) {
         console.log("completou")
+
         this.$store.state.completion_status = "completed";
         SCORM.set("cmi.core.lesson_status", "completed");
         SCORM.save();
+        let result = Object.values(this.$store.state.progresso_modulos).every(value => value === true);
+        this.$store.state.showWelcomeBack = result
+        console.log(`this.$store.state.showWelcomeBack: ${result}`)
       }
     }
   },

@@ -56,7 +56,7 @@
         </div>
 
         <Paragraph class="completed-score mb-5">
-          Você acertou <span v-if="score < 7">apenas</span> <strong
+          Você acertou <span v-if="score < 7">apenas </span> <strong
             ><u>{{ score }}</u></strong
           >
           de {{ questions.length }} questões.
