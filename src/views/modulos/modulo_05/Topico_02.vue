@@ -301,6 +301,8 @@
     <NavFooter
       prevName="Tópico 01"
       prevLink="modulo-05/topico-01"
+      nextName="Módulo 06"
+      nextLink="modulo-06"
       :lastTopico="true"
       referenciasLink="modulo-05/referencias"
       atividadeLink="modulo-05/atividade"
