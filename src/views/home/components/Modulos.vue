@@ -7,17 +7,6 @@
             Módulos
           </h4>
         </v-col>
-        <v-col cols="12">
-          <v-col cols="12">
-            <button @click="getStudentName">Obter Nome do Aluno</button>
-          </v-col>
-          <h4
-            class="font-weight-bold text-h4 text-center primary--text"
-            v-if="studentName"
-          >
-            Nome do Aluno: {{ studentName }}
-          </h4>
-        </v-col>
       </v-row>
 
       <v-row>
@@ -38,11 +27,7 @@
 
             <div
               :class="
-                $store.state[`progresso_modulo_${modulo.numero}`]
-                  ?.porcentagem === 100
-                  ? 'progresso-modulo success'
-                  : 'progresso-modulo disabled'
-              "
+                $store.state[`progresso_modulos.${modulo.numero}`] ? 'progresso-modulo success' : 'progresso-modulo disabled'"
             ></div>
           </div>
         </v-col>
@@ -53,7 +38,6 @@
 
 <script>
 import modulos from "@/data/modulos.json";
-import {SCORM} from 'pipwerks-scorm-api-wrapper';
 
 export default {
   props: {
@@ -84,12 +68,6 @@ export default {
         top,
         behavior: "smooth",
       });
-    },
-
-    getStudentName() {
-      // Obter o nome do aluno usando a API SCORM
-      const studentName = SCORM.get('cmi.core.student_name');;
-      this.studentName = studentName || "Nome do aluno não encontrado";
     },
   },
 };

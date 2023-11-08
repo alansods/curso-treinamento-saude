@@ -153,8 +153,7 @@ export default {
       if (this.questionIndex === this.questions.length - 1) {
         this.completed = true;
         if (this.score >= 7) {
-          this.$store.state.progresso_modulo_01.items.atividade = true;
-          this.$store.commit("SALVAR_PROGRESSO");
+          this.$store.state.progresso_modulos.modulo_02 = true;
         }
       } else {
         // Se não for a última pergunta, avançar para a próxima automaticamente após o usuário selecionar uma resposta

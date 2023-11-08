@@ -12,125 +12,20 @@ export default new Vuex.Store({
     showWelcomeBack: false,
     showGlossario: false,
 
-    progresso_curso: {
-      modulo_01: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        video_03: false,
-        atividade: false,
-        apresentacao: false,
-      },
+    studentName: "",
+    LMS_Progress: 0,
+    completion_status: "",
 
-      modulo_02: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        atividade: false,
-        apresentacao: false,
-      },
-
-      modulo_03: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        video_03: false,
-        atividade: false,
-        apresentacao: false,
-      },
-
-      modulo_04: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        atividade: false,
-        apresentacao: false,
-      },
-
-      modulo_05: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        atividade: false,
-        apresentacao: false,
-      },
-
-      modulo_06: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        atividade: false,
-        apresentacao: false,
-      },
-
-      modulo_07: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        atividade: false,
-        apresentacao: false,
-      },
-
-      modulo_08: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        atividade: false,
-        apresentacao: false,
-      },
-
-      modulo_09: {
-        porcentagem: 0,
-        topico_01: false,
-        topico_02: false,
-        topico_03: false,
-        topico_04: false,
-        topico_05: false,
-        video_01: false,
-        video_02: false,
-        atividade: false,
-        apresentacao: false,
-      },
+    progresso_modulos: {
+      modulo_01: false,
+      modulo_02: false,
+      modulo_03: false,
+      modulo_04: false,
+      modulo_05: false,
+      modulo_06: false,
+      modulo_07: false,
+      modulo_08: false,
+      modulo_09: false,
     },
   },
   mutations: {
@@ -146,10 +41,6 @@ export default new Vuex.Store({
       state.showGlossario = !state.showGlossario;
     },
 
-    INITIALIZE_STORE() {
-      console.log("teste");
-    },
-
     SALVAR_PROGRESSO(state) {
       localStorage.setItem(
         "progresso_treinamento_saudeV2",
@@ -157,7 +48,7 @@ export default new Vuex.Store({
       );
     },
 
-    CARREGAR_PROGRESSO(state) {
+    /* CARREGAR_PROGRESSO(state) {
       const progressoLocalStorage = localStorage.getItem(
         "progresso_treinamento_saudeV2"
       );
@@ -171,7 +62,14 @@ export default new Vuex.Store({
           )
         );
       }
-    },
+    }, */
+
+    ADICIONAR_SCORE(state) {
+      const pontuacao = 100/8
+      if (state.LMS_Progress < 100) {
+        state.LMS_Progress += pontuacao;
+      }
+    }
   },
   actions: {},
   modules: {},

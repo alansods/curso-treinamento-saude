@@ -20,6 +20,8 @@ import FooterLogo from "@/components/FooterLogo.vue";
 import MenuDrawer from "@/components/MenuDrawer.vue";
 import WelcomeBackDialog from "@/components/WelcomeBackDialog.vue";
 
+import { SCORM } from "pipwerks-scorm-api-wrapper";
+
 export default {
   name: "App",
 
@@ -31,23 +33,81 @@ export default {
   },
 
   data: () => ({
-    //
+    isTabClosed: false,
   }),
 
   methods: {
     updateFontSize(fontSize) {
       document.documentElement.style.fontSize = fontSize + "px";
     },
+
+    handleBeforeUnload(event) {
+      // This method will be called when the user leaves the page or closes the tab
+      this.isTabClosed = true;
+
+      // Optionally, you can show a confirmation dialog to the user
+      event.preventDefault();
+      event.returnValue = "";
+    },
+  },
+
+  mounted() {
+    window.addEventListener("beforeunload", this.handleBeforeUnload);
+  },
+
+  created() {
+    this.$store.state.LMS_Progress = Number(SCORM.get("cmi.score.raw"));
+    this.$store.state.studentName = SCORM.get("cmi.core.student_name");
+    this.$store.state.completion_status = SCORM.get("cmi.core.lesson_status");
+
+    const data = JSON.parse(SCORM.get("cmi.suspend_data")) || {};
+    if (data) {
+      console.log(`data: ${data}`)
+      this.$store.state.progresso_modulos = data;
+    }
+  },
+
+  beforeDestroy() {
+    window.removeEventListener("beforeunload", this.handleBeforeUnload);
   },
 
   beforeCreate() {
-    //this.$store.commit("CARREGAR_PROGRESSO");
-
     const lastRouteName = localStorage.getItem("last_Page_Treinamento_Saude");
     console.log(lastRouteName);
 
     if (lastRouteName != "Home") {
       this.$store.commit("TOGGLE_WELCOME_BACK");
+    }
+  },
+
+  watch: {
+    isTabClosed(newValue) {
+      // This watch will be triggered when the isTabClosed data property changes
+      if (newValue) {
+        // Add your code here to handle the beforeunload event
+        console.log("CLOSING...");
+        SCORM.set("cmi.score.raw", this.$store.state.LMS_Progress);
+
+        const objeto = {
+          modulo_1_finalizado: this.$store.state.modulo_1_finalizado,
+        };
+
+        this.$store.state.progresso_modulos = JSON.stringify(objeto);
+        console.log(`suspendedString: ${this.$store.state.progresso_modulos}`);
+        SCORM.set("cmi.suspend_data", this.$store.state.progresso_modulos);
+
+        SCORM.save();
+        SCORM.quit();
+      }
+    },
+
+    '$store.state.LMS_Progress'(newValue) {
+      if (newValue === 100) {
+        console.log("completou")
+        this.$store.state.completion_status = "completed";
+        SCORM.set("cmi.core.lesson_status", "completed");
+        SCORM.save();
+      }
     }
   },
 };
@@ -91,11 +151,11 @@ p:last-of-type {
 }
 
 .label-radio-input:hover {
-  background:  #eee;
+  background: #eee;
 }
 
 input[type="radio"] {
-  transform: scale(1.5)
+  transform: scale(1.5);
 }
 
 .v-data-table > .v-data-table__wrapper > table > tbody > tr > td,
