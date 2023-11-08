@@ -33,7 +33,29 @@
       </div>
     </TextBlock>
 
-    <TextBlock subTopico="Roteiro parte 1">
+    <BoxIcon tipo="video_aula" numero="1">
+      <Paragraph>Você sabia que existem ferramentas valiosas que auxiliam as empresas na análise econômica das ações de saúde? Quando falamos em saúde e segurança, é importante considerar a eficácia e os custos das medidas adotadas. Nesta aula, vamos aprender alguns conceitos de economia aplicados à saúde e segurança. Ao final, você entenderá melhor as diferenças entre os diversos tipos de análise e compreenderá suas aplicabilidades. </Paragraph>
+
+      <Paragraph>
+        <strong style="cursor: pointer" @click="dialog = true"
+          ><u>Clique aqui</u></strong
+        >
+        para iniciar o vídeo.
+      </Paragraph>
+    </BoxIcon>
+
+    <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
+      <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
+        <youtube
+          ref="videoPlayer"
+          video-id="_-aD9_CzQH0"
+          style="border: solid 3px white"
+          fitParent
+        />
+      </v-responsive>
+    </v-dialog>
+
+    <TextBlock>
       <Paragraph>
         Introduzindo o assunto, é fundamental compreender que eficiência implica
         que os custos para aumentar a segurança no ambiente de trabalho, ou

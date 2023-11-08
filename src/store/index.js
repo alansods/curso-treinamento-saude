@@ -12,19 +12,19 @@ export default new Vuex.Store({
     showWelcomeBack: false,
     showGlossario: false,
 
-    progresso_modulo_01: {
-      porcentagem: 0,
-      items: {
-        video_01: false,
-        video_02: false,
-        video_03: false,
-        atividade: false,
-        apresentacao: false,
+    progresso_curso: {
+      modulo_01: {
+        porcentagem: 0,
         topico_01: false,
         topico_02: false,
         topico_03: false,
         topico_04: false,
         topico_05: false,
+        video_01: false,
+        video_02: false,
+        atividade: false,
+        apresentacao: false,
+
       },
     },
   },
@@ -38,7 +38,7 @@ export default new Vuex.Store({
     },
 
     TOGGLE_GLOSSARIO(state) {
-      state.showGlossario = !state.showGlossario
+      state.showGlossario = !state.showGlossario;
     },
 
     INITIALIZE_STORE() {
@@ -53,7 +53,9 @@ export default new Vuex.Store({
     },
 
     CARREGAR_PROGRESSO(state) {
-      const progressoLocalStorage = localStorage.getItem("progresso_treinamento_saudeV2")
+      const progressoLocalStorage = localStorage.getItem(
+        "progresso_treinamento_saudeV2"
+      );
 
       if (progressoLocalStorage) {
         // Replace the state object with the stored item

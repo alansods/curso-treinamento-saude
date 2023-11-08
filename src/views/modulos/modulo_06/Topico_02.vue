@@ -6,9 +6,7 @@
   >
     <TextBlock topico="Tópico 2 - Fator Acidentário Previdenciário (FAP)">
       <Paragraph>
-        Neste tópico, exploraremos o Fator Acidentário Previdenciário (FAP) e
-        seus impactos financeiros, juntamente com as normas da Previdência
-        Social relacionadas a essa questão.
+        Olá! Vimos na aula anterior deste módulo sobre aspectos legais dos acidentes de trabalho e o impacto financeiro para as empresas. Nesta aula iremos abordar sobre o Fator Acidentário Previdenciário, bem como os impactos financeiros destes e normas da previdência social. Ao final deste módulo, você será capaz de definir acidentes de trabalho e os seus impactos, bem como entender aspectos legais do Ministério do Trabalho, então vem comigo...
       </Paragraph>
     </TextBlock>
 

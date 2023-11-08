@@ -16,10 +16,11 @@
         Neste contexto, abordaremos neste tópico outros três tipos de análises
         em economia da saúde: Análise de Custo-Efetividade, Análise de
         Custo-Utilidade e as métricas ROI (Retorno sobre o Investimento) e VOI
-        (Valor do Investimento). Compreender essas análises é fundamental para
-        tomar decisões embasadas, tanto em termos de eficácia clínica quanto
-        financeira, em um campo que requer equilíbrio entre recursos limitados e
-        a busca contínua por melhores resultados em saúde.
+        (Valor do Investimento).
+      </Paragraph>
+
+      <Paragraph>
+        Compreender essas análises é fundamental para tomar decisões embasadas, tanto em termos de eficácia clínica quanto financeira, em um campo que requer equilíbrio entre recursos limitados e a busca contínua por melhores resultados em saúde.
       </Paragraph>
 
       <Paragraph>
@@ -28,6 +29,28 @@
         da saúde. Vamos começar!
       </Paragraph>
     </TextBlock>
+
+    <BoxIcon tipo="video_aula" numero="2">
+      <Paragraph>Nesta aula iremos abordar sobre os outros três tipos de análise existentes e espera-se que ao final deste módulo, você possa compreender todos os tipos de análise em economia na saúde.</Paragraph>
+
+      <Paragraph>
+        <strong style="cursor: pointer" @click="dialog = true"
+          ><u>Clique aqui</u></strong
+        >
+        para iniciar o vídeo.
+      </Paragraph>
+    </BoxIcon>
+
+    <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
+      <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
+        <youtube
+          ref="videoPlayer"
+          video-id="o9ojk7uyuvw"
+          style="border: solid 3px white"
+          fitParent
+        />
+      </v-responsive>
+    </v-dialog>
 
     <TextBlock subTopico="2.1 Análise de custo-efetividade">
       <Paragraph>
@@ -112,7 +135,7 @@
       </Paragraph>
     </TextBlock>
 
-    <TextBlock subTopico="Análise de custo-utilidade">
+    <TextBlock subTopico="2.1 Análise de custo-utilidade">
       <Paragraph>
         Semelhante à análise de custo-efetividade, a análise custo-utilidade
         utiliza unidades monetárias para determinar os custos e anos de vida

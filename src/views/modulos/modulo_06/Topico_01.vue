@@ -8,10 +8,7 @@
       topico="Tópico 01  - O impacto financeiro nas empresas dos acidentes de trabalho"
     >
       <Paragraph>
-        Neste tópico, abordaremos aspectos legais relacionados aos acidentes de
-        trabalho e a importância dos gestores no envolvimento das ações de
-        segurança no ambiente de trabalho. Além disso, discutiremos os impactos
-        financeiros desse evento nas empresas.
+        Sejam bem-vindos ao módulo sobre o impacto dos acidentes de trabalho. Assim como os módulos anteriores, este também é de alta relevância para os gestores empresariais, pois tem como objetivo apoiar as empresas na análise de acidentes de trabalho e outros eventos adversos. Você sabia que a maioria dos eventos adversos é previsível e prevenível? Por isso é importante conhecer o que ocorre e sobre o que pode ocorrer em um sistema produtivo para prevenir e efetuar boas análises de eventos adversos. Vamos aprender mais sobre isso
       </Paragraph>
     </TextBlock>
 
