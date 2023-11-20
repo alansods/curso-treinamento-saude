@@ -56,7 +56,7 @@ export default {
         currentPath += routePath + "/";
 
         const breadcrumb = {
-          text: this.capitalizeFirstLetter(routePath.replace(/-/g, " ")),
+          text: this.formatBreadcrumbText(routePath),
           href: currentPath,
           disabled: index === routePaths.length - 1 ? true : false,
         };
@@ -67,8 +67,22 @@ export default {
       this.breadcrumbsItems = breadcrumbs;
     },
 
-    capitalizeFirstLetter(string) {
-      return string.charAt(0).toUpperCase() + string.slice(1);
+    formatBreadcrumbText(text) {
+      if (text.toLowerCase().split('-')[0] === 'modulo') {
+        return `Módulo ${text.split('-')[1]}`;
+      }
+
+      if (text.toLowerCase().split('-')[0] === 'topico') {
+        return `Tópico ${text.split('-')[1]}`;
+      }
+
+      if (text.toLowerCase().split('-')[0] === 'referencias') {
+        return `Referências`;
+      }
+
+      if (text.toLowerCase().split('-')[0] === 'atividade') {
+        return `Atividade`;
+      }
     },
   },
 };
