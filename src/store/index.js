@@ -45,35 +45,12 @@ export default new Vuex.Store({
       state.showGlossario = !state.showGlossario;
     },
 
-    SALVAR_PROGRESSO(state) {
-      localStorage.setItem(
-        "progresso_treinamento_saudeV2",
-        JSON.stringify(state)
-      );
-    },
-
-    /* CARREGAR_PROGRESSO(state) {
-      const progressoLocalStorage = localStorage.getItem(
-        "progresso_treinamento_saudeV2"
-      );
-
-      if (progressoLocalStorage) {
-        // Replace the state object with the stored item
-        this.replaceState(
-          Object.assign(
-            state,
-            JSON.parse(localStorage.getItem("progresso_treinamento_saudeV2"))
-          )
-        );
-      }
-    }, */
-
-    ADICIONAR_SCORE(state) {
+    /* ADICIONAR_SCORE(state) {
       const pontuacao = 100/8
       if (state.LMS_Progress < 100) {
         state.LMS_Progress += pontuacao;
       }
-    }
+    } */
   },
   actions: {},
 

@@ -275,10 +275,7 @@ export default {
 
   methods: {},
 
-  created() {
-    this.$store.state.progresso_modulo_01.items.topico_02 = true;
-    this.$store.commit("SALVAR_PROGRESSO");
-  },
+
 };
 </script>
 

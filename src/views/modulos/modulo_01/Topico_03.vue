@@ -570,9 +570,6 @@ export default {
 
   methods: {
     dialogInput(value) {
-      this.$store.state.progresso_modulo_01.items.video_02 = true;
-      this.$store.commit("SALVAR_PROGRESSO");
-
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -582,11 +579,6 @@ export default {
         }
       }
     },
-  },
-
-  created() {
-    this.$store.state.progresso_modulo_01.items.topico_03 = true;
-    this.$store.commit("SALVAR_PROGRESSO");
   },
 };
 </script>

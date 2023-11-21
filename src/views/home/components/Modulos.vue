@@ -27,7 +27,7 @@
 
             <div
               :class="
-                $store.state[`progresso_modulos.${modulo.numero}`] ? 'progresso-modulo success' : 'progresso-modulo disabled'"
+                $store.state[`progresso_modulos.modulo_${modulo.numero}`] ? 'progresso-modulo success' : 'progresso-modulo disabled'"
             ></div>
           </div>
         </v-col>
@@ -47,17 +47,11 @@ export default {
   data() {
     return {
       modulos: modulos,
-      studentName: null,
     };
   },
 
   computed: {
-    modulo_01_completo() {
-      const completed =
-        this.$store.state.progresso_modulo_1.atividade &&
-        this.$store.state.progresso_modulo_1.video;
-      return completed;
-    },
+
   },
 
   methods: {

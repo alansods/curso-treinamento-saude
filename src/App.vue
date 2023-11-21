@@ -56,9 +56,9 @@ export default {
   },
 
   created() {
-    this.$store.state.progresso_modulos.LMS_Progress = Number(SCORM.get("cmi.score.raw"));
-    this.$store.state.progresso_modulos.studentName = SCORM.get("cmi.core.student_name");
-    this.$store.state.progresso_modulos.completion_status = SCORM.get("cmi.core.lesson_status");
+    if(SCORM.get("cmi.core.student_name")) {
+      this.$store.state.progresso_modulos.studentName = SCORM.get("cmi.core.student_name");
+    }
 
     const data = JSON.parse(SCORM.get("cmi.suspend_data")) || {};
     if (data) {
@@ -95,12 +95,12 @@ export default {
       }
     },
 
-    '$store.state.LMS_Progress'(newValue) {
+    '$store.state.progresso_modulos.LMS_Progress'(newValue) {
 
       if (newValue === 100) {
         console.log("completou")
 
-        this.$store.state.completion_status = "completed";
+        this.$store.state.progresso_modulos.completion_status = "completed";
         SCORM.set("cmi.core.lesson_status", "completed");
         SCORM.save();
         let result = Object.values(this.$store.state.progresso_modulos).every(value => value === true);

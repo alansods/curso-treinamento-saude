@@ -455,8 +455,6 @@ export default {
 
   methods: {
     dialogInput(value) {
-      this.$store.state.progresso_modulo_01.items.video_01 = true;
-      this.$store.commit("SALVAR_PROGRESSO");
 
       if (!value) {
         // Acessa o player do vídeo através da referência ref
@@ -469,7 +467,7 @@ export default {
     },
   },
 
-  created() {},
+
 };
 </script>
 
