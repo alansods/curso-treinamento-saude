@@ -10,11 +10,8 @@ export default new Vuex.Store({
     modulos: Modulos,
     showMenuDrawer: false,
     showWelcomeBack: false,
+    showCongratulations: false,
     showGlossario: false,
-
-    studentName: "",
-    LMS_Progress: 0,
-    completion_status: "",
 
     progresso_modulos: {
       modulo_01: false,
@@ -26,6 +23,9 @@ export default new Vuex.Store({
       modulo_07: false,
       modulo_08: false,
       modulo_09: false,
+      studentName: "",
+      LMS_Progress: 0,
+      completion_status: "",
     },
   },
   mutations: {
@@ -35,6 +35,10 @@ export default new Vuex.Store({
 
     TOGGLE_WELCOME_BACK(state) {
       state.showWelcomeBack = !state.showWelcomeBack;
+    },
+
+    TOGGLE_CONGRATULATIONS(state) {
+      state.showCongratulations = !state.showCongratulations;
     },
 
     TOGGLE_GLOSSARIO(state) {

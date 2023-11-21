@@ -56,9 +56,9 @@ export default {
   },
 
   created() {
-    this.$store.state.LMS_Progress = Number(SCORM.get("cmi.score.raw"));
-    this.$store.state.studentName = SCORM.get("cmi.core.student_name");
-    this.$store.state.completion_status = SCORM.get("cmi.core.lesson_status");
+    this.$store.state.progresso_modulos.LMS_Progress = Number(SCORM.get("cmi.score.raw"));
+    this.$store.state.progresso_modulos.studentName = SCORM.get("cmi.core.student_name");
+    this.$store.state.progresso_modulos.completion_status = SCORM.get("cmi.core.lesson_status");
 
     const data = JSON.parse(SCORM.get("cmi.suspend_data")) || {};
     if (data) {
@@ -86,15 +86,9 @@ export default {
       if (newValue) {
         // Add your code here to handle the beforeunload event
         console.log("CLOSING...");
-        SCORM.set("cmi.score.raw", this.$store.state.LMS_Progress);
 
-        const objeto = {
-          modulo_1_finalizado: this.$store.state.modulo_1_finalizado,
-        };
-
-        this.$store.state.progresso_modulos = JSON.stringify(objeto);
-        console.log(`suspendedString: ${this.$store.state.progresso_modulos}`);
         SCORM.set("cmi.suspend_data", this.$store.state.progresso_modulos);
+        console.log(`cmi.suspend_data: ${JSON.stringify(this.$store.state.progresso_modulos)}`);
 
         SCORM.save();
         SCORM.quit();
@@ -102,6 +96,7 @@ export default {
     },
 
     '$store.state.LMS_Progress'(newValue) {
+
       if (newValue === 100) {
         console.log("completou")
 
@@ -109,7 +104,7 @@ export default {
         SCORM.set("cmi.core.lesson_status", "completed");
         SCORM.save();
         let result = Object.values(this.$store.state.progresso_modulos).every(value => value === true);
-        this.$store.state.showWelcomeBack = result
+        this.$store.state.showCongratulations = result
         console.log(`this.$store.state.showWelcomeBack: ${result}`)
       }
     }

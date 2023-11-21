@@ -155,6 +155,9 @@ export default {
         this.completed = true;
         if (this.score >= 7) {
           this.$store.state.progresso_modulos.modulo_01 = true;
+          if(this.$store.state.progresso_modulos.modulo_01) {
+            this.$store.state.progresso_modulos.LMS_Progress += 10
+          }
         }
       } else {
         // Se não for a última pergunta, avançar para a próxima automaticamente após o usuário selecionar uma resposta
