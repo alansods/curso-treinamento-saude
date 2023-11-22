@@ -26,8 +26,7 @@
             </div>
 
             <div
-              :class="
-                $store.state[`progresso_modulos.modulo_${modulo.numero}`] ? 'progresso-modulo success' : 'progresso-modulo disabled'"
+              :class="{ 'progresso-modulo success': $store.state.progresso_modulos[`modulo_${modulo.numero}`], 'progresso-modulo disabled': !$store.state.progresso_modulos[`modulo_${modulo.numero}`] }"
             ></div>
           </div>
         </v-col>

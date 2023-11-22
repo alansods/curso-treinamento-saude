@@ -60,9 +60,9 @@ export default {
       this.$store.state.progresso_modulos.studentName = SCORM.get("cmi.core.student_name");
     }
 
-    const data = JSON.parse(SCORM.get("cmi.suspend_data")) || {};
+    const data = JSON.parse(SCORM.get("cmi.suspend_data"));
     if (data) {
-      console.log(`data: ${data}`)
+      console.log(`data: ${JSON.stringify(data)}`)
       this.$store.state.progresso_modulos = data;
     }
   },
