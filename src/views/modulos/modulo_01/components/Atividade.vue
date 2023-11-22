@@ -6,7 +6,6 @@
   >
     <div v-if="!completed" class="question-container">
       <SmallText class="mb-2">Questão {{ number }} de {{ questions.length }}</SmallText>
-      <h5>ddd: {{ $store.state.progresso_modulos }}</h5>
       <h2>{{ number }}. <span v-html="question"></span></h2>
 
       <div class="my-6">
