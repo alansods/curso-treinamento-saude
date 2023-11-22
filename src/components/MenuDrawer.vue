@@ -76,10 +76,6 @@
         </v-list-item>
       </v-list-group>
     </v-list>
-
-    <v-btn block class="mt-5" @click="$router.push('/meu-progresso')">
-      Meu Progresso
-    </v-btn>
   </v-navigation-drawer>
 </template>
 

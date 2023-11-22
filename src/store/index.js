@@ -45,12 +45,12 @@ export default new Vuex.Store({
       state.showGlossario = !state.showGlossario;
     },
 
-    /* ADICIONAR_SCORE(state) {
+    ADICIONAR_SCORE(state) {
       const pontuacao = 100/8
       if (state.LMS_Progress < 100) {
         state.LMS_Progress += pontuacao;
       }
-    } */
+    }
   },
   actions: {},
 

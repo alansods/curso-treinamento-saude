@@ -142,11 +142,9 @@ export default {
       // Se for a última pergunta, mostrar tela de conclusão
       if (this.questionIndex === this.questions.length - 1) {
         this.completed = true;
-        if (this.score >= 7) {
+        if (this.score >= 7 && !this.$store.state.progresso_modulos.modulo_09) {
           this.$store.state.progresso_modulos.modulo_09 = true;
-          if(this.$store.state.progresso_modulos.modulo_09) {
-            this.$store.state.progresso_modulos.LMS_Progress += 20
-          }
+          this.$store.commit("ADICIONAR_SCORE");
         }
       } else {
         // Se não for a última pergunta, avançar para a próxima automaticamente após o usuário selecionar uma resposta

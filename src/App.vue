@@ -1,6 +1,7 @@
 <template>
   <v-app class="app">
     <WelcomeBackDialog />
+    <CongratulationsDialog />
     <NavBar @font-size-changed="updateFontSize" />
     <MenuDrawer />
 
@@ -19,6 +20,7 @@ import NavBar from "@/components/NavBar.vue";
 import FooterLogo from "@/components/FooterLogo.vue";
 import MenuDrawer from "@/components/MenuDrawer.vue";
 import WelcomeBackDialog from "@/components/WelcomeBackDialog.vue";
+import CongratulationsDialog from "@/components/CongratulationsDialog.vue";
 
 import { SCORM } from "pipwerks-scorm-api-wrapper";
 
@@ -30,6 +32,7 @@ export default {
     FooterLogo,
     MenuDrawer,
     WelcomeBackDialog,
+    CongratulationsDialog
   },
 
   data: () => ({
@@ -56,9 +59,13 @@ export default {
   },
 
   created() {
-    if(SCORM.get("cmi.core.student_name")) {
+    /* if(SCORM.get("cmi.core.student_name")) {
       this.$store.state.progresso_modulos.studentName = SCORM.get("cmi.core.student_name");
     }
+
+    if (SCORM.get("cmi.score.raw")) {
+      this.$store.state.progresso_modulos.LMS_Progress = Number(SCORM.get("cmi.score.raw"));
+    } */
 
     const data = JSON.parse(SCORM.get("cmi.suspend_data"));
     if (data) {
@@ -82,9 +89,7 @@ export default {
 
   watch: {
     isTabClosed(newValue) {
-      // This watch will be triggered when the isTabClosed data property changes
       if (newValue) {
-        // Add your code here to handle the beforeunload event
         console.log("CLOSING...");
 
         SCORM.set("cmi.suspend_data", this.$store.state.progresso_modulos);
@@ -96,16 +101,30 @@ export default {
     },
 
     '$store.state.progresso_modulos.LMS_Progress'(newValue) {
+      console.log(`LMS_Progress : ${newValue}`)
 
-      if (newValue === 100) {
-        console.log("completou")
+      this.$store.state.progresso_modulos.LMS_Progress = newValue;
+      SCORM.set("cmi.score.raw", this.$store.state.progresso_modulos.LMS_Progress);
 
+      SCORM.set("cmi.core.lesson_status", "completed");
+      SCORM.save();
+
+      if(
+        this.$store.state.progresso_modulos.modulo_01 &&
+        this.$store.state.progresso_modulos.modulo_02 &&
+        this.$store.state.progresso_modulos.modulo_03 &&
+        this.$store.state.progresso_modulos.modulo_04 &&
+        this.$store.state.progresso_modulos.modulo_05 &&
+        this.$store.state.progresso_modulos.modulo_06 &&
+        this.$store.state.progresso_modulos.modulo_07 &&
+        this.$store.state.progresso_modulos.modulo_08 &&
+        this.$store.state.progresso_modulos.modulo_09
+      ) {
+        console.log("COMPLETOU")
+        this.$store.state.showCongratulations = true
         this.$store.state.progresso_modulos.completion_status = "completed";
         SCORM.set("cmi.core.lesson_status", "completed");
         SCORM.save();
-        let result = Object.values(this.$store.state.progresso_modulos).every(value => value === true);
-        this.$store.state.showCongratulations = result
-        console.log(`this.$store.state.showWelcomeBack: ${result}`)
       }
     }
   },

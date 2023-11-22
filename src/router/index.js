@@ -12,8 +12,6 @@ import modulo_07_Routes from "./modulo_07_routes";
 import modulo_08_Routes from "./modulo_08_routes";
 import modulo_09_Routes from "./modulo_09_routes";
 
-import MeuProgresso from "../views/MeuProgresso";
-
 Vue.use(VueRouter);
 
 const routes = [
@@ -21,12 +19,6 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
-  },
-
-  {
-    path: "/meu-progresso",
-    name: "Meu Progresso",
-    component: MeuProgresso,
   },
 
   ...modulo_01_Routes,
