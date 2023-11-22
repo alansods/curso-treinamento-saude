@@ -65,7 +65,7 @@ router.beforeEach((to, from, next) => {
   if (shouldRedirect && to.name !== from.name) {
     isFirstTransition = false;
     next({ name: lastRouteName });
-    console.log("pegou o localstorage");
+    //console.log("pegou o localstorage");
     //this.$store.commit("TOGGLE_WELCOME_BACK");
   } else {
     next();

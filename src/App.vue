@@ -59,18 +59,12 @@ export default {
   },
 
   created() {
-    /* if(SCORM.get("cmi.core.student_name")) {
-      this.$store.state.progresso_modulos.studentName = SCORM.get("cmi.core.student_name");
-    }
-
-    if (SCORM.get("cmi.score.raw")) {
-      this.$store.state.progresso_modulos.LMS_Progress = Number(SCORM.get("cmi.score.raw"));
-    } */
-
     const data = JSON.parse(SCORM.get("cmi.suspend_data"));
     if (data) {
-      console.log(`data: ${JSON.stringify(data)}`)
+      console.log(`created - tem data: ${JSON.stringify(data)}`)
       this.$store.state.progresso_modulos = data;
+    } else {
+      console.log("NAO TEM DATA")
     }
   },
 
@@ -92,8 +86,9 @@ export default {
       if (newValue) {
         console.log("CLOSING...");
 
-        SCORM.set("cmi.suspend_data", this.$store.state.progresso_modulos);
-        console.log(`cmi.suspend_data: ${JSON.stringify(this.$store.state.progresso_modulos)}`);
+        SCORM.set("cmi.score.raw", this.$store.state.progresso_modulos.LMS_Progress);
+        SCORM.set("cmi.core.lesson_status", this.$store.state.progresso_modulos.completion_status);
+        SCORM.set("cmi.suspend_data", JSON.stringify(this.$store.state.progresso_modulos));
 
         SCORM.save();
         SCORM.quit();
@@ -101,25 +96,7 @@ export default {
     },
 
     '$store.state.progresso_modulos.LMS_Progress'(newValue) {
-      console.log(`LMS_Progress : ${newValue}`)
-
-      this.$store.state.progresso_modulos.LMS_Progress = newValue;
-      SCORM.set("cmi.score.raw", this.$store.state.progresso_modulos.LMS_Progress);
-
-      SCORM.set("cmi.core.lesson_status", "completed");
-      SCORM.save();
-
-      if(
-        this.$store.state.progresso_modulos.modulo_01 &&
-        this.$store.state.progresso_modulos.modulo_02 &&
-        this.$store.state.progresso_modulos.modulo_03 &&
-        this.$store.state.progresso_modulos.modulo_04 &&
-        this.$store.state.progresso_modulos.modulo_05 &&
-        this.$store.state.progresso_modulos.modulo_06 &&
-        this.$store.state.progresso_modulos.modulo_07 &&
-        this.$store.state.progresso_modulos.modulo_08 &&
-        this.$store.state.progresso_modulos.modulo_09
-      ) {
+      if(newValue === 100) {
         console.log("COMPLETOU")
         this.$store.state.showCongratulations = true
         this.$store.state.progresso_modulos.completion_status = "completed";
