@@ -234,10 +234,10 @@
       </Paragraph>
 
       <Paragraph>
-        A fórmula para calcular o ROI é a seguinte:
-        <strong class="text-center"
-          >ROI = Lucro Operacional Líquido / Investimentos</strong
-        >
+        <div style="border: solid 3px #ddd; padding: 15px 20px; text-align: center; margin: 30px 0;">
+          <strong class="text-center">A fórmula para calcular o ROI é a seguinte:
+        ROI = Lucro Operacional Líquido / Investimentos</strong>
+        </div>
       </Paragraph>
 
       <Paragraph>

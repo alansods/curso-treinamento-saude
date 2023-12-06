@@ -172,7 +172,7 @@
       <v-expansion-panel>
         <v-expansion-panel-header>Transparência</v-expansion-panel-header>
         <v-expansion-panel-content>
-          desempenha um papel crucial na divulgação pública das práticas ESG,
+          Desempenha um papel crucial na divulgação pública das práticas ESG,
           mas enfrenta desafios devido à falta de padronização. Embora existam
           padrões voluntários, como o Global Reporting Initiative (GRI), o
           Sustainability Accounting Standards Board (SASB) e o Task Force on
@@ -190,7 +190,7 @@
       <v-expansion-panel>
         <v-expansion-panel-header>Métricas</v-expansion-panel-header>
         <v-expansion-panel-content>
-          utilizadas para avaliar o grau de maturidade ESG. Em estudo da Nasdaq,
+          Utilizadas para avaliar o grau de maturidade ESG. Em estudo da Nasdaq,
           a bolsa americana, cita que os emissores têm dificuldade para vincular
           estratégias ESG à gestão de risco.
         </v-expansion-panel-content>
@@ -201,7 +201,7 @@
           >Remuneração a metas ESG</v-expansion-panel-header
         >
         <v-expansion-panel-content>
-          um desafio adicional, pois a precisão da medida e da definição de
+          Um desafio adicional, pois a precisão da medida e da definição de
           atingimento individual e coletivo é complexa. Um estudo de 2020 da PwC
           com o Center for Corporate Governance da London Business School
           ressalta a dependência de diversos fatores na definição do alcance de
@@ -212,7 +212,7 @@
       <v-expansion-panel>
         <v-expansion-panel-header>Pessoas</v-expansion-panel-header>
         <v-expansion-panel-content>
-          diante de todo o exposto, um estudo da Sustainable Banker de 2021,
+          Diante de todo o exposto, um estudo da Sustainable Banker de 2021,
           cita que assim como ocorreu com a transformação digital que mudou o
           perfil de praticamente todos os profissionais do segmento. O mercado
           financeiro ainda carece de um perfil profissional executivo que

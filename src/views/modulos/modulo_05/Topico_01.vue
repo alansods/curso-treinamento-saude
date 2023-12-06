@@ -273,7 +273,7 @@
       </v-col>
     </v-row>
 
-    <TextBlock subTopico="1. 2 Análise de custos">
+    <TextBlock subTopico="1.2 Análise de custos">
       <Paragraph>
         A análise de custos desempenha um papel fundamental na identificação,
         medição e avaliação das implicações financeiras dos acidentes de

@@ -61,8 +61,7 @@
         Todas as empresas, independentemente de serem privadas ou públicas, têm
         a obrigação legal de adotar medidas de segurança que priorizem a saúde e
         as condições de trabalho dos seus funcionários. Isso inclui orientar os
-        colaboradores sobre a importância do uso de equipamentos de proteção
-        individual (EPI), explicar quando e como utilizá-los, fornecer reposição
+        colaboradores sobre a importância do uso de Equipamentos de Proteção Individual (EPI), explicar quando e como utilizá-los, fornecer reposição
         gratuita e regular, bem como implementar programas de segurança no
         trabalho (BRASIL,1996).
       </Paragraph>
@@ -261,7 +260,7 @@
     <BoxIcon tipo="voce_sabia">
       Acesse o link e conheça a Norma Regulamentadora n° 07 (Gerenciamento de
       Riscos Ocupacionais) :
-      https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-7-nr-7
+      <a class="white--text" style="text-decoration: underline;" href="https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-7-nr-7" target="_blank" rel="noopener noreferrer">https://www.gov.br/trabalho-e-emprego/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/comissao-tripartite-partitaria-permanente/normas-regulamentadora/normas-regulamentadoras-vigentes/norma-regulamentadora-no-7-nr-7</a>
     </BoxIcon>
 
     <TextBlock>

@@ -5,14 +5,14 @@
     titleSize="4"
   >
     <BoxIcon tipo="objetivos_gerais">
-      Propiciar o desenvolvimento de fundamentos sobre Ergonomia e algumas doenças que podem estar associadas, além do impacto nos custos para empresa e consequências diretas e indiretas para funcionários e empregadores.
+      Proporcionar o desenvolvimento de conhecimentos fundamentais sobre Ergonomia e algumas doenças que podem estar associadas, além de abordar o impacto nos custos para a empresa e as consequências diretas e indiretas para funcionários e empregadores.
     </BoxIcon>
 
     <hr />
 
     <TextBlock topico="Apresentação">
       <Paragraph>
-        Com os avanços evolutivos e tecnológicos, as atividades humanas têm sofrido mudanças. Jornadas longas de trabalho e estudo são fatores que influenciam a permanência por períodos prolongados na postura sentada, que, mantida por períodos extensos, ocasiona sobrecarga dos músculos e articulações, o que leva à fadiga muscular e, principalmente, da coluna vertebral. Assim, com o objetivo de prevenir e manter a saúde do servidor, foi elaborado este guia de ergonomia.
+        Com os avanços evolutivos e tecnológicos, as atividades humanas têm sofrido mudanças. Jornadas longas de trabalho e estudo são fatores que influenciam a permanência por períodos prolongados na postura sentada, que, mantida por períodos extensos, ocasiona sobrecarga dos músculos e articulações, o que leva à fadiga muscular e, principalmente, da coluna vertebral.
       </Paragraph>
 
       <Paragraph>

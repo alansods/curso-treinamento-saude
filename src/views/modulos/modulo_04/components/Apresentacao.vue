@@ -12,7 +12,7 @@
 
     <TextBlock topico="Apresentação">
       <Paragraph>
-        Este módulo abrange um conjunto de informações relacionadas aos direitos dos trabalhadores, bem como às responsabilidades institucionais e dos empregadores no que diz respeito à saúde e segurança dos trabalhadores (SST) empregados por empresas sob o regime da Consolidação das Leis do Trabalho (CLT) e segurados pela Previdência Social. Em 1999, a Organização Internacional do Trabalho (OIT) oficializou o conceito de "trabalho decente" como um resumo de sua missão histórica, que busca promover oportunidades para que homens e mulheres tenham acesso a empregos produtivos e de alta qualidade, garantindo liberdade, equidade, segurança e dignidade humana (ABRAMO, 2015).
+        Este módulo abrange um conjunto de informações relacionadas aos direitos dos trabalhadores, bem como às responsabilidades institucionais e dos empregadores no que diz respeito à saúde e segurança dos trabalhadores (SST) empregados por empresas sob o regime da Consolidação das Leis do Trabalho (CLT) e segurados pela Previdência Social (PS). Em 1999, a Organização Internacional do Trabalho (OIT) oficializou o conceito de "trabalho decente" como um resumo de sua missão histórica, que busca promover oportunidades para que homens e mulheres tenham acesso a empregos produtivos e de alta qualidade, garantindo liberdade, equidade, segurança e dignidade humana (ABRAMO, 2015).
       </Paragraph>
 
       <Paragraph>

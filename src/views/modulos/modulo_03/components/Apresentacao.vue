@@ -12,7 +12,7 @@
 
     <TextBlock topico="Apresentação">
       <Paragraph>
-        Atualmente, no Brasil, ainda não se encontra disponível um sistema de saúde universal capaz de suprir integralmente as demandas de toda a população, no que se refere ao acesso a serviços de saúde que sejam eficientes, pontuais e igualitários. Diante dessa situação, diversas empresas e organizações optam por contratar os serviços da Saúde Suplementar, que se configura como um sistema de considerável complexidade, regido por inúmeras normativas e regulamentações. Diversos fatores exercem influência nos custos dos serviços de saúde em nível global, tais como o envelhecimento demográfico, a utilização inadequada dos serviços, a adoção de novas tecnologias e hábitos de vida pouco saudáveis, todos esses elementos contribuindo para o aumento dos riscos de doenças crônicas não transmissíveis (DCNT).
+        Atualmente, no Brasil, ainda não se encontra disponível um sistema de saúde universal capaz de suprir integralmente as demandas de toda a população, no que se refere ao acesso a serviços de saúde que sejam eficientes, pontuais e igualitários. Diante dessa situação, diversas empresas e organizações optam por contratar os serviços da Saúde Suplementar, que se configura como um sistema de considerável complexidade, regido por inúmeras normativas e regulamentações. Diversos fatores exercem influência nos custos dos serviços de saúde em nível global, tais como o envelhecimento demográfico, a utilização inadequada dos serviços, a adoção de novas tecnologias e hábitos de vida pouco saudáveis, todos contribuindo para o aumento dos riscos de doenças crônicas não transmissíveis (DCNT).
       </Paragraph>
 
       <Paragraph>

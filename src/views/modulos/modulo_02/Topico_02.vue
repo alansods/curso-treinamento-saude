@@ -277,12 +277,7 @@
       </Paragraph>
 
       <Paragraph>
-        Existem diversas ferramentas disponíveis para conduzir uma análise
-        ergonômica do trabalho, e a escolha da ferramenta adequada depende do
-        tipo de atividade que está sendo analisada. Duas dessas ferramentas são
-        o método RULA e o Method-Time Measurement (MTM) (DOMBIDAU JUNNIOR,
-        SILVA, CANEDO, 2017; RIBEIRO JÚNIOR, CHAVES, 2012). Vejamos a seguir
-        como essas ferramentas se caracterizam:
+        Existem diversas ferramentas disponíveis para conduzir uma análise ergonômica do trabalho, e a escolha da ferramenta adequada depende do tipo de atividade que está sendo analisada. Duas dessas ferramentas são o método Rapid Upper Limb Assessment (RULA) e o Method-Time Measurement (MTM)- (DOMBIDAU JUNNIOR et al., 2017; RIBEIRO JÚNIOR et al., 2012). Vejamos a seguir como essas ferramentas se caracterizam:
       </Paragraph>
     </TextBlock>
 

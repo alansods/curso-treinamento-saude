@@ -8,11 +8,7 @@
       topico="Tópico 01 - Gerenciando o Absenteísmo: Estratégias para Lidar com Afastamentos de Curto e Longo Prazo"
     >
       <Paragraph>
-        Neste tópico, disponibilizaremos informações que auxiliam líderes e suas
-        equipes no enfrentamento de absenteísmo, afastamentos de curto, longo
-        prazo e impacto nos custos para empresa, além de discutir as
-        consequências diretas e indiretas para funcionários e empregadores.
-        Vamos lá?
+        Neste tópico, disponibilizaremos informações que auxiliam líderes e suas equipes no enfrentamento do absenteísmo, em afastamentos de curto e longo prazo e no entendimento do impacto nos custos para a empresa. Além disso, discutiremos as consequências diretas e indiretas para funcionários e empregadores. Vamos lá?
       </Paragraph>
 
       <Paragraph>
@@ -26,13 +22,7 @@
       </Paragraph>
 
       <Paragraph>
-        Devido ao seu papel como organizador social e sua relevância na vida de
-        um indivíduo, qualquer fator que possa causar desequilíbrio nessa
-        dimensão pode influenciar na produtividade das atividades laborais de um
-        colaborador e, consequentemente, impactando no absenteísmo no trabalho.
-        O profissional que não está em equilíbrio entre suas dimensões não está
-        disposto a produzir de maneira efetiva e acaba se ausentando de suas
-        atividades.
+        Devido ao seu papel como organizador social e à sua relevância na vida de um indivíduo, qualquer fator que possa causar desequilíbrio nessa dimensão pode influenciar na produtividade das atividades laborais de um colaborador, consequentemente impactando o absenteísmo no trabalho. O profissional que não está em equilíbrio entre suas dimensões não está disposto a produzir de maneira efetiva e acaba se ausentando de suas atividades.
       </Paragraph>
     </TextBlock>
 
@@ -202,7 +192,7 @@
     </TextBlock>
 
     <TextBlock
-      subTopico="1.2 Principais causas de absenteísmo por motivo de doença, segundo a previdência social"
+      subTopico="1.2 Principais causas de absenteísmo por motivo de doença, segundo a Previdência Social"
     >
       <Paragraph>
         As doenças ocupacionais e as afecções musculoesqueléticas estão entre as
@@ -359,13 +349,7 @@
       </v-row>
 
       <Paragraph>
-        O absenteísmo legal é um evento que faz parte da realidade
-        organizacional, as condições do trabalho e conhecimento da legislação
-        podem influenciar nas ocorrências desse evento. Trata-se de uma variável
-        significativa para as empresas, pois implica na redução da produtividade
-        e aumento dos custos. A substituição do colega ausente, que implica em
-        pagamento em dobro pelo mesmo trabalho, a redução da produtividade, e
-        influência no clima organizacional são alguns dos impactos observados.
+        O absenteísmo legal é um fenômeno integrado à realidade organizacional, no qual as condições de trabalho e o conhecimento da legislação podem influenciar em sua ocorrência. Este é um elemento de grande relevância para as empresas, uma vez que acarreta a redução da produtividade e o aumento dos custos. A substituição do colega ausente, que implica em pagamento em dobro pelo mesmo trabalho, a diminuição da produtividade e a influência no clima organizacional são alguns dos impactos observados.
       </Paragraph>
     </TextBlock>
 

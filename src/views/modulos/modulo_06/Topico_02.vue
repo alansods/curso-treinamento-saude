@@ -6,7 +6,7 @@
   >
     <TextBlock topico="Tópico 2 - Fator Acidentário Previdenciário (FAP)">
       <Paragraph>
-        Olá! Vimos na aula anterior deste módulo sobre aspectos legais dos acidentes de trabalho e o impacto financeiro para as empresas. Nesta aula iremos abordar sobre o Fator Acidentário Previdenciário, bem como os impactos financeiros destes e normas da previdência social. Ao final deste módulo, você será capaz de definir acidentes de trabalho e os seus impactos, bem como entender aspectos legais do Ministério do Trabalho, então vem comigo...
+        Olá! Vimos na aula anterior deste módulo sobre aspectos legais dos acidentes de trabalho e o impacto financeiro para as empresas. Nesta aula iremos abordar sobre o Fator Acidentário Previdenciário, bem como os impactos financeiros destes e normas da previdência social. Ao final deste módulo, você será capaz de definir acidentes de trabalho e os seus impactos, bem como entender aspectos legais do Ministério do Trabalho. Ao final deste módulo, você será capaz de definir acidentes de trabalho e os seus impactos, bem como entender aspectos legais do Ministério do Trabalho. Vamos lá?
       </Paragraph>
     </TextBlock>
 

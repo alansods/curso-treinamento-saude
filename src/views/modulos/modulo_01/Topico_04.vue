@@ -7,13 +7,6 @@
 
     <TextBlock topico="Tópico 04 - Políticas de Saúde Mental no Trabalho">
       <Paragraph>
-        Neste tópico, abordamos o assédio moral e sexual no ambiente de
-        trabalho, discutindo suas definições, causas e consequências. No próximo
-        tópico, iremos explorar algumas políticas de saúde mental no trabalho,
-        visando promover um ambiente saudável e acolhedor para os colaboradores.
-      </Paragraph>
-
-      <Paragraph>
         O trabalho ocupa posição central na sociedade e na vida das pessoas, tem
         grande importância para o trabalhador, podendo ser fonte de realizações
         e lazer. No entanto, a depender das condições de trabalho, ele pode
@@ -23,29 +16,12 @@
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      A Política Nacional de Saúde do Trabalhador e Trabalhadora (PNSTT), criada
-      no ano de 2012 pela Portaria Nº 1.823, tem como finalidade definir os
-      princípios, as diretrizes e as estratégias para o desenvolvimento da
-      atenção integral à saúde do trabalhador. Tem como um dos objetivos
-      principais promover a saúde e ambientes e processos de trabalhos
-      saudáveis, por meio de ações como estabelecer parâmetros protetores da
-      saúde dos trabalhadores nos ambientes e processos de trabalho e o
-      fortalecimento e articulação das ações de vigilância em saúde,
-      identificando os fatores de risco ambientais e intervindo tanto nos
-      ambientes e processos de trabalho quanto em seu entorno.
+      A Política Nacional de Saúde do Trabalhador e Trabalhadora (PNSTT), instituída em 2012 pela Portaria Nº 1.823, tem como propósito definir os princípios, diretrizes e estratégias para o desenvolvimento da atenção integral à saúde do trabalhador. Um de seus objetivos primordiais é promover a saúde em ambientes e processos de trabalho, estabelecendo parâmetros de proteção para a saúde dos trabalhadores e fortalecendo a articulação das ações de vigilância em saúde. Isso inclui a identificação de fatores de risco ambientais e intervenções tanto nos ambientes e processos de trabalho quanto em seu entorno.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        A identificação de rede de Atenção à Saúde local é essencial para a
-        articulação de ações de prevenção e de intervenção, envolvendo diversos
-        atores institucionais e cuidados integrais ao sujeito. Nessa
-        perspectiva, compreende-se que a investigação é processual e deve se
-        constituir em diversas etapas, de modo a abranger, inicialmente, o
-        reconhecimento do caso suspeito a partir da apresentação do trabalhador,
-        a coleta de informações sobre o histórico de adoecimento, a
-        caracterização clínica realizada por profissionais competentes e exames
-        complementares na rede assistencial.
+        A identificação da Rede de Atenção à Saúde local é essencial para articular ações de prevenção e intervenção, envolvendo diversos atores institucionais e garantindo cuidados integrais ao sujeito. Nessa perspectiva, compreende-se que a investigação é um processo que deve se desdobrar em várias etapas. Inicialmente, abrange o reconhecimento do caso suspeito a partir da apresentação do trabalhador, seguido pela coleta de informações sobre o histórico de adoecimento, caracterização clínica realizada por profissionais competentes e exames complementares na rede assistencial.
       </Paragraph>
 
       <Paragraph>

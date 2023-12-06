@@ -46,7 +46,7 @@
 
     <TextBlock>
       <Paragraph>
-        Para efetuar o planejamento e a análise de tarefas, postos de trabalho, produtos, ambientes e sistemas, com o objetivo de adaptá-los às necessidades, capacidades e restrições das pessoas, é essencial realizar uma avaliação completa do trabalho, considerando diversos aspectos da ergonomia. Segundo Abergo (2023), cada um desses domínios é voltado para proporcionar condições apropriadas aos colaboradores de acordo com as particularidades de suas funções, de acordo com o que podemos observar a seguir:
+        Para efetuar o planejamento e a análise de tarefas, postos de trabalho, produtos, ambientes e sistemas, com o objetivo de adaptá-los às necessidades, capacidades e restrições das pessoas, é essencial realizar uma avaliação completa do trabalho, considerando diversos aspectos da ergonomia. Segundo Abergo (2023), cada um desses domínios é voltado para proporcionar condições apropriadas aos colaboradores de acordo com as particularidades de suas funções, conforme podemos observar a seguir:
       </Paragraph>
     </TextBlock>
 

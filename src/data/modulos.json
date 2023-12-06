@@ -12,7 +12,7 @@
       { "numero": "02", "titulo": "Transtornos Mentais Mais Comuns no Ambiente de Trabalho", "link": "modulo-01/topico-02" },
       { "numero": "03", "titulo": "Assédio no Ambiente de Trabalho", "link": "modulo-01/topico-03" },
       { "numero": "04", "titulo": "Políticas de Saúde Mental no Trabalho", "link": "modulo-01/topico-04" },
-      { "numero": "05", "titulo": "A Importância dos Investimentos de Saúde Mental nas Empresas", "link": "modulo-01/topico-05" },
+      { "numero": "05", "titulo": "A Importância dos Investimentos em Saúde Mental nas Empresas", "link": "modulo-01/topico-05" },
       {
         "numero": null,
         "titulo": "Referências",
@@ -125,7 +125,7 @@
 
   {
     "numero": "07",
-    "titulo": "Importância de uma Política para Afastamentos de Curto, Longo Prazo, Retorno ao Trabalho, Readaptação e Reabilitação",
+    "titulo": "Importância de uma Política para Afastamentos de Curto e Longo Prazo, Retorno ao Trabalho, Readaptação e Reabilitação",
     "items": [
       {
         "numero": null,
@@ -145,7 +145,7 @@
 
   {
     "numero": "08",
-    "titulo": "Introdução ao ESG corporativo",
+    "titulo": "Introdução ao ESG Corporativo",
     "items": [
       {
         "numero": null,

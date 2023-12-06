@@ -8,9 +8,7 @@
       topico="Tópico 01 - As Principais Causas de Afastamento e os Custos Diretos e Indiretos Relacionados a Transtornos Mentais"
     >
       <Paragraph>
-        Neste tópico, vamos abordar a importância dos cuidados com a saúde
-        mental dos colaboradores e como essa falta de atenção pode afetar a
-        saúde financeira de uma organização.
+        Neste tópico, exploraremos a relevância dos cuidados com a saúde mental dos colaboradores e como a negligência nesse aspecto pode impactar a saúde financeira de uma organização.
       </Paragraph>
 
       <Paragraph>
@@ -41,12 +39,7 @@
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      Os transtornos mentais relacionados ao trabalho têm se tornado uma
-      preocupação crescente nos últimos anos. A partir de 2010, foi observado um
-      aumento considerável nesse tipo de transtorno, refletindo-se em um aumento
-      de 24% na concessão de benefícios para a população trabalhadora que sofre
-      com esse problema. Estima-se que as mulheres apresentaram um aumento de
-      cerca de 650% em apenas 5 anos.
+      Desde 2010, houve um notável aumento nos casos de transtornos mentais relacionados ao trabalho, refletindo em um crescimento de 24% na concessão de benefícios para a população trabalhadora afetada por essa problemática. Especificamente, as mulheres apresentaram um expressivo aumento de cerca de 650% em apenas 5 anos nesse contexto.
     </BoxIcon>
 
     <TextBlock>
@@ -84,11 +77,7 @@
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Nessa vídeoaulas nós iremos disponibilizar informações que auxiliem
-        líderes e suas equipes no enfrentamento dos índices crescentes de
-        adoecimento mental associado ao trabalho, possibilitando, assim, ampliar
-        o acolhimento e os encaminhamentos necessários ao cuidado
-        biopsicossocial dos trabalhadores
+        Nessa vídeoaula, disponibilizaremos informações que auxiliam líderes e suas equipes no enfrentamento dos crescentes índices de adoecimento mental associado ao trabalho, possibilitando assim ampliar o acolhimento e os encaminhamentos necessários para o cuidado biopsicossocial do trabalhador.
       </Paragraph>
 
       <Paragraph>
@@ -141,35 +130,59 @@
           </td>
         </tr>
         <tr>
-          <td>159</td>
-          <td>159</td>
+          <td>F05.0</td>
+          <td>Delirium, não sobreposto à demência, como descrita</td>
         </tr>
         <tr>
-          <td>159</td>
-          <td>159</td>
+          <td>F06.7</td>
+          <td>Transtorno cognitivo leve</td>
         </tr>
         <tr>
-          <td>159</td>
-          <td>159</td>
+          <td>F07.0</td>
+          <td>Transtorno orgânico de personalidade</td>
         </tr>
         <tr>
-          <td>159</td>
-          <td>159</td>
+          <td>F07.8</td>
+          <td>Outros transtornos de personalidade e de comportamento decorrentes de doença, lesão ou disfunção cerebral</td>
         </tr>
         <tr>
-          <td>159</td>
-          <td>159</td>
+          <td>F09</td>
+          <td>Transtorno mental orgânico ou sintomático não especificado</td>
+        </tr>
+        <tr>
+          <td>F10.2</td>
+          <td>Alcoolismo crônico (relacionado ao trabalho)</td>
+        </tr>
+        <tr>
+          <td>F32</td>
+          <td>Episódios depressivos</td>
+        </tr>
+        <tr>
+          <td>F43.1</td>
+          <td>Estado de estresse pós-traumático</td>
+        </tr>
+        <tr>
+          <td>F48.0</td>
+          <td>Neurastenia (inclui síndrome de fadiga)</td>
+        </tr>
+        <tr>
+          <td>F48.8</td>
+          <td>Outros transtornos neuróticos especificados (inclui neurose profissional)</td>
+        </tr>
+        <tr>
+          <td>F51.2</td>
+          <td>Transtorno do ciclo vigília-sono devido a fatores não orgânicos</td>
+        </tr>
+        <tr>
+          <td>Z73.0</td>
+          <td>Sensação de estar acabado (síndrome de Burnout, síndrome do esgotamento profissional)</td>
         </tr>
       </tbody>
     </Table>
 
     <TextBlock>
       <Paragraph>
-        Além das informações apresentadas no quadro 1, temos ainda diversos
-        modelos explicativos para o desenvolvimento de transtornos mentais em
-        ambientes de trabalho, e compreender esses modelos pode ajudar as
-        empresas a implementar medidas de prevenção e promoção da saúde mental
-        dos colaboradores. Entre os modelos mais conhecidos, estão:
+        Além das informações apresentadas no quadro 1, temos ainda diversos modelos explicativos para o desenvolvimento de transtornos mentais em ambientes de trabalho. Compreender esses modelos pode ajudar as empresas a implementar medidas de prevenção e promoção da saúde mental dos colaboradores. Entre os modelos mais conhecidos, estão:
       </Paragraph>
     </TextBlock>
 

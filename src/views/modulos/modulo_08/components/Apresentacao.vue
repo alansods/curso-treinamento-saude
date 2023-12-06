@@ -5,14 +5,14 @@
     titleSize="4"
   >
     <BoxIcon tipo="objetivos_gerais">
-      Fornecer aos cursistas uma compreensão sólida dos conceitos fundamentais ligados à abordagem ESG (Ambiental, Social e Governança), e demonstrar como esses princípios estão sendo efetivamente implementados no cenário empresarial.
+      Fornecer aos cursistas uma compreensão sólida dos conceitos fundamentais ligados à abordagem ESG (Ambiental, Social e Governança) e demonstrar como esses princípios estão sendo efetivamente implementados no cenário empresarial.
     </BoxIcon>
 
     <hr />
 
     <TextBlock topico="Apresentação">
       <Paragraph>
-        Neste módulo, trataremos do conceito ESG (sigla em inglês para Environment, Social e Governance). Vamos explorar a evolução do capitalismo, desde sua busca inicial pelo lucro até a transição para um modelo mais consciente, onde o compromisso com questões ambientais, sociais e de governança se torna essencial. Ao longo desta jornada, examinaremos o contexto histórico que levou ao surgimento do ESG, sua crescente importância para as empresas e o mercado financeiro, além de destacar os riscos e oportunidades que esse movimento oferece. Por fim, exploraremos as práticas ESG e como as empresas podem implementá-las em suas operações para construir um futuro mais sustentável e responsável.
+        Neste módulo, trataremos do conceito ESG (sigla em inglês para <i>Environment, Social e Governance</i>). Vamos explorar a evolução do capitalismo, desde sua busca inicial pelo lucro até a transição para um modelo mais consciente, onde o compromisso com questões ambientais, sociais e de governança se torna essencial. Ao longo desta jornada, examinaremos o contexto histórico que levou ao surgimento do ESG, sua crescente importância para as empresas e o mercado financeiro, além de destacar os riscos e oportunidades que esse movimento oferece. Por fim, exploraremos as práticas ESG e como as empresas podem implementá-las em suas operações para construir um futuro mais sustentável e responsável.
       </Paragraph>
     </TextBlock>
 

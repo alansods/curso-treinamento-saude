@@ -131,15 +131,7 @@
         garantia de direitos, informação, emprego e renda, além de
         possibilidades de fazer escolhas favoráveis à saúde.
       </Paragraph>
-    </TextBlock>
 
-    <BoxIcon tipo="voce_sabia">
-      De acordo com o relatório da Organização Mundial da Saúde (OMS), das 38
-      milhões de vidas perdidas em 2012 por DCNT, 42% (16 milhões) eram
-      prematuras e evitáveis.
-    </BoxIcon>
-
-    <TextBlock>
       <Paragraph>
         Assim, existem duas categorias de fatores que contribuem para o
         desenvolvimento das principais DCNT: os fatores não modificáveis (sexo,
@@ -292,15 +284,6 @@
       física. Assim, a empresa pode contribuir para a melhoria da qualidade de
       vida e da produtividade dos seus funcionários.
     </BoxIcon>
-
-    <TextBlock>
-      <Paragraph>
-        Até aqui, aprendemos sobre as DCNT e sua implicação na produtividade das
-        empresas. No próximo tópico, vamos conhecer sobre o desenvolvimento dos
-        programas de qualidade de vida no trabalho e de gerenciamento da saúde
-        da população.
-      </Paragraph>
-    </TextBlock>
 
     <BoxIcon tipo="recapitulando">
       Até aqui, aprendemos sobre as DCNT e sua implicação na produtividade das

@@ -12,7 +12,7 @@
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Neste  vídeo, iremos apresentar os benefícios de uma cultura de Segurança e Saúde do Trabalho e Promoção da Saúde nas empresas. Ao final, espera-se que você tenha adquirido conhecimentos teóricos e práticos sobre a importância dessa cultura no ambiente de trabalho. Vamos começar?
+        Neste vídeo, apresentaremos os benefícios de uma cultura de Segurança e Saúde do Trabalho e Promoção da Saúde nas empresas. Ao final, espera-se que você tenha adquirido conhecimentos teóricos e práticos sobre a importância dessa cultura no ambiente de trabalho. Vamos começar?
       </Paragraph>
 
       <Paragraph>
@@ -36,7 +36,7 @@
 
     <TextBlock>
       <Paragraph>
-        Quando se trata de saúde, não estamos apenas considerando a ausência de doenças; estamos abordando um conjunto de fatores que impactam diretamente na qualidade de vida. Nesse contexto, o trabalho é amplamente reconhecido como um determinante social da saúde, juntamente com moradia, alimentação e outros aspectos.
+        Quando se trata de saúde, não estamos apenas considerando a ausência de doenças, estamos abordando um conjunto de fatores que impactam diretamente na qualidade de vida. Nesse contexto, o trabalho é amplamente reconhecido como um determinante social da saúde, juntamente com moradia, alimentação e outros aspectos.
       </Paragraph>
 
       <Paragraph>
@@ -51,7 +51,7 @@
     <v-row justify="center">
       <v-col cols="12" sm="7">
         <Imagem
-          fonte="Fonte: Freepick.com"
+          fonte="Freepick.com"
           src="modulo_09/reflexao.svg"
         />
       </v-col>
@@ -163,16 +163,26 @@
         Vejamos alguns hábitos de vida seguros e saudáveis fundamentais para a manutenção da saúde e a qualidade de vida:
       </Paragraph>
 
-      <Paragraph>
-        <ul>
-          <li>Evitar o tabagismo</li>
-          <li>Controlar o consumo de álcool </li>
-          <li>Manter uma alimentação saudável </li>
-          <li>Gerenciar o estresse</li>
-          <li>Fazer check-ups regulares </li>
-          <li>Praticar exercícios</li>
-        </ul>
-      </Paragraph>
+      <div class="my-10">
+        <v-alert border="left" color="blue" dark>
+          Evitar o tabagismo
+        </v-alert>
+        <v-alert border="left" color="blue" dark>
+          Controlar o consumo de álcool
+        </v-alert>
+        <v-alert border="left" color="blue" dark>
+          Manter uma alimentação saudável
+        </v-alert>
+        <v-alert border="left" color="blue" dark>
+          Gerenciar o estresse
+        </v-alert>
+        <v-alert border="left" color="blue" dark>
+          Fazer check-ups regulares
+        </v-alert>
+        <v-alert border="left" color="blue" dark>
+          Praticar exercícios
+        </v-alert>
+      </div>
 
       <Paragraph>
         Quando as pessoas estão em ambientes que apoiam esses hábitos, elas têm um desempenho melhor em todos os aspectos da vida, incluindo o trabalho. É importante que as empresas compreendam como esses fatores afetam a qualidade de vida dos funcionários e tomem medidas diretas para promover hábitos saudáveis.

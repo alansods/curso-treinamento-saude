@@ -9,12 +9,7 @@
     >
       <Paragraph>
         Neste tópico, abordaremos os transtornos mentais mais comuns no ambiente
-        de trabalho. Você sabia que a partir de 2010, observou-se um aumento
-        considerável nos transtornos mentais relacionados ao trabalho? Estima-se
-        que a concessão de benefícios para esse grupo específico de
-        trabalhadores tenha aumentado em 24%. Esses dados são ainda mais
-        evidentes no público feminino, que apresentou um aumento de cerca de
-        650% em um período de cinco anos. O perfil dos colaboradores afastados
+        de trabalho. O perfil dos colaboradores afastados
         por transtornos mentais é composto, em sua grande maioria, por
         trabalhadores da produção de bens e serviços industriais, com idades
         entre 19 e 39 anos e nível de escolaridade médio. As principais causas
@@ -26,13 +21,7 @@
 
     <TextBlock subTopico="Síndrome de Burnout">
       <Paragraph>
-        Dentre os fatores relacionados à organização, podemos citar o excesso de
-        normas, mudanças organizacionais frequentes, comunicação ineficiente,
-        impossibilidade de ascender na carreira. Os fatores individuais podem
-        potencializar o risco de desenvolver transtornos quando associados a um
-        fator organizacional. Indivíduos pessimistas, perfeccionistas,
-        controladores e passivos estão associados a índices mais elevados da
-        síndrome de Burnout.
+        A síndrome de Burnout é consequência de um processo crônico de estresse e abrange sentimentos como desesperança, depressão, raiva, impaciência, irritabilidade, sensação de baixa energia, fraqueza, preocupação, entre outros. Os fatores de risco para o desenvolvimento do Burnout estão divididos e correlacionados em quatro dimensões:  a organização, o indivíduo, o trabalho e a sociedade.
       </Paragraph>
 
       <v-row justify="center">
@@ -75,7 +64,7 @@
         o relacionamento conflituoso entre colegas também são citados como
         fatores que podem agravar a síndrome. Além disso, a presença de
         indivíduos competitivos, distantes, excessivamente críticos ou
-        desmotivados contribui para a intensificação desses problemas
+        desmotivados contribui para a intensificação desses problemas.
       </Paragraph>
 
       <Paragraph>
@@ -132,7 +121,7 @@
       </v-row>
     </TextBlock>
 
-    <TextBlock subTopico="Depressao">
+    <TextBlock subTopico="Depressão">
       <v-row justify="center" align="center">
         <v-col cols="12" sm="4">
           <Imagem

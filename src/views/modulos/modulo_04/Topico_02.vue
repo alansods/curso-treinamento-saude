@@ -87,27 +87,15 @@
         (HOLZ, 2018):
       </Paragraph>
 
-      <Paragraph>
-        <ul>
-          <li>Identificação da empresa, setor e função do trabalhador;</li>
-          <li>
-            Definir se o Laudo é individual ou coletivo, descrevendo as medidas
-            de controle existentes, atividade e localização de possíveis fontes
-            geradoras;
-          </li>
-          <li>Via e periodicidade de exposição ao agente nocivo;</li>
-          <li>Metodologia e procedimentos de avaliação do agente nocivo;</li>
-          <li>
-            Identificação de agente nocivo capaz de causar dano à saúde e
-            integridade física;
-          </li>
-          <li>
-            Procedimentos finais: identificação do médico do trabalho ou
-            engenheiro de segurança com assinatura e data da realização da
-            avaliação ambiental
-          </li>
-        </ul>
-      </Paragraph>
+      <div class="my-10">
+        <v-alert border="left" color="blue" dark> Identificação da empresa, setor e função do trabalhador;</v-alert>
+        <v-alert border="left" color="blue" dark> Definir se o Laudo é individual ou coletivo, descrevendo as medidas de controle existentes, atividade e localização de possíveis fontes geradoras;</v-alert>
+        <v-alert border="left" color="blue" dark>Via e periodicidade de exposição ao agente nocivo;</v-alert>
+        <v-alert border="left" color="blue" dark>Metodologia e procedimentos de avaliação do agente nocivo;</v-alert>
+        <v-alert border="left" color="blue" dark>Identificação de agente nocivo capaz de causar dano à saúde e integridade física;</v-alert>
+        <v-alert border="left" color="blue" dark>Procedimentos finais: identificação do médico do trabalho ou
+            engenheiro de segurança com assinatura e data da realização da avaliação ambiental.</v-alert>
+      </div>
 
       <Paragraph>
         O LTCAT deve conter informações cruciais relacionadas à existência de
@@ -321,7 +309,7 @@
             </v-col>
           </template>
 
-          <template #back> Com explosivos; </template>
+          <template #back> Com explosivos</template>
         </FlipCard>
       </v-col>
 
@@ -333,7 +321,7 @@
             </v-col>
           </template>
 
-          <template #back> Com inflamáveis; </template>
+          <template #back> Com inflamáveis</template>
         </FlipCard>
       </v-col>
 
@@ -346,7 +334,7 @@
           </template>
 
           <template #back>
-            Com radiações ionizantes ou substâncias radioativas;
+            Com radiações ionizantes ou substâncias radioativas
           </template>
         </FlipCard>
       </v-col>
@@ -360,7 +348,7 @@
           </template>
 
           <template #back>
-            Com exposição a roubos ou outras violências físicas;
+            Com exposição a roubos ou outras violências físicas
           </template>
         </FlipCard>
       </v-col>
@@ -373,7 +361,7 @@
             </v-col>
           </template>
 
-          <template #back> Com energia elétrica; </template>
+          <template #back> Com energia elétrica</template>
         </FlipCard>
       </v-col>
 
@@ -385,7 +373,7 @@
             </v-col>
           </template>
 
-          <template #back> Com motocicleta. </template>
+          <template #back> Com motocicleta</template>
         </FlipCard>
       </v-col>
     </v-row>
@@ -444,16 +432,6 @@
         ao cumprimento das práticas necessárias.
       </Paragraph>
     </TextBlock>
-
-    <v-row justify="center">
-      <v-col cols="12" sm="7">
-        <Imagem
-          legenda="Imagem 4: Quadro de Gestão à Vista: Tornando informações acessíveis para todos."
-          fonte="Fonte: Freepick.com"
-          src="modulo_04/imagem4.jpeg"
-        />
-      </v-col>
-    </v-row>
 
     <BoxIcon tipo="voce_sabia">
       Após a análise dos indicadores, uma ferramenta que pode ser utilizada

@@ -5,7 +5,7 @@
     titleSize="3"
   >
     <TextBlock
-      topico="Tópico 05 - A Importância dos Investimentos de Saúde Mental nas Empresas"
+      topico="Tópico 05 - A Importância dos Investimentos em Saúde Mental nas Empresas"
     >
       <Paragraph>
         Você sabia que a saúde mental dos colaboradores tem um impacto direto na
@@ -28,8 +28,7 @@
 
     <BoxIcon tipo="video_aula" numero="3">
       <Paragraph>
-        Nesta vídeoaula, nós iremos discorrer sobre a importância dos
-        investimentos de saúde mental nas empresas.
+        Nesta videoaula, discorreremos sobre a importância dos investimentos em saúde mental nas empresas.
       </Paragraph>
 
       <Paragraph>

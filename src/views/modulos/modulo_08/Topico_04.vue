@@ -54,18 +54,7 @@
 
     <TextBlock>
       <Paragraph>
-        Agora que você já conhece a importância do ESG e como ele pode impactar
-        positivamente a sua empresa, é natural surgir a pergunta: "Como
-        implementar o ESG na minha organização?" Implementar práticas ESG requer
-        um compromisso firme da alta direção, uma compreensão clara dos
-        objetivos e valores da empresa, bem como a definição de metas
-        específicas e mensuráveis relacionadas aos pilares ambiental, social e
-        de governança. Além disso, é fundamental envolver todos os colaboradores
-        no processo, promovendo a conscientização e a capacitação necessárias
-        para que todos entendam o papel que desempenham na construção de uma
-        cultura empresarial mais responsável e sustentável. Vejamos algumas
-        ações práticas que podem ser adotadas para implementar o ESG em sua
-        empresa:
+        Agora que você já conhece a importância do ESG e como ele pode impactar positivamente a sua empresa, veremos que implementar práticas ESG requer um compromisso firme da alta direção, uma compreensão clara dos objetivos e valores da empresa, bem como a definição de metas específicas e mensuráveis relacionadas aos pilares ambiental, social e de governança. Além disso, é fundamental envolver todos os colaboradores no processo, promovendo a conscientização e a capacitação necessárias para que todos entendam o papel que desempenham na construção de uma cultura empresarial mais responsável e sustentável. Vejamos algumas ações práticas que podem ser adotadas para implementar o ESG em sua empresa:
       </Paragraph>
     </TextBlock>
 

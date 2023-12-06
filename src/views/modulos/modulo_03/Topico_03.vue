@@ -28,9 +28,7 @@
 
     <BoxIcon tipo="video_aula" numero="3">
       <Paragraph>
-        <p>
-          Olá, nesta aula nós iremos discorrer sobre a importância dos investimentos de saúde mental nas empresas.
-        </p>
+        Olá, nesta aula, discorreremos sobre a importância dos investimentos em saúde mental nas empresas.
       </Paragraph>
 
       <Paragraph>

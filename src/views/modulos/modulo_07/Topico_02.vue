@@ -49,7 +49,7 @@
         possibilitar que a pessoa com deficiência, a partir da identificação de
         suas potencialidades laborativas, adquira o nível adequado de
         desenvolvimento profissional para o reingresso no mercado de trabalho e
-        participar da vida comunitária, conforme cita o artigo 31, do Decreto N°
+        participação da vida comunitária, conforme cita o artigo 31, do Decreto N°
         3.298, de 1999.
       </Paragraph>
     </TextBlock>
@@ -58,7 +58,7 @@
       O programa de reabilitação profissional é estruturado por uma equipe
       multiprofissional de saúde, com o intuito de auxiliar na superação das
       dificuldades por meio do desenvolvimento de atividades terapêuticas e
-      profissionalizantes, a fim de contribuir no retorno deste trabalhador.
+      profissionalizantes, a fim de contribuir no retorno do trabalhador.
     </BoxIcon>
 
     <TextBlock>
@@ -103,7 +103,7 @@
 
           <template #back>
             Visa restaurar a capacidade funcional e mental e a qualidade de vida
-            de pessoas com deficiência mental ou física
+            de pessoas com deficiência mental ou física.
           </template>
         </FlipCard>
       </v-col>
@@ -183,7 +183,7 @@
     <Accordion>
       <v-expansion-panel>
         <v-expansion-panel-header
-          >A análise do payback period</v-expansion-panel-header
+          >A análise do <i>payback period (tempo necessário para a recuperação do investimento)</i></v-expansion-panel-header
         >
         <v-expansion-panel-content>
           Tempo necessário para a recuperação do investimento
@@ -192,7 +192,7 @@
 
       <v-expansion-panel>
         <v-expansion-panel-header
-          >A relação custo-benefício</v-expansion-panel-header
+          >A relação custo-benefício (relação entre a soma de todos os custos e a soma de todos os benefícios) </v-expansion-panel-header
         >
         <v-expansion-panel-content>
           O valor presente líquido dos investimentos
@@ -248,23 +248,13 @@
 
     <BoxIcon tipo="atencao">
       <Paragraph>
-        A aposentadoria por invalidez implica ônus significativo para as
-        sociedades, agregando-se aos desafios trazidos pelo envelhecimento da
-        força de trabalho. Uma vez que ocorre, com frequência, em idade
-        relativamente jovem, reduz consideravelmente a idade de aposentadoria
-        efetiva. Além dos custos para a sociedade, a aposentadoria precoce tem
-        consequências importantes também para o indivíduo, pois o trabalho é uma
-        importante fonte de bem-estar material e psicológico.
+        A aposentadoria por invalidez implica um ônus significativo para as sociedades, somando-se aos desafios advindos do envelhecimento da força de trabalho. Dado que ocorre com frequência em idade relativamente jovem, reduz consideravelmente a idade de aposentadoria efetiva. Além dos custos para a sociedade, a aposentadoria precoce também acarreta consequências importantes para o indivíduo, uma vez que o trabalho é uma fonte crucial de bem-estar material e psicológico.
       </Paragraph>
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        O risco aumentado de desenvolver problemas de saúde durante o período de
-        trabalho afeta a taxa de saída do mercado de trabalho devido a questões
-        de saúde. Ainda que nem todas as aposentadorias precoces estejam
-        relacionadas a problemas de saúde, há ampla evidência que sugere que
-        questões de saúde desempenham um papel importante nesse contexto.
+        O aumento do risco de desenvolver problemas de saúde durante o período de trabalho impacta a taxa de saída do mercado de trabalho devido a questões de saúde. Embora nem todas as aposentadorias precoces estejam diretamente ligadas a problemas de saúde, existe ampla evidência que sugere que as questões de saúde desempenham um papel importante nesse contexto.
       </Paragraph>
     </TextBlock>
 
@@ -282,7 +272,7 @@
         Nesse sentido, a reabilitação profissional deve estar disponível e
         acessível para quem necessita, a fim de incentivar as pessoas a
         trabalharem com sua capacidade residual de trabalho e evitar a saída
-        definitiva do mercado de trabalho.(OCDE, 2018).
+        definitiva do mercado de trabalho (OCDE, 2018).
       </Paragraph>
     </TextBlock>
 
@@ -295,11 +285,7 @@
       </Paragraph>
 
       <Paragraph>
-        Quando existe uma gestão eficiente do absenteísmo, a empresa ganha um
-        time mais <strong>produtivo e engajado</strong>, pois os colaboradores
-        se sentem valorizados e motivados a dar o seu melhor de si no desempenho
-        de suas funções/ . Com isso, a organização melhora os seus resultados
-        financeiros.
+        Quando há uma gestão eficiente do absenteísmo, a empresa conquista uma equipe mais <strong>produtiva e engajada</strong>, pois os colaboradores se sentem valorizados e motivados a dar o melhor de si no desempenho de suas funções. Com isso, a organização aprimora seus resultados financeiros.
       </Paragraph>
     </TextBlock>
 
@@ -529,7 +515,7 @@
       </Paragraph>
     </BoxIcon>
 
-    <TextBlock>
+    <BoxIcon tipo="recapitulando">
       <Paragraph>
         Neste módulo você pode aprender que existem  diferentes  tipos e significados de absenteísmo nas empresas. No entanto, é fundamental analisar cuidadosamente qualquer ausência que não esteja coberta pelas políticas e procedimentos da empresa.
       </Paragraph>
@@ -541,7 +527,7 @@
       <Paragraph>
         Em resumo, compreender os motivos para o absenteísmo é o primeiro passo para que a sua organização possa agir e reverter esse quadro. Lembre-se de que  os colaboradores precisam de um motivo para acordar todos os dias com vontade de ir trabalhar e fazer a diferença na organização.
       </Paragraph>
-    </TextBlock>
+    </BoxIcon>
 
 
     <NavFooter

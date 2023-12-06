@@ -39,7 +39,7 @@
 
     <v-row v-else class="completed-container" justify="center">
       <v-col cols="12" sm="4">
-        <div v-if="score >= 7">
+        <div v-if="score >= 1">
           <v-row justify="center">
             <v-col cols="10" sm="6"><Lottie :happy="true" /></v-col>
           </v-row>
@@ -47,7 +47,7 @@
           <h2 class="completed-title success--text">Parabéns!</h2>
         </div>
 
-        <div v-if="score < 7">
+        <div v-if="score < 1">
           <v-row justify="center">
             <v-col cols="10" sm="6"><Lottie :sad="true" /></v-col>
           </v-row>
@@ -56,14 +56,14 @@
         </div>
 
         <Paragraph class="completed-score mb-5">
-          Você acertou <span v-if="score < 7">apenas </span> <strong
+          Você acertou <span v-if="score < 1">apenas </span> <strong
             ><u>{{ score }}</u></strong
           >
           de {{ questions.length }} questões.
         </Paragraph>
 
         <NavButton
-          v-if="score < 7"
+          v-if="score < 1"
           name="Tentar novamente"
           color="primary"
           @button-click="resetQuiz"
@@ -142,7 +142,7 @@ export default {
       // Se for a última pergunta, mostrar tela de conclusão
       if (this.questionIndex === this.questions.length - 1) {
         this.completed = true;
-        if (this.score >= 7 && !this.$store.state.progresso_modulos.modulo_09) {
+        if (this.score >= 1 && !this.$store.state.progresso_modulos.modulo_09) {
           this.$store.state.progresso_modulos.modulo_09 = true;
           this.$store.commit("ADICIONAR_SCORE");
         }

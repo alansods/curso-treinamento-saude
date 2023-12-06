@@ -1,9 +1,7 @@
 <template>
     <AulaTemplate :titulo="$store.state.modulos[0].titulo" :numero="$store.state.modulos[0].numero" titleSize="3">
       <BoxIcon tipo="objetivos_gerais">
-        Proporcionar o desenvolvimento de fundamentos sobre saúde mental para a
-        empresa e analisar suas consequências diretas e indiretas para os
-        funcionários e empregadores.
+        Proporcionar o desenvolvimento de fundamentos sobre saúde mental para a empresa e analisar as consequências diretas e indiretas dessa abordagem tanto para os funcionários quanto para os empregadores.
       </BoxIcon>
 
       <hr/>
@@ -16,10 +14,7 @@
         </Paragraph>
 
         <Paragraph>
-          Neste módulo, serão disponibilizadas informações que auxiliam líderes
-          e suas equipes no enfrentamento dos crescentes índices de adoecimento
-          relacionados ao trabalho, as quais possibilitam ampliar o acolhimento
-          e os encaminhamentos necessários ao cuidado biopsicossocial.
+          Neste módulo, serão disponibilizadas informações que auxiliam líderes e suas equipes no enfrentamento dos crescentes índices de adoecimento relacionados ao trabalho. Essas informações possibilitam ampliar o acolhimento e os encaminhamentos necessários para o cuidado biopsicossocial.
         </Paragraph>
 
         <Paragraph>

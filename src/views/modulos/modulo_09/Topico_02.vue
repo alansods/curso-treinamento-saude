@@ -16,11 +16,11 @@
 
     <BoxIcon tipo="video_aula" numero="2">
       <Paragraph>
-        Olá! Vimos na aula anterior deste módulo a importância de uma cultura de saúde e segurança no trabalho voltada para ações de promoção da saúde. Iremos continuar discutindo sobre, porém com foco em outras variáveis.
+        Olá! Na aula anterior deste módulo, discutimos a importância de uma cultura de saúde e segurança no trabalho, com ênfase em ações de promoção da saúde. Continuaremos essa discussão, agora explorando outras variáveis.
       </Paragraph>
 
       <Paragraph>
-        Você sabia que as situações evidenciadas como causa raiz para a ocorrência da grande maioria dos acidentes de trabalho estão diretamente relacionadas com o comportamento humano? Há algum outro fator influenciável para a cultura de segurança? Vamos descobrir!
+        Você sabia que as situações evidenciadas como causa raiz para a ocorrência da grande maioria dos acidentes de trabalho estão diretamente relacionadas ao comportamento humano? Existe algum outro fator influenciável para a cultura de segurança? Vamos descobrir!
       </Paragraph>
 
       <Paragraph>
