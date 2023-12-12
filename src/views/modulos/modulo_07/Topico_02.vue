@@ -22,7 +22,7 @@
     </BoxIcon>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph> Não tem texto no roteiro. </Paragraph>
+      <Paragraph>Olá, neste vídeo vamos aprender um pouco sobre a reabilitação do trabalhador no retorno ao trabalho. A reabilitação do trabalhador é um serviço que tem como objetivo auxiliar o trabalhador que possui alguma restrição física e/ou psíquica a retornar ao trabalho.</Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"

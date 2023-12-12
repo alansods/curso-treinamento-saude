@@ -226,6 +226,11 @@
       <v-col cols="6" sm="3">
         <Imagem src="modulo_08/cards-icones/SDG-17.svg" />
       </v-col>
+
+      <v-col cols="12" class="text-center">
+        <SmallText>Imagem 1: Objetivos do Desenvolvimento Sustentável ( ODS)</SmallText>
+        <SmallText>Fonte: ONU Brasil (2015)</SmallText>
+      </v-col>
     </v-row>
 
     <BoxIcon tipo="recapitulando">
@@ -259,6 +264,7 @@ import BoxIcon from "@/components/BoxIcon.vue";
 import NavFooter from "@/components/NavFooter.vue";
 import Paragraph from "@/components/Paragraph.vue";
 import Imagem from "@/components/Imagem.vue";
+import SmallText from "@/components/SmallText.vue";
 
 export default {
   components: {
@@ -268,6 +274,7 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
+    SmallText
   },
   data() {
     return {};

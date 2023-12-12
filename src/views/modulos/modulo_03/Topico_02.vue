@@ -1,12 +1,7 @@
 <template>
-  <AulaTemplate
-    :titulo="$store.state.modulos[2].titulo"
-    :numero="$store.state.modulos[2].numero"
-    titleSize="4"
-  >
+  <AulaTemplate :titulo="$store.state.modulos[2].titulo" :numero="$store.state.modulos[2].numero" titleSize="4">
     <TextBlock
-      topico="Tópico 02 - Desenvolvimento dos Programas de Qualidade de Vida no Trabalho e de Gerenciamento da Saúde Populacional"
-    >
+      topico="Tópico 02 - Desenvolvimento dos Programas de Qualidade de Vida no Trabalho e de Gerenciamento da Saúde Populacional">
       <Paragraph>
         Neste tópico, abordaremos os programas de Qualidade de Vida no Trabalho
         (QVT) e de Gerenciamento da Saúde da População. Essas duas iniciativas
@@ -52,45 +47,26 @@
 
     <v-row justify="center">
       <v-col cols="12" sm="6">
-        <Imagem
-          legenda="Imagem 2: É fundamental investir na QVT para um ambiente corporativo saudável e produtivo"
-          fonte="Fonte: Freepick. com"
-          src="modulo_03/imagem2.jpg"
-        />
+        <Imagem legenda="Imagem 2: É fundamental investir na QVT para um ambiente corporativo saudável e produtivo"
+          fonte="Fonte: Freepick. com" src="modulo_03/imagem2.jpg" />
       </v-col>
     </v-row>
 
     <BoxIcon tipo="video_aula" numero="2">
       <Paragraph>
-        <p>
-          Olá, no vídeo passado você aprendeu os modelos explicativos dos
-          transtornos mentais nas empresas e os tipos de transtornos mentais
-          mais comuns no ambiente de trabalho.
-        </p>
-        <p>
-          Agora nós iremos explicar como assédio moral e sexual no ambiente de
-          trabalho pode desenvolver adoecimento mental do trabalhador. Discutir
-          a violência no local de trabalho necessita compreender todo o contexto
-          e cenário que se ocorre.
-        </p>
+        Olá, neste vídeo, vamos aprender um pouco sobre o desenvolvimento do programa de qualidade de vida no trabalho e
+        do programa de gerenciamento da saúde da população.
       </Paragraph>
 
       <Paragraph>
-        <strong style="cursor: pointer" @click="dialog = true"
-          ><u>Clique aqui</u></strong
-        >
+        <strong style="cursor: pointer" @click="dialog = true"><u>Clique aqui</u></strong>
         para iniciar o vídeo.
       </Paragraph>
     </BoxIcon>
 
     <v-dialog v-model="dialog" max-width="800" @input="dialogInput">
       <v-responsive :aspect-ratio="16 / 9" class="pa-0 ma-0">
-        <youtube
-          ref="videoPlayer"
-          video-id="rrl_vN3ZCRc"
-          style="border: solid 3px white"
-          fitParent
-        />
+        <youtube ref="videoPlayer" video-id="rrl_vN3ZCRc" style="border: solid 3px white" fitParent />
       </v-responsive>
     </v-dialog>
 
@@ -102,23 +78,20 @@
     </TextBlock>
 
     <v-row>
-      <v-col cols="12"
-        ><small class="text-center d-block grey--text"
-          >(Clique nos cards abaixo para ver o conteúdo)</small
-        ></v-col
-      >
+      <v-col cols="12"><small class="text-center d-block grey--text">(Clique nos cards abaixo para ver o
+          conteúdo)</small></v-col>
 
       <v-col cols="12" sm="6">
         <FlipCard>
           <template #front>Políticas de Gestão de Pessoas</template>
 
           <template #back>
-            <p>
+            <p class="text-h5">
               - Valores voltados para o bem-estar e desenvolvimento saudável das
               dinâmicas de trabalho.
             </p>
 
-            <p>- Prevenção de acidentes e doenças.</p>
+            <p class="text-h5">- Prevenção de acidentes e doenças.</p>
           </template>
         </FlipCard>
       </v-col>
@@ -128,7 +101,7 @@
           <template #front>Programas e Intervenções Específicas</template>
 
           <template #back>
-            <p>- Promoção da saúde e bem-estar do trabalhador.</p>
+            <p class="text-h5">- Promoção da saúde e bem-estar do trabalhador.</p>
           </template>
         </FlipCard>
       </v-col>
@@ -168,9 +141,7 @@
 
     <Accordion>
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Ambiente físico de trabalho</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Ambiente físico de trabalho</v-expansion-panel-header>
         <v-expansion-panel-content>
           Refere-se às questões de segurança no ambiente físico de trabalho
           (estrutura, ar, equipamentos, produtos, processos de produção,
@@ -182,9 +153,7 @@
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Ambiente psicossocial de trabalho</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Ambiente psicossocial de trabalho</v-expansion-panel-header>
         <v-expansion-panel-content>
           Cultura organizacional como um todo, que refletem as atitudes,
           valores, crenças e práticas diárias na empresa, afetando o bem-estar
@@ -193,10 +162,8 @@
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Recursos pessoais em saúde no ambiente de
-          trabalho</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Recursos pessoais em saúde no ambiente de
+          trabalho</v-expansion-panel-header>
         <v-expansion-panel-content>
           Promover um estilo de vida saudável aos colaboradores, incluindo
           serviços, informações, flexibilidade e ambiente de incentivo às
@@ -209,9 +176,7 @@
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Envolvimento da empresa com a comunidade</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Envolvimento da empresa com a comunidade</v-expansion-panel-header>
         <v-expansion-panel-content>
           Trabalho da empresa junto à comunidade, engajando e sendo engajada,
           ofertando recursos e/ou conhecimentos que possibilitam a melhoria da
@@ -242,9 +207,7 @@
 
     <BoxIcon tipo="atencao">
       Mesmo aqueles indivíduos com
-      <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')"
-        >notas de risco</GlossarioButton
-      >
+      <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')">notas de risco</GlossarioButton>
       mais baixas podem se beneficiar de serviços como lembretes para exames
       preventivos, opções de comunicação com profissionais de saúde e incentivos
       para manter hábitos de vida saudáveis.
@@ -270,11 +233,8 @@
     </TextBlock>
 
     <v-row>
-      <v-col cols="12"
-        ><small class="text-center d-block grey--text"
-          >(Clique nos cards abaixo para ver o conteúdo)</small
-        ></v-col
-      >
+      <v-col cols="12"><small class="text-center d-block grey--text">(Clique nos cards abaixo para ver o
+          conteúdo)</small></v-col>
 
       <v-col cols="12" sm="4">
         <FlipCard>
@@ -340,13 +300,8 @@
       plano de saúde empresarial.
     </BoxIcon>
 
-    <NavFooter
-      prevName="Tópico 01"
-      prevLink="modulo-03/topico-01"
-      nextName="Tópico 03"
-      nextLink="modulo-03/topico-03"
-      :lastTopico="false"
-    />
+    <NavFooter prevName="Tópico 01" prevLink="modulo-03/topico-01" nextName="Tópico 03" nextLink="modulo-03/topico-03"
+      :lastTopico="false" />
   </AulaTemplate>
 </template>
 

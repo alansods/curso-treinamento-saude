@@ -27,7 +27,7 @@
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      O termo “absenteísmo” tem origem na palavra latina e está relacionado à
+      O termo “absenteísmo” tem origem na palavra latina <i>“absens”</i> e está relacionado à
       quantidade de horas perdidas de trabalho, seja pela ausência no ambiente
       profissional ou por atrasos. Em contrapartida, temos o conceito de
       “presenteísmo”, que se refere à situação em que um funcionário está
@@ -51,7 +51,7 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph> Não tem texto no roteiro. </Paragraph>
+      <Paragraph>Neste vídeo, nós iremos disponibilizar informações que auxiliem líderes e suas equipes no enfrentamento de afastamentos de curto, longo prazo, retorno ao trabalho, readaptação e reabilitação, absenteísmo e presenteísmo e impacto nos custos para empresa e consequências diretas e indiretas para funcionários e empregadores. Vamos lá?</Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -79,81 +79,56 @@
         podem ser conhecidas ou ignoradas, dependendo, muitas vezes, da
         comunicação entre o empregado e o empregador, e estão ambas amparadas
         pelas leis. Dessa forma, podemos classificar os tipos de absenteísmo da
-        seguinte maneira :
+        seguinte maneira:
       </Paragraph>
     </TextBlock>
 
-    <v-card class="rounded-lg elevation-0 pb-1" style="border: solid 1px #ccc">
-      <v-toolbar flat color="primary" dark>
-        <v-toolbar-title>Tipos de absenteísmo </v-toolbar-title>
-      </v-toolbar>
+    <Accordion>
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Voluntário</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Neste tipo de absenteísmo, é possível identificar a ausência não justificada do colaborador, por razões particulares.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
 
-      <v-tabs vertical>
-        <div style="max-width: 180px; white-space: normal">
-          <v-tab class="justify-start text-left py-8"> Voluntário </v-tab>
-          <v-tab class="justify-start text-left py-8"> Por doença </v-tab>
-          <v-tab class="justify-start text-left py-8">
-            Por patologia profissional
-          </v-tab>
-          <v-tab class="justify-start text-left py-8"> Legal </v-tab>
-          <v-tab class="justify-start text-left py-8"> Compulsório </v-tab>
-        </div>
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Por doença</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          É o mais importante entre os tipos, pois acarreta em um alto volume de ausências. É diagnosticado através de avaliação médica.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
 
-        <v-tab-item>
-          <v-card flat>
-            <v-card-text>
-              <p class="mb-0">
-                Neste tipo de absenteísmo, é possível identificar a ausência não
-                justificada do colaborador, por razões particulares.
-              </p>
-            </v-card-text>
-          </v-card>
-        </v-tab-item>
-        <v-tab-item>
-          <v-card flat>
-            <v-card-text>
-              <p class="mb-0">
-                É o mais importante entre os tipos, pois acarreta em um alto
-                volume de ausências. É diagnosticado através de avaliação
-                médica.
-              </p>
-            </v-card-text>
-          </v-card>
-        </v-tab-item>
-        <v-tab-item>
-          <v-card flat>
-            <v-card-text>
-              <p class="mb-0">
-                Refere-se às ausências por doença profissional ou acidente de
-                trabalho.
-              </p>
-            </v-card-text>
-          </v-card>
-        </v-tab-item>
-        <v-tab-item>
-          <v-card flat>
-            <v-card-text>
-              <p class="mb-0">
-                As ausências do serviço que são amparadas por lei são
-                classificadas do tipo legal de absenteísmo, como por exemplo
-                licença maternidade e doação de sangue.
-              </p>
-            </v-card-text>
-          </v-card>
-        </v-tab-item>
-        <v-tab-item>
-          <v-card flat>
-            <v-card-text>
-              <p class="mb-0">
-                Esse tipo de absenteísmo pode ser exemplificado quando há
-                episódios de suspensão imposta pela chefia, ou seja, quando há
-                uma ordem legal que justifica a falta ao trabalho.
-              </p>
-            </v-card-text>
-          </v-card>
-        </v-tab-item>
-      </v-tabs>
-    </v-card>
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Por patologia profissional</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Refere-se às ausências por doença profissional ou acidente de trabalho.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Legal</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          As ausências do serviço que são amparadas por lei são classificadas do tipo legal de absenteísmo, como por exemplo licença maternidade e doação de sangue.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+
+      <v-expansion-panel>
+        <v-expansion-panel-header
+          >Compulsório</v-expansion-panel-header
+        >
+        <v-expansion-panel-content>
+          Esse tipo de absenteísmo pode ser exemplificado quando há episódios de suspensão imposta pela chefia, ou seja, quando há uma ordem legal que justifica a falta ao trabalho.
+        </v-expansion-panel-content>
+      </v-expansion-panel>
+    </Accordion>
 
     <TextBlock>
       <Paragraph>

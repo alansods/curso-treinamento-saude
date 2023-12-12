@@ -42,6 +42,14 @@
       Desde 2010, houve um notável aumento nos casos de transtornos mentais relacionados ao trabalho, refletindo em um crescimento de 24% na concessão de benefícios para a população trabalhadora afetada por essa problemática. Especificamente, as mulheres apresentaram um expressivo aumento de cerca de 650% em apenas 5 anos nesse contexto.
     </BoxIcon>
 
+    <v-row justify="center">
+        <v-col cols="12" sm="6">
+          <Imagem
+            src="modulo_01/reflexao.svg"
+          />
+        </v-col>
+      </v-row>
+
     <TextBlock>
       <Paragraph>
         De acordo com os dados da Secretaria de Atenção à Saúde, em 2019, o
