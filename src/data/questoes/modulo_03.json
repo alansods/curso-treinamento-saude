@@ -1,25 +1,25 @@
 [
   {
     "number": "1",
-    "question": "Sobre as doenças musculoesqueléticas, assinale a alternativa correta:",
+    "question": "Quais as quatro principais Doenças Crônicas Não Transmissíveis (DCNT) no Brasil:",
     "options": [
-      "Pessoas mais jovens não são afetadas por distúrbios musculoesqueléticos.",
-      "A artrite reumatoide é uma doença crônica dos ossos.",
-      "Artrite reumatoide é uma causa de hérnia de disco.",
-      "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
+      "Doenças cardiovasculares, câncer, respiratórias crônicas e diabetes.",
+      "Doenças cardiovasculares, do aparelho digestório, respiratórias crônicas e diabetes",
+      "Doenças do aparelho digestório, do aparelho genital, respiratórias crônicas e diabetes.",
+      "Doenças do aparelho circulatório, do aparelho genital, cutâneas crônicas e câncer."
     ],
-    "answer": "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
+    "answer": "Doenças cardiovasculares, câncer, respiratórias crônicas e diabetes."
   },
 
   {
     "number": "2",
-    "question": "Em relação a análise ergonômica do trabalho, é correto afirmar que:",
+    "question": "Dentre os fatores de risco comum para doenças crônicas não transmissíveis (DCNT), estão:",
     "options": [
-      "Podem ser realizadas através de abordagens qualitativas e semiquantitativas.",
-      "É realizada quando há a necessidade de aprofundamento da situação.",
-      "Podem ser realizadas apenas as abordagens qualitativas.",
-      "Nenhuma das alternativas anteriores."
+      "Tabagismo, atividade física regular, alimentação saudável e álcool.",
+      "Tabagismo, sedentarismo,  estresse e álcool.",
+      "Sedentarismo, hipocolesterolemia, álcool e dieta pobre em frutas e vegetais.",
+      "Tabagismo, sedentarismo, alimentação saudável e álcool."
     ],
-    "answer": "É realizada quando há a necessidade de aprofundamento da situação."
+    "answer": "Tabagismo, sedentarismo,  estresse e álcool."
   }
 ]

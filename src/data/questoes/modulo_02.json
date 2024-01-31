@@ -1,25 +1,25 @@
 [
   {
     "number": "1",
-    "question": "Marque a alternativa que contém o conceito correto de absenteísmo:",
+    "question": "Sobre as doenças musculoesqueléticas, assinale a alternativa correta:",
     "options": [
-      "Tem origem nominal portuguesa, no qual está relacionada a quantidade de horas ganhas no trabalho.",
-      "Tem origem nominal inglesa, no qual está relacionada a quantidade de horas perdidas no trabalho.",
-      "Tem origem nominal irlandesa, no qual está relacionada à quantidade de horas ganhas no trabalho.",
-      "Tem origem nominal latina, no qual está relacionada a quantidade de horas perdidas de trabalho."
+      "Pessoas mais jovens não são afetadas por distúrbios musculoesqueléticos.",
+      "A artrite reumatoide é uma doença crônica dos ossos.",
+      "Artrite reumatoide é uma causa de hérnia de disco.",
+      "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
     ],
-    "answer": "Tem origem nominal latina, no qual está relacionada a quantidade de horas perdidas de trabalho."
+    "answer": "Suas consequências acarretam em limitações de atividades laborais, elevando os custos por invalidez."
   },
 
   {
     "number": "2",
-    "question": "Sobre o conceito de presenteísmo, marque a alternativa verdadeira:",
+    "question": "Em relação a análise ergonômica do trabalho, é correto afirmar que:",
     "options": [
-      "Significa estar presente no trabalho exercendo as atividades de maneira mais produtiva.",
-      "É a ausência física do trabalhador na empresa.",
-      "É a ação do trabalhador realizar as atividades em sua residência.",
-      "Significa estar presente no trabalho  porém exercendo as atividades de maneira improdutiva."
+      "Podem ser realizadas através de abordagens qualitativas e semiquantitativas.",
+      "É realizada quando há a necessidade de aprofundamento da situação.",
+      "Podem ser realizadas apenas as abordagens qualitativas.",
+      "Nenhuma das alternativas anteriores."
     ],
-    "answer": "Significa estar presente no trabalho  porém exercendo as atividades de maneira improdutiva."
+    "answer": "É realizada quando há a necessidade de aprofundamento da situação."
   }
 ]
