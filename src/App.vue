@@ -52,6 +52,22 @@ export default {
       event.preventDefault();
       event.returnValue = "";
     },
+
+    // Método para salvar progresso automaticamente
+    saveProgress() {
+      try {
+        console.log("Salvando progresso automaticamente...");
+        SCORM.set("cmi.score.raw", this.$store.state.progresso_modulos.LMS_Progress);
+        SCORM.set("cmi.completion_status", this.$store.state.progresso_modulos.completion_status);
+        SCORM.set("cmi.suspend_data", JSON.stringify(this.$store.state.progresso_modulos));
+        SCORM.set("cmi.progress_measure", this.$store.state.progresso_modulos.LMS_Progress / 100);
+        SCORM.set("cmi.success_status", this.$store.state.progresso_modulos.completion_status === "completed" ? "passed" : "unknown");
+        SCORM.save();
+        console.log("Progresso salvo com sucesso");
+      } catch (error) {
+        console.error("Erro ao salvar progresso:", error);
+      }
+    },
   },
 
   mounted() {
@@ -59,12 +75,47 @@ export default {
   },
 
   created() {
-    const data = JSON.parse(SCORM.get("cmi.suspend_data"));
-    if (data) {
-      console.log(`created - tem data: ${JSON.stringify(data)}`)
-      this.$store.state.progresso_modulos = data;
-    } else {
-      console.log("NAO TEM DATA")
+    try {
+      const suspendData = SCORM.get("cmi.suspend_data");
+      if (suspendData && suspendData !== "null" && suspendData !== "") {
+        const data = JSON.parse(suspendData);
+        console.log(`created - tem data: ${JSON.stringify(data)}`);
+        this.$store.state.progresso_modulos = data;
+      } else {
+        console.log("NAO TEM DATA - inicializando progresso");
+        // Inicializar com dados padrão se não houver dados salvos
+        this.$store.state.progresso_modulos = {
+          modulo_01: false,
+          modulo_02: false,
+          modulo_03: false,
+          modulo_04: false,
+          modulo_05: false,
+          modulo_06: false,
+          modulo_07: false,
+          modulo_08: false,
+          modulo_09: false,
+          studentName: "",
+          LMS_Progress: 0,
+          completion_status: "incomplete",
+        };
+      }
+    } catch (error) {
+      console.error("Erro ao carregar dados SCORM:", error);
+      // Inicializar com dados padrão em caso de erro
+      this.$store.state.progresso_modulos = {
+        modulo_01: false,
+        modulo_02: false,
+        modulo_03: false,
+        modulo_04: false,
+        modulo_05: false,
+        modulo_06: false,
+        modulo_07: false,
+        modulo_08: false,
+        modulo_09: false,
+        studentName: "",
+        LMS_Progress: 0,
+        completion_status: "incomplete",
+      };
     }
   },
 
@@ -86,9 +137,14 @@ export default {
       if (newValue) {
         console.log("CLOSING...");
 
+        // Usar API SCORM 2004
         SCORM.set("cmi.score.raw", this.$store.state.progresso_modulos.LMS_Progress);
-        SCORM.set("cmi.core.lesson_status", this.$store.state.progresso_modulos.completion_status);
+        SCORM.set("cmi.completion_status", this.$store.state.progresso_modulos.completion_status);
         SCORM.set("cmi.suspend_data", JSON.stringify(this.$store.state.progresso_modulos));
+        
+        // Adicionar informações de progresso
+        SCORM.set("cmi.progress_measure", this.$store.state.progresso_modulos.LMS_Progress / 100);
+        SCORM.set("cmi.success_status", this.$store.state.progresso_modulos.completion_status === "completed" ? "passed" : "unknown");
 
         SCORM.save();
         SCORM.quit();
@@ -96,11 +152,19 @@ export default {
     },
 
     '$store.state.progresso_modulos.LMS_Progress'(newValue) {
-      if(newValue === 100) {
-        console.log("COMPLETOU")
-        this.$store.state.showCongratulations = true
+      // Salvar progresso automaticamente sempre que mudar
+      this.saveProgress();
+      
+      // Usar tolerância para conclusão (≥95% em vez de =100%)
+      if(newValue >= 95) {
+        console.log("COMPLETOU - Progresso:", newValue);
+        this.$store.state.showCongratulations = true;
         this.$store.state.progresso_modulos.completion_status = "completed";
-        SCORM.set("cmi.core.lesson_status", "completed");
+        
+        // Usar API SCORM 2004
+        SCORM.set("cmi.completion_status", "completed");
+        SCORM.set("cmi.success_status", "passed");
+        SCORM.set("cmi.progress_measure", 1.0);
         SCORM.save();
       }
     }

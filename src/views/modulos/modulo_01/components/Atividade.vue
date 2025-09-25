@@ -93,8 +93,10 @@ import Paragraph from "@/components/Paragraph.vue";
 
 import NavButton from "@/components/NavButton.vue";
 import Lottie from "@/components/Lottie";
+import scormProgress from "@/mixins/scormProgress";
 
 export default {
+  mixins: [scormProgress],
   components: {
     AulaTemplate,
     NavButton,
@@ -156,6 +158,8 @@ export default {
         if (this.score >= 1 && !this.$store.state.progresso_modulos.modulo_01) {
           this.$store.state.progresso_modulos.modulo_01 = true;
           this.$store.commit("ADICIONAR_SCORE");
+          // Salvar progresso automaticamente
+          this.saveProgress();
         }
       } else {
         // Se não for a última pergunta, avançar para a próxima automaticamente após o usuário selecionar uma resposta

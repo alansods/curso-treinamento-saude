@@ -110,7 +110,27 @@ export default {
 
 a {
   width: 100%;
-  color: #333 !important;
+  color: inherit !important;
   text-decoration: none;
+}
+
+/* Cor específica para modo escuro */
+.theme--dark a {
+  color: #fff !important;
+}
+
+/* Cor específica para modo claro */
+.theme--light a {
+  color: #333 !important;
+}
+
+/* Cor dos títulos dos submenus no modo escuro */
+.theme--dark .btn-topico .v-list-item__title {
+  color: #fff !important;
+}
+
+/* Cor dos títulos dos submenus no modo claro */
+.theme--light .btn-topico .v-list-item__title {
+  color: #333 !important;
 }
 </style>

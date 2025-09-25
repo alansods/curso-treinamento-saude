@@ -46,9 +46,13 @@ export default new Vuex.Store({
     },
 
     ADICIONAR_SCORE(state) {
-      const pontuacao = 100/8
+      const pontuacao = 100/9; // 9 módulos no total
       if (state.LMS_Progress < 100) {
         state.LMS_Progress += pontuacao;
+        // Garantir que não ultrapasse 100%
+        if (state.LMS_Progress > 100) {
+          state.LMS_Progress = 100;
+        }
       }
     }
   },
