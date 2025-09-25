@@ -7,7 +7,7 @@
 
     <v-main>
       <transition name="fade" mode="out-in">
-        <router-view />
+        <router-view :key="$route.fullPath" />
       </transition>
     </v-main>
 
@@ -72,6 +72,21 @@ export default {
 
   mounted() {
     window.addEventListener("beforeunload", this.handleBeforeUnload);
+    
+    // Garantir que o conteúdo seja sempre exibido após o mount
+    this.$nextTick(() => {
+      // Forçar re-render se necessário
+      if (this.$route.name === undefined || this.$route.name === null) {
+        this.$router.push({ name: "Home" });
+      }
+      
+      // Verificar se o router-view está renderizando corretamente
+      const routerView = document.querySelector('.v-main router-view');
+      if (!routerView || routerView.children.length === 0) {
+        console.log('Router view vazio, forçando navegação para Home');
+        this.$router.push({ name: "Home" });
+      }
+    });
   },
 
   created() {
@@ -117,6 +132,13 @@ export default {
         completion_status: "incomplete",
       };
     }
+    
+    // Garantir que a rota inicial seja carregada corretamente
+    this.$nextTick(() => {
+      if (this.$route.name === undefined || this.$route.name === null) {
+        this.$router.push({ name: "Home" });
+      }
+    });
   },
 
   beforeDestroy() {

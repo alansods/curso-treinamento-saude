@@ -22,6 +22,13 @@ new Vue({
   vuetify,
   mounted() {
     AOS.init()
+    
+    // Garantir que a rota inicial seja carregada corretamente
+    this.$nextTick(() => {
+      if (this.$route.name === undefined || this.$route.name === null) {
+        this.$router.push({ name: "Home" });
+      }
+    });
   },
   render: (h) => h(App),
 }).$mount("#app");

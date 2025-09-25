@@ -56,6 +56,11 @@ router.afterEach((to) => {
 let isFirstTransition = true;
 
 router.beforeEach((to, from, next) => {
+  // Garantir que sempre há uma rota válida
+  if (!to.name) {
+    next({ name: "Home" });
+    return;
+  }
 
   const lastRouteName = localStorage.getItem("last_Page_Treinamento_Saude");
   const shouldRedirect = Boolean(
