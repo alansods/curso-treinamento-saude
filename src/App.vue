@@ -53,19 +53,42 @@ export default {
       event.returnValue = "";
     },
 
-    // Método para salvar progresso automaticamente (apenas suspend_data)
+    // Método para salvar progresso automaticamente (suspend_data + progresso no LMS)
     saveProgress() {
       try {
         console.log("💾 Salvando progresso automaticamente...");
 
         if (this.isSCORMEnvironment()) {
-          // Salvar apenas dados de retomada no SCORM
+          // Salvar dados de retomada
           SCORM.set(
             "cmi.suspend_data",
             JSON.stringify(this.$store.state.progresso_modulos)
           );
+
+          // Calcular progresso percentual
+          const modulosConcluidos = Object.keys(
+            this.$store.state.progresso_modulos
+          ).filter(
+            (key) =>
+              key.startsWith("modulo_") &&
+              this.$store.state.progresso_modulos[key] === true
+          ).length;
+          const totalModulos = 9; // Total de módulos
+          const progressoPercentual = Math.round(
+            (modulosConcluidos / totalModulos) * 100
+          );
+
+          // Salvar progresso no LMS (SCORM 1.2)
+          SCORM.set(
+            "cmi.core.lesson_status",
+            progressoPercentual === 100 ? "completed" : "incomplete"
+          );
+          SCORM.set("cmi.core.score.raw", progressoPercentual.toString());
+          SCORM.set("cmi.core.score.max", "100");
+          SCORM.set("cmi.core.score.min", "0");
+
           SCORM.save();
-          console.log("✅ Progresso salvo no SCORM com sucesso");
+          console.log(`✅ Progresso salvo no SCORM: ${progressoPercentual}%`);
         } else {
           // Salvar no localStorage (desenvolvimento)
           localStorage.setItem(
@@ -246,7 +269,7 @@ export default {
     "$store.state.progresso_modulos.LMS_Progress"() {
       // Salvar progresso automaticamente sempre que mudar
       this.saveProgress();
-      
+
       // Verificar se todos os módulos foram concluídos (apenas estado interno)
       this.$store.dispatch("checkCompletion");
     },
@@ -259,6 +282,16 @@ export default {
 
         // Salvar progresso automaticamente quando qualquer módulo for concluído
         this.saveProgress();
+
+        // Log do progresso atual
+        const modulosConcluidos = Object.keys(
+          this.$store.state.progresso_modulos
+        ).filter(
+          (key) =>
+            key.startsWith("modulo_") &&
+            this.$store.state.progresso_modulos[key] === true
+        ).length;
+        console.log(`📊 Módulos concluídos: ${modulosConcluidos}/9`);
       },
       deep: true,
     },
