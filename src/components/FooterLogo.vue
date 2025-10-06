@@ -1,20 +1,25 @@
 <template>
   <v-footer class="footer white">
-    <v-img v-if="!$vuetify.theme.dark" :src="require('../assets/logo-footer-light.png')" class="footer-img"/>
-    <v-img v-else :src="require('../assets/logo-footer-dark.png')" class="footer-img"/>
+    <v-img
+      v-if="!$vuetify.theme.dark"
+      :src="require('../assets/logo-footer-light.png')"
+      class="footer-img"
+    />
+    <v-img
+      v-else
+      :src="require('../assets/logo-footer-dark.png')"
+      class="footer-img"
+    />
   </v-footer>
 </template>
 
 <script>
-
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
 .footer {
-  border-top: solid 1px #F2F2F2 !important;
+  border-top: solid 1px #f2f2f2 !important;
   padding-top: 20px;
   height: 162px;
   width: 100%;

@@ -46,7 +46,7 @@ export default new Vuex.Store({
     },
 
     ADICIONAR_SCORE(state) {
-      const pontuacao = 100/9; // 9 módulos no total
+      const pontuacao = 100 / 9; // 9 módulos no total
       if (state.LMS_Progress < 100) {
         state.LMS_Progress += pontuacao;
         // Garantir que não ultrapasse 100%
@@ -54,12 +54,43 @@ export default new Vuex.Store({
           state.LMS_Progress = 100;
         }
       }
-    }
-  },
-  actions: {},
+    },
 
-  getters: {
+    CHECK_COMPLETION(state) {
+      const modulosConcluidos = [
+        state.progresso_modulos.modulo_01,
+        state.progresso_modulos.modulo_02,
+        state.progresso_modulos.modulo_03,
+        state.progresso_modulos.modulo_04,
+        state.progresso_modulos.modulo_05,
+        state.progresso_modulos.modulo_06,
+        state.progresso_modulos.modulo_07,
+        state.progresso_modulos.modulo_08,
+        state.progresso_modulos.modulo_09,
+      ];
 
+      const todosConcluidos = modulosConcluidos.every(
+        (modulo) => modulo === true
+      );
+
+      if (
+        todosConcluidos &&
+        state.progresso_modulos.completion_status !== "completed"
+      ) {
+        state.progresso_modulos.completion_status = "completed";
+        state.LMS_Progress = 100;
+        console.log(
+          "🎉 TODOS OS MÓDULOS CONCLUÍDOS! SCORM marcado como completo."
+        );
+      }
+    },
   },
+  actions: {
+    checkCompletion({ commit }) {
+      commit("CHECK_COMPLETION");
+    },
+  },
+
+  getters: {},
   modules: {},
 });

@@ -6,7 +6,9 @@
     @mouseleave="resetLottieAnimation"
   >
     <div class="flip-card-inner" :class="{ flipped: isFlipped }">
-      <div class="flip-card-front" :style="`background-image: url(${require(`../assets/${this.bgImg}`)})`"
+      <div
+        class="flip-card-front"
+        :style="`background-image: url(${require(`../assets/${this.bgImg}`)})`"
       >
         <div class="lottie-container" ref="lottieContainer"></div>
         <v-card-text class="flip-card-title">

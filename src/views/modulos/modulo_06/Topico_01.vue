@@ -8,12 +8,27 @@
       topico="Tópico 01  - O impacto financeiro nas empresas dos acidentes de trabalho"
     >
       <Paragraph>
-        Sejam bem-vindos ao módulo sobre o impacto dos acidentes de trabalho. Assim como os módulos anteriores, este também é de alta relevância para os gestores empresariais, pois tem como objetivo apoiar as empresas na análise de acidentes de trabalho e outros eventos adversos. Você sabia que a maioria dos eventos adversos é previsível e prevenível? Por isso é importante conhecer o que ocorre e sobre o que pode ocorrer em um sistema produtivo para prevenir e efetuar boas análises de eventos adversos. Vamos aprender mais sobre isso
+        Sejam bem-vindos ao módulo sobre o impacto dos acidentes de trabalho.
+        Assim como os módulos anteriores, este também é de alta relevância para
+        os gestores empresariais, pois tem como objetivo apoiar as empresas na
+        análise de acidentes de trabalho e outros eventos adversos. Você sabia
+        que a maioria dos eventos adversos é previsível e prevenível? Por isso é
+        importante conhecer o que ocorre e sobre o que pode ocorrer em um
+        sistema produtivo para prevenir e efetuar boas análises de eventos
+        adversos. Vamos aprender mais sobre isso
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph>Você sabia que existem ferramentas valiosas que auxiliam as empresas na análise econômica das ações de saúde? Quando falamos em saúde e segurança, é importante considerar a eficácia e os custos das medidas adotadas. Nesta aula, vamos aprender alguns conceitos de economia aplicados à saúde e segurança. Ao final, você entenderá melhor as diferenças entre os diversos tipos de análise e compreenderá suas aplicabilidades. </Paragraph>
+      <Paragraph
+        >Você sabia que existem ferramentas valiosas que auxiliam as empresas na
+        análise econômica das ações de saúde? Quando falamos em saúde e
+        segurança, é importante considerar a eficácia e os custos das medidas
+        adotadas. Nesta aula, vamos aprender alguns conceitos de economia
+        aplicados à saúde e segurança. Ao final, você entenderá melhor as
+        diferenças entre os diversos tipos de análise e compreenderá suas
+        aplicabilidades.
+      </Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -148,12 +163,25 @@
     </Table>
 
     <BoxIcon tipo="voce_sabia">
-      Os custos indiretos associados a acidentes de trabalho podem somar um total anual de R$50.263,50 em uma empresa com 86 funcionários. Nesse contexto, o pagamento dos 15 dias de afastamento e indenizações representa uma parcela significativa, totalizando R$11.250,00. Além disso, despesas relacionadas ao tempo de recrutamento e treinamento de um novo colaborador contribuem com um gasto adicional de R$4.300,00. Adicionalmente, os custos associados a exames, atendimento médico, medicamentos e reabilitação alcançam o montante de R$5.625,00.
+      Os custos indiretos associados a acidentes de trabalho podem somar um
+      total anual de R$50.263,50 em uma empresa com 86 funcionários. Nesse
+      contexto, o pagamento dos 15 dias de afastamento e indenizações representa
+      uma parcela significativa, totalizando R$11.250,00. Além disso, despesas
+      relacionadas ao tempo de recrutamento e treinamento de um novo colaborador
+      contribuem com um gasto adicional de R$4.300,00. Adicionalmente, os custos
+      associados a exames, atendimento médico, medicamentos e reabilitação
+      alcançam o montante de R$5.625,00.
     </BoxIcon>
 
-    <TextBlock subTopico="1.1 Questões legais relacionadas aos acidentes de trabalho.">
+    <TextBlock
+      subTopico="1.1 Questões legais relacionadas aos acidentes de trabalho."
+    >
       <Paragraph>
-        A Lei Nº 6.367, datada de 19 de outubro de 1976, versa sobre o seguro de acidentes de trabalho, proporcionando uma definição abrangente de acidente de trabalho e oferecendo uma descrição minuciosa de diferentes situações relacionadas a esses acidentes. No seu Artigo 2º, a Lei estabelece o seguinte:
+        A Lei Nº 6.367, datada de 19 de outubro de 1976, versa sobre o seguro de
+        acidentes de trabalho, proporcionando uma definição abrangente de
+        acidente de trabalho e oferecendo uma descrição minuciosa de diferentes
+        situações relacionadas a esses acidentes. No seu Artigo 2º, a Lei
+        estabelece o seguinte:
       </Paragraph>
     </TextBlock>
 
@@ -165,48 +193,113 @@
 
     <TextBlock>
       <Paragraph>
-        No parágrafo 1º desse mesmo artigo, a Lei equipara diversas circunstâncias relacionadas a acidentes de trabalho:
+        No parágrafo 1º desse mesmo artigo, a Lei equipara diversas
+        circunstâncias relacionadas a acidentes de trabalho:
       </Paragraph>
 
       <div class="my-10">
-        <v-alert border="left" color="blue" dark>I - a doença profissional ou do trabalho, assim entendida a inerente ou peculiar a determinado ramo de atividade e constante de relação organizada pelo Ministério da Previdência e Assistência Social (MPAS);</v-alert>
-        <v-alert border="left" color="blue" dark>II - o acidente que, ligado ao trabalho, embora não tenha sido a causa única, haja contribuído diretamente para a morte, ou a perda, ou redução da capacidade para o trabalho;</v-alert>
-        <v-alert border="left" color="blue" dark>III - o acidente sofrido pelo empregado no local e no horário do trabalho;
-</v-alert>
-        <v-alert border="left" color="blue" dark>IV - a doença proveniente de contaminação acidental de pessoal de área médica, no exercício de sua atividade;</v-alert>
-        <v-alert border="left" color="blue" dark>V - o acidente sofrido pelo empregado ainda que fora do local e horário de trabalho.</v-alert>
+        <v-alert border="left" color="blue" dark
+          >I - a doença profissional ou do trabalho, assim entendida a inerente
+          ou peculiar a determinado ramo de atividade e constante de relação
+          organizada pelo Ministério da Previdência e Assistência Social
+          (MPAS);</v-alert
+        >
+        <v-alert border="left" color="blue" dark
+          >II - o acidente que, ligado ao trabalho, embora não tenha sido a
+          causa única, haja contribuído diretamente para a morte, ou a perda, ou
+          redução da capacidade para o trabalho;</v-alert
+        >
+        <v-alert border="left" color="blue" dark
+          >III - o acidente sofrido pelo empregado no local e no horário do
+          trabalho;
+        </v-alert>
+        <v-alert border="left" color="blue" dark
+          >IV - a doença proveniente de contaminação acidental de pessoal de
+          área médica, no exercício de sua atividade;</v-alert
+        >
+        <v-alert border="left" color="blue" dark
+          >V - o acidente sofrido pelo empregado ainda que fora do local e
+          horário de trabalho.</v-alert
+        >
       </div>
 
       <Paragraph>
-        Nos incisos III e V da legislação, encontramos informações importantes sobre acidentes de trabalho ocorridos dentro e fora do local e horário de trabalho. No primeiro caso, é relevante ressaltar que esses acidentes podem resultar de atos de sabotagem ou terrorismo cometidos por colegas de trabalho, agressões físicas intencionais, desabamentos, inundações, incêndios ou outras situações fortuitas ou decorrentes de força maior. Já no segundo cenário, acidentes durante o trajeto entre a residência e o trabalho, atividades sob a autoridade da empresa ou viagens a serviço da empresa também são considerados.
+        Nos incisos III e V da legislação, encontramos informações importantes
+        sobre acidentes de trabalho ocorridos dentro e fora do local e horário
+        de trabalho. No primeiro caso, é relevante ressaltar que esses acidentes
+        podem resultar de atos de sabotagem ou terrorismo cometidos por colegas
+        de trabalho, agressões físicas intencionais, desabamentos, inundações,
+        incêndios ou outras situações fortuitas ou decorrentes de força maior.
+        Já no segundo cenário, acidentes durante o trajeto entre a residência e
+        o trabalho, atividades sob a autoridade da empresa ou viagens a serviço
+        da empresa também são considerados.
       </Paragraph>
 
       <Paragraph>
-        Vale destacar que a empresa assume a responsabilidade pelos custos nos casos de acidentes de trabalho que resultem em afastamento de até 15 dias. Caso contrário, a legislação brasileira assegura ao colaborador o direito ao auxílio-doença acidentário, equivalente a 91% do salário de contribuição, com os pagamentos feitos pela Previdência Social, desde que não ultrapassem o teto de dez salários-mínimos.
+        Vale destacar que a empresa assume a responsabilidade pelos custos nos
+        casos de acidentes de trabalho que resultem em afastamento de até 15
+        dias. Caso contrário, a legislação brasileira assegura ao colaborador o
+        direito ao auxílio-doença acidentário, equivalente a 91% do salário de
+        contribuição, com os pagamentos feitos pela Previdência Social, desde
+        que não ultrapassem o teto de dez salários-mínimos.
       </Paragraph>
 
       <Paragraph>
-        Além disso, a Lei estabelece que o Instituto Nacional do Seguro Social (INSS) custeie o auxílio-doença em casos de afastamento superior a 15 dias, mas há outras obrigações do empregador em relação aos direitos do trabalhador. Se um empregado perde a capacidade de exercer suas funções devido a sequelas de um acidente de trabalho, ele tem direito a um ano de estabilidade no emprego. Caso a empresa demita o funcionário antes do término desse período de estabilidade, ela será obrigada a pagar os salários restantes do período assegurado.
+        Além disso, a Lei estabelece que o Instituto Nacional do Seguro Social
+        (INSS) custeie o auxílio-doença em casos de afastamento superior a 15
+        dias, mas há outras obrigações do empregador em relação aos direitos do
+        trabalhador. Se um empregado perde a capacidade de exercer suas funções
+        devido a sequelas de um acidente de trabalho, ele tem direito a um ano
+        de estabilidade no emprego. Caso a empresa demita o funcionário antes do
+        término desse período de estabilidade, ela será obrigada a pagar os
+        salários restantes do período assegurado.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="atencao">
-      Para notificar a Previdência Social sobre um incidente ocupacional no primeiro dia útil após o ocorrido, você deve utilizar um documento denominado <strong>Comunicação de Ocorrência Ocupacional</strong>, disponível no site do órgão competente. Esse formulário deve ser preenchido com todas as informações necessárias, impresso em quatro cópias e, posteriormente, entregue ao INSS e ao segurado ou seu dependente.
+      Para notificar a Previdência Social sobre um incidente ocupacional no
+      primeiro dia útil após o ocorrido, você deve utilizar um documento
+      denominado <strong>Comunicação de Ocorrência Ocupacional</strong>,
+      disponível no site do órgão competente. Esse formulário deve ser
+      preenchido com todas as informações necessárias, impresso em quatro cópias
+      e, posteriormente, entregue ao INSS e ao segurado ou seu dependente.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        Portanto, tanto os empregadores quanto os empregados precisam estar cientes dos aspectos abordados na Lei para gerenciar adequadamente situações de acidentes de trabalho. Essa compreensão contribuirá para um processo de investigação e resolução mais harmonioso, evitando prejuízos tanto para a empresa quanto para o funcionário.
+        Portanto, tanto os empregadores quanto os empregados precisam estar
+        cientes dos aspectos abordados na Lei para gerenciar adequadamente
+        situações de acidentes de trabalho. Essa compreensão contribuirá para um
+        processo de investigação e resolução mais harmonioso, evitando prejuízos
+        tanto para a empresa quanto para o funcionário.
       </Paragraph>
     </TextBlock>
 
-    <TextBlock subTopico="1.2 Importância do envolvimento da alta gerência para o sucesso nas ações de SST e redução de custos com acidentes">
+    <TextBlock
+      subTopico="1.2 Importância do envolvimento da alta gerência para o sucesso nas ações de SST e redução de custos com acidentes"
+    >
       <Paragraph>
-        Tanto a Engenharia de Segurança do Trabalho quanto a Medicina do Trabalho desempenham um papel fundamental na garantia da saúde dos trabalhadores. Essas áreas, munidas de conhecimentos específicos, desenvolvem ferramentas e atividades essenciais para preservar a integridade física dos colaboradores. Entretanto, para maximizar o impacto dessas ações, é essencial que esses profissionais contem com o apoio e os recursos necessários por parte da alta administração da empresa.
+        Tanto a Engenharia de Segurança do Trabalho quanto a Medicina do
+        Trabalho desempenham um papel fundamental na garantia da saúde dos
+        trabalhadores. Essas áreas, munidas de conhecimentos específicos,
+        desenvolvem ferramentas e atividades essenciais para preservar a
+        integridade física dos colaboradores. Entretanto, para maximizar o
+        impacto dessas ações, é essencial que esses profissionais contem com o
+        apoio e os recursos necessários por parte da alta administração da
+        empresa.
       </Paragraph>
 
       <Paragraph>
-        O sucesso das iniciativas em SST deve refletir em indicadores da área, como a <strong>redução do número de acidentes</strong> de trabalho ao longo de um determinado período. Comparar a incidência antes e depois da implementação dessas ações é um meio eficaz de avaliar o progresso. Além disso, o engajamento dos gestores desempenha um papel importante, não apenas quebrando as barreiras entre líderes e subordinados, mas também facilitando a compreensão das equipes sobre a relevância das ações de prevenção de acidentes de trabalho. Isso resulta na diminuição das ocorrências na empresa e, consequentemente, na redução dos custos associados a esses eventos adversos.
+        O sucesso das iniciativas em SST deve refletir em indicadores da área,
+        como a <strong>redução do número de acidentes</strong> de trabalho ao
+        longo de um determinado período. Comparar a incidência antes e depois da
+        implementação dessas ações é um meio eficaz de avaliar o progresso. Além
+        disso, o engajamento dos gestores desempenha um papel importante, não
+        apenas quebrando as barreiras entre líderes e subordinados, mas também
+        facilitando a compreensão das equipes sobre a relevância das ações de
+        prevenção de acidentes de trabalho. Isso resulta na diminuição das
+        ocorrências na empresa e, consequentemente, na redução dos custos
+        associados a esses eventos adversos.
       </Paragraph>
     </TextBlock>
 
@@ -222,12 +315,18 @@
 
     <BoxIcon tipo="recapitulando">
       <p>
-        Até este ponto, ficou claro que os acidentes de trabalho podem gerar custos financeiros significativos. Portanto, é imperativo que as organizações adotem medidas eficazes de prevenção, como investir em treinamentos, capacitações e equipamentos de segurança. Essas medidas visam a reduzir os riscos de acidentes de trabalho e, por conseguinte, a minimizar os custos diretos e indiretos decorrentes desses eventos. Com base nesses conceitos, você estará mais preparado para entender o que será abordado no próximo tópico: o Fator Acidentário Previdenciário (FAP).
+        Até este ponto, ficou claro que os acidentes de trabalho podem gerar
+        custos financeiros significativos. Portanto, é imperativo que as
+        organizações adotem medidas eficazes de prevenção, como investir em
+        treinamentos, capacitações e equipamentos de segurança. Essas medidas
+        visam a reduzir os riscos de acidentes de trabalho e, por conseguinte, a
+        minimizar os custos diretos e indiretos decorrentes desses eventos. Com
+        base nesses conceitos, você estará mais preparado para entender o que
+        será abordado no próximo tópico: o Fator Acidentário Previdenciário
+        (FAP).
       </p>
 
-      <p>
-        Fique atento e continue aprendendo!
-      </p>
+      <p>Fique atento e continue aprendendo!</p>
     </BoxIcon>
 
     <NavFooter
@@ -257,7 +356,7 @@ export default {
     BoxIcon,
     NavFooter,
     Table,
-    Imagem
+    Imagem,
   },
   data() {
     return {
@@ -277,7 +376,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

@@ -239,7 +239,6 @@ export default {
 
   methods: {
     dialogInput(value) {
-
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -250,7 +249,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

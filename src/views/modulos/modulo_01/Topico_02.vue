@@ -9,19 +9,24 @@
     >
       <Paragraph>
         Neste tópico, abordaremos os transtornos mentais mais comuns no ambiente
-        de trabalho. O perfil dos colaboradores afastados
-        por transtornos mentais é composto, em sua grande maioria, por
-        trabalhadores da produção de bens e serviços industriais, com idades
-        entre 19 e 39 anos e nível de escolaridade médio. As principais causas
-        do desenvolvimento desses transtornos estão relacionadas à reação ao
-        estresse grave, episódios depressivos e transtorno de adaptação. Vejamos
-        a seguir os transtornos mentais mais comuns no ambiente de trabalho:
+        de trabalho. O perfil dos colaboradores afastados por transtornos
+        mentais é composto, em sua grande maioria, por trabalhadores da produção
+        de bens e serviços industriais, com idades entre 19 e 39 anos e nível de
+        escolaridade médio. As principais causas do desenvolvimento desses
+        transtornos estão relacionadas à reação ao estresse grave, episódios
+        depressivos e transtorno de adaptação. Vejamos a seguir os transtornos
+        mentais mais comuns no ambiente de trabalho:
       </Paragraph>
     </TextBlock>
 
     <TextBlock subTopico="Síndrome de Burnout">
       <Paragraph>
-        A síndrome de Burnout é consequência de um processo crônico de estresse e abrange sentimentos como desesperança, depressão, raiva, impaciência, irritabilidade, sensação de baixa energia, fraqueza, preocupação, entre outros. Os fatores de risco para o desenvolvimento do Burnout estão divididos e correlacionados em quatro dimensões:  a organização, o indivíduo, o trabalho e a sociedade.
+        A síndrome de Burnout é consequência de um processo crônico de estresse
+        e abrange sentimentos como desesperança, depressão, raiva, impaciência,
+        irritabilidade, sensação de baixa energia, fraqueza, preocupação, entre
+        outros. Os fatores de risco para o desenvolvimento do Burnout estão
+        divididos e correlacionados em quatro dimensões: a organização, o
+        indivíduo, o trabalho e a sociedade.
       </Paragraph>
 
       <v-row justify="center">
@@ -229,10 +234,7 @@ export default {
   },
 
   methods: {},
-
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

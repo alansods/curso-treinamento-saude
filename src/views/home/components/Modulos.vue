@@ -26,7 +26,12 @@
             </div>
 
             <div
-              :class="{ 'progresso-modulo success': $store.state.progresso_modulos[`modulo_${modulo.numero}`], 'progresso-modulo disabled': !$store.state.progresso_modulos[`modulo_${modulo.numero}`] }"
+              :class="{
+                'progresso-modulo success':
+                  $store.state.progresso_modulos[`modulo_${modulo.numero}`],
+                'progresso-modulo disabled':
+                  !$store.state.progresso_modulos[`modulo_${modulo.numero}`],
+              }"
             ></div>
           </div>
         </v-col>
@@ -49,9 +54,7 @@ export default {
     };
   },
 
-  computed: {
-
-  },
+  computed: {},
 
   methods: {
     goto() {

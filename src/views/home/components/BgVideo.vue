@@ -6,25 +6,29 @@
     >
       <div>
         <div class="mb-3">
-        <h4 class="font-weight-light text-h6 text-sm-h5">Treinamento para Líderes</h4>
+          <h4 class="font-weight-light text-h6 text-sm-h5">
+            Treinamento para Líderes
+          </h4>
 
-        <h3 class="font-weight-bold text-h5 text-sm-h4">
-          Impacto dos Custos de Saúde <br />
-          e Segurança para sua Empresa
-        </h3>
+          <h3 class="font-weight-bold text-h5 text-sm-h4">
+            Impacto dos Custos de Saúde <br />
+            e Segurança para sua Empresa
+          </h3>
+        </div>
+
+        <div class="youtube-container">
+          <youtube
+            video-id="vn1f68rPSKE"
+            class="mt-8 elevation-10"
+            style="border: solid 3px white"
+            fitParent
+          />
+        </div>
       </div>
 
-      <div class="youtube-container">
-        <youtube
-          video-id="vn1f68rPSKE"
-          class="mt-8 elevation-10"
-          style="border: solid 3px white"
-          fitParent
-        />
-      </div>
-      </div>
-
-      <v-icon size="60" color="white" class="go-down" @click="goDown">mdi-chevron-down</v-icon>
+      <v-icon size="60" color="white" class="go-down" @click="goDown"
+        >mdi-chevron-down</v-icon
+      >
     </div>
   </div>
 </template>
@@ -32,10 +36,10 @@
 <script>
 export default {
   methods: {
-    goDown(){
-      this.$emit("onGoDown")
-    }
-  }
+    goDown() {
+      this.$emit("onGoDown");
+    },
+  },
 };
 </script>
 
@@ -73,7 +77,11 @@ export default {
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {

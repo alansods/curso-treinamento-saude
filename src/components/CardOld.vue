@@ -4,7 +4,7 @@
       <v-card-text>
         <Topico :titulo="topico" v-if="topico" />
         <Subtopico :titulo="subTopico" v-if="subTopico" />
-          <slot></slot>
+        <slot></slot>
       </v-card-text>
     </v-card>
   </div>
@@ -15,7 +15,7 @@ import Topico from "./Topico.vue";
 import Subtopico from "./Subtopico.vue";
 
 export default {
-  props: [ "topico", "subTopico" ],
+  props: ["topico", "subTopico"],
 
   components: {
     Topico,

@@ -18,15 +18,18 @@
       <v-tooltip top>
         <template v-slot:activator="{ on }">
           <router-link to="/">
-          <v-list-item :class="{ 'menu-ativo': $route.path === `/` }" v-on="on">
-            <v-list-item-icon>
-              <v-icon>mdi-home</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <v-list-item-title>Página Inicial</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
-        </router-link>
+            <v-list-item
+              :class="{ 'menu-ativo': $route.path === `/` }"
+              v-on="on"
+            >
+              <v-list-item-icon>
+                <v-icon>mdi-home</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Página Inicial</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </router-link>
         </template>
         <span>Página Inicial</span>
       </v-tooltip>

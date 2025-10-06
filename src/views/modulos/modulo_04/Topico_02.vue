@@ -88,13 +88,29 @@
       </Paragraph>
 
       <div class="my-10">
-        <v-alert border="left" color="blue" dark> Identificação da empresa, setor e função do trabalhador;</v-alert>
-        <v-alert border="left" color="blue" dark> Definir se o Laudo é individual ou coletivo, descrevendo as medidas de controle existentes, atividade e localização de possíveis fontes geradoras;</v-alert>
-        <v-alert border="left" color="blue" dark>Via e periodicidade de exposição ao agente nocivo;</v-alert>
-        <v-alert border="left" color="blue" dark>Metodologia e procedimentos de avaliação do agente nocivo;</v-alert>
-        <v-alert border="left" color="blue" dark>Identificação de agente nocivo capaz de causar dano à saúde e integridade física;</v-alert>
-        <v-alert border="left" color="blue" dark>Procedimentos finais: identificação do médico do trabalho ou
-            engenheiro de segurança com assinatura e data da realização da avaliação ambiental.</v-alert>
+        <v-alert border="left" color="blue" dark>
+          Identificação da empresa, setor e função do trabalhador;</v-alert
+        >
+        <v-alert border="left" color="blue" dark>
+          Definir se o Laudo é individual ou coletivo, descrevendo as medidas de
+          controle existentes, atividade e localização de possíveis fontes
+          geradoras;</v-alert
+        >
+        <v-alert border="left" color="blue" dark
+          >Via e periodicidade de exposição ao agente nocivo;</v-alert
+        >
+        <v-alert border="left" color="blue" dark
+          >Metodologia e procedimentos de avaliação do agente nocivo;</v-alert
+        >
+        <v-alert border="left" color="blue" dark
+          >Identificação de agente nocivo capaz de causar dano à saúde e
+          integridade física;</v-alert
+        >
+        <v-alert border="left" color="blue" dark
+          >Procedimentos finais: identificação do médico do trabalho ou
+          engenheiro de segurança com assinatura e data da realização da
+          avaliação ambiental.</v-alert
+        >
       </div>
 
       <Paragraph>
@@ -305,7 +321,7 @@
         <FlipCard>
           <template #front>
             <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_explosivos.svg"/>
+              <Imagem src="modulo_04/yellow_icons/perigos_explosivos.svg" />
             </v-col>
           </template>
 
@@ -317,7 +333,7 @@
         <FlipCard>
           <template #front>
             <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_inflamaveis.svg"/>
+              <Imagem src="modulo_04/yellow_icons/perigos_inflamaveis.svg" />
             </v-col>
           </template>
 
@@ -328,8 +344,8 @@
       <v-col cols="4" sm="4">
         <FlipCard>
           <template #front>
-            <v-col cols="10" >
-              <Imagem src="modulo_04/yellow_icons/perigos_radiacao.svg"/>
+            <v-col cols="10">
+              <Imagem src="modulo_04/yellow_icons/perigos_radiacao.svg" />
             </v-col>
           </template>
 
@@ -343,7 +359,7 @@
         <FlipCard>
           <template #front>
             <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_violencia.svg"/>
+              <Imagem src="modulo_04/yellow_icons/perigos_violencia.svg" />
             </v-col>
           </template>
 
@@ -357,7 +373,9 @@
         <FlipCard>
           <template #front>
             <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_energia_eletrica.svg"/>
+              <Imagem
+                src="modulo_04/yellow_icons/perigos_energia_eletrica.svg"
+              />
             </v-col>
           </template>
 
@@ -369,7 +387,7 @@
         <FlipCard>
           <template #front>
             <v-col cols="10">
-              <Imagem src="modulo_04/yellow_icons/perigos_motocicleta.svg"/>
+              <Imagem src="modulo_04/yellow_icons/perigos_motocicleta.svg" />
             </v-col>
           </template>
 
@@ -530,7 +548,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

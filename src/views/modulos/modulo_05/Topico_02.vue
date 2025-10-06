@@ -20,7 +20,10 @@
       </Paragraph>
 
       <Paragraph>
-        Compreender essas análises é fundamental para tomar decisões embasadas, tanto em termos de eficácia clínica quanto financeira, em um campo que requer equilíbrio entre recursos limitados e a busca contínua por melhores resultados em saúde.
+        Compreender essas análises é fundamental para tomar decisões embasadas,
+        tanto em termos de eficácia clínica quanto financeira, em um campo que
+        requer equilíbrio entre recursos limitados e a busca contínua por
+        melhores resultados em saúde.
       </Paragraph>
 
       <Paragraph>
@@ -31,7 +34,11 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph>Nesta aula iremos abordar sobre os outros três tipos de análise existentes e espera-se que ao final deste módulo, você possa compreender todos os tipos de análise em economia na saúde.</Paragraph>
+      <Paragraph
+        >Nesta aula iremos abordar sobre os outros três tipos de análise
+        existentes e espera-se que ao final deste módulo, você possa compreender
+        todos os tipos de análise em economia na saúde.</Paragraph
+      >
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -234,9 +241,18 @@
       </Paragraph>
 
       <Paragraph>
-        <div style="border: solid 3px #ddd; padding: 15px 20px; text-align: center; margin: 30px 0;">
-          <strong class="text-center">A fórmula para calcular o ROI é a seguinte:
-        ROI = Lucro Operacional Líquido / Investimentos</strong>
+        <div
+          style="
+            border: solid 3px #ddd;
+            padding: 15px 20px;
+            text-align: center;
+            margin: 30px 0;
+          "
+        >
+          <strong class="text-center"
+            >A fórmula para calcular o ROI é a seguinte: ROI = Lucro Operacional
+            Líquido / Investimentos</strong
+          >
         </div>
       </Paragraph>
 
@@ -290,12 +306,23 @@
       </Paragraph>
 
       <Paragraph>
-        Após a exploração dos tópicos deste módulo, os gestores poderão compreender os aspectos fundamentais na interpretação dos tipos de estudos e familiarizar-se com os conceitos relacionados. Isso permitirá que realizem uma análise crítica da literatura existente e estabeleçam referências para a aplicação dessas informações em seus ambientes de trabalho, desenvolvendo uma visão ampla e aprofundada sobre o assunto.
+        Após a exploração dos tópicos deste módulo, os gestores poderão
+        compreender os aspectos fundamentais na interpretação dos tipos de
+        estudos e familiarizar-se com os conceitos relacionados. Isso permitirá
+        que realizem uma análise crítica da literatura existente e estabeleçam
+        referências para a aplicação dessas informações em seus ambientes de
+        trabalho, desenvolvendo uma visão ampla e aprofundada sobre o assunto.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      Chegamos ao final deste  módulo. Esperamos que as informações aqui apresentadas tenham sido úteis e enriquecedoras. Vimos que a gestão da saúde e segurança no trabalho é uma parte vital de qualquer organização, e seu impacto se reflete tanto na qualidade de vida dos colaboradores quanto na prosperidade dos negócios. Continue a explorar e aplicar esse conhecimento em seu ambiente de trabalho e, assim, promova um local mais seguro e saudável para todos.
+      Chegamos ao final deste módulo. Esperamos que as informações aqui
+      apresentadas tenham sido úteis e enriquecedoras. Vimos que a gestão da
+      saúde e segurança no trabalho é uma parte vital de qualquer organização, e
+      seu impacto se reflete tanto na qualidade de vida dos colaboradores quanto
+      na prosperidade dos negócios. Continue a explorar e aplicar esse
+      conhecimento em seu ambiente de trabalho e, assim, promova um local mais
+      seguro e saudável para todos.
     </BoxIcon>
 
     <NavFooter
@@ -345,7 +372,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

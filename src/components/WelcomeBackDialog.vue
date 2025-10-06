@@ -8,7 +8,9 @@
         </div>
 
         <div>
-          <p>Você parou aqui: <strong>{{ currentRouteName }}</strong></p>
+          <p>
+            Você parou aqui: <strong>{{ currentRouteName }}</strong>
+          </p>
         </div>
 
         <NavButton
@@ -40,7 +42,6 @@ export default {
       return this.$route.name; // Acessa o nome da rota atual
     },
   },
-
 };
 </script>
 

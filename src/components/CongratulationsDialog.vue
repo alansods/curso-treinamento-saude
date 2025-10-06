@@ -9,7 +9,9 @@
         <div>
           <p>
             Você concluiu o curso com nota
-            <strong class="success--text"><u>{{ $store.state.progresso_modulos.LMS_Progress }}!</u></strong>
+            <strong class="success--text"
+              ><u>{{ $store.state.progresso_modulos.LMS_Progress }}!</u></strong
+            >
           </p>
         </div>
 

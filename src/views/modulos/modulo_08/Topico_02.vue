@@ -228,7 +228,9 @@
       </v-col>
 
       <v-col cols="12" class="text-center">
-        <SmallText>Imagem 1: Objetivos do Desenvolvimento Sustentável ( ODS)</SmallText>
+        <SmallText
+          >Imagem 1: Objetivos do Desenvolvimento Sustentável ( ODS)</SmallText
+        >
         <SmallText>Fonte: ONU Brasil (2015)</SmallText>
       </v-col>
     </v-row>
@@ -274,15 +276,13 @@ export default {
     NavFooter,
     Paragraph,
     Imagem,
-    SmallText
+    SmallText,
   },
   data() {
     return {};
   },
 
   methods: {},
-
-
 };
 </script>
 

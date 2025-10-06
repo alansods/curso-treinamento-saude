@@ -28,7 +28,8 @@
 
     <BoxIcon tipo="video_aula" numero="3">
       <Paragraph>
-        Nesta videoaula, discorreremos sobre a importância dos investimentos em saúde mental nas empresas.
+        Nesta videoaula, discorreremos sobre a importância dos investimentos em
+        saúde mental nas empresas.
       </Paragraph>
 
       <Paragraph>

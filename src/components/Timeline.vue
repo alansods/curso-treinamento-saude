@@ -65,7 +65,14 @@ export default {
   border: none;
 }
 
-.v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse) .v-timeline-item:nth-child(odd):not(.v-timeline-item--before), .v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse) .v-timeline-item--after, .v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse) .v-timeline-item:nth-child(even):not(.v-timeline-item--after), .v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse) .v-timeline-item--before {
+.v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse)
+  .v-timeline-item:nth-child(odd):not(.v-timeline-item--before),
+.v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse)
+  .v-timeline-item--after,
+.v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse)
+  .v-timeline-item:nth-child(even):not(.v-timeline-item--after),
+.v-timeline:not(.v-timeline--dense):not(.v-timeline--reverse)
+  .v-timeline-item--before {
   padding-bottom: 80px;
 }
 </style>

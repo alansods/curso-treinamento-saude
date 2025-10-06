@@ -34,7 +34,15 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph>Você sabia que existem ferramentas valiosas que auxiliam as empresas na análise econômica das ações de saúde? Quando falamos em saúde e segurança, é importante considerar a eficácia e os custos das medidas adotadas. Nesta aula, vamos aprender alguns conceitos de economia aplicados à saúde e segurança. Ao final, você entenderá melhor as diferenças entre os diversos tipos de análise e compreenderá suas aplicabilidades. </Paragraph>
+      <Paragraph
+        >Você sabia que existem ferramentas valiosas que auxiliam as empresas na
+        análise econômica das ações de saúde? Quando falamos em saúde e
+        segurança, é importante considerar a eficácia e os custos das medidas
+        adotadas. Nesta aula, vamos aprender alguns conceitos de economia
+        aplicados à saúde e segurança. Ao final, você entenderá melhor as
+        diferenças entre os diversos tipos de análise e compreenderá suas
+        aplicabilidades.
+      </Paragraph>
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -437,30 +445,48 @@
           >Valoração contingente</v-expansion-panel-header
         >
         <v-expansion-panel-content>
-          Nesse método, os analistas apresentam uma intervenção ou programa de saúde aos indivíduos e perguntam quanto estariam dispostos a pagar por esses benefícios em saúde, levando em conta suas expectativas.
+          Nesse método, os analistas apresentam uma intervenção ou programa de
+          saúde aos indivíduos e perguntam quanto estariam dispostos a pagar por
+          esses benefícios em saúde, levando em conta suas expectativas.
         </v-expansion-panel-content>
       </v-expansion-panel>
 
       <v-expansion-panel>
         <v-expansion-panel-header>Análise conjunta</v-expansion-panel-header>
         <v-expansion-panel-content>
-          Nessa abordagem mais autocrática, realiza-se uma comparação entre diferentes bens ou intervenções de saúde e seus respectivos pesos relativos.
+          Nessa abordagem mais autocrática, realiza-se uma comparação entre
+          diferentes bens ou intervenções de saúde e seus respectivos pesos
+          relativos.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </Accordion>
 
     <BoxIcon tipo="voce_sabia">
-      Além das metodologias discutidas até agora, existem outras abordagens na literatura para avaliar desfechos em saúde. Duas delas são o <strong>Capital Humano e Preferências</strong>. A primeira considera uma intervenção ou programa de saúde como um investimento nos colaboradores, uma vez que indivíduos mais saudáveis tendem a ser mais produtivos. Já a segunda aborda a relação entre os riscos à saúde do trabalhador, sua função no ambiente de trabalho e o salário que eles demandam.
+      Além das metodologias discutidas até agora, existem outras abordagens na
+      literatura para avaliar desfechos em saúde. Duas delas são o
+      <strong>Capital Humano e Preferências</strong>. A primeira considera uma
+      intervenção ou programa de saúde como um investimento nos colaboradores,
+      uma vez que indivíduos mais saudáveis tendem a ser mais produtivos. Já a
+      segunda aborda a relação entre os riscos à saúde do trabalhador, sua
+      função no ambiente de trabalho e o salário que eles demandam.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        Explorando ainda mais esses métodos na avaliação econômica, é fundamental reconhecer uma limitação significativa: a conversão dos benefícios clínicos em termos monetários. Dado que essa avaliação tende a ser mais qualitativa, é imperativo que compreendamos os passos envolvidos na transformação dos resultados de saúde em valores monetários.
+        Explorando ainda mais esses métodos na avaliação econômica, é
+        fundamental reconhecer uma limitação significativa: a conversão dos
+        benefícios clínicos em termos monetários. Dado que essa avaliação tende
+        a ser mais qualitativa, é imperativo que compreendamos os passos
+        envolvidos na transformação dos resultados de saúde em valores
+        monetários.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      Chegamos ao final deste tópico. Até o momento, discutimos análise de decisão, análise de custo e análise de custo-benefício. No próximo tópico, vamos adentrar em outras três ferramentas, permitindo que você compreenda melhor suas diferenças e entenda como aplicá-las.
+      Chegamos ao final deste tópico. Até o momento, discutimos análise de
+      decisão, análise de custo e análise de custo-benefício. No próximo tópico,
+      vamos adentrar em outras três ferramentas, permitindo que você compreenda
+      melhor suas diferenças e entenda como aplicá-las.
     </BoxIcon>
 
     <NavFooter
@@ -506,7 +532,6 @@ export default {
 
   methods: {
     dialogInput(value) {
-
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -517,7 +542,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

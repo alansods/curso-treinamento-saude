@@ -6,12 +6,24 @@
   >
     <TextBlock topico="Tópico 2 - Fator Acidentário Previdenciário (FAP)">
       <Paragraph>
-        Olá! Vimos na aula anterior deste módulo sobre aspectos legais dos acidentes de trabalho e o impacto financeiro para as empresas. Nesta aula iremos abordar sobre o Fator Acidentário Previdenciário, bem como os impactos financeiros destes e normas da previdência social. Ao final deste módulo, você será capaz de definir acidentes de trabalho e os seus impactos, bem como entender aspectos legais do Ministério do Trabalho. Ao final deste módulo, você será capaz de definir acidentes de trabalho e os seus impactos, bem como entender aspectos legais do Ministério do Trabalho. Vamos lá?
+        Olá! Vimos na aula anterior deste módulo sobre aspectos legais dos
+        acidentes de trabalho e o impacto financeiro para as empresas. Nesta
+        aula iremos abordar sobre o Fator Acidentário Previdenciário, bem como
+        os impactos financeiros destes e normas da previdência social. Ao final
+        deste módulo, você será capaz de definir acidentes de trabalho e os seus
+        impactos, bem como entender aspectos legais do Ministério do Trabalho.
+        Ao final deste módulo, você será capaz de definir acidentes de trabalho
+        e os seus impactos, bem como entender aspectos legais do Ministério do
+        Trabalho. Vamos lá?
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph>Nesta aula iremos abordar sobre os outros três tipos de análise existentes e espera-se que ao final deste módulo, você possa compreender todos os tipos de análise em economia na saúde.</Paragraph>
+      <Paragraph
+        >Nesta aula iremos abordar sobre os outros três tipos de análise
+        existentes e espera-se que ao final deste módulo, você possa compreender
+        todos os tipos de análise em economia na saúde.</Paragraph
+      >
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -281,14 +293,20 @@
         devem apenas cumprir suas tarefas, sem necessidade de qualquer
         acompanhamento adicional, acreditando que a contribuição previdenciária
         mensal seja suficiente para assegurar a seguridade deles. É nesse
-        contexto que as <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')"><i>Ações Regressivas</i></GlossarioButton>
+        contexto que as
+        <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')"
+          ><i>Ações Regressivas</i></GlossarioButton
+        >
         ganham destaque, evidenciando a responsabilidade do empregador perante a
         Previdência Social.
       </Paragraph>
 
       <GlossarioDialog title="Ações Regressivas">
         <Paragraph>
-          <strong><i>Ações Regressivas:</i></strong> representam instrumentos judiciais utilizados pela Previdência Social para buscar o ressarcimento de despesas previdenciárias relacionadas a atos ilícitos.
+          <strong><i>Ações Regressivas:</i></strong> representam instrumentos
+          judiciais utilizados pela Previdência Social para buscar o
+          ressarcimento de despesas previdenciárias relacionadas a atos
+          ilícitos.
         </Paragraph>
       </GlossarioDialog>
     </TextBlock>
@@ -307,42 +325,81 @@
       </Paragraph>
 
       <div class="my-10">
-        <v-alert border="left" color="blue" dark><strong>1. </strong>
-          Ocorrência de acidente de trabalho, como lesões, doenças ou acidentes relacionados à atividade laboral.
+        <v-alert border="left" color="blue" dark
+          ><strong>1. </strong>
+          Ocorrência de acidente de trabalho, como lesões, doenças ou acidentes
+          relacionados à atividade laboral.
         </v-alert>
-        <v-alert border="left" color="blue" dark><strong>2. </strong>
-          Dano(s) à Previdência Social, ou seja, despesas previdenciárias geradas em decorrência do acidente de trabalho.
+        <v-alert border="left" color="blue" dark
+          ><strong>2. </strong>
+          Dano(s) à Previdência Social, ou seja, despesas previdenciárias
+          geradas em decorrência do acidente de trabalho.
         </v-alert>
-        <v-alert border="left" color="blue" dark><strong>3. </strong>
-          Culpa qualificada, resultante do não cumprimento ou da falta de fiscalização das normas de segurança e higiene do trabalho por parte da empresa.
+        <v-alert border="left" color="blue" dark
+          ><strong>3. </strong>
+          Culpa qualificada, resultante do não cumprimento ou da falta de
+          fiscalização das normas de segurança e higiene do trabalho por parte
+          da empresa.
         </v-alert>
-        <v-alert border="left" color="blue" dark><strong>4. </strong>
-          Nexo causal, ou seja, a demonstração de que a falta de cumprimento das normas de segurança e higiene no trabalho pela empresa foi a causa direta ou contribuiu significativamente para o acidente de trabalho ou doença ocupacional.
+        <v-alert border="left" color="blue" dark
+          ><strong>4. </strong>
+          Nexo causal, ou seja, a demonstração de que a falta de cumprimento das
+          normas de segurança e higiene no trabalho pela empresa foi a causa
+          direta ou contribuiu significativamente para o acidente de trabalho ou
+          doença ocupacional.
         </v-alert>
       </div>
 
       <Paragraph>
-        Quando esses elementos estão presentes, a Previdência Social pode entrar com uma "ação regressiva" contra a empresa para buscar o ressarcimento das despesas previdenciárias relacionadas aos acidentes de trabalho ou doenças ocupacionais. Isso reforça a importância da observância rigorosa das normas de segurança e higiene no ambiente de trabalho, tanto para a proteção dos trabalhadores quanto para evitar despesas adicionais para as empresas.
+        Quando esses elementos estão presentes, a Previdência Social pode entrar
+        com uma "ação regressiva" contra a empresa para buscar o ressarcimento
+        das despesas previdenciárias relacionadas aos acidentes de trabalho ou
+        doenças ocupacionais. Isso reforça a importância da observância rigorosa
+        das normas de segurança e higiene no ambiente de trabalho, tanto para a
+        proteção dos trabalhadores quanto para evitar despesas adicionais para
+        as empresas.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      Quando ocorre um acidente de trabalho com afastamento do trabalho superior a 15 dias, o segurado dá entrada na Previdência Social para solicitar o benefício denominado "auxílio-doença acidentário". Para fins de direitos do segurado relacionados a acidentes de trabalho, é obrigatório que o benefício seja o "auxílio-doença acidentário". Esse benefício é concedido quando o trabalhador sofre um acidente de trabalho que o impede de realizar suas atividades laborais temporariamente devido a lesões ou doenças relacionadas ao acidente.
+      Quando ocorre um acidente de trabalho com afastamento do trabalho superior
+      a 15 dias, o segurado dá entrada na Previdência Social para solicitar o
+      benefício denominado "auxílio-doença acidentário". Para fins de direitos
+      do segurado relacionados a acidentes de trabalho, é obrigatório que o
+      benefício seja o "auxílio-doença acidentário". Esse benefício é concedido
+      quando o trabalhador sofre um acidente de trabalho que o impede de
+      realizar suas atividades laborais temporariamente devido a lesões ou
+      doenças relacionadas ao acidente.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        A Previdência Social cumpre suas obrigações legais no que diz respeito ao salário do acidentado, isentando o empregador dessa responsabilidade inicialmente. Quando o acidentado retorna ao trabalho, ele tem direito a um período de estabilidade de doze meses, garantido pelo recebimento do "auxílio-doença acidentário," e sua remuneração volta a ser paga pela empresa normalmente.
+        A Previdência Social cumpre suas obrigações legais no que diz respeito
+        ao salário do acidentado, isentando o empregador dessa responsabilidade
+        inicialmente. Quando o acidentado retorna ao trabalho, ele tem direito a
+        um período de estabilidade de doze meses, garantido pelo recebimento do
+        "auxílio-doença acidentário," e sua remuneração volta a ser paga pela
+        empresa normalmente.
       </Paragraph>
 
       <Paragraph>
-        Em seguida, a Previdência Social busca seus direitos através da "Ação regressiva" nos tribunais. A Advocacia Geral da União (AGU) conduz uma análise minuciosa do acidente, coletando todas as informações e detalhes do ocorrido para entender as circunstâncias que geraram ônus. Se for comprovada a responsabilidade do empregador, a Previdência Social obtém êxito na ação, e a empresa é obrigada a reembolsar o órgão pelos gastos relacionados ao período de afastamento do colaborador.
+        Em seguida, a Previdência Social busca seus direitos através da "Ação
+        regressiva" nos tribunais. A Advocacia Geral da União (AGU) conduz uma
+        análise minuciosa do acidente, coletando todas as informações e detalhes
+        do ocorrido para entender as circunstâncias que geraram ônus. Se for
+        comprovada a responsabilidade do empregador, a Previdência Social obtém
+        êxito na ação, e a empresa é obrigada a reembolsar o órgão pelos gastos
+        relacionados ao período de afastamento do colaborador.
       </Paragraph>
     </TextBlock>
 
     <TextBlock subTopico="2.3 O papel didático das Ações Regressivas">
       <Paragraph>
-        As Ações Regressivas desempenham um papel didático importante, não apenas na recuperação de custos para a Previdência Social, mas também na conscientização das empresas em relação à importância da prevenção de acidentes de trabalho e ao cumprimento das normas de segurança e higiene no ambiente laboral. Vejamos a seguir:
+        As Ações Regressivas desempenham um papel didático importante, não
+        apenas na recuperação de custos para a Previdência Social, mas também na
+        conscientização das empresas em relação à importância da prevenção de
+        acidentes de trabalho e ao cumprimento das normas de segurança e higiene
+        no ambiente laboral. Vejamos a seguir:
       </Paragraph>
     </TextBlock>
 
@@ -352,36 +409,65 @@
           >Aplicação do papel didático</v-expansion-panel-header
         >
         <v-expansion-panel-content>
-          O processo de conscientização frisa que o empregador deve estar em dia com as exigências da Legislação de SST.
+          O processo de conscientização frisa que o empregador deve estar em dia
+          com as exigências da Legislação de SST.
         </v-expansion-panel-content>
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header>Prevenção de Acidentes</v-expansion-panel-header>
+        <v-expansion-panel-header
+          >Prevenção de Acidentes</v-expansion-panel-header
+        >
         <v-expansion-panel-content>
-          A prevenção inicia ainda no exame pré-admissional com avaliações médicas específicas para cada função da empresa, evitando a entrada de funcionários portadores de doenças pré-qualificadas pela Previdência Social, como doença do trabalho para aquela atividade, tornando o processo eficiente e evitando afastamentos futuros.
+          A prevenção inicia ainda no exame pré-admissional com avaliações
+          médicas específicas para cada função da empresa, evitando a entrada de
+          funcionários portadores de doenças pré-qualificadas pela Previdência
+          Social, como doença do trabalho para aquela atividade, tornando o
+          processo eficiente e evitando afastamentos futuros.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </Accordion>
 
     <TextBlock>
       <Paragraph>
-        Estar em conformidade com a Legislação de SST garante segurança, saúde e bem-estar no ambiente de trabalho tanto para os trabalhadores quanto para a empresa. Afastamentos não são saudáveis para a produção e podem causar multas por meio das Ações Regressivas, prejudicando a imagem da empresa. Além disso, cada ação regressiva resulta em um processo trabalhista contra o empregador ou a empresa. Portanto, cumprir as normas de SST é essencial para manter a segurança no trabalho, evitar penalidades legais e preservar a reputação da empresa.
+        Estar em conformidade com a Legislação de SST garante segurança, saúde e
+        bem-estar no ambiente de trabalho tanto para os trabalhadores quanto
+        para a empresa. Afastamentos não são saudáveis para a produção e podem
+        causar multas por meio das Ações Regressivas, prejudicando a imagem da
+        empresa. Além disso, cada ação regressiva resulta em um processo
+        trabalhista contra o empregador ou a empresa. Portanto, cumprir as
+        normas de SST é essencial para manter a segurança no trabalho, evitar
+        penalidades legais e preservar a reputação da empresa.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="atencao">
-      Os números de causas ganhas pela Previdência Social giram em torno de 80%. Um índice bastante alto, significando que há falha das empresas no que tange à Legislação de SST.
+      Os números de causas ganhas pela Previdência Social giram em torno de 80%.
+      Um índice bastante alto, significando que há falha das empresas no que
+      tange à Legislação de SST.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        As Ações Regressivas afetam o principal ponto de qualquer empresa, <strong>o financeiro</strong>. Essas ações constituem em uma das várias outras consequências que o empregador pode sofrer, se não proporcionar condições dignas de saúde e segurança do trabalho para seus trabalhadores.
+        As Ações Regressivas afetam o principal ponto de qualquer empresa,
+        <strong>o financeiro</strong>. Essas ações constituem em uma das várias
+        outras consequências que o empregador pode sofrer, se não proporcionar
+        condições dignas de saúde e segurança do trabalho para seus
+        trabalhadores.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      Em conclusão, mesmo considerando que os acidentes fazem parte da vida humana, cabe aos gestores a responsabilidade de conhecer os riscos, mapear as atividades, analisar os dados, desenvolver estratégias e, sobretudo, promover a conscientização. Este módulo teve como objetivo disseminar informações sobre os impactos financeiros e as obrigações legais relacionadas aos acidentes de trabalho para as empresas, esclarecendo os direitos e deveres no que diz respeito à segurança e saúde no trabalho. A adoção de medidas preventivas e o cumprimento das normas de SST são cruciais para proteger tanto a integridade dos trabalhadores quanto a saúde financeira das empresas.
+      Em conclusão, mesmo considerando que os acidentes fazem parte da vida
+      humana, cabe aos gestores a responsabilidade de conhecer os riscos, mapear
+      as atividades, analisar os dados, desenvolver estratégias e, sobretudo,
+      promover a conscientização. Este módulo teve como objetivo disseminar
+      informações sobre os impactos financeiros e as obrigações legais
+      relacionadas aos acidentes de trabalho para as empresas, esclarecendo os
+      direitos e deveres no que diz respeito à segurança e saúde no trabalho. A
+      adoção de medidas preventivas e o cumprimento das normas de SST são
+      cruciais para proteger tanto a integridade dos trabalhadores quanto a
+      saúde financeira das empresas.
     </BoxIcon>
 
     <NavFooter
@@ -421,7 +507,7 @@ export default {
     SmallText,
     GlossarioDialog,
     GlossarioButton,
-    Accordion
+    Accordion,
   },
   data() {
     return {
@@ -441,7 +527,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

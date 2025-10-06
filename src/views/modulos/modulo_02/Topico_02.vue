@@ -28,7 +28,12 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph>Olá, no vídeo passado você aprendeu sobre ergonomia e sobre os sobre os tipos de ergonomia, além de explanar um pouco sobre a Norma Reguladora 17 (NR17). Agora nós iremos explicar um pouco sobre o que é LER/DORT. Vamos lá?</Paragraph>
+      <Paragraph
+        >Olá, no vídeo passado você aprendeu sobre ergonomia e sobre os sobre os
+        tipos de ergonomia, além de explanar um pouco sobre a Norma Reguladora
+        17 (NR17). Agora nós iremos explicar um pouco sobre o que é LER/DORT.
+        Vamos lá?</Paragraph
+      >
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -60,9 +65,7 @@
     </v-row>
 
     <TextBlock>
-      <Paragraph>
-        Vejamos a seguir alguns exemplos de LER/DORT:
-      </Paragraph>
+      <Paragraph> Vejamos a seguir alguns exemplos de LER/DORT: </Paragraph>
     </TextBlock>
 
     <v-row justify="start">
@@ -76,7 +79,8 @@
           <template #front>Tendinite</template>
 
           <template #back>
-            Inflamação de um tendão, muitas vezes causada por movimentos repetitivos.
+            Inflamação de um tendão, muitas vezes causada por movimentos
+            repetitivos.
           </template>
         </FlipCardImg>
       </v-col>
@@ -96,7 +100,8 @@
           <template #front>Bursite</template>
 
           <template #back>
-            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas articulações.
+            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas
+            articulações.
           </template>
         </FlipCardImg>
       </v-col>
@@ -106,7 +111,8 @@
           <template #front>Epicondilite</template>
 
           <template #back>
-            Também conhecida como cotovelo de tenista, é uma lesão nos tendões que se ligam ao epicôndilo do cotovelo.
+            Também conhecida como cotovelo de tenista, é uma lesão nos tendões
+            que se ligam ao epicôndilo do cotovelo.
           </template>
         </FlipCardImg>
       </v-col>
@@ -116,7 +122,8 @@
           <template #front>Síndrome do túnel do carpo</template>
 
           <template #back>
-            Compressão do nervo mediano no pulso, causando formigamento e fraqueza nas mãos.
+            Compressão do nervo mediano no pulso, causando formigamento e
+            fraqueza nas mãos.
           </template>
         </FlipCardImg>
       </v-col>
@@ -136,17 +143,21 @@
           <template #front>Síndrome do desfiladeiro torácico</template>
 
           <template #back>
-            Compressão dos nervos e vasos sanguíneos na região do pescoço e ombro.
+            Compressão dos nervos e vasos sanguíneos na região do pescoço e
+            ombro.
           </template>
         </FlipCardImg>
       </v-col>
 
       <v-col cols="4" sm="auto">
-        <FlipCardImg bgImg="modulo_02/flipcard/Sindrome_do_pronador_redondo.jpg">
+        <FlipCardImg
+          bgImg="modulo_02/flipcard/Sindrome_do_pronador_redondo.jpg"
+        >
           <template #front>Síndrome do pronador redondo</template>
 
           <template #back>
-            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas articulações.
+            Inflamação da bolsa sinovial, que pode resultar em dor e inchaço nas
+            articulações.
           </template>
         </FlipCardImg>
       </v-col>
@@ -156,7 +167,8 @@
           <template #front>Mialgias</template>
 
           <template #back>
-            Dores musculares frequentemente relacionadas à fadiga ou lesões musculares.
+            Dores musculares frequentemente relacionadas à fadiga ou lesões
+            musculares.
           </template>
         </FlipCardImg>
       </v-col>
@@ -277,7 +289,12 @@
       </Paragraph>
 
       <Paragraph>
-        Existem diversas ferramentas disponíveis para conduzir uma análise ergonômica do trabalho, e a escolha da ferramenta adequada depende do tipo de atividade que está sendo analisada. Duas dessas ferramentas são o método Rapid Upper Limb Assessment (RULA) e o Method-Time Measurement (MTM)- (DOMBIDAU JUNNIOR et al., 2017; RIBEIRO JÚNIOR et al., 2012). Vejamos a seguir como essas ferramentas se caracterizam:
+        Existem diversas ferramentas disponíveis para conduzir uma análise
+        ergonômica do trabalho, e a escolha da ferramenta adequada depende do
+        tipo de atividade que está sendo analisada. Duas dessas ferramentas são
+        o método Rapid Upper Limb Assessment (RULA) e o Method-Time Measurement
+        (MTM)- (DOMBIDAU JUNNIOR et al., 2017; RIBEIRO JÚNIOR et al., 2012).
+        Vejamos a seguir como essas ferramentas se caracterizam:
       </Paragraph>
     </TextBlock>
 
@@ -353,16 +370,32 @@
 
     <TextBlock>
       <Paragraph>
-        Casos de hérnia de disco, transtornos musculoesqueléticos no ombro e distensões musculares, por exemplo, costumam evoluir mal, principalmente quando as empresas não têm postos de trabalho ergonomicamente melhorados. Os colaboradores nessas condições costumam não se integrar bem no ambiente de trabalho quando voltam da Previdência Social. Desta forma, em muitas situações, torna-se mais barato corrigir e evitar novos problemas do que arcar com os custos.
+        Casos de hérnia de disco, transtornos musculoesqueléticos no ombro e
+        distensões musculares, por exemplo, costumam evoluir mal, principalmente
+        quando as empresas não têm postos de trabalho ergonomicamente
+        melhorados. Os colaboradores nessas condições costumam não se integrar
+        bem no ambiente de trabalho quando voltam da Previdência Social. Desta
+        forma, em muitas situações, torna-se mais barato corrigir e evitar novos
+        problemas do que arcar com os custos.
       </Paragraph>
 
       <Paragraph>
-        Em suma, pudemos observar que a ergonomia é uma ciência que melhora a relação das máquinas com os seres humanos e os benefícios de sua aplicação impactam tanto as empresas quanto os colaboradores. Ela é garantida aos funcionários por meio da NR 17 e a falta de seu cumprimento pode gerar consequências negativas tanto para os empregados quanto para os empregadores.
+        Em suma, pudemos observar que a ergonomia é uma ciência que melhora a
+        relação das máquinas com os seres humanos e os benefícios de sua
+        aplicação impactam tanto as empresas quanto os colaboradores. Ela é
+        garantida aos funcionários por meio da NR 17 e a falta de seu
+        cumprimento pode gerar consequências negativas tanto para os empregados
+        quanto para os empregadores.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="recapitulando">
-      Passamos rapidamente sobre os tipos de ergonomia, onde entendemos as diferenças e a aplicabilidade de cada um deles, explicamos um pouco sobre o que é LER/DORT enfatizando suas semelhanças e diferenças e os impactos destas doenças nos custos da empresa. Por fim, explicitamos como uma empresa pode analisar, diagnosticar e intervir nas condições de trabalho através da Análise Ergonômica preliminar e Análise Ergonômica do Trabalho.
+      Passamos rapidamente sobre os tipos de ergonomia, onde entendemos as
+      diferenças e a aplicabilidade de cada um deles, explicamos um pouco sobre
+      o que é LER/DORT enfatizando suas semelhanças e diferenças e os impactos
+      destas doenças nos custos da empresa. Por fim, explicitamos como uma
+      empresa pode analisar, diagnosticar e intervir nas condições de trabalho
+      através da Análise Ergonômica preliminar e Análise Ergonômica do Trabalho.
     </BoxIcon>
 
     <NavFooter
@@ -406,7 +439,6 @@ export default {
 
   methods: {
     dialogInput(value) {
-
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -417,7 +449,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

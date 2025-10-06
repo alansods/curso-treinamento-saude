@@ -24,12 +24,10 @@
           </lord-icon>
         </v-col>
 
-        <v-col
-          cols="12"
-          sm="11"
-          class="white--text"
-        >
-          <h5 class="text-h5 font-weight-bold mb-2">{{ tipoTitle }} {{numero && numero}}</h5>
+        <v-col cols="12" sm="11" class="white--text">
+          <h5 class="text-h5 font-weight-bold mb-2">
+            {{ tipoTitle }} {{ numero && numero }}
+          </h5>
           <slot></slot>
         </v-col>
       </v-row>
@@ -107,5 +105,4 @@ export default {
 .box-icon {
   font-size: 1rem;
 }
-
 </style>

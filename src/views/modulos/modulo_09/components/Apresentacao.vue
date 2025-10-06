@@ -107,7 +107,7 @@ export default {
     NavButton,
     BoxIcon,
     GlossarioButton,
-    GlossarioDialog
+    GlossarioDialog,
   },
   data() {
     return {

@@ -4,7 +4,6 @@
     :numero="$store.state.modulos[0].numero"
     titleSize="3"
   >
-
     <TextBlock topico="Tópico 04 - Políticas de Saúde Mental no Trabalho">
       <Paragraph>
         O trabalho ocupa posição central na sociedade e na vida das pessoas, tem
@@ -16,12 +15,28 @@
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      A Política Nacional de Saúde do Trabalhador e Trabalhadora (PNSTT), instituída em 2012 pela Portaria Nº 1.823, tem como propósito definir os princípios, diretrizes e estratégias para o desenvolvimento da atenção integral à saúde do trabalhador. Um de seus objetivos primordiais é promover a saúde em ambientes e processos de trabalho, estabelecendo parâmetros de proteção para a saúde dos trabalhadores e fortalecendo a articulação das ações de vigilância em saúde. Isso inclui a identificação de fatores de risco ambientais e intervenções tanto nos ambientes e processos de trabalho quanto em seu entorno.
+      A Política Nacional de Saúde do Trabalhador e Trabalhadora (PNSTT),
+      instituída em 2012 pela Portaria Nº 1.823, tem como propósito definir os
+      princípios, diretrizes e estratégias para o desenvolvimento da atenção
+      integral à saúde do trabalhador. Um de seus objetivos primordiais é
+      promover a saúde em ambientes e processos de trabalho, estabelecendo
+      parâmetros de proteção para a saúde dos trabalhadores e fortalecendo a
+      articulação das ações de vigilância em saúde. Isso inclui a identificação
+      de fatores de risco ambientais e intervenções tanto nos ambientes e
+      processos de trabalho quanto em seu entorno.
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        A identificação da Rede de Atenção à Saúde local é essencial para articular ações de prevenção e intervenção, envolvendo diversos atores institucionais e garantindo cuidados integrais ao sujeito. Nessa perspectiva, compreende-se que a investigação é um processo que deve se desdobrar em várias etapas. Inicialmente, abrange o reconhecimento do caso suspeito a partir da apresentação do trabalhador, seguido pela coleta de informações sobre o histórico de adoecimento, caracterização clínica realizada por profissionais competentes e exames complementares na rede assistencial.
+        A identificação da Rede de Atenção à Saúde local é essencial para
+        articular ações de prevenção e intervenção, envolvendo diversos atores
+        institucionais e garantindo cuidados integrais ao sujeito. Nessa
+        perspectiva, compreende-se que a investigação é um processo que deve se
+        desdobrar em várias etapas. Inicialmente, abrange o reconhecimento do
+        caso suspeito a partir da apresentação do trabalhador, seguido pela
+        coleta de informações sobre o histórico de adoecimento, caracterização
+        clínica realizada por profissionais competentes e exames complementares
+        na rede assistencial.
       </Paragraph>
 
       <Paragraph>
@@ -50,11 +65,10 @@
 
     <BoxIcon tipo="recapitulando"
       >Neste tópico, abordamos a Política Nacional de Saúde do Trabalhador e
-        Trabalhadora (PNSTT), que tem como objetivo promover ambientes de
-        trabalho saudáveis e intervir nos fatores de risco. No próximo tópico,
-        iremos discutir a importância dos investimentos em saúde mental nas
-        empresas, visando o bem-estar dos colaboradores e o desempenho
-        organizacional.
+      Trabalhadora (PNSTT), que tem como objetivo promover ambientes de trabalho
+      saudáveis e intervir nos fatores de risco. No próximo tópico, iremos
+      discutir a importância dos investimentos em saúde mental nas empresas,
+      visando o bem-estar dos colaboradores e o desempenho organizacional.
     </BoxIcon>
 
     <NavFooter
@@ -134,7 +148,6 @@ export default {
   },
 
   methods: {},
-
 };
 </script>
 

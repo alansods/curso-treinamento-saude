@@ -9,24 +9,29 @@
     </v-row>
 
     <v-row justify="start">
-
       <v-col cols="12" sm="3" v-for="card in cards" :key="card.id">
         <v-card class="flip-card" @click="flipCard(card.id)">
-          <div class="flip-card-inner" :class="{ 'flipped': card.isFlipped }">
+          <div class="flip-card-inner" :class="{ flipped: card.isFlipped }">
             <v-card-text class="flip-card-front">
               <v-icon size="50" color="white">mdi-help-circle</v-icon>
               <span>{{ card.front }}</span>
             </v-card-text>
 
-            <v-card-text class="flip-card-back" :class="{'error': !card.isAssedio}">
-              <v-icon v-if="card.isAssedio" size="50" color="white">mdi-check-circle</v-icon>
+            <v-card-text
+              class="flip-card-back"
+              :class="{ error: !card.isAssedio }"
+            >
+              <v-icon v-if="card.isAssedio" size="50" color="white"
+                >mdi-check-circle</v-icon
+              >
               <v-icon v-else size="50" color="white">mdi-close-circle</v-icon>
-              <span>{{ card.isAssedio ? "É assédio moral" : "Não é assédio moral"}}</span>
+              <span>{{
+                card.isAssedio ? "É assédio moral" : "Não é assédio moral"
+              }}</span>
             </v-card-text>
           </div>
         </v-card>
       </v-col>
-
     </v-row>
   </div>
 </template>
@@ -49,7 +54,7 @@ export default {
           id: 2,
           front:
             "Ignorar a presença do assediado, dirigindo-se apenas aos demais colaboradores.",
-            isAssedio: true,
+          isAssedio: true,
           isFlipped: false,
         },
         {
@@ -66,7 +71,8 @@ export default {
         },
         {
           id: 5,
-          front: "Espalhar rumores ou divulgar boatos ofensivos a respeito do colaborador.",
+          front:
+            "Espalhar rumores ou divulgar boatos ofensivos a respeito do colaborador.",
           isAssedio: true,
           isFlipped: false,
         },
@@ -90,7 +96,8 @@ export default {
         },
         {
           id: 9,
-          front: "Desconsiderar ou ironizar, injustificadamente, as opiniões do colaborador.",
+          front:
+            "Desconsiderar ou ironizar, injustificadamente, as opiniões do colaborador.",
           isAssedio: true,
           isFlipped: false,
         },
@@ -102,7 +109,8 @@ export default {
         },
         {
           id: 11,
-          front: "Impor condições e regras de trabalho personalizadas, diferentes das exigidas dos outros profissionais.",
+          front:
+            "Impor condições e regras de trabalho personalizadas, diferentes das exigidas dos outros profissionais.",
           isAssedio: true,
           isFlipped: false,
         },
@@ -128,9 +136,7 @@ export default {
     };
   },
 
-  computed: {
-
-  },
+  computed: {},
 
   methods: {
     flipCard(cardId) {
@@ -221,9 +227,9 @@ export default {
   }
 
   .flip-card-front {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 </style>

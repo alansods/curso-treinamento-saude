@@ -5,7 +5,9 @@
     titleSize="3"
   >
     <div v-if="!completed" class="question-container">
-      <SmallText class="mb-2">Questão {{ number }} de {{ questions.length }}</SmallText>
+      <SmallText class="mb-2"
+        >Questão {{ number }} de {{ questions.length }}</SmallText
+      >
       <h2>{{ number }}. <span v-html="question"></span></h2>
 
       <div class="my-6">
@@ -13,7 +15,7 @@
           v-for="(option, index) in options"
           :key="index"
           class="text-body-1 d-flex align-center"
-          style="gap: 0 8px;"
+          style="gap: 0 8px"
         >
           <input
             type="radio"

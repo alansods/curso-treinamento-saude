@@ -24,9 +24,10 @@
             @click="goToAula(modulo)"
           >
             <v-icon size="20">mdi-book-open</v-icon>
-            <div class="titulo-modulo" style="cursor:pointer;">{{ modulo.titulo }}</div>
+            <div class="titulo-modulo" style="cursor: pointer">
+              {{ modulo.titulo }}
+            </div>
           </div>
-
         </v-card-text>
       </v-card>
     </v-dialog>
@@ -63,11 +64,9 @@ export default {
 </script>
 
 <style scoped>
-
 .titulo-modulo {
   margin: 12px 10px 12px 18px;
   font-size: 18px;
-  color: 333
+  color: 333;
 }
-
 </style>

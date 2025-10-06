@@ -1,9 +1,15 @@
 <template>
   <div class="background" :class="{ dark: $vuetify.theme.dark }">
-    <v-container v-if="$vuetify.breakpoint.smAndUp" fill-height style="max-width: 1200px">
-      <v-row align="center" style="color: #fff;">
+    <v-container
+      v-if="$vuetify.breakpoint.smAndUp"
+      fill-height
+      style="max-width: 1200px"
+    >
+      <v-row align="center" style="color: #fff">
         <v-col cols="12" sm="9">
-          <h4 class="font-weight-bold" :class="`text-h${titleSize}`">{{ titulo }}</h4>
+          <h4 class="font-weight-bold" :class="`text-h${titleSize}`">
+            {{ titulo }}
+          </h4>
         </v-col>
 
         <v-col
@@ -18,7 +24,7 @@
     </v-container>
 
     <v-container v-else fill-height>
-      <v-row style="color: #fff;">
+      <v-row style="color: #fff">
         <v-col cols="12" class="text-center">
           <h4 class="font-weight-bold text-h5">{{ titulo }}</h4>
           <h6 class="font-weight-light text-h6 text-center">

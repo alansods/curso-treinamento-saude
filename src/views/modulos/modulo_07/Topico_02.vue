@@ -22,7 +22,12 @@
     </BoxIcon>
 
     <BoxIcon tipo="video_aula" numero="2">
-      <Paragraph>Olá, neste vídeo vamos aprender um pouco sobre a reabilitação do trabalhador no retorno ao trabalho. A reabilitação do trabalhador é um serviço que tem como objetivo auxiliar o trabalhador que possui alguma restrição física e/ou psíquica a retornar ao trabalho.</Paragraph>
+      <Paragraph
+        >Olá, neste vídeo vamos aprender um pouco sobre a reabilitação do
+        trabalhador no retorno ao trabalho. A reabilitação do trabalhador é um
+        serviço que tem como objetivo auxiliar o trabalhador que possui alguma
+        restrição física e/ou psíquica a retornar ao trabalho.</Paragraph
+      >
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -49,8 +54,8 @@
         possibilitar que a pessoa com deficiência, a partir da identificação de
         suas potencialidades laborativas, adquira o nível adequado de
         desenvolvimento profissional para o reingresso no mercado de trabalho e
-        participação da vida comunitária, conforme cita o artigo 31, do Decreto N°
-        3.298, de 1999.
+        participação da vida comunitária, conforme cita o artigo 31, do Decreto
+        N° 3.298, de 1999.
       </Paragraph>
     </TextBlock>
 
@@ -183,7 +188,11 @@
     <Accordion>
       <v-expansion-panel>
         <v-expansion-panel-header
-          >A análise do <i>payback period (tempo necessário para a recuperação do investimento)</i></v-expansion-panel-header
+          >A análise do
+          <i
+            >payback period (tempo necessário para a recuperação do
+            investimento)</i
+          ></v-expansion-panel-header
         >
         <v-expansion-panel-content>
           Tempo necessário para a recuperação do investimento
@@ -192,8 +201,9 @@
 
       <v-expansion-panel>
         <v-expansion-panel-header
-          >A relação custo-benefício (relação entre a soma de todos os custos e a soma de todos os benefícios) </v-expansion-panel-header
-        >
+          >A relação custo-benefício (relação entre a soma de todos os custos e
+          a soma de todos os benefícios)
+        </v-expansion-panel-header>
         <v-expansion-panel-content>
           O valor presente líquido dos investimentos
         </v-expansion-panel-content>
@@ -248,13 +258,24 @@
 
     <BoxIcon tipo="atencao">
       <Paragraph>
-        A aposentadoria por invalidez implica um ônus significativo para as sociedades, somando-se aos desafios advindos do envelhecimento da força de trabalho. Dado que ocorre com frequência em idade relativamente jovem, reduz consideravelmente a idade de aposentadoria efetiva. Além dos custos para a sociedade, a aposentadoria precoce também acarreta consequências importantes para o indivíduo, uma vez que o trabalho é uma fonte crucial de bem-estar material e psicológico.
+        A aposentadoria por invalidez implica um ônus significativo para as
+        sociedades, somando-se aos desafios advindos do envelhecimento da força
+        de trabalho. Dado que ocorre com frequência em idade relativamente
+        jovem, reduz consideravelmente a idade de aposentadoria efetiva. Além
+        dos custos para a sociedade, a aposentadoria precoce também acarreta
+        consequências importantes para o indivíduo, uma vez que o trabalho é uma
+        fonte crucial de bem-estar material e psicológico.
       </Paragraph>
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        O aumento do risco de desenvolver problemas de saúde durante o período de trabalho impacta a taxa de saída do mercado de trabalho devido a questões de saúde. Embora nem todas as aposentadorias precoces estejam diretamente ligadas a problemas de saúde, existe ampla evidência que sugere que as questões de saúde desempenham um papel importante nesse contexto.
+        O aumento do risco de desenvolver problemas de saúde durante o período
+        de trabalho impacta a taxa de saída do mercado de trabalho devido a
+        questões de saúde. Embora nem todas as aposentadorias precoces estejam
+        diretamente ligadas a problemas de saúde, existe ampla evidência que
+        sugere que as questões de saúde desempenham um papel importante nesse
+        contexto.
       </Paragraph>
     </TextBlock>
 
@@ -285,7 +306,11 @@
       </Paragraph>
 
       <Paragraph>
-        Quando há uma gestão eficiente do absenteísmo, a empresa conquista uma equipe mais <strong>produtiva e engajada</strong>, pois os colaboradores se sentem valorizados e motivados a dar o melhor de si no desempenho de suas funções. Com isso, a organização aprimora seus resultados financeiros.
+        Quando há uma gestão eficiente do absenteísmo, a empresa conquista uma
+        equipe mais <strong>produtiva e engajada</strong>, pois os colaboradores
+        se sentem valorizados e motivados a dar o melhor de si no desempenho de
+        suas funções. Com isso, a organização aprimora seus resultados
+        financeiros.
       </Paragraph>
     </TextBlock>
 
@@ -499,36 +524,62 @@
 
     <BoxIcon tipo="atencao">
       <Paragraph>
-        Ao adotar essa abordagem integrada, a empresa pode obter dados mais abrangentes e atualizados sobre a saúde ocupacional de seus colaboradores, permitindo uma gestão mais eficiente do absenteísmo e a implementação de medidas preventivas adequadas.
+        Ao adotar essa abordagem integrada, a empresa pode obter dados mais
+        abrangentes e atualizados sobre a saúde ocupacional de seus
+        colaboradores, permitindo uma gestão mais eficiente do absenteísmo e a
+        implementação de medidas preventivas adequadas.
       </Paragraph>
     </BoxIcon>
 
     <TextBlock>
       <Paragraph>
-        O número de encaminhamentos para benefícios da Previdência Social devido à incapacidade por doenças ocupacionais ou não é uma informação importante. O próprio Fator Acidentário de Prevenção (FAP) é um indicador de como está a saúde do trabalhador de determinada organização. Dados sobre a  frequência (quantidade), custo e gravidade e encaminhamentos dos trabalhadores para benefícios para Previdência Social são determinantes para ações preventivas de doenças ocupacionais. Assim, a gestão de afastamentos possui um papel importante nas ações preventivas.
+        O número de encaminhamentos para benefícios da Previdência Social devido
+        à incapacidade por doenças ocupacionais ou não é uma informação
+        importante. O próprio Fator Acidentário de Prevenção (FAP) é um
+        indicador de como está a saúde do trabalhador de determinada
+        organização. Dados sobre a frequência (quantidade), custo e gravidade e
+        encaminhamentos dos trabalhadores para benefícios para Previdência
+        Social são determinantes para ações preventivas de doenças ocupacionais.
+        Assim, a gestão de afastamentos possui um papel importante nas ações
+        preventivas.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="atencao">
       <Paragraph>
-        O gerenciamento das informações de saúde do trabalhador desempenha um papel importante nas estratégias e ações preventivas em saúde e segurança do trabalho. São fontes de informações desde exames médicos ocupacionais e as buscas passiva dos trabalhadores a serviços de saúde e programas de saúde para controle de Absenteísmo, Afastamentos e Conservação Auditiva.
+        O gerenciamento das informações de saúde do trabalhador desempenha um
+        papel importante nas estratégias e ações preventivas em saúde e
+        segurança do trabalho. São fontes de informações desde exames médicos
+        ocupacionais e as buscas passiva dos trabalhadores a serviços de saúde e
+        programas de saúde para controle de Absenteísmo, Afastamentos e
+        Conservação Auditiva.
       </Paragraph>
     </BoxIcon>
 
     <BoxIcon tipo="recapitulando">
       <Paragraph>
-        Neste módulo você pode aprender que existem  diferentes  tipos e significados de absenteísmo nas empresas. No entanto, é fundamental analisar cuidadosamente qualquer ausência que não esteja coberta pelas políticas e procedimentos da empresa.
+        Neste módulo você pode aprender que existem diferentes tipos e
+        significados de absenteísmo nas empresas. No entanto, é fundamental
+        analisar cuidadosamente qualquer ausência que não esteja coberta pelas
+        políticas e procedimentos da empresa.
       </Paragraph>
 
       <Paragraph>
-        Diante das novas relações de trabalho, as empresas estão percebendo a importância de direcionar esforços para o fator humano, visando alcançar altos níveis de assiduidade. A gestão de absenteísmo, juntamente com  programas de reabilitação do trabalhador e de promoção e prevenção de saúde, precisa ser uma pauta nas estratégias principais, buscando soluções mais criativas e eficientes para lidar com o problema.
+        Diante das novas relações de trabalho, as empresas estão percebendo a
+        importância de direcionar esforços para o fator humano, visando alcançar
+        altos níveis de assiduidade. A gestão de absenteísmo, juntamente com
+        programas de reabilitação do trabalhador e de promoção e prevenção de
+        saúde, precisa ser uma pauta nas estratégias principais, buscando
+        soluções mais criativas e eficientes para lidar com o problema.
       </Paragraph>
 
       <Paragraph>
-        Em resumo, compreender os motivos para o absenteísmo é o primeiro passo para que a sua organização possa agir e reverter esse quadro. Lembre-se de que  os colaboradores precisam de um motivo para acordar todos os dias com vontade de ir trabalhar e fazer a diferença na organização.
+        Em resumo, compreender os motivos para o absenteísmo é o primeiro passo
+        para que a sua organização possa agir e reverter esse quadro. Lembre-se
+        de que os colaboradores precisam de um motivo para acordar todos os dias
+        com vontade de ir trabalhar e fazer a diferença na organização.
       </Paragraph>
     </BoxIcon>
-
 
     <NavFooter
       prevName="Tópico 01"
@@ -577,7 +628,6 @@ export default {
 
   methods: {
     dialogInput(value) {
-
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -588,7 +638,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

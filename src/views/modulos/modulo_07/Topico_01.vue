@@ -8,7 +8,11 @@
       topico="Tópico 01 - Gerenciando o Absenteísmo: Estratégias para Lidar com Afastamentos de Curto e Longo Prazo"
     >
       <Paragraph>
-        Neste tópico, disponibilizaremos informações que auxiliam líderes e suas equipes no enfrentamento do absenteísmo, em afastamentos de curto e longo prazo e no entendimento do impacto nos custos para a empresa. Além disso, discutiremos as consequências diretas e indiretas para funcionários e empregadores. Vamos lá?
+        Neste tópico, disponibilizaremos informações que auxiliam líderes e suas
+        equipes no enfrentamento do absenteísmo, em afastamentos de curto e
+        longo prazo e no entendimento do impacto nos custos para a empresa. Além
+        disso, discutiremos as consequências diretas e indiretas para
+        funcionários e empregadores. Vamos lá?
       </Paragraph>
 
       <Paragraph>
@@ -22,20 +26,26 @@
       </Paragraph>
 
       <Paragraph>
-        Devido ao seu papel como organizador social e à sua relevância na vida de um indivíduo, qualquer fator que possa causar desequilíbrio nessa dimensão pode influenciar na produtividade das atividades laborais de um colaborador, consequentemente impactando o absenteísmo no trabalho. O profissional que não está em equilíbrio entre suas dimensões não está disposto a produzir de maneira efetiva e acaba se ausentando de suas atividades.
+        Devido ao seu papel como organizador social e à sua relevância na vida
+        de um indivíduo, qualquer fator que possa causar desequilíbrio nessa
+        dimensão pode influenciar na produtividade das atividades laborais de um
+        colaborador, consequentemente impactando o absenteísmo no trabalho. O
+        profissional que não está em equilíbrio entre suas dimensões não está
+        disposto a produzir de maneira efetiva e acaba se ausentando de suas
+        atividades.
       </Paragraph>
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      O termo “absenteísmo” tem origem na palavra latina <i>“absens”</i> e está relacionado à
-      quantidade de horas perdidas de trabalho, seja pela ausência no ambiente
-      profissional ou por atrasos. Em contrapartida, temos o conceito de
-      “presenteísmo”, que se refere à situação em que um funcionário está
-      presente no trabalho, mas realiza suas atividades de maneira improdutiva.
-      Embora sejam distintos, esses conceitos causam o mesmo efeito prejudicial
-      às empresas, pois indivíduos com qualquer uma dessas características não
-      desempenham suas funções de forma adequada, ocasionando prejuízos ao
-      sistema organizacional.
+      O termo “absenteísmo” tem origem na palavra latina <i>“absens”</i> e está
+      relacionado à quantidade de horas perdidas de trabalho, seja pela ausência
+      no ambiente profissional ou por atrasos. Em contrapartida, temos o
+      conceito de “presenteísmo”, que se refere à situação em que um funcionário
+      está presente no trabalho, mas realiza suas atividades de maneira
+      improdutiva. Embora sejam distintos, esses conceitos causam o mesmo efeito
+      prejudicial às empresas, pois indivíduos com qualquer uma dessas
+      características não desempenham suas funções de forma adequada,
+      ocasionando prejuízos ao sistema organizacional.
     </BoxIcon>
 
     <TextBlock>
@@ -51,7 +61,13 @@
     </TextBlock>
 
     <BoxIcon tipo="video_aula" numero="1">
-      <Paragraph>Neste vídeo, nós iremos disponibilizar informações que auxiliem líderes e suas equipes no enfrentamento de afastamentos de curto, longo prazo, retorno ao trabalho, readaptação e reabilitação, absenteísmo e presenteísmo e impacto nos custos para empresa e consequências diretas e indiretas para funcionários e empregadores. Vamos lá?</Paragraph>
+      <Paragraph
+        >Neste vídeo, nós iremos disponibilizar informações que auxiliem líderes
+        e suas equipes no enfrentamento de afastamentos de curto, longo prazo,
+        retorno ao trabalho, readaptação e reabilitação, absenteísmo e
+        presenteísmo e impacto nos custos para empresa e consequências diretas e
+        indiretas para funcionários e empregadores. Vamos lá?</Paragraph
+      >
 
       <Paragraph>
         <strong style="cursor: pointer" @click="dialog = true"
@@ -85,20 +101,18 @@
 
     <Accordion>
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Voluntário</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Voluntário</v-expansion-panel-header>
         <v-expansion-panel-content>
-          Neste tipo de absenteísmo, é possível identificar a ausência não justificada do colaborador, por razões particulares.
+          Neste tipo de absenteísmo, é possível identificar a ausência não
+          justificada do colaborador, por razões particulares.
         </v-expansion-panel-content>
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Por doença</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Por doença</v-expansion-panel-header>
         <v-expansion-panel-content>
-          É o mais importante entre os tipos, pois acarreta em um alto volume de ausências. É diagnosticado através de avaliação médica.
+          É o mais importante entre os tipos, pois acarreta em um alto volume de
+          ausências. É diagnosticado através de avaliação médica.
         </v-expansion-panel-content>
       </v-expansion-panel>
 
@@ -107,25 +121,26 @@
           >Por patologia profissional</v-expansion-panel-header
         >
         <v-expansion-panel-content>
-          Refere-se às ausências por doença profissional ou acidente de trabalho.
+          Refere-se às ausências por doença profissional ou acidente de
+          trabalho.
         </v-expansion-panel-content>
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Legal</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Legal</v-expansion-panel-header>
         <v-expansion-panel-content>
-          As ausências do serviço que são amparadas por lei são classificadas do tipo legal de absenteísmo, como por exemplo licença maternidade e doação de sangue.
+          As ausências do serviço que são amparadas por lei são classificadas do
+          tipo legal de absenteísmo, como por exemplo licença maternidade e
+          doação de sangue.
         </v-expansion-panel-content>
       </v-expansion-panel>
 
       <v-expansion-panel>
-        <v-expansion-panel-header
-          >Compulsório</v-expansion-panel-header
-        >
+        <v-expansion-panel-header>Compulsório</v-expansion-panel-header>
         <v-expansion-panel-content>
-          Esse tipo de absenteísmo pode ser exemplificado quando há episódios de suspensão imposta pela chefia, ou seja, quando há uma ordem legal que justifica a falta ao trabalho.
+          Esse tipo de absenteísmo pode ser exemplificado quando há episódios de
+          suspensão imposta pela chefia, ou seja, quando há uma ordem legal que
+          justifica a falta ao trabalho.
         </v-expansion-panel-content>
       </v-expansion-panel>
     </Accordion>
@@ -324,7 +339,13 @@
       </v-row>
 
       <Paragraph>
-        O absenteísmo legal é um fenômeno integrado à realidade organizacional, no qual as condições de trabalho e o conhecimento da legislação podem influenciar em sua ocorrência. Este é um elemento de grande relevância para as empresas, uma vez que acarreta a redução da produtividade e o aumento dos custos. A substituição do colega ausente, que implica em pagamento em dobro pelo mesmo trabalho, a diminuição da produtividade e a influência no clima organizacional são alguns dos impactos observados.
+        O absenteísmo legal é um fenômeno integrado à realidade organizacional,
+        no qual as condições de trabalho e o conhecimento da legislação podem
+        influenciar em sua ocorrência. Este é um elemento de grande relevância
+        para as empresas, uma vez que acarreta a redução da produtividade e o
+        aumento dos custos. A substituição do colega ausente, que implica em
+        pagamento em dobro pelo mesmo trabalho, a diminuição da produtividade e
+        a influência no clima organizacional são alguns dos impactos observados.
       </Paragraph>
     </TextBlock>
 
@@ -414,7 +435,6 @@ export default {
 
   methods: {
     dialogInput(value) {
-
       if (!value) {
         // Acessa o player do vídeo através da referência ref
         const player = this.$refs.videoPlayer.player;
@@ -425,8 +445,6 @@ export default {
       }
     },
   },
-
-
 };
 </script>
 

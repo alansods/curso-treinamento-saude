@@ -32,7 +32,7 @@ export default {
     FooterLogo,
     MenuDrawer,
     WelcomeBackDialog,
-    CongratulationsDialog
+    CongratulationsDialog,
   },
 
   data: () => ({
@@ -53,70 +53,83 @@ export default {
       event.returnValue = "";
     },
 
-    // Método para salvar progresso automaticamente
+    // Método para salvar progresso automaticamente (apenas suspend_data)
     saveProgress() {
       try {
-        console.log("Salvando progresso automaticamente...");
-        SCORM.set("cmi.score.raw", this.$store.state.progresso_modulos.LMS_Progress);
-        SCORM.set("cmi.completion_status", this.$store.state.progresso_modulos.completion_status);
-        SCORM.set("cmi.suspend_data", JSON.stringify(this.$store.state.progresso_modulos));
-        SCORM.set("cmi.progress_measure", this.$store.state.progresso_modulos.LMS_Progress / 100);
-        SCORM.set("cmi.success_status", this.$store.state.progresso_modulos.completion_status === "completed" ? "passed" : "unknown");
-        SCORM.save();
-        console.log("Progresso salvo com sucesso");
+        console.log("💾 Salvando progresso automaticamente...");
+
+        if (this.isSCORMEnvironment()) {
+          // Salvar apenas dados de retomada no SCORM
+          SCORM.set(
+            "cmi.suspend_data",
+            JSON.stringify(this.$store.state.progresso_modulos)
+          );
+          SCORM.save();
+          console.log("✅ Progresso salvo no SCORM com sucesso");
+        } else {
+          // Salvar no localStorage (desenvolvimento)
+          localStorage.setItem(
+            "treinamento_saude_progresso",
+            JSON.stringify(this.$store.state.progresso_modulos)
+          );
+          console.log("✅ Progresso salvo no localStorage com sucesso");
+        }
       } catch (error) {
-        console.error("Erro ao salvar progresso:", error);
+        console.error("❌ Erro ao salvar progresso:", error);
+        // Fallback para localStorage em caso de erro
+        try {
+          localStorage.setItem(
+            "treinamento_saude_progresso",
+            JSON.stringify(this.$store.state.progresso_modulos)
+          );
+          console.log("✅ Progresso salvo no localStorage como fallback");
+        } catch (fallbackError) {
+          console.error("❌ Erro no fallback:", fallbackError);
+        }
       }
     },
-  },
 
-  mounted() {
-    window.addEventListener("beforeunload", this.handleBeforeUnload);
-    
-    // Garantir que o conteúdo seja sempre exibido após o mount
-    this.$nextTick(() => {
-      // Forçar re-render se necessário
-      if (this.$route.name === undefined || this.$route.name === null) {
-        this.$router.push({ name: "Home" });
-      }
-      
-      // Verificar se o router-view está renderizando corretamente
-      const routerView = document.querySelector('.v-main router-view');
-      if (!routerView || routerView.children.length === 0) {
-        console.log('Router view vazio, forçando navegação para Home');
-        this.$router.push({ name: "Home" });
-      }
-    });
-  },
+    // Método para carregar dados do SCORM/LMS
+    loadSCORMData() {
+      try {
+        console.log("🔄 Carregando dados do SCORM/LMS...");
 
-  created() {
-    try {
-      const suspendData = SCORM.get("cmi.suspend_data");
-      if (suspendData && suspendData !== "null" && suspendData !== "") {
-        const data = JSON.parse(suspendData);
-        console.log(`created - tem data: ${JSON.stringify(data)}`);
-        this.$store.state.progresso_modulos = data;
-      } else {
-        console.log("NAO TEM DATA - inicializando progresso");
-        // Inicializar com dados padrão se não houver dados salvos
-        this.$store.state.progresso_modulos = {
-          modulo_01: false,
-          modulo_02: false,
-          modulo_03: false,
-          modulo_04: false,
-          modulo_05: false,
-          modulo_06: false,
-          modulo_07: false,
-          modulo_08: false,
-          modulo_09: false,
-          studentName: "",
-          LMS_Progress: 0,
-          completion_status: "incomplete",
-        };
+        // Verificar se estamos em ambiente SCORM
+        if (this.isSCORMEnvironment()) {
+          // Tentar carregar dados do suspend_data
+          const suspendData = SCORM.get("cmi.suspend_data");
+          if (suspendData && suspendData !== "null" && suspendData !== "") {
+            const data = JSON.parse(suspendData);
+            console.log(`✅ Dados recuperados do LMS: ${JSON.stringify(data)}`);
+            this.$store.state.progresso_modulos = data;
+
+            // Verificar se todos os módulos foram concluídos
+            this.$store.dispatch("checkCompletion");
+          } else {
+            console.log(
+              "ℹ️ Nenhum dado encontrado no LMS - inicializando progresso"
+            );
+            this.initializeProgress();
+          }
+
+          // Não carregar métricas do SCORM (completion/score/progress); apenas suspend_data
+        } else {
+          console.log(
+            "ℹ️ Ambiente de desenvolvimento - carregando dados do localStorage"
+          );
+          this.loadFromLocalStorage();
+        }
+      } catch (error) {
+        console.error("❌ Erro ao carregar dados SCORM:", error);
+        this.initializeProgress();
       }
-    } catch (error) {
-      console.error("Erro ao carregar dados SCORM:", error);
-      // Inicializar com dados padrão em caso de erro
+    },
+
+    // Método legado removido: não ler completion/score/progress do SCORM
+    loadAdditionalSCORMData() {},
+
+    // Método para inicializar progresso padrão
+    initializeProgress() {
       this.$store.state.progresso_modulos = {
         modulo_01: false,
         modulo_02: false,
@@ -131,8 +144,69 @@ export default {
         LMS_Progress: 0,
         completion_status: "incomplete",
       };
-    }
-    
+    },
+
+    // Método para verificar se estamos em ambiente SCORM
+    isSCORMEnvironment() {
+      try {
+        // Tentar acessar a API SCORM
+        const api = SCORM.API.get();
+        return api !== null && api !== undefined;
+      } catch (error) {
+        console.log("🔍 Não é ambiente SCORM - usando localStorage");
+        return false;
+      }
+    },
+
+    // Método para carregar dados do localStorage (desenvolvimento)
+    loadFromLocalStorage() {
+      try {
+        const savedData = localStorage.getItem("treinamento_saude_progresso");
+        if (savedData) {
+          const data = JSON.parse(savedData);
+          console.log(
+            `✅ Dados recuperados do localStorage: ${JSON.stringify(data)}`
+          );
+          this.$store.state.progresso_modulos = data;
+          this.$store.dispatch("checkCompletion");
+        } else {
+          console.log(
+            "ℹ️ Nenhum dado encontrado no localStorage - inicializando progresso"
+          );
+          this.initializeProgress();
+        }
+      } catch (error) {
+        console.error("❌ Erro ao carregar dados do localStorage:", error);
+        this.initializeProgress();
+      }
+    },
+  },
+
+  mounted() {
+    window.addEventListener("beforeunload", this.handleBeforeUnload);
+
+    // Garantir que o conteúdo seja sempre exibido após o mount
+    this.$nextTick(() => {
+      // Verificar se o router-view está renderizando corretamente
+      const routerView = document.querySelector(".v-main router-view");
+      if (!routerView || routerView.children.length === 0) {
+        console.log("Router view vazio, forçando navegação para Home");
+        // Verificar se já não está na rota Home para evitar navegação duplicada
+        if (this.$route.name !== "Home") {
+          this.$router.push({ name: "Home" }).catch((err) => {
+            // Ignorar erro de navegação duplicada
+            if (err.name !== "NavigationDuplicated") {
+              console.error("Erro de navegação:", err);
+            }
+          });
+        }
+      }
+    });
+  },
+
+  created() {
+    this.loadSCORMData();
+
     // Garantir que a rota inicial seja carregada corretamente
     this.$nextTick(() => {
       if (this.$route.name === undefined || this.$route.name === null) {
@@ -159,37 +233,35 @@ export default {
       if (newValue) {
         console.log("CLOSING...");
 
-        // Usar API SCORM 2004
-        SCORM.set("cmi.score.raw", this.$store.state.progresso_modulos.LMS_Progress);
-        SCORM.set("cmi.completion_status", this.$store.state.progresso_modulos.completion_status);
-        SCORM.set("cmi.suspend_data", JSON.stringify(this.$store.state.progresso_modulos));
-        
-        // Adicionar informações de progresso
-        SCORM.set("cmi.progress_measure", this.$store.state.progresso_modulos.LMS_Progress / 100);
-        SCORM.set("cmi.success_status", this.$store.state.progresso_modulos.completion_status === "completed" ? "passed" : "unknown");
-
+        // Salvar apenas dados de retomada (suspend_data)
+        SCORM.set(
+          "cmi.suspend_data",
+          JSON.stringify(this.$store.state.progresso_modulos)
+        );
         SCORM.save();
         SCORM.quit();
       }
     },
 
-    '$store.state.progresso_modulos.LMS_Progress'(newValue) {
+    "$store.state.progresso_modulos.LMS_Progress"() {
       // Salvar progresso automaticamente sempre que mudar
       this.saveProgress();
       
-      // Usar tolerância para conclusão (≥95% em vez de =100%)
-      if(newValue >= 95) {
-        console.log("COMPLETOU - Progresso:", newValue);
-        this.$store.state.showCongratulations = true;
-        this.$store.state.progresso_modulos.completion_status = "completed";
-        
-        // Usar API SCORM 2004
-        SCORM.set("cmi.completion_status", "completed");
-        SCORM.set("cmi.success_status", "passed");
-        SCORM.set("cmi.progress_measure", 1.0);
-        SCORM.save();
-      }
-    }
+      // Verificar se todos os módulos foram concluídos (apenas estado interno)
+      this.$store.dispatch("checkCompletion");
+    },
+
+    // Watcher para detectar quando um módulo é concluído
+    "$store.state.progresso_modulos": {
+      handler() {
+        // Verificar se todos os módulos foram concluídos
+        this.$store.dispatch("checkCompletion");
+
+        // Salvar progresso automaticamente quando qualquer módulo for concluído
+        this.saveProgress();
+      },
+      deep: true,
+    },
   },
 };
 </script>

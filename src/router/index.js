@@ -30,7 +30,6 @@ const routes = [
   ...modulo_07_Routes,
   ...modulo_08_Routes,
   ...modulo_09_Routes,
-
 ];
 
 const router = new VueRouter({
@@ -44,7 +43,7 @@ const router = new VueRouter({
 router.afterEach(() => {
   window.scrollTo({
     top: 0,
-    behavior: 'smooth',
+    behavior: "smooth",
   });
 });
 
@@ -76,7 +75,6 @@ router.beforeEach((to, from, next) => {
     next();
     //console.log("Navegou normal sem reabrir a aba");
   }
-
 });
 
 export default router;

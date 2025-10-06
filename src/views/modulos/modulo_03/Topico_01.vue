@@ -96,12 +96,14 @@
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
         <p>
-          Nesta aula, nós iremos disponibilizar informações que auxiliem líderes e suas equipes no enfrentamento dos índices crescentes de adoecimento mental associado ao trabalho, possibilitando, assim, ampliar o acolhimento e os encaminhamentos necessários ao cuidado biopsicossocial dos trabalhadores.
+          Nesta aula, nós iremos disponibilizar informações que auxiliem líderes
+          e suas equipes no enfrentamento dos índices crescentes de adoecimento
+          mental associado ao trabalho, possibilitando, assim, ampliar o
+          acolhimento e os encaminhamentos necessários ao cuidado
+          biopsicossocial dos trabalhadores.
         </p>
 
-        <p>
-          Vamos lá?
-        </p>
+        <p>Vamos lá?</p>
       </Paragraph>
 
       <Paragraph>
@@ -339,7 +341,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

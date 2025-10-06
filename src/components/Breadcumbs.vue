@@ -68,19 +68,19 @@ export default {
     },
 
     formatBreadcrumbText(text) {
-      if (text.toLowerCase().split('-')[0] === 'modulo') {
-        return `Módulo ${text.split('-')[1]}`;
+      if (text.toLowerCase().split("-")[0] === "modulo") {
+        return `Módulo ${text.split("-")[1]}`;
       }
 
-      if (text.toLowerCase().split('-')[0] === 'topico') {
-        return `Tópico ${text.split('-')[1]}`;
+      if (text.toLowerCase().split("-")[0] === "topico") {
+        return `Tópico ${text.split("-")[1]}`;
       }
 
-      if (text.toLowerCase().split('-')[0] === 'referencias') {
+      if (text.toLowerCase().split("-")[0] === "referencias") {
         return `Referências`;
       }
 
-      if (text.toLowerCase().split('-')[0] === 'atividade') {
+      if (text.toLowerCase().split("-")[0] === "atividade") {
         return `Atividade`;
       }
     },

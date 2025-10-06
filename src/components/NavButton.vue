@@ -20,13 +20,23 @@
 
 <script>
 export default {
-  props: ["color", "name", "icon", "right", "left", "height", "block", "link", "disabled"],
+  props: [
+    "color",
+    "name",
+    "icon",
+    "right",
+    "left",
+    "height",
+    "block",
+    "link",
+    "disabled",
+  ],
 
   methods: {
     handleButtonClick() {
       if (this.link) {
         this.$router.push(`/${this.link}`);
-        return
+        return;
       }
 
       this.$emit("button-click");

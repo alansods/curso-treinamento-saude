@@ -6,8 +6,8 @@
       </template>
     </v-simple-table>
 
-    <SmallText>{{legenda}}</SmallText>
-    <SmallText>{{fonte}}</SmallText>
+    <SmallText>{{ legenda }}</SmallText>
+    <SmallText>{{ fonte }}</SmallText>
   </div>
 </template>
 
@@ -24,7 +24,6 @@ export default {
 </script>
 
 <style>
-
 .v-data-table--fixed-header > .v-data-table__wrapper {
   border-radius: 8px;
   border: solid 1px #eee;

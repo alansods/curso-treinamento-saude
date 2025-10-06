@@ -8,13 +8,18 @@
       topico="Tópico 01 - As Principais Causas de Afastamento e os Custos Diretos e Indiretos Relacionados a Transtornos Mentais"
     >
       <Paragraph>
-        Neste tópico, exploraremos a relevância dos cuidados com a saúde mental dos colaboradores e como a negligência nesse aspecto pode impactar a saúde financeira de uma organização.
+        Neste tópico, exploraremos a relevância dos cuidados com a saúde mental
+        dos colaboradores e como a negligência nesse aspecto pode impactar a
+        saúde financeira de uma organização.
       </Paragraph>
 
       <Paragraph>
         No Brasil, segundo o boletim epidemiológico de transtornos mentais
         relacionados ao trabalho, no período de 2006 a 2017, as
-        <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')">doenças psíquicas</GlossarioButton> foram a terceira maior causa de afastamento do trabalho, sendo
+        <GlossarioButton @onToggleGlossario="$store.commit('TOGGLE_GLOSSARIO')"
+          >doenças psíquicas</GlossarioButton
+        >
+        foram a terceira maior causa de afastamento do trabalho, sendo
         responsáveis por uma redução significativa do potencial de oferta de
         trabalho e aumento do absenteísmo, ocasionando custos significativos,
         que envolvem desde o salário do colaborador, até gastos com afastamento
@@ -23,10 +28,10 @@
 
       <GlossarioDialog title="Auxílio-Doença">
         <Paragraph>
-              <strong>Doenças psíquicas</strong> é um termo usado como sinônimo
-              para doenças psicológicas, que engloba problemas e fenômenos
-              psicológicos que afetam a mente e/ou o funcionamento psicológico.
-            </Paragraph>
+          <strong>Doenças psíquicas</strong> é um termo usado como sinônimo para
+          doenças psicológicas, que engloba problemas e fenômenos psicológicos
+          que afetam a mente e/ou o funcionamento psicológico.
+        </Paragraph>
       </GlossarioDialog>
 
       <Paragraph>
@@ -39,16 +44,18 @@
     </TextBlock>
 
     <BoxIcon tipo="voce_sabia">
-      Desde 2010, houve um notável aumento nos casos de transtornos mentais relacionados ao trabalho, refletindo em um crescimento de 24% na concessão de benefícios para a população trabalhadora afetada por essa problemática. Especificamente, as mulheres apresentaram um expressivo aumento de cerca de 650% em apenas 5 anos nesse contexto.
+      Desde 2010, houve um notável aumento nos casos de transtornos mentais
+      relacionados ao trabalho, refletindo em um crescimento de 24% na concessão
+      de benefícios para a população trabalhadora afetada por essa problemática.
+      Especificamente, as mulheres apresentaram um expressivo aumento de cerca
+      de 650% em apenas 5 anos nesse contexto.
     </BoxIcon>
 
     <v-row justify="center">
-        <v-col cols="12" sm="6">
-          <Imagem
-            src="modulo_01/reflexao.svg"
-          />
-        </v-col>
-      </v-row>
+      <v-col cols="12" sm="6">
+        <Imagem src="modulo_01/reflexao.svg" />
+      </v-col>
+    </v-row>
 
     <TextBlock>
       <Paragraph>
@@ -85,7 +92,11 @@
 
     <BoxIcon tipo="video_aula" numero="1">
       <Paragraph>
-        Nessa vídeoaula, disponibilizaremos informações que auxiliam líderes e suas equipes no enfrentamento dos crescentes índices de adoecimento mental associado ao trabalho, possibilitando assim ampliar o acolhimento e os encaminhamentos necessários para o cuidado biopsicossocial do trabalhador.
+        Nessa vídeoaula, disponibilizaremos informações que auxiliam líderes e
+        suas equipes no enfrentamento dos crescentes índices de adoecimento
+        mental associado ao trabalho, possibilitando assim ampliar o acolhimento
+        e os encaminhamentos necessários para o cuidado biopsicossocial do
+        trabalhador.
       </Paragraph>
 
       <Paragraph>
@@ -121,10 +132,14 @@
     >
       <thead>
         <tr>
-          <th class="primary white--text text-body-2 text-uppercase font-weight-bold">
+          <th
+            class="primary white--text text-body-2 text-uppercase font-weight-bold"
+          >
             CID-10
           </th>
-          <th class="primary white--text text-body-2 text-uppercase font-weight-bold">
+          <th
+            class="primary white--text text-body-2 text-uppercase font-weight-bold"
+          >
             Doenças
           </th>
         </tr>
@@ -151,7 +166,10 @@
         </tr>
         <tr>
           <td>F07.8</td>
-          <td>Outros transtornos de personalidade e de comportamento decorrentes de doença, lesão ou disfunção cerebral</td>
+          <td>
+            Outros transtornos de personalidade e de comportamento decorrentes
+            de doença, lesão ou disfunção cerebral
+          </td>
         </tr>
         <tr>
           <td>F09</td>
@@ -175,22 +193,34 @@
         </tr>
         <tr>
           <td>F48.8</td>
-          <td>Outros transtornos neuróticos especificados (inclui neurose profissional)</td>
+          <td>
+            Outros transtornos neuróticos especificados (inclui neurose
+            profissional)
+          </td>
         </tr>
         <tr>
           <td>F51.2</td>
-          <td>Transtorno do ciclo vigília-sono devido a fatores não orgânicos</td>
+          <td>
+            Transtorno do ciclo vigília-sono devido a fatores não orgânicos
+          </td>
         </tr>
         <tr>
           <td>Z73.0</td>
-          <td>Sensação de estar acabado (síndrome de Burnout, síndrome do esgotamento profissional)</td>
+          <td>
+            Sensação de estar acabado (síndrome de Burnout, síndrome do
+            esgotamento profissional)
+          </td>
         </tr>
       </tbody>
     </Table>
 
     <TextBlock>
       <Paragraph>
-        Além das informações apresentadas no quadro 1, temos ainda diversos modelos explicativos para o desenvolvimento de transtornos mentais em ambientes de trabalho. Compreender esses modelos pode ajudar as empresas a implementar medidas de prevenção e promoção da saúde mental dos colaboradores. Entre os modelos mais conhecidos, estão:
+        Além das informações apresentadas no quadro 1, temos ainda diversos
+        modelos explicativos para o desenvolvimento de transtornos mentais em
+        ambientes de trabalho. Compreender esses modelos pode ajudar as empresas
+        a implementar medidas de prevenção e promoção da saúde mental dos
+        colaboradores. Entre os modelos mais conhecidos, estão:
       </Paragraph>
     </TextBlock>
 
@@ -328,7 +358,6 @@ export default {
       }
     },
   },
-
 };
 </script>
 

@@ -24,7 +24,10 @@
 
     <BoxIcon tipo="video_aula" numero="2">
       <Paragraph>
-        Nessa videoaula, vamos explicar como o assédio moral e sexual no ambiente de trabalho pode levar ao desenvolvimento de adoecimento mental dos trabalhadores. Discutir a violência no local de trabalho exige compreender todo o contexto e cenário em que ocorre.
+        Nessa videoaula, vamos explicar como o assédio moral e sexual no
+        ambiente de trabalho pode levar ao desenvolvimento de adoecimento mental
+        dos trabalhadores. Discutir a violência no local de trabalho exige
+        compreender todo o contexto e cenário em que ocorre.
       </Paragraph>
 
       <Paragraph>

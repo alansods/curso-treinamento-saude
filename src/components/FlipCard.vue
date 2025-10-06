@@ -80,7 +80,7 @@ export default {
   border-radius: 8px;
   transition: transform 200ms ease;
   position: relative;
-  margin: 0 auto
+  margin: 0 auto;
 }
 
 .flip-card:hover {

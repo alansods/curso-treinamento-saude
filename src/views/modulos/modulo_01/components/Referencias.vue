@@ -1,5 +1,9 @@
 <template>
-  <AulaTemplate :titulo="$store.state.modulos[0].titulo" :numero="$store.state.modulos[0].numero" titleSize="3">
+  <AulaTemplate
+    :titulo="$store.state.modulos[0].titulo"
+    :numero="$store.state.modulos[0].numero"
+    titleSize="3"
+  >
     <TextBlock topico="Referêcias">
       <v-row style="word-break: break-word">
         <v-col cols="12" sm="6">
